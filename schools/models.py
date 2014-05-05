@@ -1,7 +1,7 @@
 from django.db import models
 
-class School(UniqModel):
-	name = models.CharField(max_length=64, default='',blank=True,unique=True)
+class School(models.Model):
+	name = models.CharField(max_length=64, default='',unique=True)
 	population = models.PositiveIntegerField(blank=True)
 	dateEstablished = models.DateField()
 	numPrograms = models.PositiveSmallIntegerField(default='0',blank=True)
@@ -19,8 +19,8 @@ class School(UniqModel):
 	class Meta:
 		ordering = ('name',)
 
-class Location(UniqModel):
-	schoolId = models.ForeignKey(School,related_name='location',unique=True)
+class Location(models.Model):
+	schoolId = models.OneToOneField(School,related_name='location',unique=True)
 	streetNum = models.CharField(max_length=8, default='',blank=True)
 	streetName = models.CharField(max_length=64, default='',blank=True)
 	apt = models.PositiveIntegerField(default=None,blank=True)
@@ -28,8 +28,8 @@ class Location(UniqModel):
 	city = models.CharField(max_length=64, default='',blank=True)
 	region = models.CharField(max_length=64, default='',blank=True)
 	country = models.CharField(max_length=64, default='',blank=True)
-	lattitude = models.DecimalField(default=None,blank=True,max_digits=11,decimal_places=8)
-	longitude = models.DecimalField(default=None,blank=True,max_digits=11,decimal_places=8)
+	lattitude = models.DecimalField(default=0,blank=True,max_digits=11,decimal_places=8)
+	longitude = models.DecimalField(default=0,blank=True,max_digits=11,decimal_places=8)
 	created = models.DateTimeField(auto_now_add=True)
 	modified = models.DateTimeField(auto_now=True)
 	toDelete = models.BooleanField(default=False)
@@ -37,7 +37,7 @@ class Location(UniqModel):
 	class Meta:
 		ordering = ('created',)
 
-class SchoolImage(UniqModel):
+class SchoolImage(models.Model):
 	schoolId = models.ForeignKey(School,related_name='images')
 	imageLink = models.URLField(max_length=256, default='',unique=True)
 	descriptor = models.CharField(max_length=256, default='')
