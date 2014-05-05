@@ -6,7 +6,7 @@ class GetLocationSerializer(serializers.ModelSerializer):
 	
 	class Meta:
 		model = Location
-		fields = ('schoolId','streetNum','streetName','apt','unit',
+		fields = ('streetNum','streetName','apt','unit',
 			'city','region','country','lattitude','longitude')
 
 class PostLocationSerializer(serializers.ModelSerializer):
@@ -31,8 +31,8 @@ class PostSchoolImageSerializer(serializers.ModelSerializer):
 
 #SCHOOL
 class GetSchoolSerializer(serializers.ModelSerializer):
-	images = GetSchoolImageSerializer(many=True,blank=True)
-	location = GetLocationSerializer(blank=True)
+	images = GetSchoolImageSerializer(many=True,required=False)
+	location = GetLocationSerializer(required=False)
 	
 	class Meta:
 		model = School

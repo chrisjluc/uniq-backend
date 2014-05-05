@@ -12,9 +12,10 @@ class SchoolList(generics.ListCreateAPIView):
 	
 	def get_serializer_class(self):
 		user = self.request.user
-		if self.request.method == 'POST':
-			return PostSchoolSerializer
-		return GetSchoolSerializer
+		if self.request.method == 'GET':
+			return GetSchoolSerializer
+		return PostSchoolSerializer
+		
 	
 
 class SchoolDetail(generics.RetrieveUpdateAPIView):
@@ -23,9 +24,10 @@ class SchoolDetail(generics.RetrieveUpdateAPIView):
 	
 	def get_serializer_class(self):
 		user = self.request.user
-		if self.request.method == 'POST':
-			return PostSchoolSerializer
-		return GetSchoolSerializer
+		if self.request.method == 'GET':
+			return GetSchoolSerializer
+		return PostSchoolSerializer
+		
 
 class Location(generics.CreateAPIView):
 	queryset = Location.objects.all()
@@ -33,9 +35,10 @@ class Location(generics.CreateAPIView):
 
 	def get_serializer_class(self):
 		user = self.request.user
-		if self.request.method == 'POST':
-			return PostLocationSerializer
-		return GetLocationSerializer
+		if self.request.method == 'GET':
+			return GetLocationSerializer
+		return PostLocationSerializer
+		
 
 class SchoolImage(generics.CreateAPIView):
 	queryset = SchoolImage.objects.all()
@@ -43,7 +46,8 @@ class SchoolImage(generics.CreateAPIView):
 
 	def get_serializer_class(self):
 		user = self.request.user
-		if self.request.method == 'POST':
-			return PostSchoolImageSerializer
-		return GetSchoolImageSerializer
+		if self.request.method == 'GET':
+			return GetSchoolImageSerializer
+		return PostSchoolImageSerializer
+		
 
