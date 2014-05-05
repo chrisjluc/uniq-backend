@@ -19,6 +19,11 @@ class School(models.Model):
 	class Meta:
 		ordering = ('name',)
 
+	def save(self, *args, **kwargs):
+		if self.name:
+			self.name = self.name.strip()
+		super(School, self).save(*args, **kwargs)
+
 class Location(models.Model):
 	schoolId = models.OneToOneField(School,related_name='location',unique=True)
 	streetNum = models.CharField(max_length=8, default='',blank=True)
@@ -37,6 +42,20 @@ class Location(models.Model):
 	class Meta:
 		ordering = ('created',)
 
+	def save(self, *args, **kwargs):
+		if self.streetNum:
+			self.streetNum = self.streetNum.strip()
+		if self.streetName:
+			self.streetName = self.streetName.strip()
+		if self.city:
+			self.city = self.city.strip()
+		if self.region:
+			self.region = self.region.strip()
+		if self.country:
+			self.country = self.country.strip()
+
+		super(Location, self).save(*args, **kwargs)
+
 class SchoolImage(models.Model):
 	schoolId = models.ForeignKey(School,related_name='images')
 	imageLink = models.URLField(max_length=256, default='',unique=True)
@@ -47,3 +66,7 @@ class SchoolImage(models.Model):
 
 	class Meta:
 		ordering = ('created',)
+	def save(self, *args, **kwargs):
+		if self.descriptor:
+			self.descriptor = self.descriptor.strip()
+		super(SchoolImage, self).save(*args, **kwargs)
