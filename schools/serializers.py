@@ -32,7 +32,6 @@ class GetSchoolImageSuperUserSerializer(serializers.ModelSerializer):
 	
 	class Meta:
 		model = SchoolImage
-		fields = ('id','imageLink','descriptor')
 
 class PostSchoolImageSerializer(serializers.ModelSerializer):
 	

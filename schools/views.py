@@ -21,7 +21,13 @@ class SchoolList(generics.ListCreateAPIView):
 class SchoolUpdate(generics.ListAPIView):
 
 	permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
-	serializer_class = GetSchoolSerializer
+	
+	def get_serializer_class(self):
+		user = self.request.user
+		if user.is_superuser:
+			return GetSchoolSuperUserSerializer
+		return GetSchoolSerializer
+
 
 	def get_queryset(self):
 		timeLastModified = int(self.kwargs['timeLastModified'])
