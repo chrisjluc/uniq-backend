@@ -9,15 +9,26 @@ class GetLocationSerializer(serializers.ModelSerializer):
 		fields = ('streetNum','streetName','apt','unit',
 			'city','region','country','lattitude','longitude')
 
+class GetLocationSuperUserSerializer(serializers.ModelSerializer):
+	
+	class Meta:
+		model = Location
+
 class PostLocationSerializer(serializers.ModelSerializer):
 	
 	class Meta:
 		model = Location
 		fields = ('schoolId','streetNum','streetName','apt','unit',
-			'city','region','country','lattitude','longitude')
+			'city','region','country','lattitude','longitude','toDelete')
 
 #SCHOOL IMAGE
 class GetSchoolImageSerializer(serializers.ModelSerializer):
+	
+	class Meta:
+		model = SchoolImage
+		fields = ('id','imageLink','descriptor')
+
+class GetSchoolImageSuperUserSerializer(serializers.ModelSerializer):
 	
 	class Meta:
 		model = SchoolImage
@@ -27,7 +38,6 @@ class PostSchoolImageSerializer(serializers.ModelSerializer):
 	
 	class Meta:
 		model = SchoolImage
-		fields = ('schoolId','imageLink','descriptor')
 
 #SCHOOL
 class GetSchoolSerializer(serializers.ModelSerializer):
@@ -40,10 +50,16 @@ class GetSchoolSerializer(serializers.ModelSerializer):
 			'logoUrl','website','facebookLink','twitterLink','linkedinLink',
 			'alumniNumber','totalFunding','images')
 
-class PostSchoolSerializer(serializers.ModelSerializer):
+class GetSchoolSuperUserSerializer(serializers.ModelSerializer):
+	images = GetSchoolImageSuperUserSerializer(many=True,required=False)
+	location = GetLocationSuperUserSerializer(required=False)
+	
+	class Meta:
+		model = School
 
+class PostSchoolSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = School
 		fields = ('name','population','dateEstablished','numPrograms',
 			'logoUrl','website','facebookLink','twitterLink','linkedinLink',
-			'alumniNumber','totalFunding')
+			'alumniNumber','totalFunding','toDelete')

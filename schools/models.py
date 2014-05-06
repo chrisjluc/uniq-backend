@@ -17,7 +17,7 @@ class School(models.Model):
 	toDelete = models.BooleanField(default=False)
 
 	class Meta:
-		ordering = ('name',)
+		ordering = ('created',)
 
 	def save(self, *args, **kwargs):
 		if self.name:

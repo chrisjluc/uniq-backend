@@ -1,18 +1,20 @@
 from django.shortcuts import render
 from schools.models import School,Location,SchoolImage
 from schools.serializers import (PostSchoolSerializer,GetSchoolSerializer,
-	PostLocationSerializer,GetLocationSerializer,
-	PostSchoolImageSerializer,GetSchoolImageSerializer)
+	GetSchoolSuperUserSerializer,PostLocationSerializer,
+	PostSchoolImageSerializer)
 from rest_framework import generics,permissions
 import datetime
 
 class SchoolList(generics.ListCreateAPIView):
-	queryset = School.objects.all()
+	queryset = School.objects.filter(toDelete=False)
 	permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
 	
 	def get_serializer_class(self):
 		user = self.request.user
-		if self.request.method == 'GET':
+		if self.request.method == 'GET' and user.is_superuser:
+			return GetSchoolSuperUserSerializer
+		elif self.request.method == 'GET':
 			return GetSchoolSerializer
 		return PostSchoolSerializer
 
@@ -30,12 +32,14 @@ class SchoolUpdate(generics.ListAPIView):
 		)
 
 class SchoolDetail(generics.RetrieveUpdateAPIView):
-	queryset = School.objects.all()
+	queryset = School.objects.filter(toDelete=False)
 	permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
 	
 	def get_serializer_class(self):
 		user = self.request.user
-		if self.request.method == 'GET':
+		if self.request.method == 'GET' and user.is_superuser:
+			return GetSchoolSuperUserSerializer
+		elif self.request.method == 'GET':
 			return GetSchoolSerializer
 		return PostSchoolSerializer		
 
