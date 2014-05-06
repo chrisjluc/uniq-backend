@@ -4,6 +4,7 @@ from schools.serializers import (PostSchoolSerializer,GetSchoolSerializer,
 	PostLocationSerializer,GetLocationSerializer,
 	PostSchoolImageSerializer,GetSchoolImageSerializer)
 from rest_framework import generics,permissions
+import datetime
 
 class SchoolList(generics.ListCreateAPIView):
 	queryset = School.objects.all()
@@ -13,7 +14,20 @@ class SchoolList(generics.ListCreateAPIView):
 		user = self.request.user
 		if self.request.method == 'GET':
 			return GetSchoolSerializer
-		return PostSchoolSerializer			
+		return PostSchoolSerializer
+
+class SchoolUpdate(generics.ListAPIView):
+
+	permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
+	serializer_class = GetSchoolSerializer
+
+	def get_queryset(self):
+		timeLastModified = int(self.kwargs['timeLastModified'])
+		return School.objects.exclude(
+			modified__gte=datetime.datetime.now()
+		).filter(
+			modified__gte=datetime.datetime.fromtimestamp(timeLastModified)
+		)
 
 class SchoolDetail(generics.RetrieveUpdateAPIView):
 	queryset = School.objects.all()
