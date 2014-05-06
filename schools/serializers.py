@@ -21,7 +21,7 @@ class GetSchoolImageSerializer(serializers.ModelSerializer):
 	
 	class Meta:
 		model = SchoolImage
-		fields = ('imageLink','descriptor')
+		fields = ('id','imageLink','descriptor')
 
 class PostSchoolImageSerializer(serializers.ModelSerializer):
 	
