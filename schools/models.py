@@ -66,6 +66,7 @@ class SchoolImage(BaseModel):
 
 	class Meta:
 		ordering = ('created',)
+
 	def save(self, *args, **kwargs):
 		if self.descriptor:
 			self.descriptor = self.descriptor.strip()

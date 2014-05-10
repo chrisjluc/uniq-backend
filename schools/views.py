@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from schools.models import School,Location,SchoolImage
 from schools.serializers import (PostSchoolSerializer,GetSchoolSerializer,
-	GetSchoolSuperUserSerializer,PostLocationSerializer,
-	PostSchoolImageSerializer)
+	GetSchoolSuperUserSerializer,LocationSuperUserSerializer,GetLocationSerializer,
+	SchoolImageSuperUserSerializer,GetSchoolImageSerializer)
 from rest_framework import generics,permissions
 import datetime
 
@@ -55,9 +55,9 @@ class Location(generics.CreateAPIView):
 
 	def get_serializer_class(self):
 		user = self.request.user
-		if self.request.method == 'GET':
-			return GetLocationSerializer
-		return PostLocationSerializer	
+		if user.is_superuser:
+			return LocationSuperUserSerializer
+		return GetLocationSerializer	
 
 class SchoolImage(generics.CreateAPIView):
 	queryset = SchoolImage.objects.all()
@@ -65,8 +65,8 @@ class SchoolImage(generics.CreateAPIView):
 
 	def get_serializer_class(self):
 		user = self.request.user
-		if self.request.method == 'GET':
-			return GetSchoolImageSerializer
-		return PostSchoolImageSerializer
+		if user.is_superuser:
+			return SchoolImageSuperUserSerializer
+		return GetSchoolImageSerializer
 		
 
