@@ -1,8 +1,9 @@
 from django.shortcuts import render
-from schools.models import School,Location,SchoolImage
+from schools.models import School,Location,SchoolImage,SchoolRanking
 from schools.serializers import (PostSchoolSerializer,GetSchoolSerializer,
 	GetSchoolSuperUserSerializer,LocationSuperUserSerializer,GetLocationSerializer,
-	SchoolImageSuperUserSerializer,GetSchoolImageSerializer)
+	SchoolImageSuperUserSerializer,GetSchoolImageSerializer,GetSchoolRankingSerializer,
+	SchoolRankingSuperUserSerializer)
 from rest_framework import generics,permissions
 import datetime
 
@@ -68,5 +69,15 @@ class SchoolImage(generics.CreateAPIView):
 		if user.is_superuser:
 			return SchoolImageSuperUserSerializer
 		return GetSchoolImageSerializer
+
+class SchoolRanking(generics.CreateAPIView):
+	queryset = SchoolRanking.objects.all()
+	permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
+
+	def get_serializer_class(self):
+		user = self.request.user
+		if user.is_superuser:
+			return SchoolRankingSuperUserSerializer
+		return GetSchoolRankingSerializer
 		
 

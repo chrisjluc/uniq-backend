@@ -8,5 +8,6 @@ urlpatterns = patterns('',
 	url(r'^schools/update/(?P<timeLastModified>[0-9]+)/$',views.SchoolUpdate.as_view()),
 	url(r'^schools/location/$',views.Location.as_view()),
 	url(r'^schools/image/$',views.SchoolImage.as_view()),
+	url(r'^schools/ranking/$',views.SchoolRanking.as_view()),
 )
 urlpatterns = format_suffix_patterns(urlpatterns)

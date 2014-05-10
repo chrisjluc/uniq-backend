@@ -76,7 +76,7 @@ class SchoolRanking(BaseModel):
 	schoolId = models.ForeignKey(School,related_name='rankings')
 	ranking = models.PositiveIntegerField(default=None)
 	rankingSource = models.CharField(max_length=256)
-	descriptor = models.CharField(max_length=256,blank=True)
+	descriptor = models.CharField(max_length=256,default='',blank=True)
 
 	class Meta:
 		ordering = ('created',)
@@ -86,4 +86,4 @@ class SchoolRanking(BaseModel):
 			self.rankingSource = self.rankingSource.strip()
 		if self.descriptor:
 			self.descriptor = self.descriptor.strip()
-		super(SchoolImage, self).save(*args, **kwargs)
+		super(SchoolRanking, self).save(*args, **kwargs)
