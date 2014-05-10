@@ -1,6 +1,14 @@
 from django.db import models
 
-class School(models.Model):
+class BaseModel(models.Model):
+	created = models.DateTimeField(auto_now_add=True)
+	modified = models.DateTimeField(auto_now=True)
+	toDelete = models.BooleanField(default=False)
+
+	class Meta:
+		abstract = True
+
+class School(BaseModel):
 	name = models.CharField(max_length=64, default='',unique=True)
 	population = models.PositiveIntegerField(blank=True)
 	dateEstablished = models.DateField()
@@ -12,9 +20,7 @@ class School(models.Model):
 	linkedinLink = models.URLField(max_length=128, default='',blank=True)
 	alumniNumber = models.PositiveIntegerField(default=0,blank=True)
 	totalFunding = models.DecimalField(default=0,max_digits=17,decimal_places=2)
-	created = models.DateTimeField(auto_now_add=True)
-	modified = models.DateTimeField(auto_now=True)
-	toDelete = models.BooleanField(default=False)
+
 
 	class Meta:
 		ordering = ('created',)
@@ -24,7 +30,7 @@ class School(models.Model):
 			self.name = self.name.strip()
 		super(School, self).save(*args, **kwargs)
 
-class Location(models.Model):
+class Location(BaseModel):
 	schoolId = models.OneToOneField(School,related_name='location',unique=True)
 	streetNum = models.CharField(max_length=8, default='',blank=True)
 	streetName = models.CharField(max_length=64, default='',blank=True)
@@ -35,9 +41,6 @@ class Location(models.Model):
 	country = models.CharField(max_length=64, default='',blank=True)
 	lattitude = models.DecimalField(default=0,blank=True,max_digits=11,decimal_places=8)
 	longitude = models.DecimalField(default=0,blank=True,max_digits=11,decimal_places=8)
-	created = models.DateTimeField(auto_now_add=True)
-	modified = models.DateTimeField(auto_now=True)
-	toDelete = models.BooleanField(default=False)
 
 	class Meta:
 		ordering = ('created',)
@@ -56,17 +59,30 @@ class Location(models.Model):
 
 		super(Location, self).save(*args, **kwargs)
 
-class SchoolImage(models.Model):
+class SchoolImage(BaseModel):
 	schoolId = models.ForeignKey(School,related_name='images')
 	imageLink = models.URLField(max_length=256, default='',unique=True)
 	descriptor = models.CharField(max_length=256, default='')
-	created = models.DateTimeField(auto_now_add=True)
-	modified = models.DateTimeField(auto_now=True)
-	toDelete = models.BooleanField(default=False)
 
 	class Meta:
 		ordering = ('created',)
 	def save(self, *args, **kwargs):
+		if self.descriptor:
+			self.descriptor = self.descriptor.strip()
+		super(SchoolImage, self).save(*args, **kwargs)
+
+class SchoolRanking(BaseModel):
+	schoolId = models.ForeignKey(School,related_name='rankings')
+	ranking = models.PositiveIntegerField(default=None)
+	rankingSource = models.CharField(max_length=256)
+	descriptor = models.CharField(max_length=256,blank=True)
+
+	class Meta:
+		ordering = ('created',)
+
+	def save(self, *args, **kwargs):
+		if self.rankingSource:
+			self.rankingSource = self.rankingSource.strip()
 		if self.descriptor:
 			self.descriptor = self.descriptor.strip()
 		super(SchoolImage, self).save(*args, **kwargs)
