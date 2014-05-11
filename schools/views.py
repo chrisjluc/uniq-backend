@@ -7,9 +7,14 @@ from schools.serializers import (PostSchoolSerializer,GetSchoolSerializer,
 from rest_framework import generics,permissions
 import datetime
 
+
 class SchoolList(generics.ListCreateAPIView):
-	queryset = School.objects.filter(toDelete=False)
+
 	permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
+
+	def get_queryset(self):
+		schools = School.objects.filter(toDelete=False)
+		return schools
 	
 	def get_serializer_class(self):
 		user = self.request.user
@@ -35,12 +40,18 @@ class SchoolUpdate(generics.ListAPIView):
 		return School.objects.exclude(
 			modified__gte=datetime.datetime.now()
 		).filter(
-			modified__gte=datetime.datetime.fromtimestamp(timeLastModified)
+			modified__gt=datetime.datetime.fromtimestamp(timeLastModified)
 		)
 
 class SchoolDetail(generics.RetrieveUpdateAPIView):
-	queryset = School.objects.filter(toDelete=False)
+
 	permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
+
+	def get_queryset(self):
+		schools = School.objects.filter(toDelete=False)
+		for school in schools:
+			school.images = [image for image in school.images.all() if image.toDelete == False]
+		return schools
 	
 	def get_serializer_class(self):
 		user = self.request.user
@@ -51,7 +62,7 @@ class SchoolDetail(generics.RetrieveUpdateAPIView):
 		return PostSchoolSerializer		
 
 class Location(generics.CreateAPIView):
-	queryset = Location.objects.all()
+
 	permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
 
 	def get_serializer_class(self):
@@ -61,7 +72,7 @@ class Location(generics.CreateAPIView):
 		return GetLocationSerializer	
 
 class SchoolImage(generics.CreateAPIView):
-	queryset = SchoolImage.objects.all()
+
 	permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
 
 	def get_serializer_class(self):
@@ -71,7 +82,7 @@ class SchoolImage(generics.CreateAPIView):
 		return GetSchoolImageSerializer
 
 class SchoolRanking(generics.CreateAPIView):
-	queryset = SchoolRanking.objects.all()
+
 	permission_classes = (permissions.IsAuthenticatedOrReadOnly,)
 
 	def get_serializer_class(self):
