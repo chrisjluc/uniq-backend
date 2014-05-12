@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'rest_framework',
     'schools',
+    'faculties',
 )
 
 REST_FRAMEWORK = {

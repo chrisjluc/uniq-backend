@@ -49,8 +49,6 @@ class SchoolDetail(generics.RetrieveUpdateAPIView):
 
 	def get_queryset(self):
 		schools = School.objects.filter(toDelete=False)
-		for school in schools:
-			school.images = [image for image in school.images.all() if image.toDelete == False]
 		return schools
 	
 	def get_serializer_class(self):
