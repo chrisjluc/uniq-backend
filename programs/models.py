@@ -26,6 +26,7 @@ class BaseModel(models.Model):
 
 class Program(BaseModel):
 	name = models.CharField(max_length=64, default='',unique=True)
+	degree = models.CharField(max_length=256,default='')
 	population = models.PositiveIntegerField(blank=True)
 	dateEstablished = models.DateField()
 	about = models.TextField(blank=True)
@@ -83,10 +84,14 @@ class ProgramRanking(BaseModel):
 class ProgramCourse(BaseModel):
 	
 	programId = models.ForeignKey(Program,related_name='courses')
-	courseCode = models.CharField(max_length=12, default='') #Take out all spaces when saving
-	name = models.CharField(max_length=64, default='')
+	code = models.CharField(max_length=12, default='') #Take out all spaces when saving
+	title = models.CharField(max_length=64, default='')
 	description = models.CharField(max_length=2048, default='')
 	term = models.CharField(choices=TERM_CHOICES,default='Unspecified')
+	#per week
+	classHour = models.DecimalField(default=0,max_digits=3,decimal_places=1,null=True)
+	tutHour = models.DecimalField(default=0,max_digits=3,decimal_places=1,null=True)
+	labHour = models.DecimalField(default=0,max_digits=3,decimal_places=1,null=True)
 	
 	class Meta:
 		ordering = ('created',)
