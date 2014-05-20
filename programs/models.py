@@ -87,7 +87,7 @@ class ProgramCourse(BaseModel):
 	code = models.CharField(max_length=12, default='') #Take out all spaces when saving
 	title = models.CharField(max_length=64, default='')
 	description = models.CharField(max_length=2048, default='')
-	term = models.CharField(choices=TERM_CHOICES,default='Unspecified')
+	term = models.CharField(choices=TERM_CHOICES,default='Unspecified',max_length=128)
 	#per week
 	classHour = models.DecimalField(default=0,max_digits=3,decimal_places=1,null=True)
 	tutHour = models.DecimalField(default=0,max_digits=3,decimal_places=1,null=True)
@@ -122,19 +122,19 @@ class ProgramImageLink(BaseModel):
 	imageLink = models.URLField(max_length=256, default='',unique=True)
 	descriptor = models.CharField(max_length=256, default='')
 		
-		class Meta:
+	class Meta:
 		ordering = ('created',)
 
 
 class ProgramRequirement(BaseModel):
 		
-		class Meta:
+	class Meta:
 		ordering = ('created',)
 
 
 class ProgramImportantDates(BaseModel):
 		
-		class Meta:
+	class Meta:
 		ordering = ('created',)
 
 
