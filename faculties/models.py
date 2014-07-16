@@ -22,6 +22,7 @@ class Faculty(BaseModel):
 	linkedinLink = models.URLField(max_length=128, default='',blank=True)
 	alumniNumber = models.PositiveIntegerField(default=0,blank=True)
 	totalFunding = models.DecimalField(default=0,max_digits=17,decimal_places=2)
+	additionalInfo = models.TextField(blank=True)
 
 	class Meta:
 		ordering = ('created',)

@@ -15,6 +15,10 @@ TERM_CHOICES = (
 	('UnSpec','Unspecified'),
 	('N/a','N/A')
 )
+DATA_TYPE = (('text','text'),('html','html'))
+
+VALUE_TYPE = (('text','text'),('html','html'))#('competition','admission_info','event','admission_deadline')
+
 class BaseModel(models.Model):
 	created = models.DateTimeField(auto_now_add=True)
 	modified = models.DateTimeField(auto_now=True)
@@ -26,6 +30,7 @@ class BaseModel(models.Model):
 
 class Program(BaseModel):
 	name = models.CharField(max_length=64, default='',unique=True)
+	year = models.PositiveSmallIntegerField(unique=True)
 	degree = models.CharField(max_length=256,default='')
 	population = models.PositiveIntegerField(blank=True)
 	dateEstablished = models.DateField()
@@ -43,12 +48,6 @@ class Program(BaseModel):
 	class Meta:
 		ordering = ('created',)
 
-	def save(self, *args, **kwargs):
-		if self.name:
-			self.name = self.name.strip()
-		super(Program, self).save(*args, **kwargs)
-
-
 class ProgramImage(BaseModel):
 	
 	programId = models.ForeignKey(Program,related_name='images')
@@ -58,49 +57,39 @@ class ProgramImage(BaseModel):
 	class Meta:
 		ordering = ('created',)
 
-	def save(self, *args, **kwargs):
-		if self.descriptor:
-			self.descriptor = self.descriptor.strip()
-		super(ProgramImage, self).save(*args, **kwargs)
-
-
-class ProgramRanking(BaseModel):
+class ProgramRank(BaseModel):
 
 	programId = models.ForeignKey(Program,related_name='rankings')
-	ranking = models.PositiveIntegerField(default=None)
-	rankingSource = models.CharField(max_length=256)
-	descriptor = models.CharField(max_length=256,default='',blank=True)
+	year = models.PositiveSmallIntegerField(unique=True)
+	rank = models.DecimalField(default=0,max_digits=6,decimal_places=3)
+	source = models.CharField(max_length=256)
+	title = models.CharField(max_length=256,default='',blank=True)
 
 	class Meta:
 		ordering = ('created',)
-
-	def save(self, *args, **kwargs):
-		if self.rankingSource:
-			self.rankingSource = self.rankingSource.strip()
-		if self.descriptor:
-			self.descriptor = self.descriptor.strip()
-		super(ProgramRanking, self).save(*args, **kwargs)
 
 class ProgramCourse(BaseModel):
 	
 	programId = models.ForeignKey(Program,related_name='courses')
-	code = models.CharField(max_length=12, default='') #Take out all spaces when saving
-	title = models.CharField(max_length=64, default='')
-	description = models.CharField(max_length=2048, default='')
+	year = models.PositiveSmallIntegerField(unique=True)
+	school_course_id = models.CharField(max_length=64, blank=True)
+	code = models.CharField(max_length=12) #Take out all spaces when saving
+	title = models.CharField(max_length=64)
+	description = models.CharField(max_length=2048)
 	term = models.CharField(choices=TERM_CHOICES,default='Unspecified',max_length=128)
-	#per week
-	classHour = models.DecimalField(default=0,max_digits=3,decimal_places=1,null=True)
-	tutHour = models.DecimalField(default=0,max_digits=3,decimal_places=1,null=True)
-	labHour = models.DecimalField(default=0,max_digits=3,decimal_places=1,null=True)
+	unit = models.DecimalField(default=0,max_digits=3,decimal_places=1)
+	classHour = models.DecimalField(default=0,max_digits=3,decimal_places=1)
+	tutHour = models.DecimalField(default=0,max_digits=3,decimal_places=1,)
+	labHour = models.DecimalField(default=0,max_digits=3,decimal_places=1)
 	
 	class Meta:
 		ordering = ('created',)
 
 
-class ProgramFee(BaseModel):
+class ProgramTuition(BaseModel):
 	
-	programId = models.ForeignKey(Program,related_name='fees')
-	
+	programId = models.OneToOneField(Program,related_name='fees')
+	#Yearly tuition by year 1:123123, 2:123123...
 	class Meta:
 		ordering = ('created',)
 
@@ -111,35 +100,49 @@ class ProgramApplicationStat(BaseModel):
 	year = models.PositiveSmallIntegerField(unique=True)
 	numApplicants = models.PositiveSmallIntegerField(blank=True)
 	numAccepted = models.PositiveSmallIntegerField(blank=True)
-	admissionDeadline = models.DateField(unique=True)
+	#hold in % for ex. 90.5%
+	admission_avg = models.DecimalField(default=0,max_digits=5,decimal_places=2)
 
-	class Meta:
-		ordering = ('created',)
-
-
-class ProgramImageLink(BaseModel):
-
-	imageLink = models.URLField(max_length=256, default='',unique=True)
-	descriptor = models.CharField(max_length=256, default='')
-		
 	class Meta:
 		ordering = ('created',)
 
 
 class ProgramRequirement(BaseModel):
-		
+	
+	courses = models.TextField()
+	general = models.TextField()
+	other = models.TextField()
+
 	class Meta:
 		ordering = ('created',)
 
 
-class ProgramImportantDates(BaseModel):
-		
+class ProgramDates(BaseModel):
+	
+	programId = models.ForeignKey(Program,related_name='dates')
+	year = models.PositiveSmallIntegerField(unique=True)
+	date = models.DateField()
+	value = models.CharField(default='',max_length=2048)
+	valueType = models.CharField(choices=VALUE_TYPE,default='',max_length=128)
+	datatype = models.CharField(choices=DATA_TYPE,default='TEXT',max_length=128)
+
 	class Meta:
 		ordering = ('created',)
 
+#This keeps the average of all ratings,
+# each rating will be stored somehwere else and will update the averages out of a 100
 
 class ProgramRating(BaseModel):
-	"""
-	This keeps the average of all ratings, each rating will be stored somehwere else and will update the averages
-	"""
 	programId = models.OneToOneField(Program,related_name='rating')
+	ratingOverall = models.PositiveSmallIntegerField()
+	professors = models.PositiveSmallIntegerField()
+	difficulty = models.PositiveSmallIntegerField()
+	schedule = models.PositiveSmallIntegerField()
+	classmates = models.PositiveSmallIntegerField()
+	socialEnjoyment = models.PositiveSmallIntegerField()
+	studyEnv = models.PositiveSmallIntegerField()
+	guyRatio = models.PositiveSmallIntegerField()
+ 
+
+	class Meta:
+		ordering = ('created',)
