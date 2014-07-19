@@ -53,6 +53,9 @@ ROOT_URLCONF = 'uniq.urls'
 
 WSGI_APPLICATION = 'uniq.wsgi.application'
 
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': ('rest_framework.filters.DjangoFilterBackend',)
+}
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
