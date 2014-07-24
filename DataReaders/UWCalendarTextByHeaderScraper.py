@@ -5,7 +5,7 @@ import jsontree
 
 url_string = "http://ugradcalendar.uwaterloo.ca/page/ENG-Mechatronics-Engineering"
 
-def ParseTextFromURL(url):
+def ScrapeTextFromURL(url):
 	response = urllib2.urlopen(url)
 	page_source = response.read()
 	soup = BeautifulSoup(page_source,"lxml")
@@ -41,7 +41,7 @@ def ParseTextFromURL(url):
 
 	return json_data
 	
-data = ParseTextFromURL(url_string)
+data = ScrapeTextFromURL(url_string)
 with open('uw_calendar_textbyheader.json', 'w') as filename:
   json.dump(data, filename, indent=4)
 

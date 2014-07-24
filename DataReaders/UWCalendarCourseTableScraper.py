@@ -41,7 +41,7 @@ def ParseHoursFromCell(cell):
 		return cell.div.string.strip()
 	return ""
 
-def ParseCoursesFromURL(url):
+def ScrapeCoursesFromURL(url):
 	response = urllib2.urlopen(url)
 	page_source = response.read()
 	soup = BeautifulSoup(page_source,"lxml")
@@ -94,7 +94,7 @@ def ParseCoursesFromURL(url):
 				data[index].append({'course_code':m_course,'Class':m_class,'tut':m_tut,'lab':m_lab})
 	return data
 	
-data = ParseCoursesFromURL(url)		
+data = ScrapeCoursesFromURL(url)		
 with open('program_courses.json', 'w') as program_courses:
 	json.dump(data, program_courses, indent=4)
 
