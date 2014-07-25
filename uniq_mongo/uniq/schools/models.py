@@ -6,5 +6,3 @@ class School(GenericDocument):
 	numFaculties = IntField()
 	numPrograms = IntField()
 	applicationProcess = StringField()
-	undergradPopulation = IntField()
-	gradPopulation = IntField()

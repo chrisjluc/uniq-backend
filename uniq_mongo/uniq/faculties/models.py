@@ -1,3 +1,7 @@
-from django.db import models
+from mongoengine import *
+from schools.models import School
+from uniq.genericmodels import GenericDocument
 
-# Create your models here.
+class Faculty(GenericDocument):
+	numPrograms = IntField()
+	schoolId = ObjectIdField()

@@ -48,7 +48,8 @@ class GenericDocument(Document):
 	shortName = StringField()
 	slug = StringField(unique=True)
 	about = StringField()
-	
+	undergradPopulation = IntField()
+	gradPopulation = IntField()
 	#Generic facts
 	avgAdm = DecimalField()
 	dateEstablished = DateTimeField()

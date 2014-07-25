@@ -37,6 +37,7 @@ class SchoolDetail(mixins.RetrieveModelMixin,
 				return School.objects.get(slug=slug)
 			except School.DoesNotExist:
 				raise Http404
+				
 		if 'id' in self.kwargs.keys():
 			id = self.kwargs['id']
 			try:
