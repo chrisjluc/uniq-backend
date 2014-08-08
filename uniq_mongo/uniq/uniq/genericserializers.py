@@ -11,7 +11,6 @@ class DocumentSerializer(serializers.Serializer):
 class EmbeddedDocumentSerializer(serializers.Serializer):
 	def to_native(self, obj):
 		ret = {}
-		print obj
 		for k in obj:
 			if obj[k] is not None:
 				ret[k] = obj[k]
@@ -20,7 +19,17 @@ class EmbeddedDocumentSerializer(serializers.Serializer):
 class EmbeddedDocumentListSerializer(serializers.Serializer):
 	def to_native(self, objects):
 		ret = []
-		print objects
+		for obj in objects:
+			attrs = {}
+			for k in obj:
+				if obj[k] is not None:
+					attrs[k] = obj[k]
+			ret.append(attrs)
+		return ret
+
+class ListSerializer(serializers.Serializer):
+	def to_native(self, objects):
+		ret = []
 		for obj in objects:
 			attrs = {}
 			for k in obj:
@@ -55,21 +64,22 @@ class MetaSerializer(EmbeddedDocumentSerializer):
 			return None
 		return self.to_native(obj.metaData)
 
-class ContactSerializer(EmbeddedDocumentSerializer):
+class ContactSerializer(EmbeddedDocumentListSerializer):
 	name = serializers.CharField()
 	email = serializers.EmailField()
-	phoneNumber = serializers.CharField()
+	phoneNum = serializers.CharField()
 	ext = serializers.CharField()
 	fax = serializers.CharField()
 	website = serializers.URLField()
 	facebook = serializers.URLField()
 	twitter = serializers.URLField()
 	linkedin = serializers.URLField()
-	
+	extraInfo = serializers.CharField()
+
 	def field_to_native(self, obj, field_name):
-		if obj is None or obj.contact is None:
+		if obj is None or obj.contacts is None:
 			return None
-		return self.to_native(obj.contact)
+		return self.to_native(obj.contacts)
 
 class ImageSerializer(EmbeddedDocumentListSerializer):
 	descriptor = serializers.CharField()
@@ -92,6 +102,30 @@ class RankingSerializer(EmbeddedDocumentListSerializer):
 			return None
 		return self.to_native(obj.rankings)
 
+class StreamSerializer(EmbeddedDocumentListSerializer):
+	title = serializers.CharField()
+
+	def field_to_native(self, obj, field_name):
+		if obj is None or obj.streams is None:
+			return None
+		return self.to_native(obj.streams)
+
+class FeeSerializer(EmbeddedDocumentSerializer):
+	def field_to_native(self, obj, field_name):
+		if obj is None or obj.fees is None:
+			return None
+		return self.to_native(obj.fees)
+
+class ImportantDateSerializer(EmbeddedDocumentListSerializer):
+	date = serializers.CharField()
+	type = serializers.CharField()
+	description = serializers.CharField()
+
+	def field_to_native(self, obj, field_name):
+		if obj is None or obj.importantDates is None:
+			return None
+		return self.to_native(obj.importantDates)
+
 class GenericSerializer(DocumentSerializer):
 	
 	id = serializers.CharField()
@@ -99,12 +133,12 @@ class GenericSerializer(DocumentSerializer):
 	name = serializers.CharField()
 	slug = serializers.CharField(required=False)
 	about = serializers.CharField()
-	avgAdm = serializers.DecimalField()
-	undergradPopulation = serializers.IntegerField()
-	gradPopulation = serializers.IntegerField()
+	avgAdm = serializers.CharField()
+	undergradPopulation = serializers.CharField()
+	gradPopulation = serializers.CharField()
 
 	metaData = MetaSerializer()
-	contact = ContactSerializer()
+	contacts = ContactSerializer()
 	location = LocationSerializer()
 	rankings = RankingSerializer(required=False)
 	images = ImageSerializer(required=False)

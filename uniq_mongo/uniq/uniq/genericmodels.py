@@ -12,17 +12,6 @@ class Location(EmbeddedDocument):
 	longitude = DecimalField()
 	latitude = DecimalField()
 
-class Contact(EmbeddedDocument):
-	name = StringField()
-	email = EmailField()
-	phoneNumber = StringField()
-	ext = StringField()
-	fax = StringField()
-	website = URLField()
-	facebook = URLField()
-	twitter = URLField()
-	linkedin = URLField()
-
 class Meta(EmbeddedDocument):
 	dateModified = DateTimeField(default=datetime.datetime.now)
 	dateCreated = DateTimeField()
@@ -40,22 +29,50 @@ class Ranking(EmbeddedDocument):
 	title = StringField()
 	link = URLField()
 
+class Stream(EmbeddedDocument):
+	title = StringField()
+	year1 = DynamicField()
+	year2 = DynamicField()
+	year3 = DynamicField()
+	year4 = DynamicField()
+	year5 = DynamicField()
+
+class Fees(EmbeddedDocument):
+	domestic = DynamicField()
+	international = DynamicField()
+
+class ImportantDate(EmbeddedDocument):
+	date = StringField()
+	type = StringField()
+	description = StringField()
+
+class Contact(EmbeddedDocument):
+	name = StringField()
+	email = EmailField()
+	phoneNum = StringField()
+	ext = StringField()
+	fax = StringField()
+	website = URLField()
+	facebook = URLField()
+	twitter = URLField()
+	linkedin = URLField()
+	extraInfo = StringField()
+
 class GenericDocument(Document):
 
-	id = StringField()
-	dateEstablished = DateTimeField()
+	id = ObjectIdField()
 	name = StringField(unique=True)
 	shortName = StringField()
 	slug = StringField(unique=True)
 	about = StringField()
-	undergradPopulation = IntField()
-	gradPopulation = IntField()
+	undergradPopulation = StringField()
+	gradPopulation = StringField()
 	#Generic facts
-	avgAdm = DecimalField()
+	avgAdm = StringField()
 	dateEstablished = DateTimeField()
 	
 	metaData = EmbeddedDocumentField(Meta)
-	contact = EmbeddedDocumentField(Contact)
+	contacts = ListField(EmbeddedDocumentField(Contact))
 	location = EmbeddedDocumentField(Location)
 	rankings = ListField(EmbeddedDocumentField(Ranking))
 	images = ListField(EmbeddedDocumentField(Image))
