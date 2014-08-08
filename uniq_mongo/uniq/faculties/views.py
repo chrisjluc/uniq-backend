@@ -7,24 +7,31 @@ from django.http import Http404
 import datetime
 from django.core.exceptions import ValidationError
 from bson.objectid import ObjectId
+import logging
 
 class FacultyList(mixins.ListModelMixin,
 				mixins.CreateModelMixin,
 				generics.GenericAPIView):
     
 	serializer_class = FacultySerializer
+	Log = None
+
+	def __init__(self):
+		Log = logging.getLogger(self.__class__.__name__)
 
 	def get_queryset(self):
+		keys = self.kwargs.keys()
 		school = None
-		if 'slug' in self.kwargs.keys():
-			slug = self.kwargs['slug']
+		if 'school_slug' in keys:
+			slug = self.kwargs['school_slug']
 			try:
 				school = School.objects.get(slug=slug)
+				return Faculty.objects(schoolId=school.id)
 			except School.DoesNotExist:
 				raise Http404
 
-		if 'id' in self.kwargs.keys():
-			id = self.kwargs['id']
+		elif 'school_id' in keys:
+			id = self.kwargs['school_id']
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
@@ -32,9 +39,7 @@ class FacultyList(mixins.ListModelMixin,
 			except School.DoesNotExist:
 				raise Http404
 
-		if school is None:
-			return Faculty.objects
-		return Faculty.objects(schoolId=school.id)
+		return Faculty.objects
 
 	def get(self, request, *args, **kwargs):
 		return self.list(request, *args, **kwargs)
@@ -47,21 +52,32 @@ class FacultyDetail(mixins.RetrieveModelMixin,
 					generics.GenericAPIView):
 	
 	serializer_class = FacultySerializer
-	
+	Log = None
+
+	def __init__(self):
+		Log = logging.getLogger(self.__class__.__name__)
+
 	def get_object(self):
-		if 'slug' in self.kwargs.keys():
+		keys = self.kwargs.keys()
+		if 'school_slug' in keys and 'slug' in keys:
+			school_slug = self.kwargs['school_slug']
 			slug = self.kwargs['slug']
 			try:
-				return Faculty.objects.get(slug=slug)
+				school = School.objects.get(slug=school_slug)
+				return Faculty.objects.get(slug=slug, schoolId=school.id)
 			except Faculty.DoesNotExist:
 				raise Http404
 
-		if 'id' in self.kwargs.keys():
+		elif 'id' in self.kwargs.keys():
 			id = self.kwargs['id']
+			if ObjectId.is_valid(id) is False:
+				raise Http404
 			try:
 				return Faculty.objects.get(id=id)
 			except Faculty.DoesNotExist:
 				raise Http404
+
+		Log.debug("Request doesn't have any parameters")
 
 	def get(self, request, *args, **kwargs):
 		return self.retrieve(request, *args, **kwargs)
