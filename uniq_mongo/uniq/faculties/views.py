@@ -21,7 +21,6 @@ class FacultyList(mixins.ListModelMixin,
 
 	def get_queryset(self):
 		keys = self.kwargs.keys()
-		school = None
 		if 'school_slug' in keys:
 			slug = self.kwargs['school_slug']
 			try:
@@ -77,7 +76,7 @@ class FacultyDetail(mixins.RetrieveModelMixin,
 			except Faculty.DoesNotExist:
 				raise Http404
 
-		Log.debug("Request doesn't have any parameters")
+		Log.debug("Request doesn't have any parameters, but made it as a valid request")
 
 	def get(self, request, *args, **kwargs):
 		return self.retrieve(request, *args, **kwargs)
