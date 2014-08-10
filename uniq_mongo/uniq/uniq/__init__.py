@@ -3,8 +3,9 @@ from programs.models import *
 from faculties.models import *
 from schools.models import *
 from uniqdb import UniqDb
+import settings
 
-connect('mongoenginetest')
+connect(settings.MONGO_DATABASE_NAME, host=settings.MONGO_HOST, port=settings.MONGO_PORT)
 db = UniqDb()
 # Initialize schema
 if len(db.getCollectionNames()) == 0:
