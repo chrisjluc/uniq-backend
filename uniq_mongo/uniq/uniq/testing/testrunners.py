@@ -7,13 +7,6 @@ class MongoTestRunner(DjangoTestSuiteRunner):
     """
         A test runner that can be used to create, connect to, disconnect from, 
         and destroy a mongo test database for standard django testing.
-
-        NOTE:
-            The MONGO_PORT and MONGO_DATABASE_NAME settings must exist, create them
-            if necessary.
-        
-        REFERENCE:
-            http://nubits.org/post/django-mongodb-mongoengine-testing-with-custom-test-runner/
     """
 
     mongodb_name = 'test_%s' % (settings.MONGO_DATABASE_NAME, )
