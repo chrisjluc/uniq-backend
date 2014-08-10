@@ -9,10 +9,10 @@ connect(settings.MONGO_DATABASE_NAME, host=settings.MONGO_HOST, port=settings.MO
 db = UniqDb()
 # Initialize schema
 if len(db.getCollectionNames()) == 0:
-	s = School(slug="s")
+	s = School(slug="s_init")
 	s.save()
-	f = Faculty(slug="f",schoolId=s.id)
+	f = Faculty(slug="f_init",schoolId=s.id)
 	f.save()
-	p = Program(slug="p",schoolId=s.id, facultyId=f.id)
+	p = Program(slug="p_init",schoolId=s.id, facultyId=f.id)
 	p.save()
 	db.clearCollections()
