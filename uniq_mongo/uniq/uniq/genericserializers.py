@@ -1,12 +1,10 @@
 from rest_framework import serializers
 
 class DocumentSerializer(serializers.Serializer):
-	def restore_object(self, attrs, instance=None):
-		if instance is not None:
-			for k, v in attrs.iteritems():
-				setattr(instance, k, v)
-			return instance
-		return School(**attrs)
+	def build_instance(self, attrs):
+		for k, v in attrs.iteritems():
+			setattr(instance, k, v)
+		return instance
 
 class EmbeddedDocumentSerializer(serializers.Serializer):
 	def to_native(self, obj):

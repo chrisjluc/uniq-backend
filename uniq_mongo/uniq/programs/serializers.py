@@ -73,3 +73,8 @@ class ProgramSerializer(GenericSerializer):
 	internship = InternshipSerializer()
 	degreeRequirements = DegreeRequirementsSerializer()
 
+	def restore_object(self, attrs, instance=None):
+		if instance is not None:
+			return super(ProgramSerializer, self).build_instance(attrs)
+		return Program(**attrs)
+

@@ -7,3 +7,7 @@ class SchoolSerializer(GenericSerializer):
 	numPrograms = serializers.IntegerField()
 	applicationProcess = serializers.CharField()
 
+	def restore_object(self, attrs, instance=None):
+		if instance is not None:
+			return super(SchoolSerializer, self).build_instance(attrs)
+		return School(**attrs)
