@@ -9,6 +9,7 @@ from django.http import Http404
 import datetime
 from django.core.exceptions import ValidationError
 from bson.objectid import ObjectId
+import logging
 
 class ProgramList(mixins.ListModelMixin,
 				mixins.CreateModelMixin,
@@ -17,26 +18,27 @@ class ProgramList(mixins.ListModelMixin,
 	serializer_class = ProgramSerializer
 
 	def get_queryset(self):
-		faculty = None
-		'''if 'slug' in self.kwargs.keys():
-			slug = self.kwargs['slug']
+		keys = self.kwargs.keys()
+		if 'school_slug' in keys and 'faculty_slug' in keys:
+			school_slug = self.kwargs['school_slug']
+			faculty_slug = self.kwargs['faculty_slug']
 			try:
-				school = School.objects.get(slug=slug)
+				school = School.objects.get(slug=school_slug)
+				faculty = Faculty.objects.get(schoolId=school.id, slug=faculty_slug)
+				return Program.objects(schoolId=school.id,facultyId=faculty.id)
 			except School.DoesNotExist:
-				raise Http404'''
+				raise Http404
 
-		if 'id' in self.kwargs.keys():
-			id = self.kwargs['id']
+		elif 'faculty_id' in keys:
+			id = self.kwargs['faculty_id']
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				faculty = Faculty.objects.get(id=id)
-			except Faculty.DoesNotExist:
+				return Program.objects.get(facultyId=id)
+			except School.DoesNotExist:
 				raise Http404
 
-		if faculty is None:
-			return Program.objects
-		return Program.objects(facultyId=faculty.id)
+		return Program.objects
 
 	def get(self, request, *args, **kwargs):
 		return self.list(request, *args, **kwargs)
@@ -49,22 +51,37 @@ class ProgramDetail(mixins.RetrieveModelMixin,
 					generics.GenericAPIView):
 	
 	serializer_class = FacultySerializer
-	
+	Log = None
+
+	def __init__(self):
+		Log = logging.getLogger(self.__class__.__name__)
+
 	def get_object(self):
-		if 'slug' in self.kwargs.keys():
+		keys = self.kwargs.keys()
+
+		if ('school_slug' in keys
+		and 'faculty_slug' in keys
+		and 'slug' in keys):
+			school_slug = self.kwargs['school_slug']
+			faculty_slug = self.kwargs['faculty_slug']
 			slug = self.kwargs['slug']
 			try:
-				return Program.objects.get(slug=slug)
+				school = School.objects.get(slug=school_slug)
+				faculty = Faculty.objects.get(schoolId=school.id, slug=faculty_slug)
+				return Program.objects.get(schoolId=school.id, facultyId=faculty.id, slug=slug)
 			except Program.DoesNotExist:
 				raise Http404
 
 		if 'id' in self.kwargs.keys():
 			id = self.kwargs['id']
+			if ObjectId.is_valid(id) is False:
+				raise Http404
 			try:
 				return Program.objects.get(id=id)
 			except Program.DoesNotExist:
 				raise Http404
 
+		Log.debug("Request doesn't have any parameters, but made it as a valid request")
 	def get(self, request, *args, **kwargs):
 		return self.retrieve(request, *args, **kwargs)
 

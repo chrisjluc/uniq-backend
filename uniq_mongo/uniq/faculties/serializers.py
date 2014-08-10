@@ -1,9 +1,9 @@
 from uniq.genericserializers import *
 
 class FacultySerializer(GenericSerializer):
-	
-	numPrograms = serializers.IntegerField()
+	slug = serializers.CharField()
 	schoolId = serializers.CharField()
+	numPrograms = serializers.IntegerField()
 	applicationProcess = serializers.CharField()
 	importantDates = ImportantDateSerializer()
 	streams = StreamSerializer()

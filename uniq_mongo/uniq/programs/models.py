@@ -38,6 +38,7 @@ class DegreeRequirements(EmbeddedDocument):
 	curriculum = DynamicField()
 
 class Program(GenericDocument):
+	slug = StringField(unique_with=['schoolId','facultyId'])
 	schoolId = ObjectIdField()
 	facultyId = ObjectIdField()
 	degree = StringField()

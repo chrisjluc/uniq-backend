@@ -57,6 +57,7 @@ class DegreeRequirementsSerializer(EmbeddedDocumentSerializer):
 		return self.to_native(obj.degreeRequirements)
 
 class ProgramSerializer(GenericSerializer):
+	slug = serializers.CharField()
 	schoolId = serializers.CharField()
 	facultyId = serializers.CharField()
 	degree = serializers.CharField()

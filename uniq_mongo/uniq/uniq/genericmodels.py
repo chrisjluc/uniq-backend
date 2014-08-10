@@ -61,9 +61,8 @@ class Contact(EmbeddedDocument):
 class GenericDocument(Document):
 
 	id = ObjectIdField()
-	name = StringField(unique=True)
+	name = StringField()
 	shortName = StringField()
-	slug = StringField(unique=True)
 	about = StringField()
 	undergradPopulation = StringField()
 	gradPopulation = StringField()

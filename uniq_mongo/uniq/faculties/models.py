@@ -3,8 +3,9 @@ from schools.models import School
 from uniq.genericmodels import *
 
 class Faculty(GenericDocument):
-	numPrograms = IntField()
+	slug = StringField(unique_with='schoolId')
 	schoolId = ObjectIdField()
+	numPrograms = IntField()
 	streams = ListField(EmbeddedDocumentField(Stream))
 	importantDates = ListField(EmbeddedDocumentField(ImportantDate))
 	applicationProcess = StringField()
