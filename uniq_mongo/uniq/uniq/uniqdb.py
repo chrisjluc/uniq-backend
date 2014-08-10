@@ -1,9 +1,10 @@
 from pymongo import Connection
+from django.conf import settings
 
 class UniqDb():
-	def __init__(self,db_name = "mongoenginetest"):
-		connection = Connection('localhost', 27017)
-		self.db = connection[db_name]
+	def __init__(self):
+		connection = Connection(settings.MONGO_HOST, settings.MONGO_PORT)
+		self.db = connection[settings.MONGO_DATABASE_NAME]
 	
 	def getCollectionNames(self):
 		return self.db.collection_names()

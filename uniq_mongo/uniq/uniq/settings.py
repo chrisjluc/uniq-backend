@@ -59,6 +59,19 @@ REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ('rest_framework.filters.DjangoFilterBackend',)
 }
 
+# Allow for Mongo Integration
+
+MONGO_DATABASE_NAME = 'mongoenginetest'
+MONGO_HOST = 'localhost'
+MONGO_PORT = 27017
+
+AUTHENTICATION_BACKENDS = (
+    'mongoengine.django.auth.MongoEngineBackend',
+)
+
+TEST_RUNNER = (
+    'uniq.testing.testrunners.MongoTestRunner'
+)
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
@@ -68,6 +81,10 @@ DATABASES = {
     }
 }
 
+import sys
+if 'test' in sys.argv:
+    DATABASES['default'] = {'ENGINE': 'django.db.backends.sqlite3'}
+    
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
