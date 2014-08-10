@@ -1,4 +1,13 @@
-from django.test import TestCase
-#Updating model - update date time
-#creating model
-# Create your tests here.
+from rest_framework import status
+from rest_framework.test import APITestCase
+
+class SchoolTests(APITestCase):
+    def setUp(self):
+        pass
+
+    def tearDown(self):
+        pass
+
+    def schools_get(self):
+        factory = APIRequestFactory()
+        request = factory.get('/schools/')
