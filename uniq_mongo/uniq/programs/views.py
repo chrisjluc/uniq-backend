@@ -27,14 +27,18 @@ class ProgramList(mixins.ListModelMixin,
 				return Program.objects(schoolId=school.id,facultyId=faculty.id)
 			except School.DoesNotExist:
 				raise Http404
+			except Faculty.DoesNotExist:
+				raise Http404
+			except Program.DoesNotExist:
+				raise Http404
 
 		elif 'faculty_id' in keys:
 			id = self.kwargs['faculty_id']
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				return Program.objects.get(facultyId=id)
-			except School.DoesNotExist:
+				return Program.objects(facultyId=id)
+			except Program.DoesNotExist:
 				raise Http404
 
 		return Program.objects
@@ -49,7 +53,7 @@ class ProgramDetail(mixins.RetrieveModelMixin,
 					mixins.UpdateModelMixin,
 					generics.GenericAPIView):
 	
-	serializer_class = FacultySerializer
+	serializer_class = ProgramSerializer
 	Log = None
 
 	def __init__(self):
@@ -68,6 +72,10 @@ class ProgramDetail(mixins.RetrieveModelMixin,
 				school = School.objects.get(slug=school_slug)
 				faculty = Faculty.objects.get(schoolId=school.id, slug=faculty_slug)
 				return Program.objects.get(schoolId=school.id, facultyId=faculty.id, slug=slug)
+			except School.DoesNotExist:
+				raise Http404
+			except Faculty.DoesNotExist:
+				raise Http404
 			except Program.DoesNotExist:
 				raise Http404
 

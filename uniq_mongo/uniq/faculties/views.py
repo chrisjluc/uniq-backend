@@ -27,6 +27,8 @@ class FacultyList(mixins.ListModelMixin,
 				return Faculty.objects(schoolId=school.id)
 			except School.DoesNotExist:
 				raise Http404
+			except Faculty.DoesNotExist:
+				raise Http404
 
 		elif 'school_id' in keys:
 			id = self.kwargs['school_id']
@@ -34,6 +36,7 @@ class FacultyList(mixins.ListModelMixin,
 				raise Http404
 			try:
 				school = School.objects.get(id=id)
+				return Faculty.objects(schoolId=school.id)
 			except School.DoesNotExist:
 				raise Http404
 
@@ -63,6 +66,8 @@ class FacultyDetail(mixins.RetrieveModelMixin,
 			try:
 				school = School.objects.get(slug=school_slug)
 				return Faculty.objects.get(slug=slug, schoolId=school.id)
+			except School.DoesNotExist:
+				raise Http404
 			except Faculty.DoesNotExist:
 				raise Http404
 
