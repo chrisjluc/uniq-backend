@@ -7,7 +7,6 @@ from faculties.serializers import FacultySerializer
 from serializers import ProgramSerializer
 from django.http import Http404
 import datetime
-from django.core.exceptions import ValidationError
 from bson.objectid import ObjectId
 import logging
 

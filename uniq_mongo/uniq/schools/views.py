@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from .models import School
 from .serializers import SchoolSerializer
 from django.http import Http404
+from bson.objectid import ObjectId
 import datetime
 
 
@@ -40,6 +41,8 @@ class SchoolDetail(mixins.RetrieveModelMixin,
 				
 		if 'id' in self.kwargs.keys():
 			id = self.kwargs['id']
+			if ObjectId.is_valid(id) is False:
+				raise Http404
 			try:
 				return School.objects.get(id=id)
 			except School.DoesNotExist:
