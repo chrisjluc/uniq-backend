@@ -4,9 +4,12 @@ from .models import *
 
 class SchoolTests(MongoTestCase):
 
+	sId = None
+
 	def setUp(self):
 		s = School(slug="s")
 		s.save()
+		self.sId = s.id
 
 	def tearDown(self):
 		pass
@@ -20,9 +23,7 @@ class SchoolTests(MongoTestCase):
 		self.assertEqual(response.status_code, status.HTTP_200_OK)
 
 	def test_get_detail_id(self):
-		s = School(slug="f")
-		s.save()
-		response = self.client.get('/schools/%s/' % s.id, format='json')
+		response = self.client.get('/schools/%s/' % self.sId, format='json')
 		self.assertEqual(response.status_code, status.HTTP_200_OK)
 
 	def test_get_detail_invalid_slug(self):
