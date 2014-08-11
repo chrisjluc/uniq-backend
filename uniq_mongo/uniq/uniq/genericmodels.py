@@ -17,7 +17,6 @@ class Meta(EmbeddedDocument):
 	dateCreated = DateTimeField()
 	yearValid = IntField()
 
-#db.school.update({"slug":"universityofwaterloo"},{$set:{image:{descriptor:"hello"}}})
 class Image(EmbeddedDocument):
 	descriptor = StringField()
 	link = URLField()
