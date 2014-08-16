@@ -11,7 +11,7 @@ class Requirements(EmbeddedDocument):
 	general_requirements = StringField()
 	notes = StringField()
 	transfer_credits = StringField()
-	other_documentation = StringField()
+	other_documentation = ListField(StringField())
 	country = StringField()
 	system_of_study = StringField()
 	international_program_requirements = StringField()

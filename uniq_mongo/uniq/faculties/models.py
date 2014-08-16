@@ -5,7 +5,7 @@ from uniq.genericmodels import *
 class Faculty(GenericDocument):
 	slug = StringField(unique_with='schoolId')
 	schoolId = ObjectIdField()
-	numPrograms = IntField()
+	numPrograms = StringField()
 	streams = ListField(EmbeddedDocumentField(Stream))
 	importantDates = ListField(EmbeddedDocumentField(ImportantDate))
 	applicationProcess = StringField()
