@@ -91,7 +91,7 @@ def ScrapeCoursesFromURL(url):
 						m_lab = ''
 				#print m_course
 
-				data[index].append({'course_code':m_course,'Class':m_class,'tut':m_tut,'lab':m_lab})
+				data[index].append({'subject':m_course,'Class':m_class,'tut':m_tut,'lab':m_lab})
 	return data
 	
 data = ScrapeCoursesFromURL(url)		
