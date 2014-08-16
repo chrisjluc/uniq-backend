@@ -39,7 +39,8 @@ INSTALLED_APPS = (
     'rest_framework',
     'schools',
     'faculties',
-    'programs'
+    'programs',
+    'uniqdata',
 )
 
 MIDDLEWARE_CLASSES = (

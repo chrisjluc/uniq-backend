@@ -1,0 +1,69 @@
+{  
+   "name":"Faculty of Engineering",
+   "shortName":"eng",
+   "slug":"facultyofengineering",
+   "about":"Ranked among the top 50 engineering schools worldwide, Waterloo is committed to leading engineering education and research in Canada. We are the largest, with more than 8,800 students enrolled in 2014. In 2012/13, external research funding in engineering exceeded $60 million for the third consecutive year, a strong indication of the emphasis placed on transformational research.",
+   "undergradPopulation":"6840",
+   "gradPopulation":"1945",
+   "avgAdm":"low 90s",
+   "dateEstablished":"01-07-1957",
+   "numPrograms":"",
+   "applicationProcess":"Waterloo Engineering offers direct-entry programs, meaning that students are admitted into specific engineering disciplines in first-year studies. This approach is different from institutions that offer a general first year, in which students select and compete for their discipline prior to the second-year of studies. Applicants must select one Waterloo Engineering program (civil, mechanical, systems design, software, etc.) on the OUAC application. This should be the program you are most interested in—not the one that you think is easiest to get into. Applicants will be able to submit two alternate engineering program choices on the Admission Information Form, for which they will be considered if they are not accepted into their first choice. Preference for each program will be given to students who select that program on the OUAC form.",
+   "schoolId":"",
+   "streams":[  
+   ],
+   "metaData":{  
+      "dateModified":"",
+      "dateCreated":"",
+      "yearValid":2015
+   },
+   "contacts":[  
+      {  "name":"Philippe Bezaire, Associate Director of Admissions",
+         "email":"admissions@engmail.uwaterloo.ca",
+         "phoneNum":"519-888-4894",
+         "website":"",
+         "facebook":"",
+         "twitter":"",
+         "linkedin":"",
+         "extraInfo":"Office: CPH 1320"
+      },
+      {  
+         "name":"Engineering Undergraduate Studies Office",
+         "email":"eng.ug.askus@uwaterloo.ca",
+         "phoneNum":"519-888-4567",
+         "ext":"84761",
+         "fax":"519 725 9970",
+         "website":"https://uwaterloo.ca/engineering/",
+         "facebook":"https://www.facebook.com/uWaterlooEngineering",
+         "twitter":"https://twitter.com/waterlooENG",
+         "linkedin":"",
+         "extraInfo":""
+      }
+   ],
+   "images":[  
+      {  
+         "descriptor":"e5 building",
+         "link":"http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+      }
+   ],
+   "rankings":[  
+      {  
+         "title":"Top Engineering and Technology",
+         "source":"Top Universities",
+         "rank":46,
+         "year":2013,
+         "link":"http://www.topuniversities.com/node/9186/ranking-details/world-university-rankings/2013"
+      }
+   ],
+   "location":{  
+      "address":"200 University Avenue West",
+      "apt":"",
+      "unit":"",
+      "city":"Waterloo",
+      "region":"Ontario",
+      "postalCode":"N2L3G1",
+      "country":"Canada",
+      "latitude":43.4689,
+      "longitude":-80.5400
+   }
+}

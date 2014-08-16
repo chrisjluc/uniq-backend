@@ -1,0 +1,63 @@
+{  
+   "name":"University of Waterloo",
+   "shortName":"uw",
+   "slug":"universityofwaterloo",
+   "about":"In just half a century, the University of Waterloo, located at the heart of Canadas technology hub, has become a leading comprehensive university with 35,100 full- and part-time students in undergraduate and graduate programs. Consistently ranked Canadas most innovative university, Waterloo is home to advanced research and teaching in science and engineering, health, environment, arts and social sciences. From quantum computing and nanotechnology to clinical psychology and health sciences research, Waterloo brings ideas and brilliant minds together, inspiring innovations with real impact today and in the future. As home to the world's largest post-secondary co-operative education program, Waterloo embraces its connections to the world and encourages enterprising partnerships in learning, research, and commercialization. With campuses and education centres on four continents, and academic partnerships spanning the globe, Waterloo is shaping the future of the planet.",
+   "applicationProcess":"Complete your Admission Information Form. If you're not an Ontario high school student, you'll need to have your marks sent to us. Check important dates for applicants to fall 2014. Note: Most of our admissions information will be sent by e-mail so it's important that we have your current e-mail address. Once we receive your application, we'll send you an e-mail outlining the next steps in the admissions process.",
+   "undergradPopulation":"27791",
+   "gradPopulation":"4375",
+   "avgAdm":"87.7",
+   "dateEstablished":"01-07-1957",
+   "numFaculties":"6",
+   "numPrograms":"55",
+   "metaData":{  
+      "dateModified":"",
+      "dateCreated":"",
+      "yearValid":2015
+   },
+   "contacts":
+   [
+      {  
+         "name":"Visitor Centre",
+         "email":"askus@uwaterloo.ca",
+         "phoneNum":"519-888-4567",
+         "ext":"33614",
+         "fax":"",
+         "website":"https://uwaterloo.ca/",
+         "facebook":"https://www.facebook.com/university.waterloo",
+         "twitter":"https://twitter.com/UWaterloo",
+         "linkedin":"http://www.linkedin.com/edu/school?id=10875",
+         "extraInfo":""
+      }
+   ],
+   "images":[  
+      {  
+         "descriptor":"logo",
+         "link":"http://upload.wikimedia.org/wikipedia/en/0/03/Uwaterloo_seal.gif"
+      },
+      {  
+         "descriptor":"e5 building",
+         "link":"http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+      }
+   ],
+   "rankings":[  
+      {  
+         "title":"World University Rankings",
+         "source":"Top Universities",
+         "rank":180,
+         "year":2013,
+         "link":"http://www.topuniversities.com/node/9186/ranking-details/world-university-rankings/2013"
+      }
+   ],
+   "location":{  
+      "address":"200 University Avenue West",
+      "apt":"",
+      "unit":"",
+      "city":"Waterloo",
+      "region":"Ontario",
+      "postalCode":"N2L3G1",
+      "country":"Canada",
+      "latitude":43.4689,
+      "longitude":-80.5400
+   }
+}
