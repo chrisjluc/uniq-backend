@@ -1,5 +1,5 @@
 from pymongo import Connection
-from django.conf import settings
+import settings
 
 class UniqDb():
 	def __init__(self):

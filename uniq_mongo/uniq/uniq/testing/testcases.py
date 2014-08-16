@@ -6,7 +6,7 @@ class MongoTestCase(APITestCase):
     """
         TestCase class that clear the collection between the tests
     """
-    mongodb_name = 'test_%s' % settings.MONGO_DATABASE_NAME
+    mongodb_name = settings.MONGO_DATABASE_NAME
     
     def _pre_setup(self):
         from mongoengine.connection import connect, disconnect

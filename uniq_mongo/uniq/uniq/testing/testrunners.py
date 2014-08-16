@@ -9,9 +9,10 @@ class MongoTestRunner(DjangoTestSuiteRunner):
         and destroy a mongo test database for standard django testing.
     """
 
-    mongodb_name = 'test_%s' % (settings.MONGO_DATABASE_NAME, )
+    mongodb_name = settings.MONGO_DATABASE_NAME
     
     def setup_databases(self, **kwargs):
+
         from mongoengine.connection import connect, disconnect
         disconnect()
         connect(self.mongodb_name, port=settings.MONGO_PORT)

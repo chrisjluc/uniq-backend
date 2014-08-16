@@ -84,6 +84,7 @@ DATABASES = {
 import sys
 if 'test' in sys.argv:
     DATABASES['default'] = {'ENGINE': 'django.db.backends.sqlite3'}
+    MONGO_DATABASE_NAME = 'uniq_test_db'
     
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
