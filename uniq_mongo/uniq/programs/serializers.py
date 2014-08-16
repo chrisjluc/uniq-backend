@@ -10,7 +10,7 @@ class RequirementsSerializer(EmbeddedDocumentSerializer):
 	general_requirements = serializers.CharField()
 	notes = serializers.CharField()
 	transfer_credits = serializers.CharField()
-	other_documentation = serializers.CharField()
+	other_documentation = ListSerializer()
 	country = serializers.CharField()
 	system_of_study = serializers.CharField()
 	international_program_requirements = serializers.CharField()

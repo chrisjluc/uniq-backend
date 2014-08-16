@@ -54,10 +54,9 @@ class ProgramDetail(mixins.RetrieveModelMixin,
 					generics.GenericAPIView):
 	
 	serializer_class = ProgramSerializer
-	Log = None
 
 	def __init__(self):
-		Log = logging.getLogger(self.__class__.__name__)
+		self.Log = logging.getLogger(self.__class__.__name__)
 
 	def get_object(self):
 		keys = self.kwargs.keys()
@@ -88,7 +87,7 @@ class ProgramDetail(mixins.RetrieveModelMixin,
 			except Program.DoesNotExist:
 				raise Http404
 
-		Log.debug("Request doesn't have any parameters, but made it as a valid request")
+		self.Log.debug("Request doesn't have any parameters, but made it as a valid request")
 	def get(self, request, *args, **kwargs):
 		return self.retrieve(request, *args, **kwargs)
 
