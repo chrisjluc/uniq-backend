@@ -25,7 +25,7 @@ Basic functionality of schools and faculties. Development server should on http:
 
 - Programs
   - programs/ - program list
-  - schools/:slug/faculties/:slug - program list by school and faculty
+  - schools/:slug/faculties/:slug/programs - program list by school and faculty
   - faculties/:id/programs - program list by faculty id
   - schools/:slug/faculties/:slug/programs/:slug - program detail
   - programs/:id - program detail
