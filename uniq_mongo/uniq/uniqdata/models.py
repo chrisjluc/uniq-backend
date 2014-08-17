@@ -4,6 +4,7 @@ from programs.models import Program
 
 from bson.objectid import ObjectId
 
+import os.path
 import logging
 import json
 
@@ -11,9 +12,13 @@ class Model(object):
 		def __init__(self, slug, mapping, interceptor):
 			self.mapping = mapping
 			self.interceptor = interceptor
-						
-			with open(self.data_path) as data_file:
-				self.data = json.load(data_file)
+			
+			if os.path.isfile(self.data_path):
+				with open(self.data_path) as data_file:
+					self.data = json.load(data_file)
+				self.is_valid = True
+			else:
+				self.is_valid = False
 
 class SchoolModel(Model):
 
