@@ -2,61 +2,56 @@ from schools.models import School
 from faculties.models import Faculty
 from programs.models import Program
 
-from datainterceptors import *
-
 from bson.objectid import ObjectId
 
 import logging
 import json
 
 class Model(object):
-		def __init__(self, slug, mapping):
+		def __init__(self, slug, mapping, interceptor):
 			self.mapping = mapping
+			self.interceptor = interceptor
 						
 			with open(self.data_path) as data_file:
 				self.data = json.load(data_file)
 
 class SchoolModel(Model):
 
-		def __init__(self, slug, mapping, base_path):
+		def __init__(self, slug, mapping, base_path, interceptor):
 			self.base_path = base_path + slug + "/"
 			self.data_path = self.base_path + slug + ".json"
-			super(SchoolModel, self).__init__(slug, mapping)
+			super(SchoolModel, self).__init__(slug, mapping, interceptor)
 
 		def create_document(self):
-			interceptor = GenericInterceptor(self.data)
-			school = School(**interceptor.data)
+			self.interceptor.intercept(self.data)
+			school = School(**self.interceptor.data)
 			school.save()
-
-		def get_object_id(self):
-			return self.document.id;
+			self.object_id = school.id
 
 class FacultyModel(Model):
 
-		def __init__(self, slug, mapping, base_path, school_id):
+		def __init__(self, slug, mapping, base_path, interceptor, school_id):
 
 			self.base_path = base_path + slug + "/"
 			self.data_path = self.base_path + slug + ".json"
 			self.school_id = school_id
-			super(FacultyModel, self).__init__(slug, mapping)
+			super(FacultyModel, self).__init__(slug, mapping, interceptor)
 		
 		def create_document(self):
-			interceptor = FacultyInterceptor(self.data, self.school_id)
-			faculty = Faculty(**interceptor.data)
+			self.interceptor.intercept(self.data, self.school_id)
+			faculty = Faculty(**self.interceptor.data)
 			faculty.save()
-
-		def get_object_id(self):
-			return self.document.id;
+			self.object_id = faculty.id
 
 class ProgramModel(Model):
 
-		def __init__(self, slug, mapping, base_path, school_id, faculty_id):
+		def __init__(self, slug, mapping, base_path, interceptor, school_id, faculty_id):
 			self.data_path = base_path + slug + ".json"
 			self.school_id = school_id
 			self.faculty_id = faculty_id
-			super(ProgramModel, self).__init__(slug, mapping)
+			super(ProgramModel, self).__init__(slug, mapping, interceptor)
 
 		def create_document(self):
-			interceptor = ProgramInterceptor(self.data, self.school_id, self.faculty_id)
-			program = Program(**interceptor.data)
+			self.interceptor.intercept(self.data, self.school_id, self.faculty_id)
+			program = Program(**self.interceptor.data)
 			program.save()

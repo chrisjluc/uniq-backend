@@ -9,7 +9,7 @@ from datetime import datetime
 
 class GenericInterceptor(object):
 	
-	def __init__(self, data):
+	def intercept(self, data):
 			# Meta data 
 			data['metaData']['dateModified'] = datetime.utcnow()
 			data['metaData']['dateCreated'] = datetime.utcnow()
@@ -21,19 +21,18 @@ class GenericInterceptor(object):
 				for key, val in contact.iteritems():
 					if val == '':
 						contact[key] = None
-
 			self.data = data
 		
 class FacultyInterceptor(GenericInterceptor):
 
-		def __init__(self, data, school_id):
+		def intercept(self, data, school_id):
 			data['schoolId'] = school_id
-			super(FacultyInterceptor, self).__init__(data)
+			super(FacultyInterceptor, self).intercept(data)
 
 class ProgramInterceptor(GenericInterceptor):
 	
-		def __init__(self, data, school_id, faculty_id):
+		def intercept(self, data, school_id, faculty_id):
 			data['schoolId'] = school_id
 			data['facultyId'] = faculty_id
-			super(ProgramInterceptor, self).__init__(data)
+			super(ProgramInterceptor, self).intercept(data)
 
