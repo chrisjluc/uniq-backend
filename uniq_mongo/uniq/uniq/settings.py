@@ -60,6 +60,9 @@ REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ('rest_framework.filters.DjangoFilterBackend',)
 }
 
+# Application Constants / Settings
+CURRENT_YEAR = 2015
+
 # Allow for Mongo Integration
 
 MONGO_DATABASE_NAME = 'mongoenginetest'

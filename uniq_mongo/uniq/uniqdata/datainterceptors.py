@@ -13,8 +13,11 @@ class GenericInterceptor(object):
 			# Meta data 
 			data['metaData']['dateModified'] = datetime.utcnow()
 			data['metaData']['dateCreated'] = datetime.utcnow()
-			struct = time.strptime(data['dateEstablished'] , "%d-%m-%Y")
-			data['dateEstablished'] = datetime.fromtimestamp(mktime(struct))
+			if data['dateEstablished']:
+				struct = time.strptime(data['dateEstablished'] , "%d-%m-%Y")
+				data['dateEstablished'] = datetime.fromtimestamp(mktime(struct))
+			else:
+				data['dateEstablished'] = None
 
 			# Contact
 			for contact in data['contacts']:
