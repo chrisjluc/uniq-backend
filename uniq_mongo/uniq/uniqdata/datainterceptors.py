@@ -21,18 +21,18 @@ class GenericInterceptor(object):
 				for key, val in contact.iteritems():
 					if val == '':
 						contact[key] = None
-			self.data = data
+			return data
 		
 class FacultyInterceptor(GenericInterceptor):
 
 		def intercept(self, data, school_id):
 			data['schoolId'] = school_id
-			super(FacultyInterceptor, self).intercept(data)
+			return super(FacultyInterceptor, self).intercept(data)
 
 class ProgramInterceptor(GenericInterceptor):
 	
 		def intercept(self, data, school_id, faculty_id):
 			data['schoolId'] = school_id
 			data['facultyId'] = faculty_id
-			super(ProgramInterceptor, self).intercept(data)
+			return super(ProgramInterceptor, self).intercept(data)
 

@@ -38,7 +38,7 @@ class DegreeRequirements(EmbeddedDocument):
 	curriculum = DynamicField()
 
 class Program(GenericDocument):
-	slug = StringField(unique_with=['schoolId','facultyId'])
+	slug = StringField(unique_with=['schoolId', 'facultyId', 'metaData.yearValid'])
 	schoolId = ObjectIdField()
 	facultyId = ObjectIdField()
 	degree = StringField()
@@ -53,3 +53,7 @@ class Program(GenericDocument):
 	rating = EmbeddedDocumentField(Rating)
 	internship = EmbeddedDocumentField(Internship)
 	degreeRequirements = EmbeddedDocumentField(DegreeRequirements)
+
+	meta={
+		'ordering': ['-metaData.yearValid']
+	}

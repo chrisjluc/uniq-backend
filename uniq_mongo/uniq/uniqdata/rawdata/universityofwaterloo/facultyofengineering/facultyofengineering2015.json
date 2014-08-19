@@ -7,11 +7,68 @@
    "gradPopulation":"1945",
    "avgAdm":"low 90s",
    "dateEstablished":"01-07-1957",
-   "numPrograms":"",
+   "numPrograms":"14",
    "applicationProcess":"Waterloo Engineering offers direct-entry programs, meaning that students are admitted into specific engineering disciplines in first-year studies. This approach is different from institutions that offer a general first year, in which students select and compete for their discipline prior to the second-year of studies. Applicants must select one Waterloo Engineering program (civil, mechanical, systems design, software, etc.) on the OUAC application. This should be the program you are most interested in—not the one that you think is easiest to get into. Applicants will be able to submit two alternate engineering program choices on the Admission Information Form, for which they will be considered if they are not accepted into their first choice. Preference for each program will be given to students who select that program on the OUAC form.",
    "schoolId":"",
    "streams":[  
    ],
+    "importantDates": [
+      {
+         "date": "September 19, 2014", 
+         "description": "Ontario Universities’ Fair in Toronto begins",
+         "type": "event"
+      }, 
+      {
+         "date": "September 22, 2014", 
+         "description": "Engineering Ambassador Shadow Days begin",
+         "type": "event"
+      }, 
+      {
+         "date": "November 1, 2014", 
+         "description": "Fall Open House",
+         "type": "event"
+     }, 
+     {
+         "date": "February 6, 2015", 
+         "description": "Deadline for submission of your Admission Information Form. Note:  Students are allowed a minimum of three weeks to submit their AIFs, even if this three-week period exceeds the stated deadline.", 
+         "type": "admission"
+     }, 
+     {
+         "date": "Late February, 2015", 
+         "description": "First round of offers of admission appear on OUAC website and offer packages mailed to applicants.", 
+         "type": "admission"
+     }, 
+     {
+         "date": "March 2, 2015", 
+         "description": "Deadline for all students to submit applications to Waterloo Engineering programs via the OUAC website.", 
+         "type": "admission"
+     },
+      {
+         "date": "March 14, 2015", 
+         "description": "March Break Open House",
+         "type": "event"
+     }, 
+     {
+         "date": "March 31, 2015", 
+         "description": "Deadline for submission of all required application documents.", 
+         "type": "admission"
+     }, 
+     {
+         "date": "Early May, 2015", 
+         "description": "Final round of offers of admission appear on OUAC website, and offer packages mailed to applicants.", 
+         "type": "admission"
+     }, 
+     {
+         "date": "June 1, 2015", 
+         "description": "Deadline to accept an offer of admission via the OUAC website.", 
+         "type": "admission"
+     }, 
+     {
+         "date": "Early June, 2015", 
+         "description": "Deadline to email co-op stream requests to eng.stream@uwaterloo.ca.", 
+         "type": "admission"
+     }
+ ],
    "metaData":{  
       "dateModified":"",
       "dateCreated":"",

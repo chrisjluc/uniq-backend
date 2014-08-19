@@ -618,41 +618,6 @@
         }
     ], 
     "importantDates": [
-        {
-            "date": "February 6, 2015", 
-            "description": "Deadline for submission of your Admission Information Form. Note:  Students are allowed a minimum of three weeks to submit their AIFs, even if this three-week period exceeds the stated deadline.", 
-            "type": "admission"
-        }, 
-        {
-            "date": "Late February, 2015", 
-            "description": "First round of offers of admission appear on OUAC website and offer packages mailed to applicants.", 
-            "type": "admission"
-        }, 
-        {
-            "date": "March 2, 2015", 
-            "description": "Deadline for all students to submit applications to Waterloo Engineering programs via the OUAC website.", 
-            "type": "admission"
-        }, 
-        {
-            "date": "March 31, 2015", 
-            "description": "Deadline for submission of all required application documents.", 
-            "type": "admission"
-        }, 
-        {
-            "date": "Early May, 2015", 
-            "description": "Final round of offers of admission appear on OUAC website, and offer packages mailed to applicants.", 
-            "type": "admission"
-        }, 
-        {
-            "date": "June 1, 2015", 
-            "description": "Deadline to accept an offer of admission via the OUAC website.", 
-            "type": "admission"
-        }, 
-        {
-            "date": "Early June, 2015", 
-            "description": "Deadline to email co-op stream requests to eng.stream@uwaterloo.ca.", 
-            "type": "admission"
-        }
     ], 
     "internship": {
         "earnings": "$50,000 to $90,000 over 6 work terms", 
