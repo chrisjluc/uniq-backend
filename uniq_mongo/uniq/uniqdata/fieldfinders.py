@@ -1,6 +1,7 @@
 from django.conf import settings
-from schools.models import School
+from documentfinders import *
 from faculties.models import Faculty
+from programs.models import Program
 
 class HistoricalFieldFinder(object):
 	'''
@@ -17,8 +18,8 @@ class HistoricalFieldFinder(object):
 			if obj[key]:
 				if append_year is True:
 					year = str(obj['metaData']['yearValid'])
-					return obj[key].strip() + " ({0})".format(year)
-				return obj[key].strip()
+					return obj[key] + " ({0})".format(year)
+				return obj[key]
 		return None
 
 class HierarchicalFieldFinder(object):
@@ -49,12 +50,12 @@ class HierarchicalFieldFinder(object):
 	def find_value(self, key):
 		if self.type is 'faculty':
 			if self.school and self.school[key]:
-				return self.school[key].strip()
+				return self.school[key]
 		elif self.type is 'program':
 			if self.faculty and self.faculty[key]:
-				return self.faculty[key].strip()
+				return self.faculty[key]
 			if self.school and self.school[key]:
-				return self.school[key].strip()
+				return self.school[key]
 		return None
 		
 class HistoricalHierarchicalFieldFinder(object):
@@ -75,3 +76,7 @@ class HistoricalHierarchicalFieldFinder(object):
 		if val:
 			return val
 		return None
+
+
+
+
