@@ -2,21 +2,22 @@ from fieldfinders import *
 from schools.models import School
 from faculties.models import Faculty
 from programs.models import Program
+
+from django.http import Http404
 import logging
 
 class SchoolFinder(object):
+	
+	@classmethod
+	def all(cls):
+		school_list = []
+		schools = School.objects
+		for school in schools:
+			school_list.append(SchoolFinder.get(id=school.id))
+		return school_list
 
-	def __init__(self):
-		self.Log = logging.getLogger(self.__class__.__name__)
-		if id:
-			self.id = id
-			return
-		elif slug:
-			self.slug = slug
-			return
-		self.Log.error("Got initialized without id or slug")
-
-	def get(self, slug = None, id = None):
+	@classmethod
+	def get(cls, slug = None, id = None):
 		#Keys
 		name = 'name'
 		short_name = 'shortName'
@@ -33,59 +34,75 @@ class SchoolFinder(object):
 		rankings = 'rankings'
 		location = 'location'
 
-		self.school = None
-		self.hist = None
-
 		if id:
-			self.school = School.objects.get(id=id)
+			cls.school = School.objects.get(id=id)
 		elif slug:
-			self.school = School.objects(slug=slug).first()
+			cls.school = School.objects(slug=slug).first()
 
-		self.hist = HistoricalFieldFinder(School.objects(slug=self.school.slug, metaData__yearValid__lt=settings.CURRENT_YEAR))
+		if not cls.school:
+			raise Http404
 
-		self.apply_hist_value(name)
-		self.apply_hist_value(short_name)
-		self.apply_hist_value(about)
-		self.apply_hist_value_with_year(app_process)
-		self.apply_hist_value_with_year(u_pop)
-		self.apply_hist_value_with_year(g_pop)
-		self.apply_hist_value_with_year(avg_adm)
-		self.apply_hist_value(date_est)
-		self.apply_hist_value_with_year(num_fac)
-		self.apply_hist_value_with_year(num_pro)
+		cls.hist = HistoricalFieldFinder(School.objects(slug=cls.school.slug, metaData__yearValid__lt=settings.CURRENT_YEAR))
 
-		self.apply_hist_value(contacts)
-		self.apply_hist_value(images)
-		self.apply_hist_value(rankings)
-		self.apply_hist_value(location)
+		cls.apply_hist_value(name)
+		cls.apply_hist_value(short_name)
+		cls.apply_hist_value(about)
+		cls.apply_hist_value_with_year(app_process)
+		cls.apply_hist_value_with_year(u_pop)
+		cls.apply_hist_value_with_year(g_pop)
+		cls.apply_hist_value_with_year(avg_adm)
+		cls.apply_hist_value(date_est)
+		cls.apply_hist_value_with_year(num_fac)
+		cls.apply_hist_value_with_year(num_pro)
 
-		return self.school
+		cls.apply_hist_value(contacts)
+		cls.apply_hist_value(images)
+		cls.apply_hist_value(rankings)
+		cls.apply_hist_value(location)
 
-	def apply_hist_value_with_year(self, key):
-		if not self.school[key]:
-			val = self.hist.find_value(key, True)
+		return cls.school
+
+	@classmethod
+	def apply_hist_value_with_year(cls, key):
+		if not cls.school[key]:
+			val = cls.hist.find_value(key, True)
 			if val:
-				self.school[key] = val
+				cls.school[key] = val
 
-	def apply_hist_value(self, key):
-		if not self.school[key]:
-			val = self.hist.find_value(key, False)
+	@classmethod
+	def apply_hist_value(cls, key):
+		if not cls.school[key]:
+			val = cls.hist.find_value(key, False)
 			if val:
-				self.school[key] = val
+				cls.school[key] = val
 
 class FacultyFinder(object):
 
-	def __init__(self):
-		self.Log = logging.getLogger(self.__class__.__name__)
-		if id:
-			self.id = id
-			return
-		elif slug:
-			self.slug = slug
-			return
-		self.Log.error("Got initialized without id or slug")
+	@classmethod
+	def all(cls, school_id = None, school_slug = None):
 
-	def get(self, slug = None, id = None):
+		faculties = None
+		if school_id:
+			school = School.objects.get(id=school_id)
+			if not school:
+				raise Http404
+			faculties = Faculty.objects(schoolId=school.id)
+
+		elif school_slug:
+			school = School.objects(slug=school_slug).first()
+			if not school:
+				raise Http404
+			faculties = Faculty.objects(schoolId=school.id)
+		else:
+			faculties = Faculty.objects
+
+		faculty_list = []
+		for faculty in faculties:
+			faculty_list.append(FacultyFinder.get(id=faculty.id))
+		return faculty_list
+
+	@classmethod
+	def get(cls, slug = None, school_id = None, id = None):
 		#Keys
 		name = 'name'
 		short_name = 'shortName'
@@ -103,51 +120,56 @@ class FacultyFinder(object):
 		rankings = 'rankings'
 		location = 'location'
 
-		self.faculty = None
-		self.hist = None
-
 		if id:
-			self.faculty = Faculty.objects.get(id=id)
-		elif slug:
-			self.faculty = Faculty.objects(slug=slug).first()
+			cls.faculty = Faculty.objects.get(id=id)
+		elif slug and school_id:
+			cls.faculty = Faculty.objects(slug=slug, schoolId=school_id).first()
+		else:
+			raise Exception("Invalid passed in parameters")
 
-		faculties = Faculty.objects(slug=self.faculty.slug, metaData__yearValid__lt=settings.CURRENT_YEAR)
-		self.hist = HistoricalFieldFinder(faculties)
-		self.hist_hierarchical = HistoricalHierarchicalFieldFinder(faculty, faculties)
+		if not cls.faculty:
+			raise Http404
 
-		self.apply_hist_value(name)
-		self.apply_hist_value(short_name)
-		self.apply_hist_value(about)
-		self.apply_hist_hierarchical_value(app_process)
-		self.apply_hist_value_with_year(u_pop)
-		self.apply_hist_value_with_year(g_pop)
-		self.apply_hist_value_with_year(avg_adm)
-		self.apply_hist_value(date_est)
-		self.apply_hist_value_with_year(num_pro)
+		faculties = Faculty.objects(slug=cls.faculty.slug, schoolId=cls.faculty.schoolId, metaData__yearValid__lt=settings.CURRENT_YEAR)
+		cls.hist = HistoricalFieldFinder(faculties)
+		cls.hist_hierarchical = HistoricalHierarchicalFieldFinder(cls.faculty, faculties)
 
-		self.apply_hist_value(streams)
-		self.apply_hist_value(importantDates)
-		self.apply_hist_value(contacts)
-		self.apply_hist_value(images)
-		self.apply_hist_value(rankings)
-		self.apply_hist_value(location)
+		cls.apply_hist_value(name)
+		cls.apply_hist_value(short_name)
+		cls.apply_hist_value(about)
+		cls.apply_hist_hierarchical_value(app_process)
+		cls.apply_hist_value_with_year(u_pop)
+		cls.apply_hist_value_with_year(g_pop)
+		cls.apply_hist_value_with_year(avg_adm)
+		cls.apply_hist_value(date_est)
+		cls.apply_hist_value_with_year(num_pro)
 
-		return self.faculty
+		cls.apply_hist_value(streams)
+		cls.apply_hist_value(important_dates)
+		cls.apply_hist_hierarchical_value(contacts)
+		cls.apply_hist_value(images)
+		cls.apply_hist_value(rankings)
+		cls.apply_hist_hierarchical_value(location)
 
-	def apply_hist_value_with_year(self, key):
-		if not self.faculty[key]:
-			val = self.hist.find_value(key, True)
+		return cls.faculty
+
+	@classmethod
+	def apply_hist_value_with_year(cls, key):
+		if not cls.faculty[key]:
+			val = cls.hist.find_value(key, True)
 			if val:
-				self.faculty[key] = val
+				cls.faculty[key] = val
 
-	def apply_hist_value(self, key):
-		if not self.faculty[key]:
-			val = self.hist.find_value(key, False)
+	@classmethod
+	def apply_hist_value(cls, key):
+		if not cls.faculty[key]:
+			val = cls.hist.find_value(key, False)
 			if val:
-				self.faculty[key] = val
+				cls.faculty[key] = val
 
-	def apply_hist_hierarchical_value(self, key):
-		if not self.faculty[key]:
-			val = self.hist_hierarchical.find_value(key, False)
+	@classmethod
+	def apply_hist_hierarchical_value(cls, key):
+		if not cls.faculty[key]:
+			val = cls.hist_hierarchical.find_value(key, False)
 			if val:
-				self.faculty[key] = val
+				cls.faculty[key] = val

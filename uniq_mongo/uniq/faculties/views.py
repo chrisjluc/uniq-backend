@@ -1,8 +1,10 @@
-from rest_framework import generics, mixins, status
-from rest_framework.response import Response
 from .models import Faculty
 from schools.models import School
 from .serializers import FacultySerializer
+from uniqdata.documentfinders import *
+
+from rest_framework import generics, mixins, status
+from rest_framework.response import Response
 from django.http import Http404
 import datetime
 from bson.objectid import ObjectId
@@ -19,8 +21,7 @@ class FacultyList(mixins.ListModelMixin,
 		if 'school_slug' in keys:
 			slug = self.kwargs['school_slug']
 			try:
-				school = School.objects.get(slug=slug)
-				return Faculty.objects(schoolId=school.id)
+				return FacultyFinder.all(school_slug=slug)
 			except School.DoesNotExist:
 				raise Http404
 			except Faculty.DoesNotExist:
@@ -31,12 +32,11 @@ class FacultyList(mixins.ListModelMixin,
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				school = School.objects.get(id=id)
-				return Faculty.objects(schoolId=school.id)
+				return FacultyFinder.all(school_id=id)
 			except School.DoesNotExist:
 				raise Http404
 
-		return Faculty.objects
+		return FacultyFinder.all()
 
 	def get(self, request, *args, **kwargs):
 		return self.list(request, *args, **kwargs)
@@ -59,8 +59,8 @@ class FacultyDetail(mixins.RetrieveModelMixin,
 			school_slug = self.kwargs['school_slug']
 			slug = self.kwargs['slug']
 			try:
-				school = School.objects.get(slug=school_slug)
-				return Faculty.objects.get(slug=slug, schoolId=school.id)
+				school = SchoolFinder.get(slug=school_slug)
+				return FacultyFinder.get(slug=slug, school_id=school.id)
 			except School.DoesNotExist:
 				raise Http404
 			except Faculty.DoesNotExist:
@@ -71,7 +71,7 @@ class FacultyDetail(mixins.RetrieveModelMixin,
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				return Faculty.objects.get(id=id)
+				return FacultyFinder.get(id=id)
 			except Faculty.DoesNotExist:
 				raise Http404
 

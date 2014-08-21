@@ -1,5 +1,4 @@
 from django.conf import settings
-from documentfinders import *
 from faculties.models import Faculty
 from programs.models import Program
 
@@ -33,18 +32,17 @@ class HierarchicalFieldFinder(object):
 	
 	# object can be either faculty or program
 	def __init__(self, obj):
-		if isinstance(obj) is Faculty:
+		if isinstance(obj, Faculty):
 			self.type = 'faculty'
-		elif isinstance(obj) is Program:
+		elif isinstance(obj, Program):
 			self.type = 'program'
-			faculty_finder = FacultyFinder()
-			self.faculty = faculty_finder.get(id=obj.facultyId)
+			from documentfinders import FacultyFinder
+			self.faculty = FacultyFinder.get(id=obj.facultyId)
 		else:
 			#TODO: log error, doesn't accept other types
 			return
-		
-		school_finder = SchoolFinder()
-		self.school = school_finder.get(id=obj.schoolId)
+		from documentfinders import SchoolFinder
+		self.school = SchoolFinder.get(id=obj.schoolId)
 			
 		
 	def find_value(self, key):
@@ -65,14 +63,14 @@ class HistoricalHierarchicalFieldFinder(object):
 	'''
 	
 	def __init__(self, obj, objects):
-		historical_finder = HistoricalFieldFinder(objects)
-		hierarchical_finder = HierarchicalFieldFinder(obj)
+		self.historical_finder = HistoricalFieldFinder(objects)
+		self.hierarchical_finder = HierarchicalFieldFinder(obj)
 	
 	def find_value(self, key, append_year = False):
-		val = historical_finder.find_value(key, append_year)
+		val = self.historical_finder.find_value(key, append_year)
 		if val:
 			return val
-		val = hierarchical_finder.find_value(key)
+		val = self.hierarchical_finder.find_value(key)
 		if val:
 			return val
 		return None

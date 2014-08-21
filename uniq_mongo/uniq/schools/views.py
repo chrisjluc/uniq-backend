@@ -17,7 +17,7 @@ class SchoolList(mixins.ListModelMixin,
 	serializer_class = SchoolSerializer
 
 	def get_queryset(self):
-		return School.objects
+		return SchoolFinder.all()
 
 	def get(self, request, *args, **kwargs):
 		return self.list(request, *args, **kwargs)
@@ -30,12 +30,10 @@ class SchoolDetail(mixins.RetrieveModelMixin,
 	
 	def get_object(self):
 		
-		finder = SchoolFinder()
-
 		if 'slug' in self.kwargs.keys():
 			slug = self.kwargs['slug']
 			try:
-				return finder.get(slug=slug)
+				return SchoolFinder.get(slug=slug)
 			except School.DoesNotExist:
 				raise Http404
 				
@@ -44,7 +42,7 @@ class SchoolDetail(mixins.RetrieveModelMixin,
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				return finder.get(id=id)
+				return SchoolFinder.get(id=id)
 			except School.DoesNotExist:
 				raise Http404
 
