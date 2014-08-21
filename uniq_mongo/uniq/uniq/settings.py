@@ -65,9 +65,7 @@ CURRENT_YEAR = 2015
 
 # Allow for Mongo Integration
 
-MONGO_DATABASE_NAME = 'mongoenginetest'
-MONGO_HOST = 'localhost'
-MONGO_PORT = 27017
+
 
 AUTHENTICATION_BACKENDS = (
     'mongoengine.django.auth.MongoEngineBackend',
@@ -84,11 +82,19 @@ DATABASES = {
         'ENGINE': 'django.db.backends.dummy'
     }
 }
+MONGO_DATABASE_NAME = 'mongoenginetest'
+MONGO_HOST = 'localhost'
+MONGO_PORT = 27017
 
+from mongoengine import *
 import sys
+
 if 'test' in sys.argv:
     DATABASES['default'] = {'ENGINE': 'django.db.backends.sqlite3'}
     MONGO_DATABASE_NAME = 'uniq_test_db'
+
+connect(MONGO_DATABASE_NAME, host=MONGO_HOST, port=MONGO_PORT)
+
     
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
