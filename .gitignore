@@ -2,3 +2,14 @@
 *.pyc
 *.db
 /DataReaders
+
+.DS_Store
+uniq_mongo/.DS_Store
+uniq_mongo/uniq/.DS_Store
+uniq_mongo/uniq/uniqdata/.DS_Store
+uniq_mongo/uniq/uniqdata/rawdata/.DS_Store
+uniq_mongo/uniq/uniqdata/rawdata/universityofwaterloo/.DS_Store
+uniq_mongo/uniq/uniqdata/rawdata/universityofwaterloo/facultyofengineering/.DS_Store
+uniq_sql_lite/.DS_Store
+uniq_sql_lite/programs/.DS_Store
+uniq_sql_lite/uniq_django_restframework/.DS_Store
