@@ -3,6 +3,7 @@ from uniq.testing.testcases import MongoTestCase
 from .models import *
 from faculties.models import *
 from schools.models import *
+from django.conf import settings
 
 class ProgramTests(MongoTestCase):
 
@@ -11,11 +12,11 @@ class ProgramTests(MongoTestCase):
 	pId = None
 
 	def setUp(self):
-		s = School(slug='s')
+		s = School(slug='s', metaData__yearValid=settings.CURRENT_YEAR)
 		s.save()
-		f = Faculty(slug='f',schoolId=s.id)
+		f = Faculty(slug='f',schoolId=s.id, metaData__yearValid=settings.CURRENT_YEAR)
 		f.save()
-		p = Program(slug='p',schoolId=s.id, facultyId=f.id)
+		p = Program(slug='p',schoolId=s.id, facultyId=f.id, metaData__yearValid=settings.CURRENT_YEAR)
 		p.save()
 		self.sId = s.id
 		self.fId = f.id
@@ -33,7 +34,7 @@ class ProgramTests(MongoTestCase):
 		self.assertEqual(response.status_code, status.HTTP_200_OK)
 
 	def test_get_list_school_slug_faculty_slug(self):
-		response = self.client.get('/schools/s/faculties/f/', format='json')
+		response = self.client.get('/schools/s/faculties/f/programs/', format='json')
 		self.assertEqual(response.status_code, status.HTTP_200_OK)
 
 	def test_get_detail_school_slug_faculty_slug_program_slug(self):

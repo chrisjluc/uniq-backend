@@ -1,13 +1,15 @@
-from rest_framework import status
-from uniq.testing.testcases import MongoTestCase
 from .models import *
+
+from uniq.testing.testcases import MongoTestCase
+from rest_framework import status
+from django.conf import settings
 
 class SchoolTests(MongoTestCase):
 
 	sId = None
 
 	def setUp(self):
-		s = School(slug="s")
+		s = School(slug="s", metaData__yearValid=settings.CURRENT_YEAR)
 		s.save()
 		self.sId = s.id
 

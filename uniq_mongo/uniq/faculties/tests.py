@@ -1,7 +1,9 @@
-from rest_framework import status
-from uniq.testing.testcases import MongoTestCase
 from .models import *
 from schools.models import *
+
+from uniq.testing.testcases import MongoTestCase
+from django.conf import settings
+from rest_framework import status
 
 class FacultyTests(MongoTestCase):
 
@@ -9,9 +11,9 @@ class FacultyTests(MongoTestCase):
 	fId = None
 
 	def setUp(self):
-		s = School(slug='s')
+		s = School(slug='s', metaData__yearValid=settings.CURRENT_YEAR)
 		s.save()
-		f = Faculty(slug='f',schoolId=s.id)
+		f = Faculty(slug='f', schoolId=s.id, metaData__yearValid=settings.CURRENT_YEAR)
 		f.save()
 		self.sId = s.id
 		self.fId = f.id
