@@ -5,7 +5,6 @@ class SchoolSerializer(GenericSerializer):
 	slug = serializers.CharField()
 	numFaculties = serializers.IntegerField()
 	numPrograms = serializers.IntegerField()
-	applicationProcess = serializers.CharField()
 
 	def restore_object(self, attrs, instance=None):
 		if instance is not None:

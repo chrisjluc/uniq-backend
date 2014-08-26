@@ -6,9 +6,12 @@ class Faculty(GenericDocument):
 	slug = StringField(unique_with=['schoolId', 'metaData.yearValid'])
 	schoolId = ObjectIdField()
 	numPrograms = StringField()
+	degree = StringField()
+	degreeAbbrev = StringField()
 	streams = ListField(EmbeddedDocumentField(Stream))
 	importantDates = ListField(EmbeddedDocumentField(ImportantDate))
-	applicationProcess = StringField()
+	internship = EmbeddedDocumentField(Internship)
+	
 
 	meta={
 		'ordering': ['-metaData.yearValid']

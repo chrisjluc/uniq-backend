@@ -124,6 +124,16 @@ class ImportantDateSerializer(EmbeddedDocumentListSerializer):
 			return None
 		return self.to_native(obj.importantDates)
 
+class InternshipSerializer(EmbeddedDocumentSerializer):
+	general = serializers.CharField()
+	specific = serializers.CharField()
+	earnings = serializers.CharField()
+
+	def field_to_native(self, obj, field_name):
+		if obj is None or obj.internship is None:
+			return None
+		return self.to_native(obj.internship)
+		
 class GenericSerializer(DocumentSerializer):
 	
 	id = serializers.CharField()
@@ -131,6 +141,7 @@ class GenericSerializer(DocumentSerializer):
 	name = serializers.CharField()
 	about = serializers.CharField()
 	avgAdm = serializers.CharField()
+	applicationProcess = serializers.CharField()
 	undergradPopulation = serializers.CharField()
 	gradPopulation = serializers.CharField()
 

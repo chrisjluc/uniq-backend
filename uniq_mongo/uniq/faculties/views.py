@@ -1,5 +1,4 @@
 from .models import Faculty
-from schools.models import School
 from .serializers import FacultySerializer
 from uniqdata.documentfinders import *
 
@@ -22,9 +21,7 @@ class FacultyList(mixins.ListModelMixin,
 			slug = self.kwargs['school_slug']
 			try:
 				return FacultyFinder.all(school_slug=slug)
-			except School.DoesNotExist:
-				raise Http404
-			except Faculty.DoesNotExist:
+			except:
 				raise Http404
 
 		elif 'school_id' in keys:
@@ -33,7 +30,7 @@ class FacultyList(mixins.ListModelMixin,
 				raise Http404
 			try:
 				return FacultyFinder.all(school_id=id)
-			except School.DoesNotExist:
+			except:
 				raise Http404
 
 		return FacultyFinder.all()
@@ -61,9 +58,7 @@ class FacultyDetail(mixins.RetrieveModelMixin,
 			try:
 				school = SchoolFinder.get(slug=school_slug)
 				return FacultyFinder.get(slug=slug, school_id=school.id)
-			except School.DoesNotExist:
-				raise Http404
-			except Faculty.DoesNotExist:
+			except:
 				raise Http404
 
 		elif 'id' in self.kwargs.keys():
@@ -72,7 +67,7 @@ class FacultyDetail(mixins.RetrieveModelMixin,
 				raise Http404
 			try:
 				return FacultyFinder.get(id=id)
-			except Faculty.DoesNotExist:
+			except:
 				raise Http404
 
 		self.Log.debug("Request doesn't have any parameters, but made it as a valid request")

@@ -47,12 +47,12 @@ class HierarchicalFieldFinder(object):
 		
 	def find_value(self, key):
 		if self.type is 'faculty':
-			if self.school and self.school[key]:
+			if self.school and key in self.school:
 				return self.school[key]
 		elif self.type is 'program':
-			if self.faculty and self.faculty[key]:
+			if self.faculty and key in self.faculty:
 				return self.faculty[key]
-			if self.school and self.school[key]:
+			if self.school and key in self.school:
 				return self.school[key]
 		return None
 		

@@ -36,16 +36,6 @@ class RatingSerializer(EmbeddedDocumentSerializer):
 			return None
 		return self.to_native(obj.rating)
 
-class InternshipSerializer(EmbeddedDocumentSerializer):
-	general = serializers.CharField()
-	specific = serializers.CharField()
-	earnings = serializers.CharField()
-
-	def field_to_native(self, obj, field_name):
-		if obj is None or obj.internship is None:
-			return None
-		return self.to_native(obj.internship)
-
 class DegreeRequirementsSerializer(EmbeddedDocumentSerializer):
 	about = serializers.CharField()
 	curriculumTerms = ListSerializer()

@@ -4,9 +4,11 @@ class FacultySerializer(GenericSerializer):
 	slug = serializers.CharField()
 	schoolId = serializers.CharField()
 	numPrograms = serializers.IntegerField()
-	applicationProcess = serializers.CharField()
+	degree = serializers.CharField()
+	degreeAbbrev = serializers.CharField()
 	importantDates = ImportantDateSerializer()
 	streams = StreamSerializer()
+	internship = InternshipSerializer()
 
 	def restore_object(self, attrs, instance=None):
 		if instance is not None:

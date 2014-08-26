@@ -1,10 +1,9 @@
-from rest_framework import generics, mixins, status
-from rest_framework.response import Response
-from models import Program
-from faculties.models import Faculty
-from schools.models import School
 from faculties.serializers import FacultySerializer
 from serializers import ProgramSerializer
+from uniqdata.documentfinders import *
+
+from rest_framework import generics, mixins, status
+from rest_framework.response import Response
 from django.http import Http404
 import datetime
 from bson.objectid import ObjectId
@@ -22,14 +21,10 @@ class ProgramList(mixins.ListModelMixin,
 			school_slug = self.kwargs['school_slug']
 			faculty_slug = self.kwargs['faculty_slug']
 			try:
-				school = School.objects.get(slug=school_slug)
-				faculty = Faculty.objects.get(schoolId=school.id, slug=faculty_slug)
-				return Program.objects(schoolId=school.id,facultyId=faculty.id)
-			except School.DoesNotExist:
-				raise Http404
-			except Faculty.DoesNotExist:
-				raise Http404
-			except Program.DoesNotExist:
+				school = SchoolFinder.get(slug=school_slug)
+				faculty = FacultyFinder.get(school_id=school.id, slug=faculty_slug)
+				return ProgramFinder.all(faculty_id=faculty.id)
+			except:
 				raise Http404
 
 		elif 'faculty_id' in keys:
@@ -37,11 +32,11 @@ class ProgramList(mixins.ListModelMixin,
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				return Program.objects(facultyId=id)
-			except Program.DoesNotExist:
+				return ProgramFinder.all(faculty_id=id)
+			except:
 				raise Http404
 
-		return Program.objects
+		return ProgramFinder.all()
 
 	def get(self, request, *args, **kwargs):
 		return self.list(request, *args, **kwargs)
@@ -68,14 +63,10 @@ class ProgramDetail(mixins.RetrieveModelMixin,
 			faculty_slug = self.kwargs['faculty_slug']
 			slug = self.kwargs['slug']
 			try:
-				school = School.objects.get(slug=school_slug)
-				faculty = Faculty.objects.get(schoolId=school.id, slug=faculty_slug)
-				return Program.objects.get(schoolId=school.id, facultyId=faculty.id, slug=slug)
-			except School.DoesNotExist:
-				raise Http404
-			except Faculty.DoesNotExist:
-				raise Http404
-			except Program.DoesNotExist:
+				school = SchoolFinder.get(slug=school_slug)
+				faculty = FacultyFinder.get(school_id=school.id, slug=faculty_slug)
+				return ProgramFinder.get(slug=slug, faculty_id=faculty.id)
+			except:
 				raise Http404
 
 		if 'id' in self.kwargs.keys():
@@ -83,8 +74,8 @@ class ProgramDetail(mixins.RetrieveModelMixin,
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				return Program.objects.get(id=id)
-			except Program.DoesNotExist:
+				return ProgramFinder.get(id=id)
+			except:
 				raise Http404
 
 		self.Log.debug("Request doesn't have any parameters, but made it as a valid request")

@@ -57,6 +57,11 @@ class Contact(EmbeddedDocument):
 	linkedin = URLField()
 	extraInfo = StringField()
 
+class Internship(EmbeddedDocument):
+	general = StringField()
+	specific = StringField()
+	earnings = StringField()
+	
 class GenericDocument(Document):
 
 	id = ObjectIdField()
@@ -65,6 +70,8 @@ class GenericDocument(Document):
 	about = StringField()
 	undergradPopulation = StringField()
 	gradPopulation = StringField()
+	applicationProcess = StringField()
+	
 	#Generic facts
 	avgAdm = StringField()
 	dateEstablished = DateTimeField()

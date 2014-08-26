@@ -1,6 +1,6 @@
 from mongoengine import *
 from schools.models import School
-from uniq.genericmodels import GenericDocument, Stream, Fees, ImportantDate
+from uniq.genericmodels import *
 
 class Requirements(EmbeddedDocument):
 	province = StringField()
@@ -26,11 +26,6 @@ class Rating(EmbeddedDocument):
 	socialEnjoyment = IntField()
 	studyEnv = IntField()
 	guyRatio = IntField()
-
-class Internship(EmbeddedDocument):
-	general = StringField()
-	specific = StringField()
-	earnings = StringField()
 
 class DegreeRequirements(EmbeddedDocument):
 	about = StringField()
