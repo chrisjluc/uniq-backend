@@ -9,6 +9,9 @@ import datetime
 from bson.objectid import ObjectId
 import logging
 
+school_finder = SchoolFinder()
+faculty_finder = FacultyFinder()
+
 class FacultyList(mixins.ListModelMixin,
 				mixins.CreateModelMixin,
 				generics.GenericAPIView):
@@ -20,7 +23,7 @@ class FacultyList(mixins.ListModelMixin,
 		if 'school_slug' in keys:
 			slug = self.kwargs['school_slug']
 			try:
-				return FacultyFinder.all(school_slug=slug)
+				return faculty_finder.all(school_slug=slug)
 			except:
 				raise Http404
 
@@ -29,11 +32,11 @@ class FacultyList(mixins.ListModelMixin,
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				return FacultyFinder.all(school_id=id)
+				return faculty_finder.all(school_id=id)
 			except:
 				raise Http404
 
-		return FacultyFinder.all()
+		return faculty_finder.all()
 
 	def get(self, request, *args, **kwargs):
 		return self.list(request, *args, **kwargs)
@@ -56,8 +59,8 @@ class FacultyDetail(mixins.RetrieveModelMixin,
 			school_slug = self.kwargs['school_slug']
 			slug = self.kwargs['slug']
 			try:
-				school = SchoolFinder.get(slug=school_slug)
-				return FacultyFinder.get(slug=slug, school_id=school.id)
+				school = school_finder.get(slug=school_slug)
+				return faculty_finder.get(slug=slug, school_id=school.id)
 			except:
 				raise Http404
 
@@ -66,7 +69,7 @@ class FacultyDetail(mixins.RetrieveModelMixin,
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				return FacultyFinder.get(id=id)
+				return faculty_finder.get(id=id)
 			except:
 				raise Http404
 

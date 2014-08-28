@@ -9,6 +9,10 @@ import datetime
 from bson.objectid import ObjectId
 import logging
 
+school_finder = SchoolFinder()
+faculty_finder = FacultyFinder()
+program_finder = ProgramFinder()
+
 class ProgramList(mixins.ListModelMixin,
 				mixins.CreateModelMixin,
 				generics.GenericAPIView):
@@ -21,9 +25,9 @@ class ProgramList(mixins.ListModelMixin,
 			school_slug = self.kwargs['school_slug']
 			faculty_slug = self.kwargs['faculty_slug']
 			try:
-				school = SchoolFinder.get(slug=school_slug)
-				faculty = FacultyFinder.get(school_id=school.id, slug=faculty_slug)
-				return ProgramFinder.all(faculty_id=faculty.id)
+				school = school_finder.get(slug=school_slug)
+				faculty = faculty_finder.get(school_id=school.id, slug=faculty_slug)
+				return program_finder.all(faculty_id=faculty.id)
 			except:
 				raise Http404
 
@@ -32,11 +36,11 @@ class ProgramList(mixins.ListModelMixin,
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				return ProgramFinder.all(faculty_id=id)
+				return program_finder.all(faculty_id=id)
 			except:
 				raise Http404
 
-		return ProgramFinder.all()
+		return program_finder.all()
 
 	def get(self, request, *args, **kwargs):
 		return self.list(request, *args, **kwargs)
@@ -63,9 +67,9 @@ class ProgramDetail(mixins.RetrieveModelMixin,
 			faculty_slug = self.kwargs['faculty_slug']
 			slug = self.kwargs['slug']
 			try:
-				school = SchoolFinder.get(slug=school_slug)
-				faculty = FacultyFinder.get(school_id=school.id, slug=faculty_slug)
-				return ProgramFinder.get(slug=slug, faculty_id=faculty.id)
+				school = school_finder.get(slug=school_slug)
+				faculty = faculty_finder.get(school_id=school.id, slug=faculty_slug)
+				return program_finder.get(slug=slug, faculty_id=faculty.id)
 			except:
 				raise Http404
 
@@ -74,7 +78,7 @@ class ProgramDetail(mixins.RetrieveModelMixin,
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				return ProgramFinder.get(id=id)
+				return program_finder.get(id=id)
 			except:
 				raise Http404
 

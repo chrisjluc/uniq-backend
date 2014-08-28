@@ -37,12 +37,12 @@ class HierarchicalFieldFinder(object):
 		elif isinstance(obj, Program):
 			self.type = 'program'
 			from documentfinders import FacultyFinder
-			self.faculty = FacultyFinder.get(id=obj.facultyId)
+			self.faculty = FacultyFinder().get(id=obj.facultyId)
 		else:
 			#TODO: log error, doesn't accept other types
 			return
 		from documentfinders import SchoolFinder
-		self.school = SchoolFinder.get(id=obj.schoolId)
+		self.school = SchoolFinder().get(id=obj.schoolId)
 			
 		
 	def find_value(self, key):

@@ -10,6 +10,8 @@ from bson.objectid import ObjectId
 import datetime
 import logging
 
+school_finder = SchoolFinder()
+
 class SchoolList(mixins.ListModelMixin,
 				mixins.CreateModelMixin,
 				generics.GenericAPIView):
@@ -17,7 +19,7 @@ class SchoolList(mixins.ListModelMixin,
 	serializer_class = SchoolSerializer
 
 	def get_queryset(self):
-		return SchoolFinder.all()
+		return school_finder.all()
 
 	def get(self, request, *args, **kwargs):
 		return self.list(request, *args, **kwargs)
@@ -33,7 +35,7 @@ class SchoolDetail(mixins.RetrieveModelMixin,
 		if 'slug' in self.kwargs.keys():
 			slug = self.kwargs['slug']
 			try:
-				return SchoolFinder.get(slug=slug)
+				return school_finder.get(slug=slug)
 			except School.DoesNotExist:
 				raise Http404
 				
@@ -42,7 +44,7 @@ class SchoolDetail(mixins.RetrieveModelMixin,
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				return SchoolFinder.get(id=id)
+				return school_finder.get(id=id)
 			except School.DoesNotExist:
 				raise Http404
 
