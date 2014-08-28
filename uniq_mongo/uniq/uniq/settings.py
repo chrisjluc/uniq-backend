@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'faculties',
     'programs',
     'uniqdata',
+    'explore',
 )
 
 MIDDLEWARE_CLASSES = (

@@ -54,7 +54,7 @@ class SchoolFinder(object):
 		school_list = []
 		schools_queried = {}
 
-		schools = School.objects.only( kd, name, images, u_pop ,g_pop ,location)
+		schools = School.objects.only(id, name, images, u_pop ,g_pop ,location)
 		for school in schools:
 			if school.slug not in schools_queried:
 				schools_queried[school.slug] = True
