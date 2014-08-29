@@ -1,4 +1,3 @@
-
 from schools.models import School
 from faculties.models import Faculty
 from programs.models import Program

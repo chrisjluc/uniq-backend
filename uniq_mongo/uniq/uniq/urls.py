@@ -8,5 +8,6 @@ urlpatterns = patterns('',
     url(r'^', include('faculties.urls')),
     url(r'^', include('programs.urls')),
     url(r'^', include('explore.urls')),
+    url(r'^', include('featured.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )

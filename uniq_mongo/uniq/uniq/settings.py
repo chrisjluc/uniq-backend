@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'programs',
     'uniqdata',
     'explore',
+    'featured',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -63,10 +64,7 @@ REST_FRAMEWORK = {
 
 # Application Constants / Settings
 CURRENT_YEAR = 2015
-
-# Allow for Mongo Integration
-
-
+MAX_FEATURED = 10
 
 AUTHENTICATION_BACKENDS = (
     'mongoengine.django.auth.MongoEngineBackend',
@@ -75,6 +73,7 @@ AUTHENTICATION_BACKENDS = (
 TEST_RUNNER = (
     'uniq.testing.testrunners.MongoTestRunner'
 )
+
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
@@ -83,6 +82,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.dummy'
     }
 }
+
+# Mongo Database Connection
+
 MONGO_DATABASE_NAME = 'mongoenginetest'
 MONGO_HOST = 'localhost'
 MONGO_PORT = 27017
