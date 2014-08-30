@@ -23,7 +23,16 @@ Python 2.7.6, Django 1.6.2, Django REST framework 2.3.12, MongoDb 2.5.5, mongoen
   - schools/:slug/faculties/:slug/programs/:slug - program detail
   - programs/:id - program detail
 
-=
+- Explore
+  - explore/schools/ - school list
+  - explore/faculties/ - faculty list
+  - explore/faculties/:schoolId - faculty list by school id
+  - explore/programs/ - program list
+  - explore/programs/:facultyId - program list by faculty id
+
+- Featured
+  - featured/ - featured list
+
 #####v0.1
 - Schools
   - schools/:id	- Get information about specific school	faculties	get all faculties
