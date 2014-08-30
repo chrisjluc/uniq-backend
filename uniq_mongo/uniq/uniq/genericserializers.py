@@ -82,6 +82,7 @@ class ContactSerializer(EmbeddedDocumentListSerializer):
 class ImageSerializer(EmbeddedDocumentListSerializer):
 	descriptor = serializers.CharField()
 	link = serializers.URLField()
+	type = serializers.CharField()
 
 	def field_to_native(self, obj, field_name):
 		if obj is None or obj.images is None:

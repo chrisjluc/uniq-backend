@@ -20,6 +20,7 @@ class Meta(EmbeddedDocument):
 class Image(EmbeddedDocument):
 	descriptor = StringField()
 	link = URLField()
+	type = StringField()
 
 class Ranking(EmbeddedDocument):
 	year = IntField()

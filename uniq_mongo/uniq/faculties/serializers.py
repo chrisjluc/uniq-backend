@@ -9,6 +9,7 @@ class FacultySerializer(GenericSerializer):
 	importantDates = ImportantDateSerializer()
 	streams = StreamSerializer()
 	internship = InternshipSerializer()
+	fee = FeeSerializer()
 
 	def restore_object(self, attrs, instance=None):
 		if instance is not None:

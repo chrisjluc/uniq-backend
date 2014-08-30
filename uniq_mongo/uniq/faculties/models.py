@@ -11,6 +11,7 @@ class Faculty(GenericDocument):
 	streams = ListField(EmbeddedDocumentField(Stream))
 	importantDates = ListField(EmbeddedDocumentField(ImportantDate))
 	internship = EmbeddedDocumentField(Internship)
+	fees = EmbeddedDocumentField(Fees)
 	
 
 	meta={

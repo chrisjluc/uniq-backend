@@ -29,6 +29,7 @@ important_dates = 'importantDates'
 deg = 'degree'
 deg_abbr = 'degreeAbbrev'
 internship = 'internship'
+fees = 'fees'
 
 deg_req = 'degreeRequirements'
 n_accepted = 'numAccepted'
@@ -78,10 +79,10 @@ class SchoolFinder(object):
 		self.apply_hist_value(name)
 		self.apply_hist_value(short_name)
 		self.apply_hist_value(about)
-		self.apply_hist_value_with_year(app_process)
+		self.apply_hist_value(app_process)
 		self.apply_hist_value_with_year(u_pop)
 		self.apply_hist_value_with_year(g_pop)
-		self.apply_hist_value_with_year(avg_adm)
+		self.apply_hist_value(avg_adm)
 		self.apply_hist_value(date_est)
 		self.apply_hist_value_with_year(num_fac)
 		self.apply_hist_value_with_year(num_pro)
@@ -151,7 +152,7 @@ class FacultyFinder(object):
 		self.apply_hist_hierarchical_value(app_process)
 		self.apply_hist_value_with_year(u_pop)
 		self.apply_hist_value_with_year(g_pop)
-		self.apply_hist_value_with_year(avg_adm)
+		self.apply_hist_value(avg_adm)
 		self.apply_hist_value(date_est)
 		self.apply_hist_value_with_year(num_pro)
 
@@ -235,7 +236,7 @@ class ProgramFinder(object):
 		self.apply_hist_hierarchical_value(app_process)
 		self.apply_hist_value_with_year(u_pop)
 		self.apply_hist_value_with_year(g_pop)
-		self.apply_hist_value_with_year(avg_adm)
+		self.apply_hist_value(avg_adm)
 		self.apply_hist_value(date_est)
 
 		self.apply_hist_hierarchical_value(streams)
@@ -248,6 +249,8 @@ class ProgramFinder(object):
 		self.apply_hist_hierarchical_value(deg)
 		self.apply_hist_hierarchical_value(deg_abbr)
 		self.apply_hist_hierarchical_value(internship)
+		self.apply_hist_hierarchical_value(fees)
+
 
 		self.apply_hist_value(deg_req)
 		self.apply_hist_value(n_accepted)
