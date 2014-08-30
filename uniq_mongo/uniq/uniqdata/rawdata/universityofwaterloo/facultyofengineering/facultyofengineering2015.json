@@ -1,21 +1,152 @@
 {  
-   "name":"Faculty of Engineering",
-   "shortName":"eng",
-   "slug":"facultyofengineering",
-   "about":"Ranked among the top 50 engineering schools worldwide, Waterloo is committed to leading engineering education and research in Canada. We are the largest, with more than 8,800 students enrolled in 2014. In 2012/13, external research funding in engineering exceeded $60 million for the third consecutive year, a strong indication of the emphasis placed on transformational research.",
-   "undergradPopulation":"6840",
-   "gradPopulation":"1945",
-   "avgAdm":"low 90s",
-   "dateEstablished":"01-07-1957",
-   "numPrograms":"14",
-   "applicationProcess":"Waterloo Engineering offers direct-entry programs, meaning that students are admitted into specific engineering disciplines in first-year studies. This approach is different from institutions that offer a general first year, in which students select and compete for their discipline prior to the second-year of studies. Applicants must select one Waterloo Engineering program (civil, mechanical, systems design, software, etc.) on the OUAC application. This should be the program you are most interested in—not the one that you think is easiest to get into. Applicants will be able to submit two alternate engineering program choices on the Admission Information Form, for which they will be considered if they are not accepted into their first choice. Preference for each program will be given to students who select that program on the OUAC form.",
-   "schoolId":"",
-   "streams":[  
-   ],
+  "name":"Faculty of Engineering",
+  "shortName":"eng",
+  "slug":"facultyofengineering",
+  "about":"Ranked among the top 50 engineering schools worldwide, Waterloo is committed to leading engineering education and research in Canada. We are the largest, with more than 8,800 students enrolled in 2014. In 2012/13, external research funding in engineering exceeded $60 million for the third consecutive year, a strong indication of the emphasis placed on transformational research.",
+  "undergradPopulation":"6995",
+  "gradPopulation":"1850",
+  "avgAdm":"90-93",
+  "dateEstablished":"01-07-1957",
+  "numPrograms":"14",
+  "degree": "Bachelor's of Applied Science", 
+  "degreeAbbrev": "BASc", 
+  "applicationProcess":"Waterloo Engineering offers direct-entry programs, meaning that students are admitted into specific engineering disciplines in first-year studies. This approach is different from institutions that offer a general first year, in which students select and compete for their discipline prior to the second-year of studies. Applicants must select one Waterloo Engineering program (civil, mechanical, systems design, software, etc.) on the OUAC application. This should be the program you are most interested in—not the one that you think is easiest to get into. Applicants will be able to submit two alternate engineering program choices on the Admission Information Form, for which they will be considered if they are not accepted into their first choice. Preference for each program will be given to students who select that program on the OUAC form.",
+  "schoolId":"",
+  "fees": {
+        "domestic": [
+            {
+                "term": "1A", 
+                "totalFees": 7587.95
+            }, 
+            {
+                "term": "1B", 
+                "totalFees": 7587.95
+            }, 
+            {
+                "term": "2A", 
+                "totalFees": 7587.95
+            }, 
+            {
+                "term": "2B", 
+                "totalFees": 7567.95
+            }, 
+            {
+                "term": "3A", 
+                "totalFees": 7318.95
+            }, 
+            {
+                "term": "3B", 
+                "totalFees": 7318.95
+            }, 
+            {
+                "term": "4A", 
+                "totalFees": 7175.95
+            }, 
+            {
+                "term": "4B", 
+                "totalFees": 6952.95
+            }
+        ], 
+        "international": [
+            {
+                "term": "1A", 
+                "totalFees": 16652.95
+            }, 
+            {
+                "term": "1B", 
+                "totalFees": 16652.95
+            }, 
+            {
+                "term": "2A", 
+                "totalFees": 16652.95
+            }, 
+            {
+                "term": "2B", 
+                "totalFees": 16652.95
+            }, 
+            {
+                "term": "3A", 
+                "totalFees": 16652.95
+            }, 
+            {
+                "term": "3B", 
+                "totalFees": 16652.95
+            }, 
+            {
+                "term": "4A", 
+                "totalFees": 16652.95
+            }, 
+            {
+                "term": "4B", 
+                "totalFees": 16652.95
+            }
+        ]
+    },
+  "internship": {
+        "earnings": "$50,000 to $90,000 over 6 work terms", 
+        "general": "Waterloo hosts the largest co-op program on the planet, with connections to over 4,500 employers. As an engineering or architecture student at Waterloo you'll automatically be entered into the co-op program. Throughout your degree, you'll gain up to two years of real-world experience, build connections in industry and strengthen your professional skills with WatPD-Engineering, an online program that covers r\u00e9sum\u00e9 writing, networking and more. On average, engineering students earn $50,000 to $90,000 over six work terms, helping to pay for tuition, books and living expenses.", 
+        "specific": "You will be in either Stream 4 or Stream 8. You will be assigned to a stream in late June when classes are scheduled."
+    }, 
+  "streams":[
+    {
+      "title": "Stream 4", 
+      "year1": {
+          "fall": "Study Term 1A", 
+          "winter": "Co-op Term 1",
+          "spring": "Study Term 1B"
+      }, 
+      "year2": {
+          "fall": "Co-op Term 2", 
+          "winter": "Study Term 2A",
+          "spring": "Co-op Term 3"
+      }, 
+      "year3": {
+          "fall": "Study Term 2B", 
+          "winter": "Co-op Term 4",
+          "spring": "Study Term 3A"
+      }, 
+      "year4": {
+          "fall": "Co-op Term 5", 
+          "winter": "Study Term 3B",
+          "spring": "Co-op Term 6"
+      }, 
+      "year5": {
+          "fall": "Study Term 4A", 
+          "winter": "Study Term 4B"
+          }
+      },
+    {
+      "title": "Stream 8", 
+      "year1": {
+          "fall": "Study Term 1A", 
+          "winter": "Study Term 1B",
+          "spring": "Co-op Term 1"
+      }, 
+      "year2": {
+          "fall": "Study Term 2A", 
+          "winter": "Co-op Term 2",
+          "spring": "Study Term 2B"
+      }, 
+      "year3": {
+          "fall": "Co-op Term 3", 
+          "winter": "Study Term 3A",
+          "spring": "Co-op Term 4"
+      }, 
+      "year4": {
+          "fall": "Study Term 3B", 
+          "winter": "Co-op Term 5",
+          "spring": "Study Term 4A"
+      }, 
+      "year5": {
+          "fall": "Co-op Term 6", 
+          "winter": "Study Term 4B"
+          }
+    }
+ ],
     "importantDates": [
       {
          "date": "September 19, 2014", 
-         "description": "Ontario Universities’ Fair in Toronto begins",
+         "description": "Ontario Universities' Fair in Toronto begins",
          "type": "event"
       }, 
       {
@@ -98,7 +229,7 @@
       }
    ],
    "images":[  
-      {  
+      {  "type":"misc",
          "descriptor":"e5 building",
          "link":"http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
       }

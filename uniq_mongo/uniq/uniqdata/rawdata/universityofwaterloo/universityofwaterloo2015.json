@@ -4,12 +4,12 @@
    "slug":"universityofwaterloo",
    "about":"In just half a century, the University of Waterloo, located at the heart of Canadas technology hub, has become a leading comprehensive university with 35,100 full- and part-time students in undergraduate and graduate programs. Consistently ranked Canadas most innovative university, Waterloo is home to advanced research and teaching in science and engineering, health, environment, arts and social sciences. From quantum computing and nanotechnology to clinical psychology and health sciences research, Waterloo brings ideas and brilliant minds together, inspiring innovations with real impact today and in the future. As home to the world's largest post-secondary co-operative education program, Waterloo embraces its connections to the world and encourages enterprising partnerships in learning, research, and commercialization. With campuses and education centres on four continents, and academic partnerships spanning the globe, Waterloo is shaping the future of the planet.",
    "applicationProcess":"Complete your Admission Information Form. If you're not an Ontario high school student, you'll need to have your marks sent to us. Check important dates for applicants to fall 2014. Note: Most of our admissions information will be sent by e-mail so it's important that we have your current e-mail address. Once we receive your application, we'll send you an e-mail outlining the next steps in the admissions process.",
-   "undergradPopulation":"27791",
-   "gradPopulation":"",
+   "undergradPopulation":"26,987",
+   "gradPopulation":"4,375",
    "avgAdm":"87.7",
    "dateEstablished":"01-07-1957",
-   "numFaculties":"",
-   "numPrograms":"",
+   "numFaculties":"6",
+   "numPrograms":"55",
    "metaData":{  
       "dateModified":"",
       "dateCreated":"",
@@ -31,11 +31,12 @@
       }
    ],
    "images":[  
-      {  
-         "descriptor":"logo",
+      {  "type":"logo",
+         "descriptor":"UW seal",
          "link":"http://upload.wikimedia.org/wikipedia/en/0/03/Uwaterloo_seal.gif"
       },
       {  
+         "type":"misc",
          "descriptor":"e5 building",
          "link":"http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
       }

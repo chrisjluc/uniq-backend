@@ -1,10 +1,11 @@
 {
     "about": "Mechatronics engineering is the design of computer-controlled electromechanical systems. It can be viewed as 'modern mechanical engineering design' in the sense that the design of the mechanical system must be performed together with that of the electrical/electronic and computer control aspects that will comprise the complete system.", 
-    "avgAdm": "low 90s", 
+    "avgAdm": "90-93", 
     "contacts": [], 
     "dateEstablished": "01-09-2003", 
     "degree": "Bachelor's of Applied Science", 
-    "degreeAbbrev": "BASc", 
+    "degreeAbbrev": "BASc",
+    "applicationProcess": null,
     "degreeRequirements": {
         "about": "The table below lists the courses and technical electives for the Mechatronics Engineering Program. In addition to the courses listed, a student is required to select technical elective and complementary studies courses as described below. All students in the Faculty of Engineering are permitted to take an option (as described in Options, Specializations and Electives for Engineering Students of this section of the calendar). Mechatronics Engineering students are not permitted to take the Mechatronics Option. In many cases earning an option will require a number of courses in addition to the core and elective structure given below. The first students were admitted to the Mechatronics Engineering Program in the fall of 2003. The courses listed as MTE courses, although listed in this calendar, will not be offered until the first students enrolled in the Mechatronics Engineering Program reach the level requiring these courses.", 
         "curriculum": [
@@ -573,58 +574,18 @@
         ]
     }, 
     "facultyId": "", 
-    "fees": {
-        "domestic": [
-            {
-                "term": "1A", 
-                "totalFees": 7587.95
-            }, 
-            {
-                "term": "1B", 
-                "totalFees": 7587.95
-            }, 
-            {
-                "term": "2A", 
-                "totalFees": 7587.95
-            }, 
-            {
-                "term": "2B", 
-                "totalFees": 7567.95
-            }, 
-            {
-                "term": "3A", 
-                "totalFees": 7318.95
-            }, 
-            {
-                "term": "3B", 
-                "totalFees": 7318.95
-            }, 
-            {
-                "term": "4A", 
-                "totalFees": 7175.95
-            }, 
-            {
-                "term": "4B", 
-                "totalFees": 6952.95
-            }
-        ], 
-        "international": []
-    }, 
-    "gradPopulation": "80", 
+    "fees": null, 
+    "gradPopulation": "", 
     "images": [
         {
+            "type": "misc",
             "descriptor": "e5 building", 
             "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
         }
     ], 
-    "importantDates": [
-    ], 
-    "internship": {
-        "earnings": "$50,000 to $90,000 over 6 work terms", 
-        "general": "Waterloo hosts the largest co-op program on the planet, with connections to over 4,500 employers. As an engineering or architecture student at Waterloo you'll automatically be entered into the co-op program. Throughout your degree, you'll gain up to two years of real-world experience, build connections in industry and strengthen your professional skills with WatPD-Engineering, an online program that covers r\u00e9sum\u00e9 writing, networking and more. On average, engineering students earn $50,000 to $90,000 over six work terms, helping to pay for tuition, books and living expenses.", 
-        "specific": "You will be in either Stream 4 or Stream 8. You will be assigned to a stream in late June when classes are scheduled."
-    }, 
-    "location": {}, 
+    "importantDates": null, 
+    "internship": null, 
+    "location": null, 
     "metaData": {
         "dateCreated": "", 
         "dateModified": "", 
@@ -650,26 +611,31 @@
         "country": "", 
         "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
         "individual_courses": [
-            [
-                "Calculus and Vectors 4U", 
-                "70"
-            ], 
-            [
-                "Any Grade 12 English 4U", 
-                "70"
-            ], 
-            [
-                "Physics 4U", 
-                "70"
-            ], 
-            [
-                "Chemistry 4U", 
-                "70"
-            ], 
-            [
-                "Advanced Functions 4U", 
-                "70"
-            ]
+            {
+                "course_title":"Calculus and Vectors",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"English",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Physics",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Chemistry",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Advanced Functions",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }
         ], 
         "international_program_requirements": "", 
         "list_courses": "", 
@@ -689,34 +655,6 @@
     "schoolId": "", 
     "shortName": "tron", 
     "slug": "mechatronicsengineering", 
-    "streams": [
-        {
-            "title": "Stream4", 
-            "year1": {
-                "fall": "Study Term 1A", 
-                "spring": "Study Term 1B", 
-                "winter": "Co-op Term 1"
-            }, 
-            "year2": {
-                "fall": "Co-op Term 2", 
-                "spring": "Co-op Term 3", 
-                "winter": "Study Term 2A"
-            }, 
-            "year3": {
-                "fall": "Study Term 2B", 
-                "spring": "Study Term 3A", 
-                "winter": "Co-op Term 4"
-            }, 
-            "year4": {
-                "fall": "Co-op Term 5", 
-                "spring": "Co-op Term 6", 
-                "winter": "Study Term 3B"
-            }, 
-            "year5": {
-                "fall": "Study Term 4A", 
-                "winter": "Study Term 4B"
-            }
-        }
-    ], 
-    "undergradPopulation": "120"
+    "streams": null, 
+    "undergradPopulation": "400-500"
 }
