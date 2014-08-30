@@ -56,3 +56,19 @@ class FeaturedTests(MongoTestCase):
 		response = self.client.get('/featured/', format='json')
 		self.assertEqual(response.status_code, status.HTTP_200_OK)
 		self.assertEqual(len(response.data), settings.MAX_FEATURED)
+
+	def test_featured_create_new_item(self):
+		response = self.client.post('/featured/', 
+			{
+			    "featured_title": "", 
+			    "name_title": "", 
+			    "type": "", 
+			    "priority": 0, 
+			    "date_created": None, 
+			    "date_expired": None, 
+			    "image_link": "https://wiki.python.org/"
+			} ,format='json')
+		self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+		response = self.client.get('/featured/', format='json')
+		self.assertEqual(response.status_code, status.HTTP_200_OK)
+		self.assertEqual(len(response.data), 1)
