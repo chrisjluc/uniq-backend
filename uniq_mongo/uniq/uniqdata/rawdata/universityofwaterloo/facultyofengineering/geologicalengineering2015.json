@@ -1,0 +1,337 @@
+{
+    "about": "Geological engineering is an attractive discipline for students who wish to pursue the challenge of combining the complexity of nature and engineering design, who are interested in the physical mechanics of the earth’s surface, who enjoy travel and the outdoors. The subject has seamless transitions to geotechnical engineering and engineering geology.\nGeological Engineering is the application of geological knowledge to the siting, design, construction, operation and maintenance of civil engineering structures and facilities. It is one of the rapidly growing fields of engineering reflecting society’s developing interest in the stewardship of the environment, managing risk, and creating a safer world. The profession has a direct impact on the foundation of the Canadian economy, which is built upon the exploration and development of its vast natural resources in a sustainable manner that protects them for the benefit of future generations. Geological Engineers provide the expertise to develop mines, petroleum reservoirs (oil and natural gas), hydro-electric dams and reservoirs, groundwater and surface water resources, as well as building and managing the necessary infrastructure to bring the resulting commodities to market. The Geological Engineering profession shares common roots with that of Civil Engineering and Earth Sciences, and is an interdisciplinary program at the University of Waterloo involving the Department of Civil and Environmental Engineering as well as the Department of Earth and Environmental Sciences, in the Faculty of Engineering and the Faculty of Science, respectively.  \nThe field of geological engineering encompasses a wide range of activities and issues including the geological characterization of complex foundations of major buildings and structures, development of natural resources (mining, water, hydroelectricity, forestry, oil and gas), the engineering safety of major infrastructure (dams, reservoirs, offshore drilling platforms, pipelines, roads and railways), and the assessment of geohazard risk (landslides, earthquakes, volcanoes, and the stability of natural dams). It also includes aspects of such fields as project finance and insurance, forensic geological engineering, and the application of geological knowledge to the repair and preservation of cultural heritage sites. In step with Civil Engineering, Geological Engineering has evolved into an extremely diverse field as the demands of society have evolved, providing opportunities for graduates in many areas of application. Furthermore, the application of computers and electronic instrumentation has revolutionized the practice of Geological Engineering. Consequently our curriculum is being constantly reviewed in order to produce graduate engineers who can use advanced tools to solve complex problems. ",
+    "avgAdm": "90-93", 
+    "contacts": [], 
+    "dateEstablished": "01-07-1957", 
+    "degree": "Bachelor's of Applied Science", 
+    "degreeAbbrev": "BASc",
+    "applicationProcess": null,
+    "degreeRequirements": {
+        "about": "The Geological Engineering Program at the University of Waterloo delivers a diverse set of core courses that provide the necessary fundamentals in mathematics, geology, and civil engineering. The program also offers the opportunity to take electives from the fields of the social sciences and humanities. Technical electives can be chosen to develop a focus in the following areas: \nGeotechnical Engineering\nWater Resources Engineering\nWater and Waste Management Engineering\nGeophysics",
+        "curriculum": [
+            [
+                {
+                    "catalog_number": "102", 
+                    "subject": "CHE"
+                }, 
+                {
+                    "catalog_number": "100", 
+                    "subject": "ENVE"
+                },
+                {
+                    "catalog_number": "115", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "116", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "115", 
+                    "subject": "PHYS"
+                },
+            ], 
+            [
+                {
+                    "catalog_number": "121", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "127", 
+                    "subject": "ENVE"
+                },
+                {
+                    "catalog_number": "123", 
+                    "subject": "GENE"
+                },
+                {
+                    "catalog_number": "153", 
+                    "subject": "GEOE"
+                },
+                {
+                    "catalog_number": "118", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "1",
+                    "subject": "CSE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "221", 
+                    "subject": "EARTH"
+                }, 
+                {
+                    "catalog_number": "238", 
+                    "subject": "EARTH"
+                },
+                {
+                    "catalog_number": "221", 
+                    "subject": "ENVE"
+                },
+                {
+                    "catalog_number": "224", 
+                    "subject": "ENVE"
+                },
+                {
+                    "catalog_number": "125", 
+                    "subject": "PHYS"
+                },
+                {
+                    "catalog_number": "298", 
+                    "subject": "GEOE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "231", 
+                    "subject": "EARTH"
+                }, 
+                {
+                    "catalog_number": "235", 
+                    "subject": "EARTH"
+                },
+                {
+                    "catalog_number": "260", 
+                    "subject": "EARTH"
+                },
+                {
+                    "catalog_number": "214", 
+                    "subject": "ENVE"
+                },
+                {
+                    "catalog_number": "223", 
+                    "subject": "ENVE"
+                },
+                {
+                    "catalog_number": "299", 
+                    "subject": "GEOE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "353", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "321", 
+                    "subject": "ENVE"
+                },
+                {
+                    "catalog_number": "232", 
+                    "subject": "EARTH"
+                },
+                {
+                    "catalog_number": "458", 
+                    "subject": "EARTH"
+                },
+                {
+                    "catalog_number": "458L", 
+                    "subject": "EARTH"
+                },
+                {
+                    "catalog_number": "261", 
+                    "subject": "MSCI"
+                },
+                {
+                    "catalog_number": "398", 
+                    "subject": "GEOE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "333", 
+                    "subject": "EARTH"
+                }, 
+                {
+                    "catalog_number": "390", 
+                    "subject": "EARTH"
+                },
+                {
+                    "catalog_number": "437", 
+                    "subject": "EARTH"
+                },
+                {
+                    "catalog_number": "438", 
+                    "subject": "EARTH"
+                },
+                {
+                    "catalog_number": "381", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "4", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "399", 
+                    "subject": "GEOE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "354", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "400", 
+                    "subject": "GEOE"
+                },
+                {
+                    "catalog_number": "498", 
+                    "subject": "GEOE"
+                },
+                {
+                    "catalog_number": "5", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "554", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "401", 
+                    "subject": "GEOE"
+                },
+                {
+                    "catalog_number": "499", 
+                    "subject": "GEOE"
+                },
+                {
+                    "catalog_number": "411", 
+                    "subject": "GENE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "4", 
+                    "subject": "TE"
+                }
+            ],
+        ],
+        "curriculumTerms": [
+            "1A", 
+            "1B", 
+            "2A", 
+            "2B", 
+            "3A", 
+            "3B", 
+            "4A", 
+            "4B"
+        ]
+    }, 
+    "facultyId": "", 
+    "fees": null, 
+    "gradPopulation": null, 
+    "images": [
+        {
+            "type": "misc",
+            "descriptor": "e5 building", 
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+        }
+    ], 
+    "importantDates": null, 
+    "internship": null, 
+    "location": null, 
+    "metaData": {
+        "dateCreated": "01-09-2014", 
+        "dateModified": "01-09-2014", 
+        "yearValid": 2015
+    }, 
+    "name": "Geological Engineering", 
+    "numAccepted": "", 
+    "numApplicants": "", 
+    "rankings": [], 
+    "rating": {
+        "classmates": 0, 
+        "difficulty": 0, 
+        "guyRatio": 80, 
+        "professors": 0, 
+        "ratingOverall": 0, 
+        "schedule": 0, 
+        "socialEnjoyment": 0, 
+        "studyEnv": 0
+    }, 
+    "relatedPrograms":["environmentalengineering"],
+    "requirements": {
+        "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
+        "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
+        "country": "", 
+        "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
+        "individual_courses": [
+            {
+                "course_title":"Calculus and Vectors",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"English",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Physics",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Chemistry",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Advanced Functions",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }
+        ], 
+        "international_program_requirements": "", 
+        "list_courses": "", 
+        "notes": "", 
+        "other_documentation": [
+            "If your first language is not English, you may need to meet our <a href=\" https://uwaterloo.ca/find-out-more/elr\">English language requirements.</a>", 
+            "An <a href='https://uwaterloo.ca/find-out-more/aif'>Admission Information Form</a> must be filled out for most programs. Instructions will be included with the acknowledgment of your application.", 
+            "<ul><li>Learn more about <a href=\" https://uwaterloo.ca/find-out-more/programs/mechatronics-engineering \">Mechatronics Engineering</a></li><li><a href=\"https://uwaterloo.ca/find-out-more/request\">Request a Faculty of Engineering brochure</a></li><li>Join us for a <a href=\"https://uwaterloo.ca/find-out-more/visit-waterloo/events \">campus tour</a></li></ul>"
+        ], 
+        "program": "Geological Engineering", 
+        "program_notes": "", 
+        "province": "Ontario", 
+        "recommended_courses": "", 
+        "system_of_study": "", 
+        "transfer_credits": ""
+    }, 
+    "schoolId": "", 
+    "shortName": "geo", 
+    "slug": "geologicalengineering", 
+    "streams": null, 
+    "undergradPopulation": "103"
+}

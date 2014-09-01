@@ -1,0 +1,353 @@
+{
+    "about": "Effective solutions to problems involving both society and technology must be based on a broad systems point-of-view. Not only must the overall technical factors of these problems be carefully considered, but the economic, social, human and political parameters must be given equally careful attention. When large scale engineering problems are under study, few people can be knowledgeable of the complete span of factors and parameters that must be considered. For these cases, solutions must be arrived at by interdisciplinary teams where each member contributes his or her own special expertise. In order to work effectively on this team, each member needs to be aware of the fundamental systems and design aspects of the problem. The rapid growth and complexity of industry have, indeed, created unusual problems; however, underlying the complexities of modern civilization and technology are similarities that make it possible to approach problems in many diverse fields with essentially the same concepts, theories and techniques. Systems theory has emerged as a scientific discipline for quantitative analysis, design and control of large classes of problems in engineering and social sciences.\nThe undergraduate program in Systems Design Engineering at Waterloo is a study of those basic skills required for system analysis, simulation, optimization and design. Numerous examples may be cited where these systems design fundamentals may be applied: transportation, engineering design, computer applications, water resources engineering, production, planning and scheduling, environmental pollution, education. Of course the importance of specialized expertise in these areas should not be minimized, but these skills usually work most effectively toward problem solutions when operating within an overall systems context.",
+    "avgAdm": "90-93", 
+    "contacts": [], 
+    "dateEstablished": "01-07-1957", 
+    "degree": "Bachelor's of Applied Science", 
+    "degreeAbbrev": "BASc",
+    "applicationProcess": null,
+    "degreeRequirements": {
+        "about": "The Undergraduate program in Systems Design Engineering encompasses the study of the basic skills required for systems analysis, simulation, optimization and design. In particular the first three years of the program are intended to provide each student with a broad background and capability in the areas of:\nengineering design\napplied mathematics\nengineering sciences and systems theory\nsocio-economic systems\nhuman systems engineering\ncomputer systems and applications\nThroughout these three years the student's ability to grasp real engineering problems is enhanced by courses in Systems Design methodology followed by a series of challenging problem-solving experiences in the Systems Design Workshops. It is here that a focus is given to the whole curriculum and the student learns to apply the lecture material, to develop skills in solving problems that cut across the traditional disciplines, and to develop design, planning and organizational abilities.\nThe final year of the program is comprised mostly of elective courses, allowing the student to emphasize one or more areas of study. This provides the required background for a future year of advanced study to the MASc degree, or for a rewarding career in industry or government with the Bachelor's degree (BASc).",
+        "curriculum": [
+            [
+                {
+                    "catalog_number": "101", 
+                    "subject": "SYDE"
+                }, 
+                {
+                    "catalog_number": "101L", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "111", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "113", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "121", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "161", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "181", 
+                    "subject": "SYDE"
+                }
+            ], 
+            [
+                {
+                    "catalog_number": "102", 
+                    "subject": "SYDE"
+                }, 
+                {
+                    "catalog_number": "112", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "114", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "162", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "182", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "192", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "192L", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "1",
+                    "subject": "CSE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "201", 
+                    "subject": "SYDE"
+                }, 
+                {
+                    "catalog_number": "211", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "223", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "261", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "283", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "285", 
+                    "subject": "SYDE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "202", 
+                    "subject": "SYDE"
+                }, 
+                {
+                    "catalog_number": "212", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "252", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "262", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "286", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "292", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "292L", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "301", 
+                    "subject": "SYDE"
+                }, 
+                {
+                    "catalog_number": "311", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "351", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "361", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "381", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "383", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "302", 
+                    "subject": "SYDE"
+                }, 
+                {
+                    "catalog_number": "312", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "352", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "352L", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "362", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "TE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "401", 
+                    "subject": "SYDE"
+                }, 
+                {
+                    "catalog_number": "411", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "461", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "3/2", 
+                    "subject": "CSE/TE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "402", 
+                    "subject": "SYDE"
+                }, 
+                {
+                    "catalog_number": "462", 
+                    "subject": "SYDE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "4", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "5", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "6", 
+                    "subject": "TE"
+                }
+            ],
+        ],
+        "curriculumTerms": [
+            "1A", 
+            "1B", 
+            "2A", 
+            "2B", 
+            "3A", 
+            "3B", 
+            "4A", 
+            "4B"
+        ]
+    }, 
+    "facultyId": "", 
+    "fees": null, 
+    "gradPopulation": "136", 
+    "images": [
+        {
+            "type": "misc",
+            "descriptor": "e5 building", 
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+        }
+    ], 
+    "importantDates": null, 
+    "internship": null, 
+    "location": null, 
+    "metaData": {
+        "dateCreated": "01-09-2014", 
+        "dateModified": "01-09-2014", 
+        "yearValid": 2015
+    }, 
+    "name": "System Design Engineering", 
+    "numAccepted": "", 
+    "numApplicants": "", 
+    "rankings": [], 
+    "rating": {
+        "classmates": 0, 
+        "difficulty": 0, 
+        "guyRatio": 66, 
+        "professors": 0, 
+        "ratingOverall": 0, 
+        "schedule": 0, 
+        "socialEnjoyment": 0, 
+        "studyEnv": 0
+    }, 
+    "relatedPrograms":["biomedicalengineering","softwareengineering"],
+    "requirements": {
+        "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
+        "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
+        "country": "", 
+        "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
+        "individual_courses": [
+            {
+                "course_title":"Calculus and Vectors",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"English",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Physics",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Chemistry",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Advanced Functions",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }
+        ], 
+        "international_program_requirements": "", 
+        "list_courses": "", 
+        "notes": "", 
+        "other_documentation": [
+            "If your first language is not English, you may need to meet our <a href=\" https://uwaterloo.ca/find-out-more/elr\">English language requirements.</a>", 
+            "An <a href='https://uwaterloo.ca/find-out-more/aif'>Admission Information Form</a> must be filled out for most programs. Instructions will be included with the acknowledgment of your application.", 
+            "<ul><li>Learn more about <a href=\" https://uwaterloo.ca/find-out-more/programs/mechatronics-engineering \">Mechatronics Engineering</a></li><li><a href=\"https://uwaterloo.ca/find-out-more/request\">Request a Faculty of Engineering brochure</a></li><li>Join us for a <a href=\"https://uwaterloo.ca/find-out-more/visit-waterloo/events \">campus tour</a></li></ul>"
+        ], 
+        "program": "System Design Engineering", 
+        "program_notes": "", 
+        "province": "Ontario", 
+        "recommended_courses": "", 
+        "system_of_study": "", 
+        "transfer_credits": ""
+    }, 
+    "schoolId": "", 
+    "shortName": "syde", 
+    "slug": "systemsdesignengineering", 
+    "streams": null, 
+    "undergradPopulation": "417"
+}

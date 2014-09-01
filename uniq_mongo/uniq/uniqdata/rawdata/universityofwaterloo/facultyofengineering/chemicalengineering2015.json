@@ -1,0 +1,349 @@
+{
+    "about": "Chemical Engineers apply scientific and engineering principles to develop processes or systems for the economic production and distribution of useful and value-added materials through the physical, chemical or biochemical transformation of matter. Furthermore, this must be accomplished with attention paid to economics, health and safety, and environmental impact.\nChemical Engineers combine a sound background in fundamental understanding of science and mathematics with highly-developed problem-solving skills to improve existing processes or methods, or to implement new ones. Chemical Engineers are distinguished from physical scientists such as chemists by their training in the "engineering method": the use of heuristics to cause the best change in a poorly understood situation within the available resources.\nChemical Engineers design, analyse, optimize and control processing operations, or guide others who perform these functions, in industry, government, universities or private practice. Most materials encountered in daily life have been impacted by Chemical Engineering at some stage. Chemical Engineers will continue to be in demand for many exciting new developments over the next few decades.",
+    "avgAdm": "90-93", 
+    "contacts": [], 
+    "dateEstablished": "01-07-1957", 
+    "degree": "Bachelor's of Applied Science", 
+    "degreeAbbrev": "BASc",
+    "applicationProcess": null,
+    "degreeRequirements": {
+        "about": "The curriculum offers courses in life science and material science, to provide the fundamentals required for future careers in the biotechnology or nanotechnology areas. There are four technical elective courses that can be taken to either focus in an area of particular interest or to build a strong general background for maximum career flexibility.\nThe main emphasis in the first and second year is on courses in science and mathematics which provide the foundations upon which engineering skills can be built. The upper-year core and elective courses assume and require this background.\nTo perform successfully, the Chemical Engineer must be able to design, analyse and control processes to produce useful and desirable products from less valuable raw materials in an efficient, economic and socially responsible way. The knowledge and skills essential for achieving these goals are developed in the core Chemical Engineering courses taken mainly in the third and fourth years (e.g., in fluid mechanics, heat and mass transfer, thermodynamics, reactor design, biotechnology, process control, process and equipment design). Most of these courses are a mixture of theory and practice. Computer simulations and hands-on laboratory experiences are used in several courses to reinforce the theoretical principles.",
+        "curriculum": [
+            [
+                {
+                    "catalog_number": "100", 
+                    "subject": "CHE"
+                }, 
+                {
+                    "catalog_number": "102", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "115", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "116", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "115", 
+                    "subject": "PHYS"
+                },
+            ], 
+            [
+                {
+                    "catalog_number": "101", 
+                    "subject": "CHE"
+                }, 
+                {
+                    "catalog_number": "121", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "161", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "123", 
+                    "subject": "GENE"
+                },
+                {
+                    "catalog_number": "118", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "1",
+                    "subject": "CSE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "200", 
+                    "subject": "CHE"
+                }, 
+                {
+                    "catalog_number": "220", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "230", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "290", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "262", 
+                    "subject": "CHEM"
+                },
+                {
+                    "catalog_number": "262L", 
+                    "subject": "CHEM"
+                },
+                {
+                    "catalog_number": "217", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "298", 
+                    "subject": "CHE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "211", 
+                    "subject": "CHE"
+                }, 
+                {
+                    "catalog_number": "231", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "241", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "291", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "218", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "261", 
+                    "subject": "MSCI"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "WKRPT-4stream"
+                },
+                {
+                    "catalog_number": "299", 
+                    "subject": "CHE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "312", 
+                    "subject": "CHE"
+                }, 
+                {
+                    "catalog_number": "322", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "330", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "360", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "390", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "WKRPT"
+                },
+                {
+                    "catalog_number": "398", 
+                    "subject": "CHE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "311", 
+                    "subject": "CHE"
+                }, 
+                {
+                    "catalog_number": "313", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "325", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "331", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "391", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "3/1", 
+                    "subject": "CSE/TE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "WKRPT-8stream"
+                },
+                {
+                    "catalog_number": "399", 
+                    "subject": "CHE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "420", 
+                    "subject": "CHE"
+                }, 
+                {
+                    "catalog_number": "480", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "482", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "490", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "3/1", 
+                    "subject": "CSE/TE"
+                },
+                {
+                    "catalog_number": "4", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "WKRPT"
+                },
+                {
+                    "catalog_number": "498", 
+                    "subject": "CHE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "483", 
+                    "subject": "CHE"
+                }, 
+                {
+                    "catalog_number": "2", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "4", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "5", 
+                    "subject": "CSE"
+                }
+            ],
+        ],
+        "curriculumTerms": [
+            "1A", 
+            "1B", 
+            "2A", 
+            "2B", 
+            "3A", 
+            "3B", 
+            "4A", 
+            "4B"
+        ]
+    }, 
+    "facultyId": "", 
+    "fees": null, 
+    "gradPopulation": "229", 
+    "images": [
+        {
+            "type": "misc",
+            "descriptor": "e5 building", 
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+        }
+    ], 
+    "importantDates": null, 
+    "internship": null, 
+    "location": null, 
+    "metaData": {
+        "dateCreated": "01-09-2014", 
+        "dateModified": "01-09-2014", 
+        "yearValid": 2015
+    }, 
+    "name": "Chemical Engineering", 
+    "numAccepted": "", 
+    "numApplicants": "", 
+    "rankings": [], 
+    "rating": {
+        "classmates": 0, 
+        "difficulty": 0, 
+        "guyRatio": 65.8, 
+        "professors": 0, 
+        "ratingOverall": 0, 
+        "schedule": 0, 
+        "socialEnjoyment": 0, 
+        "studyEnv": 0
+    }, 
+    "relatedPrograms":["nanotechnologyengineering"],
+    "requirements": {
+        "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
+        "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
+        "country": "", 
+        "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
+        "individual_courses": [
+            {
+                "course_title":"Calculus and Vectors",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"English",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Physics",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Chemistry",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Advanced Functions",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }
+        ], 
+        "international_program_requirements": "", 
+        "list_courses": "", 
+        "notes": "", 
+        "other_documentation": [
+            "If your first language is not English, you may need to meet our <a href=\" https://uwaterloo.ca/find-out-more/elr\">English language requirements.</a>", 
+            "An <a href='https://uwaterloo.ca/find-out-more/aif'>Admission Information Form</a> must be filled out for most programs. Instructions will be included with the acknowledgment of your application.", 
+            "<ul><li>Learn more about <a href=\" https://uwaterloo.ca/find-out-more/programs/mechatronics-engineering \">Mechatronics Engineering</a></li><li><a href=\"https://uwaterloo.ca/find-out-more/request\">Request a Faculty of Engineering brochure</a></li><li>Join us for a <a href=\"https://uwaterloo.ca/find-out-more/visit-waterloo/events \">campus tour</a></li></ul>"
+        ], 
+        "program": "Chemical Engineering", 
+        "program_notes": "", 
+        "province": "Ontario", 
+        "recommended_courses": "", 
+        "system_of_study": "", 
+        "transfer_credits": ""
+    }, 
+    "schoolId": "", 
+    "shortName": "chem", 
+    "slug": "chemicalengineering", 
+    "streams": null, 
+    "undergradPopulation": "715"
+}

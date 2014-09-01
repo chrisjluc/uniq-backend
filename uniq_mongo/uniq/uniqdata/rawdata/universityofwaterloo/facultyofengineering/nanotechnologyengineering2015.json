@@ -1,0 +1,419 @@
+{
+    "about": "Nanotechnology engineering is a multi-disciplinary engineering field which simultaneously draws from and benefits areas such as materials science and engineering, chemistry, physics, and biology. Indeed, it is all about generating new solutions based upon atomic- and molecular-scale concepts and manipulations.\nNanotechnology commonly refers to the fabrication, study, and manipulation of structures having sizes in the range from one to one hundred nanometers (a nanometer is a billionth of a meter). This length scale bridges the important gap between atoms and molecules (which are typically less than five nanometers in size) and bulk material, thereby requiring a knowledge of fundamental chemistry and quantum physics. To develop this new cluster of technologies, there is an acute need for highly trained personnel who have a good understanding of the natural laws that govern the workings not only of atoms and molecules but also of natural or manufactured nanoscopic and mesoscopic structures and systems (such as, clusters, fullerenes, nanotubes, macromolecules, nanorobots, and nanosystems more generally).",
+    "avgAdm": "90-93", 
+    "contacts": [], 
+    "dateEstablished": "01-07-1957", 
+    "degree": "Bachelor's of Applied Science", 
+    "degreeAbbrev": "BASc",
+    "applicationProcess": null,
+    "degreeRequirements": {
+        "about": "The curriculum in Nanotechnology Engineering is designed to teach those fundamental physical and engineering sciences which form the basis of the work of nanotechnology engineers. The program in Nanotechnology Engineering consists of prescribed core courses complemented by six technical elective courses and five elective courses in addition to MSCI 261 in order to satisfy the Complementary Studies Requirements for Engineering Students.\nThe normal recommended program shown below involves a course load (excluding seminars) of five or six courses per term. Laboratory exercises are compulsory where they form part of a course. Permission from the Associate Director of Nanotechnology Engineering will be required for departures from the normal load in any one term. Permission to carry more than the normal load in any one term will normally be given only if the student holds an 80% average or better in the previous term.",
+        "curriculum": [
+            [
+                {
+                    "catalog_number": "101", 
+                    "subject": "NE"
+                }, 
+                {
+                    "catalog_number": "100", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "111", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "112", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "115", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "121", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "117", 
+                    "subject": "MATH"
+                }
+            ], 
+            [
+                {
+                    "catalog_number": "102", 
+                    "subject": "NE"
+                }, 
+                {
+                    "catalog_number": "119", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "113", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "122", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "131", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "125",
+                    "subject": "NE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "201", 
+                    "subject": "NE"
+                }, 
+                {
+                    "catalog_number": "216", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "225", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "220L", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "224", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "241", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "CSE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "202", 
+                    "subject": "NE"
+                }, 
+                {
+                    "catalog_number": "217", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "261", 
+                    "subject": "MSCI"
+                },
+                {
+                    "catalog_number": "232", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "226", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "242", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "301", 
+                    "subject": "NE"
+                }, 
+                {
+                    "catalog_number": "333", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "318", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "334", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "343", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "344", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "320L", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "302", 
+                    "subject": "NE"
+                }, 
+                {
+                    "catalog_number": "335", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "307", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "330L", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "336", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "353", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "352", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "340L", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "CSE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "401", 
+                    "subject": "NE"
+                }, 
+                {
+                    "catalog_number": "408", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "450L", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "454L", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "ELECT"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "ELECT"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "ELECT"
+                },
+                {
+                    "catalog_number": "4", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "402", 
+                    "subject": "NE"
+                }, 
+                {
+                    "catalog_number": "409", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "455L", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "4", 
+                    "subject": "ELECT"
+                },
+                {
+                    "catalog_number": "5", 
+                    "subject": "ELECT"
+                },
+                {
+                    "catalog_number": "6", 
+                    "subject": "ELECT"
+                },
+                {
+                    "catalog_number": "5", 
+                    "subject": "CSE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "445", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "451", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "461", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "471", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "481", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "491", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "452", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "459", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "469", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "479", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "489", 
+                    "subject": "NE"
+                },
+                {
+                    "catalog_number": "499", 
+                    "subject": "NE"
+                }
+            ]
+        ],
+        "curriculumTerms": [
+            "1A", 
+            "1B", 
+            "2A", 
+            "2B", 
+            "3A", 
+            "3B", 
+            "4A", 
+            "4B"
+        ]
+    }, 
+    "facultyId": "", 
+    "fees": null, 
+    "gradPopulation": "319", 
+    "images": [
+        {
+            "type": "misc",
+            "descriptor": "e5 building", 
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+        }
+    ], 
+    "importantDates": null, 
+    "internship": null, 
+    "location": null, 
+    "metaData": {
+        "dateCreated": "01-09-2014", 
+        "dateModified": "01-09-2014", 
+        "yearValid": 2015
+    }, 
+    "name": "Nanotechnology Engineering", 
+    "numAccepted": "", 
+    "numApplicants": "", 
+    "rankings": [], 
+    "rating": {
+        "classmates": 0, 
+        "difficulty": 0, 
+        "guyRatio": 78.3, 
+        "professors": 0, 
+        "ratingOverall": 0, 
+        "schedule": 0, 
+        "socialEnjoyment": 0, 
+        "studyEnv": 0
+    }, 
+    "relatedPrograms":["chemicalengineering"],
+    "requirements": {
+        "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
+        "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
+        "country": "", 
+        "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
+        "individual_courses": [
+            {
+                "course_title":"Calculus and Vectors",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"English",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Physics",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Chemistry",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Advanced Functions",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }
+        ], 
+        "international_program_requirements": "", 
+        "list_courses": "", 
+        "notes": "", 
+        "other_documentation": [
+            "If your first language is not English, you may need to meet our <a href=\" https://uwaterloo.ca/find-out-more/elr\">English language requirements.</a>", 
+            "An <a href='https://uwaterloo.ca/find-out-more/aif'>Admission Information Form</a> must be filled out for most programs. Instructions will be included with the acknowledgment of your application.", 
+            "<ul><li>Learn more about <a href=\" https://uwaterloo.ca/find-out-more/programs/mechatronics-engineering \">Mechatronics Engineering</a></li><li><a href=\"https://uwaterloo.ca/find-out-more/request\">Request a Faculty of Engineering brochure</a></li><li>Join us for a <a href=\"https://uwaterloo.ca/find-out-more/visit-waterloo/events \">campus tour</a></li></ul>"
+        ], 
+        "program": "Nanotechnology Engineering", 
+        "program_notes": "", 
+        "province": "Ontario", 
+        "recommended_courses": "", 
+        "system_of_study": "", 
+        "transfer_credits": ""
+    }, 
+    "schoolId": "", 
+    "shortName": "nano", 
+    "slug": "nanotechnologyengineering", 
+    "streams": null, 
+    "undergradPopulation": "482"
+}
