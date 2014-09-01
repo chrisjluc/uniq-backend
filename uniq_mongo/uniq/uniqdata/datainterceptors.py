@@ -20,10 +20,11 @@ class GenericInterceptor(object):
 				data['dateEstablished'] = None
 
 			# Contact
-			for contact in data['contacts']:
-				for key, val in contact.iteritems():
-					if val == '':
-						contact[key] = None
+			if data['contacts'] is not None:
+				for contact in data['contacts']:
+					for key, val in contact.iteritems():
+						if val == '':
+							contact[key] = None
 			return data
 		
 class FacultyInterceptor(GenericInterceptor):
