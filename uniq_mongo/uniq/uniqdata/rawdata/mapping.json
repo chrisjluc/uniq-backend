@@ -1,7 +1,18 @@
 {
 	"universityofwaterloo": {
 		"facultyofengineering" : [
-			"mechatronicsengineering"
+			"mechatronicsengineering",
+			"biomedicalengineering",
+			"chemicalengineering",
+			"electricalengineering",
+			"geologicalengineering",
+			"managementengineering",
+			"mechanicalengineering",
+			"nanotechnologyengineering",
+			"softwareengineering",
+			"systemsdesignengineering",
+			"environmentalengineering",
+			"architecture"
 		]
 	}
 }

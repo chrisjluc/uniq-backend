@@ -1,5 +1,5 @@
 {
-    "about": "Mechanical engineers deal with any machine that moves, such as robots, motors, pumps, and vehicles. As a graduate, you might design parts for small consumer products or design the latest commercial jets. You might work in industries ranging from manufacturing, robotics, and aerospace to biotechnology and the automotive sector.\nAt Waterloo, you'll have access to well-equipped labs for design and experimentation. You can gain hands-on experience by joining student teams such as the Formula SAE race car, Ethanol Vehicle Challenge, Midnight Sun solar car, SAE Cargo Aircraft, or CASI glider.\nCustomize your skills by choosing to specialize in areas such as fluid mechanics, materials engineering and processing, welding and joining, automation and control, or thermal engineering in your fourth year.",
+    "about": "The School of Architecture at the University of Waterloo is a nationally and internationally respected design school. It attracts top students and is dedicated to educating the best architects in the world.\nWorking with colleagues in related professions, our professors and students have made Waterloo Architecture a dynamic centre of research and teaching in construction, development, built heritage, \"green\" architecture, visualization, prototyping, and computer assisted design.",
     "avgAdm": "90-93", 
     "contacts": [], 
     "dateEstablished": "01-07-1957", 
@@ -7,235 +7,28 @@
     "degreeAbbrev": "BASc",
     "applicationProcess": null,
     "degreeRequirements": {
-        "about": "The degree of Bachelor of Applied Science (BASc) in Mechanical Engineering is accredited and permits registration as a Professional Engineer in the Professional Engineering licensing body in every Canadian province upon completion of the work experience requirement and upon passing the exams in law and ethics.\nThe Mechanical Engineering undergraduate program contains a core of basic subjects that must be taken by all students. The first year shares some courses with Civil and Electrical Engineering. The second and third years provide courses in Mechanical Engineering and Electrical Engineering with further development in mathematics and physics. In fourth year, a significant two-term capstone design project will be undertaken that will facilitate and promote integration of the knowledge and skills acquired in previous years of study and development of project management skills. Opportunities for more in-depth study in theme areas exist during the fourth year, where a choice of technical elective courses arranged into five different theme areas of expertise is available. Students may also choose to take the Welding and Joining Specialization. Five required non-technical, complementary studies elective (CSE) courses are distributed throughout the program but do not appear in all terms.",
+        "about": "Architects are largely responsible for the quality and beauty of our constructed environment. Recognized as one of the best in North America, our School of Architecture provides you with a creative, international education and 2 years of paid co-op work experience with design firms in Canada and abroad. You’ll enjoy a small community with a vibrant intellectual atmosphere. Our cultural history courses, which examine the close relationship between architecture and society, and our environmental courses add depth to core courses in design. You’ll spend the fall of fourth year at our studio in Rome, one of the world’s great cities for culture and architecture.",
         "curriculum": [
             [
                 {
-                    "catalog_number": "102", 
-                    "subject": "CHE"
-                }, 
-                {
-                    "catalog_number": "115", 
-                    "subject": "MATH"
-                },
-                {
-                    "catalog_number": "116", 
-                    "subject": "MATH"
-                },
-                {
                     "catalog_number": "100", 
-                    "subject": "ME"
+                    "subject": "ARCH"
                 },
                 {
-                    "catalog_number": "115", 
-                    "subject": "PHYS"
-                },
-            ], 
-            [
-                {
-                    "catalog_number": "100B", 
-                    "subject": "ME"
-                }, 
-                {
-                    "catalog_number": "123", 
-                    "subject": "GENE"
+                    "catalog_number": "110", 
+                    "subject": "ARCH"
                 },
                 {
-                    "catalog_number": "118", 
-                    "subject": "MATH"
+                    "catalog_number": "113", 
+                    "subject": "ARCH"
                 },
                 {
-                    "catalog_number": "101", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "115", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "1",
-                    "subject": "CSE"
+                    "catalog_number": "114", 
+                    "subject": "ARCH"
                 }
-            ],
-            [
-                {
-                    "catalog_number": "200A", 
-                    "subject": "ME"
-                }, 
-                {
-                    "catalog_number": "201", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "202", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "219", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "230", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "269", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "2", 
-                    "subject": "CSE"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "200B", 
-                    "subject": "ME"
-                }, 
-                {
-                    "catalog_number": "203", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "212", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "220", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "250", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "262", 
-                    "subject": "ME"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "300A", 
-                    "subject": "ME"
-                }, 
-                {
-                    "catalog_number": "303", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "321", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "340", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "351", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "354", 
-                    "subject": "ME"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "300B", 
-                    "subject": "ME"
-                }, 
-                {
-                    "catalog_number": "322", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "353", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "360", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "362", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "380", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "261", 
-                    "subject": "MSCI"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "400A", 
-                    "subject": "ME"
-                }, 
-                {
-                    "catalog_number": "481", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "1", 
-                    "subject": "ELECT"
-                },
-                {
-                    "catalog_number": "2", 
-                    "subject": "ELECT"
-                },
-                {
-                    "catalog_number": "3", 
-                    "subject": "ELECT"
-                },
-                {
-                    "catalog_number": "3", 
-                    "subject": "CSE"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "400B", 
-                    "subject": "ME"
-                }, 
-                {
-                    "catalog_number": "482", 
-                    "subject": "ME"
-                },
-                {
-                    "catalog_number": "4", 
-                    "subject": "ELECT"
-                },
-                {
-                    "catalog_number": "5", 
-                    "subject": "ELECT"
-                },
-                {
-                    "catalog_number": "6", 
-                    "subject": "ELECT"
-                },
-                {
-                    "catalog_number": "7", 
-                    "subject": "ELECT"
-                },
-                {
-                    "catalog_number": "4", 
-                    "subject": "CSE"
-                }
-            ],
+            ]
         ],
-        "curriculumTerms": [
-            "1A", 
-            "1B", 
-            "2A", 
-            "2B", 
-            "3A", 
-            "3B", 
-            "4A", 
-            "4B"
-        ]
+        "curriculumTerms": []
     }, 
     "facultyId": "", 
     "fees": null, 
@@ -269,6 +62,7 @@
         "socialEnjoyment": 0, 
         "studyEnv": 0
     }, 
+    "relatedPrograms":[],
     "requirements": {
         "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
         "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
