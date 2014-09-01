@@ -1,0 +1,344 @@
+{
+    "about": "Over the last few decades there has been a tremendous growth in information technology and its impact on everyday life. Complex software systems have become critical to the operation of many systems in areas such as banking, communications, manufacturing, power generation, and transportation. Progress in computer science and accumulated experience with industrial production of software have led to the emergence of software engineering as a separate discipline. The software engineering discipline has been defined as 'the application of systematic, disciplined, quantifiable approaches to the development, operation, and maintenance of software' that is, the application of engineering to software. The software engineer must apply well-defined techniques, methods, and tools to ensure the correctness, reliability, performance, maintainability, and usability of the software systems being developed.\nThe technical requirements of these software engineers include a strong foundation in mathematics, natural sciences, and computer science; a broad education in software engineering and design; an understanding of computers and networks; a better appreciation for all aspects of the software engineering life cycle; and the use of methodologies and tools.",
+    "avgAdm": "90-93", 
+    "contacts": [], 
+    "dateEstablished": "01-07-1957", 
+    "degree": "Bachelor's of Applied Science", 
+    "degreeAbbrev": "BASc",
+    "applicationProcess": null,
+    "degreeRequirements": {
+        "about": "The Software Engineering program is offered jointly by the David R. Cheriton School of Computer Science and the Department of Electrical and Computer Engineering.\nIts curriculum prepares graduates for entry into the software engineering profession. It covers the scientific and mathematical foundations of the discipline, engineering science and engineering design appropriate to the discipline, and exposes students to the ethical and societal issues associated with the discipline. Graduates will be able to apply their knowledge to produce software solutions to specific problems.\nStudents will be considered members of both the Faculty of Engineering and the Faculty of Mathematics, although for administrative purposes they will be registered officially in a separate unit. Students will be promoted based on the Examination and Promotion rules used in the Faculty of Engineering (see Examinations and Promotions). A non-voting representative from the Faculty of Mathematics will sit on the Engineering Examinations and Promotion Committee, to provide insight into the policies, philosophies, culture, and requirements that pertain to Math students. The Software Engineering program is also considered an Honours Mathematics plan for purposes of student access to Math courses. The Software Engineering Advisor will advise students on how to achieve their academic goals. Students will graduate with a Bachelor of Software Engineering.",
+        "curriculum": [
+            [
+                {
+                    "catalog_number": "137", 
+                    "subject": "CS"
+                }, 
+                {
+                    "catalog_number": "105", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "140", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "115", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "117", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "101", 
+                    "subject": "SE"
+                }
+            ], 
+            [
+                {
+                    "catalog_number": "102", 
+                    "subject": "SE"
+                }, 
+                {
+                    "catalog_number": "138", 
+                    "subject": "CS"
+                },
+                {
+                    "catalog_number": "106", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "124", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "119", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "135",
+                    "subject": "MATH"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "201", 
+                    "subject": "SE"
+                }, 
+                {
+                    "catalog_number": "102", 
+                    "subject": "CHE"
+                },
+                {
+                    "catalog_number": "241", 
+                    "subject": "CS"
+                },
+                {
+                    "catalog_number": "222", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "212", 
+                    "subject": "SE"
+                },
+                {
+                    "catalog_number": "206", 
+                    "subject": "STAT"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "TE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "202", 
+                    "subject": "SE"
+                }, 
+                {
+                    "catalog_number": "240", 
+                    "subject": "CS"
+                },
+                {
+                    "catalog_number": "247", 
+                    "subject": "CS"
+                },
+                {
+                    "catalog_number": "261", 
+                    "subject": "MSCI"
+                },
+                {
+                    "catalog_number": "213", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "239", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "301", 
+                    "subject": "SE"
+                }, 
+                {
+                    "catalog_number": "341", 
+                    "subject": "CS"
+                },
+                {
+                    "catalog_number": "349", 
+                    "subject": "CS"
+                },
+                {
+                    "catalog_number": "350", 
+                    "subject": "SE"
+                },
+                {
+                    "catalog_number": "465", 
+                    "subject": "SE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "TE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "302", 
+                    "subject": "SE"
+                }, 
+                {
+                    "catalog_number": "343", 
+                    "subject": "CS"
+                },
+                {
+                    "catalog_number": "348", 
+                    "subject": "CS"
+                },
+                {
+                    "catalog_number": "380", 
+                    "subject": "SE"
+                },
+                {
+                    "catalog_number": "390", 
+                    "subject": "SE"
+                },
+                {
+                    "catalog_number": "464", 
+                    "subject": "SE"
+                },
+                {
+                    "catalog_number": "4", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "401", 
+                    "subject": "SE"
+                }, 
+                {
+                    "catalog_number": "358", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "463", 
+                    "subject": "SE"
+                },
+                {
+                    "catalog_number": "490", 
+                    "subject": "SE"
+                },
+                {
+                    "catalog_number": "5", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "6", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "402", 
+                    "subject": "SE"
+                }, 
+                {
+                    "catalog_number": "491", 
+                    "subject": "SE"
+                },
+                {
+                    "catalog_number": "7", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "8", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "9", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "10", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "11", 
+                    "subject": "TE"
+                }
+            ],
+        ],
+        "curriculumTerms": [
+            "1A", 
+            "1B", 
+            "2A", 
+            "2B", 
+            "3A", 
+            "3B", 
+            "4A", 
+            "4B"
+        ]
+    }, 
+    "facultyId": "", 
+    "fees": null, 
+    "gradPopulation": null, 
+    "images": [
+        {
+            "type": "misc",
+            "descriptor": "e5 building", 
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+        }
+    ], 
+    "importantDates": null, 
+    "internship": null, 
+    "location": null, 
+    "metaData": {
+        "dateCreated": "01-09-2014", 
+        "dateModified": "01-09-2014", 
+        "yearValid": 2015
+    }, 
+    "name": "Software Engineering", 
+    "numAccepted": "", 
+    "numApplicants": "", 
+    "rankings": [], 
+    "rating": {
+        "classmates": 0, 
+        "difficulty": 0, 
+        "guyRatio": 82.1, 
+        "professors": 0, 
+        "ratingOverall": 0, 
+        "schedule": 0, 
+        "socialEnjoyment": 0, 
+        "studyEnv": 0
+    }, 
+    "requirements": {
+        "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
+        "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
+        "country": "", 
+        "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
+        "individual_courses": [
+            {
+                "course_title":"Calculus and Vectors",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"English",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Physics",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Chemistry",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Advanced Functions",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }
+        ], 
+        "international_program_requirements": "", 
+        "list_courses": "", 
+        "notes": "", 
+        "other_documentation": [
+            "If your first language is not English, you may need to meet our <a href=\" https://uwaterloo.ca/find-out-more/elr\">English language requirements.</a>", 
+            "An <a href='https://uwaterloo.ca/find-out-more/aif'>Admission Information Form</a> must be filled out for most programs. Instructions will be included with the acknowledgment of your application.", 
+            "<ul><li>Learn more about <a href=\" https://uwaterloo.ca/find-out-more/programs/mechatronics-engineering \">Mechatronics Engineering</a></li><li><a href=\"https://uwaterloo.ca/find-out-more/request\">Request a Faculty of Engineering brochure</a></li><li>Join us for a <a href=\"https://uwaterloo.ca/find-out-more/visit-waterloo/events \">campus tour</a></li></ul>"
+        ], 
+        "program": "Software Engineering", 
+        "program_notes": "", 
+        "province": "Ontario", 
+        "recommended_courses": "", 
+        "system_of_study": "", 
+        "transfer_credits": ""
+    }, 
+    "schoolId": "", 
+    "shortName": "se", 
+    "slug": "softwareengineering", 
+    "streams": null, 
+    "undergradPopulation": "572"
+}

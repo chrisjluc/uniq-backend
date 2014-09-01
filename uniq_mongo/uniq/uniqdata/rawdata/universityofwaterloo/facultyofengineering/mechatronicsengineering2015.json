@@ -1,5 +1,5 @@
 {
-    "about": "Mechatronics engineering is the design of computer-controlled electromechanical systems. It can be viewed as 'modern mechanical engineering design' in the sense that the design of the mechanical system must be performed together with that of the electrical/electronic and computer control aspects that will comprise the complete system.", 
+    "about": "Mechatronics engineering is an integrated approach to the design of computer controlled electro-mechanical systems. Mechatronic applications are pervasive in our everyday lives, so much so that we often take them for granted. Familiar examples of mechatronic systems include automotive anti-lock braking systems (ABS), SLR cameras, and aerospace 'fly-by-wire' systems. These mechatronic designs are much more than simply the addition of a microcontroller to an existing mechanical system – their complete and properly integrated redesign is what makes them successful. An integrated design philosophy has been incorporated into the development of this program.\nIn order to successfully combine mechanical design, computers, software, and electronics with an integrated design approach, the mechatronics engineer requires an understanding of a breadth of topics. The tools that make up the mechatronics engineer’s repertoire are drawn from many departments across the faculty: Mechanical, Electrical and Computer, and Systems Design Engineering. The result is a multi-disciplinary program, which provides students with a unique set of skills.\nThe program is a rich blend of courses prepared and delivered specifically for Mechatronics Engineering students, designated with the MTE label, and courses selected from other engineering disciplines: Mechanical Engineering (ME), Electrical and Computer Engineering (ECE), and Systems Design Engineering (SYDE). Mechatronics Engineering students thus benefit from a breadth of expertise.",
     "avgAdm": "90-93", 
     "contacts": [], 
     "dateEstablished": "01-09-2003", 
@@ -7,7 +7,7 @@
     "degreeAbbrev": "BASc",
     "applicationProcess": null,
     "degreeRequirements": {
-        "about": "The table below lists the courses and technical electives for the Mechatronics Engineering Program. In addition to the courses listed, a student is required to select technical elective and complementary studies courses as described below. All students in the Faculty of Engineering are permitted to take an option (as described in Options, Specializations and Electives for Engineering Students of this section of the calendar). Mechatronics Engineering students are not permitted to take the Mechatronics Option. In many cases earning an option will require a number of courses in addition to the core and elective structure given below. The first students were admitted to the Mechatronics Engineering Program in the fall of 2003. The courses listed as MTE courses, although listed in this calendar, will not be offered until the first students enrolled in the Mechatronics Engineering Program reach the level requiring these courses.", 
+        "about": "All students in the Faculty of Engineering are permitted to take an option (as described in Options, Specializations and Electives for Engineering Students of this section of the calendar). Mechatronics Engineering students are not permitted to take the Mechatronics Option. In many cases earning an option will require a number of courses in addition to the core and elective structure given below.",
         "curriculum": [
             [
                 {
@@ -575,7 +575,7 @@
     }, 
     "facultyId": "", 
     "fees": null, 
-    "gradPopulation": "", 
+    "gradPopulation": "319", 
     "images": [
         {
             "type": "misc",
@@ -598,7 +598,7 @@
     "rating": {
         "classmates": 0, 
         "difficulty": 0, 
-        "guyRatio": 0, 
+        "guyRatio": 85.9, 
         "professors": 0, 
         "ratingOverall": 0, 
         "schedule": 0, 
@@ -656,5 +656,5 @@
     "shortName": "tron", 
     "slug": "mechatronicsengineering", 
     "streams": null, 
-    "undergradPopulation": "400-500"
+    "undergradPopulation": "636"
 }

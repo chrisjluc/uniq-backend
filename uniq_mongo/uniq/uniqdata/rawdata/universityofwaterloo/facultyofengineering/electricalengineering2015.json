@@ -1,0 +1,360 @@
+{
+    "about": "The field of electrical and computer engineering is multidisciplinary and based on foundations in science, mathematics, and computing—both hardware and software. Reflecting this diversity, the Department of Electrical and Computer Engineering (ECE) offers these two broad programs but is also a major partner in offering three more interdisciplinary programs, in Mechatronics Engineering, Nanotechnology Engineering, and Software Engineering. The Computer Engineering and Electrical Engineering programs, described here, span the field in slightly different ways to give students a deep base of core knowledge with the ability to focus in one or more target areas. Students completing either program should gain the breadth of understanding necessary for lifelong learning in any area of electrical and computer engineering regardless of their choice of upper-year electives.",
+    "avgAdm": "90-93", 
+    "contacts": [], 
+    "dateEstablished": "01-07-1957", 
+    "degree": "Bachelor's of Applied Science", 
+    "degreeAbbrev": "BASc",
+    "applicationProcess": null,
+    "degreeRequirements": {
+        "about": "ECE identifies ten overlapping target areas in the discipline as listed below.\nCommunications, modulation and coding, multimedia, wireless.\nNetworks, mobility, distributed computing.\nEnergy distribution, motors/generators, power electronics, energy marketing.\nControl, automation, robotics, mechatronics.\nDigital architectures, embedded computers, formal specification and design.\nAnalog or digital devices, circuits, VLSI, micro-/nano-fabrication methods.\nMicrowave (radio frequency) or photonic devices and systems.\nSignal processing, computational intelligence, soft computing.\nSoftware systems, components, security, embedded software.\nSoftware engineering, requirements specification, software architectures, verification.",
+        "curriculum": [
+            [
+                {
+                    "catalog_number": "102", 
+                    "subject": "CHE"
+                }, 
+                {
+                    "catalog_number": "100A", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "105", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "140", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "150", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "117", 
+                    "subject": "MATH"
+                }
+            ], 
+            [
+                {
+                    "catalog_number": "100B", 
+                    "subject": "ECE"
+                }, 
+                {
+                    "catalog_number": "103", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "106", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "124", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "155", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "119",
+                    "subject": "MATH"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "200A", 
+                    "subject": "ECE"
+                }, 
+                {
+                    "catalog_number": "205", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "222", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "240", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "250", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "290", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "215", 
+                    "subject": "MATH"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "200B", 
+                    "subject": "ECE"
+                }, 
+                {
+                    "catalog_number": "206", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "207", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "242", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "224", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "254", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "209", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "WKRPT-4stream"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "300A", 
+                    "subject": "ECE"
+                }, 
+                {
+                    "catalog_number": "316", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "380", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "327", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "351", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "331", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "375", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "300B", 
+                    "subject": "ECE"
+                }, 
+                {
+                    "catalog_number": "318", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "390", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "356", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "358", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "224", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "361", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "400A", 
+                    "subject": "ECE"
+                }, 
+                {
+                    "catalog_number": "481", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "4", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "400B", 
+                    "subject": "ECE"
+                }, 
+                {
+                    "catalog_number": "498B", 
+                    "subject": "ECE"
+                },
+                {
+                    "catalog_number": "4", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "5", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "6", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "7", 
+                    "subject": "TE"
+                }
+            ],
+        ],
+        "curriculumTerms": [
+            "1A", 
+            "1B", 
+            "2A", 
+            "2B", 
+            "3A", 
+            "3B", 
+            "4A", 
+            "4B"
+        ]
+    }, 
+    "facultyId": "", 
+    "fees": null, 
+    "gradPopulation": "602", 
+    "images": [
+        {
+            "type": "misc",
+            "descriptor": "e5 building", 
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+        }
+    ], 
+    "importantDates": null, 
+    "internship": null, 
+    "location": null, 
+    "metaData": {
+        "dateCreated": "01-09-2014", 
+        "dateModified": "01-09-2014", 
+        "yearValid": 2015
+    }, 
+    "name": "Electrical and Computer Engineering", 
+    "numAccepted": "", 
+    "numApplicants": "", 
+    "rankings": [], 
+    "rating": {
+        "classmates": 0, 
+        "difficulty": 0, 
+        "guyRatio": 87.5, 
+        "professors": 0, 
+        "ratingOverall": 0, 
+        "schedule": 0, 
+        "socialEnjoyment": 0, 
+        "studyEnv": 0
+    }, 
+    "requirements": {
+        "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
+        "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
+        "country": "", 
+        "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
+        "individual_courses": [
+            {
+                "course_title":"Calculus and Vectors",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"English",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Physics",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Chemistry",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Advanced Functions",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }
+        ], 
+        "international_program_requirements": "", 
+        "list_courses": "", 
+        "notes": "", 
+        "other_documentation": [
+            "If your first language is not English, you may need to meet our <a href=\" https://uwaterloo.ca/find-out-more/elr\">English language requirements.</a>", 
+            "An <a href='https://uwaterloo.ca/find-out-more/aif'>Admission Information Form</a> must be filled out for most programs. Instructions will be included with the acknowledgment of your application.", 
+            "<ul><li>Learn more about <a href=\" https://uwaterloo.ca/find-out-more/programs/mechatronics-engineering \">Mechatronics Engineering</a></li><li><a href=\"https://uwaterloo.ca/find-out-more/request\">Request a Faculty of Engineering brochure</a></li><li>Join us for a <a href=\"https://uwaterloo.ca/find-out-more/visit-waterloo/events \">campus tour</a></li></ul>"
+        ], 
+        "program": "Electrical and Computer Engineering", 
+        "program_notes": "", 
+        "province": "Ontario", 
+        "recommended_courses": "", 
+        "system_of_study": "", 
+        "transfer_credits": ""
+    }, 
+    "schoolId": "", 
+    "shortName": "ece", 
+    "slug": "electricalengineering", 
+    "streams": null, 
+    "undergradPopulation": "835"
+}

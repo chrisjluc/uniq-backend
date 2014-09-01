@@ -1,0 +1,438 @@
+{
+    "about": "The complex problems and needs of current and future societies have created challenges for Engineering unparalleled in our history. To interpret and satisfy these needs, Civil Engineers currently direct the spending of more than one tenth of Canada's gross national product – more than any other professional group. The Civil Engineer must deal with the human impact of engineering – the social, moral, and legal issues – to a far greater degree than ever before.\nHistorically, Civil Engineering is the oldest branch of engineering and dates back at least 5,000 years to the profession of "master builder" involving pyramids, temples, and irrigation projects. Civil Engineering has become an extremely diverse field with opportunities for graduates in many areas of application. Furthermore, the use of electronic data collection methods and the application of computers has revolutionized the practice of Civil Engineering. Consequently, our curriculum is being constantly reviewed in order to produce graduate engineers who can use advanced aids to solve complex problems.\nThe Civil Engineering program is designed to provide the necessary fundamentals of mathematics and the natural sciences as well as to provide perspectives from the fields of the social sciences and humanities.",
+    "avgAdm": "90-93", 
+    "contacts": [], 
+    "dateEstablished": "01-07-1957", 
+    "degree": "Bachelor's of Applied Science", 
+    "degreeAbbrev": "BASc",
+    "applicationProcess": null,
+    "degreeRequirements": {
+        "about": "The Department of Civil Engineering at Waterloo, being one of the largest in Canada, is able to offer elective courses in each of the following areas.\nStructural Engineering: Deals with the design and construction of all types of structures including buildings and bridges. Emphasis is placed on mechanics and the behaviour of materials.\nConstruction Engineering and Management: Intended for students interested in project management, construction materials, construction engineering, and building engineering.\nWater and Waste Management Engineering: Addresses water and waste water treatment, surface and ground water pollution and control, solid and hazardous waste management, contaminant transport and behaviour in the environment. Support areas involving aquatic chemistry, computer modelling, simulation and laboratory experimentation as examples are also stressed.\nTransportation Engineering: Deals with the planning, design, construction, traffic operation and evaluation of streets, highways, airports, and transit systems.\nGeotechnical Engineering: Familiarizes students with the engineering properties of soils, the fundamentals of soil mechanics, and the application of geotechnical data and fundamentals to the design of foundation elements, earth-retaining structures, excavations, earth embankments and highway pavements.\nEngineering Mechanics: For students with a strong interest in a rigorous study of mechanics, applied mathematics and related fields. Leads to an understanding of advanced analysis and serving as a preparation for graduate study in structural engineering, hydraulics, mechanics of solids and fluids, or properties of materials.\nWater Resources Engineering: Deals with the planning, management, design and operation of water supply and distribution systems, flood control and flood hazard mapping, hydrologic and hydraulic aspects of environmental issues, and application of remotely-sensed data to hydrologic and environmental problems.\nExperimental Mechanics: Intended for students with an interest in experimental investigations of the static and dynamic response of structures and machines, and in the development of improved techniques to obtain and analyze experimental data.\nMaterials: Courses in this area are intended to provide students interested in structural engineering, mechanics, or properties of materials with a background in materials science.\nAdditional Areas of Study\nAlternatively, the student can choose a more general pattern of study involving courses from several topic areas, or a program outside the traditional Civil Engineering field. For instance, with the approval of the Associate Chair for Undergraduate Studies, the student may augment Civil Engineering course programs with elective courses from: \nPublic Administration \nPlanning \nManagement Science \nBusiness Administration \nBioengineering \nEnvironmental Health, and others.\nTo this end, the Civil Engineering Curriculum has been designed to allow the maximum possible flexibility while still meeting the requirements for the professional degree. The curricula of the Civil Engineering, Environmental Engineering, and Geological Engineering programs are common in the first year to allow transfer among the three programs up to the end of first year. The Civil Engineering Curriculum enables the students to conduct engineering analysis and design, to perform risk and life cycle analysis, and asset management, and to evaluate the impact of engineering work on the environment.",
+        "curriculum": [
+            [
+                {
+                    "catalog_number": "102", 
+                    "subject": "CHE"
+                }, 
+                {
+                    "catalog_number": "125", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "115", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "116", 
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "115", 
+                    "subject": "PHYS"
+                },
+            ], 
+            [
+                {
+                    "catalog_number": "121", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "127", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "153", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "199", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "123", 
+                    "subject": "GENE"
+                },
+                {
+                    "catalog_number": "118",
+                    "subject": "MATH"
+                },
+                {
+                    "catalog_number": "1",
+                    "subject": "CSE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "204", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "221", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "224", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "265", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "292", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "298", 
+                    "subject": "CIVE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "205", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "222", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "240", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "280", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "299", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "CSE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "303", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "331", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "342", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "353", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "375", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "398", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "4", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "WKRPT"
+                },
+            ],
+            [
+                {
+                    "catalog_number": "332", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "399", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "1", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "3", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "5", 
+                    "subject": "CSE"
+                },
+                {
+                    "catalog_number": "2", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "400", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "491", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "498", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "4", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "5", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "6", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "400", 
+                    "subject": "WKRPT"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "401", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "499", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "7", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "8", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "9", 
+                    "subject": "TE"
+                },
+                {
+                    "catalog_number": "10", 
+                    "subject": "TE"
+                }
+            ],
+            [
+                {
+                    "catalog_number": "403", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "413", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "414", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "444", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "486", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "512", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "542", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "572", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "354", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "381", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "405", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "415", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "422", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "440", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "460", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "507", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "554", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "583", 
+                    "subject": "CIVE"
+                }, 
+                {
+                    "catalog_number": "596", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "573", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "577", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "306", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "313", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "343", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "354", 
+                    "subject": "CIVE"
+                },
+                {
+                    "catalog_number": "381", 
+                    "subject": "CIVE"
+                }
+            ]
+        ],
+        "curriculumTerms": [
+            "1A", 
+            "1B", 
+            "2A", 
+            "2B", 
+            "3A", 
+            "3B", 
+            "4A", 
+            "4B"
+        ]
+    }, 
+    "facultyId": "", 
+    "fees": null, 
+    "gradPopulation": "244", 
+    "images": [
+        {
+            "type": "misc",
+            "descriptor": "e5 building", 
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+        }
+    ], 
+    "importantDates": null, 
+    "internship": null, 
+    "location": null, 
+    "metaData": {
+        "dateCreated": "01-09-2014", 
+        "dateModified": "01-09-2014", 
+        "yearValid": 2015
+    }, 
+    "name": "Civil Engineering", 
+    "numAccepted": "", 
+    "numApplicants": "", 
+    "rankings": [], 
+    "rating": {
+        "classmates": 0, 
+        "difficulty": 0, 
+        "guyRatio": 69.5, 
+        "professors": 0, 
+        "ratingOverall": 0, 
+        "schedule": 0, 
+        "socialEnjoyment": 0, 
+        "studyEnv": 0
+    }, 
+    "requirements": {
+        "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
+        "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
+        "country": "", 
+        "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
+        "individual_courses": [
+            {
+                "course_title":"Calculus and Vectors",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"English",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Physics",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Chemistry",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Advanced Functions",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }
+        ], 
+        "international_program_requirements": "", 
+        "list_courses": "", 
+        "notes": "", 
+        "other_documentation": [
+            "If your first language is not English, you may need to meet our <a href=\" https://uwaterloo.ca/find-out-more/elr\">English language requirements.</a>", 
+            "An <a href='https://uwaterloo.ca/find-out-more/aif'>Admission Information Form</a> must be filled out for most programs. Instructions will be included with the acknowledgment of your application.", 
+            "<ul><li>Learn more about <a href=\" https://uwaterloo.ca/find-out-more/programs/mechatronics-engineering \">Mechatronics Engineering</a></li><li><a href=\"https://uwaterloo.ca/find-out-more/request\">Request a Faculty of Engineering brochure</a></li><li>Join us for a <a href=\"https://uwaterloo.ca/find-out-more/visit-waterloo/events \">campus tour</a></li></ul>"
+        ], 
+        "program": "Civil Engineering", 
+        "program_notes": "", 
+        "province": "Ontario", 
+        "recommended_courses": "", 
+        "system_of_study": "", 
+        "transfer_credits": ""
+    }, 
+    "schoolId": "", 
+    "shortName": "civil", 
+    "slug": "civilengineering", 
+    "streams": null, 
+    "undergradPopulation": "616"
+}
