@@ -13,3 +13,4 @@ uniq_mongo/uniq/uniqdata/rawdata/universityofwaterloo/facultyofengineering/.DS_S
 uniq_sql_lite/.DS_Store
 uniq_sql_lite/programs/.DS_Store
 uniq_sql_lite/uniq_django_restframework/.DS_Store
+.elasticbeanstalk/
