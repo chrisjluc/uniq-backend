@@ -1,325 +1,569 @@
 {
-    "about": "Nanotechnology engineering is a multi-disciplinary engineering field which simultaneously draws from and benefits areas such as materials science and engineering, chemistry, physics, and biology. Indeed, it is all about generating new solutions based upon atomic- and molecular-scale concepts and manipulations.\nNanotechnology commonly refers to the fabrication, study, and manipulation of structures having sizes in the range from one to one hundred nanometers (a nanometer is a billionth of a meter). This length scale bridges the important gap between atoms and molecules (which are typically less than five nanometers in size) and bulk material, thereby requiring a knowledge of fundamental chemistry and quantum physics. To develop this new cluster of technologies, there is an acute need for highly trained personnel who have a good understanding of the natural laws that govern the workings not only of atoms and molecules but also of natural or manufactured nanoscopic and mesoscopic structures and systems (such as, clusters, fullerenes, nanotubes, macromolecules, nanorobots, and nanosystems more generally).",
+    "about": "Nanotechnology engineering is a multi-disciplinary engineering field which simultaneously draws from and benefits areas such as materials science and engineering, chemistry, physics, and biology. Indeed, it is all about generating new solutions based upon atomic- and molecular-scale concepts and manipulations.\nNanotechnology commonly refers to the fabrication, study, and manipulation of structures having sizes in the range from one to one hundred nanometers (a nanometer is a billionth of a meter). This length scale bridges the important gap between atoms and molecules (which are typically less than five nanometers in size) and bulk material, thereby requiring a knowledge of fundamental chemistry and quantum physics. To develop this new cluster of technologies, there is an acute need for highly trained personnel who have a good understanding of the natural laws that govern the workings not only of atoms and molecules but also of natural or manufactured nanoscopic and mesoscopic structures and systems (such as, clusters, fullerenes, nanotubes, macromolecules, nanorobots, and nanosystems more generally).", 
+    "applicationProcess": null, 
     "avgAdm": "90-93", 
     "contacts": [], 
     "dateEstablished": "01-07-1957", 
     "degree": "Bachelor's of Applied Science", 
-    "degreeAbbrev": "BASc",
-    "applicationProcess": null,
+    "degreeAbbrev": "BASc", 
     "degreeRequirements": {
-        "about": "The curriculum in Nanotechnology Engineering is designed to teach those fundamental physical and engineering sciences which form the basis of the work of nanotechnology engineers. The program in Nanotechnology Engineering consists of prescribed core courses complemented by six technical elective courses and five elective courses in addition to MSCI 261 in order to satisfy the Complementary Studies Requirements for Engineering Students.\nThe normal recommended program shown below involves a course load (excluding seminars) of five or six courses per term. Laboratory exercises are compulsory where they form part of a course. Permission from the Associate Director of Nanotechnology Engineering will be required for departures from the normal load in any one term. Permission to carry more than the normal load in any one term will normally be given only if the student holds an 80% average or better in the previous term.",
+        "about": "The curriculum in Nanotechnology Engineering is designed to teach those fundamental physical and engineering sciences which form the basis of the work of nanotechnology engineers. The program in Nanotechnology Engineering consists of prescribed core courses complemented by six technical elective courses and five elective courses in addition to MSCI 261 in order to satisfy the Complementary Studies Requirements for Engineering Students.\nThe normal recommended program shown below involves a course load (excluding seminars) of five or six courses per term. Laboratory exercises are compulsory where they form part of a course. Permission from the Associate Director of Nanotechnology Engineering will be required for departures from the normal load in any one term. Permission to carry more than the normal load in any one term will normally be given only if the student holds an 80% average or better in the previous term.", 
         "curriculum": [
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "101", 
-                    "subject": "NE"
+                    "description": "Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 1A academic term. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Nanotechnology Engineering Practice", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "100", 
-                    "subject": "NE"
-                },
+                    "description": "An introduction to nanotechnology engineering and its various applications. Introduction to basic methods and principles used by engineers. Introduction to the engineering profession, including standards, safety, and intellectual property. Professional development, including r\u00e9sum\u00e9 skills, interview skills, and preparation for co-op terms. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Introduction to Nanotechnology Engineering", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "111", 
                     "subject": "NE"
-                },
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "112", 
-                    "subject": "NE"
-                },
+                    "description": "Matrices, operations on matrices. Determinants. Adjoints and inverses. Solution of linear equations: elimination and iterative methods. Eigenvalues and eigenvectors with engineering applications. Numerical methods. Complex numbers. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Linear Algebra with Numerical Applications", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "115", 
-                    "subject": "NE"
-                },
+                    "description": "Elementary probability theory. Random variables and distributions. Binomial, Poisson, and normal distributions. Elementary sampling. Statistical estimation. Tests of hypotheses and significance. Regression. Goodness-of-fit tests. [Offered: W]", 
+                    "subject": "NE", 
+                    "title": "Probability and Statistics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "121", 
-                    "subject": "NE"
-                },
+                    "description": "Chemical reactions. Mass and charge balance. Introduction to the first, second, and third laws of thermodynamics. Chemical kinetics. Chemical equilibrium. Applications of chemical equilibrium principles to proton-transfer and electron-transfer reactions. Electronic structure of atoms and molecules. Periodicity and chemical bonding. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Chemical Principles", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "117", 
-                    "subject": "MATH"
+                    "description": "Functions of engineering importance; review of polynomial, exponential, and logarithmic functions; trigonometric functions and identities. Inverse functions (logarithmic and trigonometric). Limits and continuity. Derivatives, rules of differentiation; derivatives of elementary functions. Applications of the derivative, max-min problems, Mean Value Theorem. Antiderivatives, the Riemann definite integral, Fundamental Theorems. Methods of integration, approximation, applications, improper integrals. [Offered: F]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 1 for Engineering", 
+                    "units": 0.5
                 }
             ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "102", 
-                    "subject": "NE"
+                    "description": "Introduction to types of nanomaterials hazards: their identification, toxicity, and characterization; exposure health risk assessment; cancer and noncancer risks. Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 1B academic term, including aspects of cooperative education and professional or career development.", 
+                    "subject": "NE", 
+                    "title": "Health Risk Assessment and Nanotechnology Engineering Practice", 
+                    "units": 0.1
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "119", 
-                    "subject": "MATH"
-                },
+                    "description": "Elementary approximation methods: interpolation; Taylor polynomials and remainder; Newton's method, Landau order symbol, applications. Infinite series: Taylor series and Taylor's Remainder Theorem, geometric series, convergence test, power series, applications. Functions of several variables: partial derivatives, linear approximation and differential, gradient and directional derivative, optimization and Lagrange multipliers. Vector-valued functions: parametric representation of curves, tangent and normal vectors, line integrals and applications. [Offered: W,S]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 2 for Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "113", 
-                    "subject": "NE"
-                },
+                    "description": "Introduction to digital computers, hardware and software organization. Programming fundamentals. Algorithms and control structures. Computer communication. Spreadsheets for problem solving, plotting, fitting data, building new functions, and making iterations and loops. Problem solution, plotting, and creating complex programs in an engineering prototyping programming environment. Elementary numerical methods (e.g., Taylor-series summations, roots of equations, roots of polynomials, systems of linear and nonlinear algebraic equations, integration). Applications in nanotechnology engineering. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Engineering Computation", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "122", 
-                    "subject": "NE"
-                },
+                    "description": "Structure, nomenclature and reactions of important classes of organic compounds. Interconversions of functional groups. Mechanisms of chemical reactions. Introduction to nuclear magnetic resonance, ultraviolet and infrared spectroscopy. [Offered: W] No Special Consent Required.", 
+                    "subject": "NE", 
+                    "title": "Organic Chemistry for Nanotechnology Engineers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "131", 
-                    "subject": "NE"
-                },
+                    "description": "A first course in physics that introduces basic topics in classical mechanics, wave mechanics, and physical optics. [Offered: W]", 
+                    "subject": "NE", 
+                    "title": "Physics for Nanotechnology Engineering", 
+                    "units": 0.5
+                }, 
                 {
-                    "catalog_number": "125",
-                    "subject": "NE"
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "125", 
+                    "description": "Fundamentals of crystalline structure, crystal defects, and noncrystallinity. Structure and properties of metals, ceramics, glasses, amorphous materials, polymers, and composites. Processing and concepts of engineering design of materials. [Offered: W]", 
+                    "subject": "NE", 
+                    "title": "Introduction to Materials Science and Engineering", 
+                    "units": 0.5
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "201", 
-                    "subject": "NE"
+                    "description": "Nanotoxicology, including inhalation and dermal exposure effects; translocation, cytotoxicity, mutagenicity, and neurotoxicity; carbon nanotubes as cancer hazards. Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 2A academic term, including aspects of cooperative education and professional or career development.", 
+                    "subject": "NE", 
+                    "title": "Nanotoxicology and Nanotechnology Engineering Practice", 
+                    "units": 0.1
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "216", 
-                    "subject": "NE"
-                },
+                    "description": "Ordinary differential equations with constant coefficients. Boundary value problems and applications to quantum mechanics. Laplace transforms, Fourier series and applications. Numerical solution of ordinary differential equations. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Advanced Calculus 1 for Nanotechnology Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "225", 
-                    "subject": "NE"
-                },
+                    "description": "Chemical description of electronic structure from atoms to the solid state; basic quantum chemistry, orbitals, band structure and density of states; electrical and optical properties; physical interactions from the atomic level to the solid state; reactions in liquid media, sol-gel processes; crystalline and non-crystalline solids (local defects, mesoscopic order, non-periodic structure); fundamentals of diffraction theory and application to amorphous materials. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Structure and Properties of Matter: From Nanoscale to Bulk", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "220L", 
-                    "subject": "NE"
-                },
+                    "description": "Labs following the NE 125 Introduction to Materials Science and Engineering course. Lab topics are: Mechanical stress-strain test on metals, polymers and semiconductors; Measurement of heat capacity of materials; Measurement of Tg of polymers; Characterization of macro-, meso- and micro-structures of materials, using optical microscopes; Mechanical stress-strain test on alloys and ceramics. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Materials Science and Engineering Laboratory", 
+                    "units": 0.25
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "224", 
-                    "subject": "NE"
-                },
+                    "description": "An introduction to the chemistry of amino acids, carbohydrates, lipids and nucleic acids. Structure and properties of proteins and enzymes. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Biochemistry for Nanotechnology Engineers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "241", 
-                    "subject": "NE"
-                },
+                    "description": "Coulomb's law and electric field, Gauss' law and electric flux, energy and potential, dielectrics, capacitance, Poisson's and Laplace's equations, electric current, metallic conductors, Ohm's law, Kirchhoff's voltage and current laws, resistance, electrical energy dissipation, Ampere's law, magnetic circuits, Faraday's law, inductance, electrical energy storage. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Electromagnetism", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "1", 
                     "subject": "CSE"
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "202", 
-                    "subject": "NE"
+                    "description": "Nanomaterials exposure assessment, including characterization, nanometrics, external and internal dosages, biomarkers, and occupational exposure assessment. Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 2B academic term, including aspects of cooperative education and professional or career development.", 
+                    "subject": "NE", 
+                    "title": "Nanomaterials Exposure Assessment and Nanotechnology Engineering Practice", 
+                    "units": 0.1
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "217", 
-                    "subject": "NE"
-                },
+                    "description": "Gradient, Divergence and Curl: Applications. Line and Surface Integrals. Green's, Gauss', and Stokes' Theorems: Applications to electromagnetism and fluid mechanics. Numerical solution of partial differential equations. [Offered: S]", 
+                    "subject": "NE", 
+                    "title": "Advanced Calculus 2 for Nanotechnology Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "261", 
-                    "subject": "MSCI"
-                },
+                    "description": "Introductory Finance: time value of money, cash flow analysis. Investment evaluation methods: present worth, annual worth and internal rate of return. Depreciation models and asset replacement analysis. The impact of inflation, taxation, uncertainty and risk on investment decisions. [Offered: F,W,S]", 
+                    "subject": "MSCI", 
+                    "title": "Engineering Economics: Financial Management for Engineers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "232", 
-                    "subject": "NE"
-                },
+                    "description": "Historical background; the differential equation approach to quantum mechanics; treatments of solvable problems such as the particle-in-a-box, harmonic oscillator, rigid rotor, and the hydrogen atom; introduction to approximation methods for more complex systems; application to solid state problems, including band theory. [Offered: S]", 
+                    "subject": "NE", 
+                    "title": "Quantum Mechanics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "226", 
-                    "subject": "NE"
-                },
+                    "description": "Materials structure analysis. Materials composition and chemical bonding analysis. In-situ analysis and monitoring of fabrication process parameters. Materials properties characterization. [Offered: S]", 
+                    "subject": "NE", 
+                    "title": "Characterization of Materials", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "242", 
-                    "subject": "NE"
-                },
+                    "description": "Introduction to semiconductor devices and theory, energy bands, carriers, carrier transport, homojunctions, heterojunctions, charge, pn junctions, biasing, equilibrium, transient behaviour, MOS devices, bipolar devices, disordered semiconductors, thin-film devices, organic semiconductors, solar cells, and sensors. [Offered: S]", 
+                    "subject": "NE", 
+                    "title": "Electronic Devices", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "1", 
-                    "subject": "WKRPT"
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "301", 
-                    "subject": "NE"
+                    "description": "Environmental fate and behaviour, bioavailability, consumer exposure, environmental exposure assessment, aquatic toxicology, bioaccumulation and biomagnification. Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 3A academic term, including aspects of co-operative education and professional or career development.", 
+                    "subject": "NE", 
+                    "title": "Environmental Impact, Ecotoxicology, and Nanotechnology Engineering Practice", 
+                    "units": 0.1
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "333", 
-                    "subject": "NE"
-                },
+                    "description": "Basic definitions and polymer nomenclature, molecular weight averages and distributions, constitutional and configurational isomerism, rubber elasticity, step-growth and free-radical chain-growth polymerizations, emulsion polymerization. [Offered: S]", 
+                    "subject": "NE", 
+                    "title": "Macromolecular Science 1", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "318", 
-                    "subject": "NE"
-                },
+                    "description": "Introduction to Fourier series and their use in boundary value problems. Review of the conservation laws and associated differential equations. Mathematical description of solids and fluids: forces, displacement, stresses, strains and their relations. Analysis of the response of micromechanical systems to electrical, thermal, magnetic, and mechanical forces. Viscoelastic properties of polymeric and biological systems. Fundamentals of transport phenomena: mass, heat, charge, momentum and energy. Molecular transport mechanisms. [Offered: S]", 
+                    "subject": "NE", 
+                    "title": "Mathematical Methods for Nanotechnology Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "334", 
-                    "subject": "NE"
-                },
+                    "description": "Statistical mechanics vs. thermodynamics. Review of statistical concepts. Canonical and grand canonical ensembles. Entropy. General formulation of statistical thermodynamics. Fermi-Dirac, Bose-Einstein and Boltzmann statistics. Quantum ideal gases. Specific heat of solids. Electrons in metals and semiconductors. Radiation: the photon gas. [Offered: S]", 
+                    "subject": "NE", 
+                    "title": "Statistical Thermodynamics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "343", 
-                    "subject": "NE"
-                },
+                    "description": "Key processes for electronic device fabrication. Single crystal growth. Substrate preparation. Homoepitaxy, heteroepitaxy, and molecular-beam epitaxy. Ion implantation. Oxidation and diffusion. Physical and chemical vapor deposition. Sputtering and evaporation. Etching. Micromachining. Spin coating and printing. Photolithography. Effects of device scaling on chip performance. Process integration. Yield and reliability. [Offered: S]", 
+                    "subject": "NE", 
+                    "title": "Microfabrication and Thin-film Technology", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "344", 
-                    "subject": "NE"
-                },
+                    "description": "Basic circuit theory. Circuit definitions. Nonlinear elements. Opamp circuits. Diode circuits. Transistor terminal characteristics. Circuit biasing and load line. Small-signal equivalent circuits. Single stage small-signal amplifiers. Introduction to digital circuits, the transistor switch, inverter circuits, ring oscillators and delay analysis, static and dynamic characteristics of basic digital circuit operation. Small, medium, and large-scale integration, circuit layout and integration issues. [Offered: S]", 
+                    "subject": "NE", 
+                    "title": "Electronic Circuits and Integration", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "320L", 
-                    "subject": "NE"
-                },
+                    "description": "Follow-up labs associated with the NE 226 (Characterization of Materials) course. Lab topics may include: Reflective, transmissive, and polarized light optical microscopy; surface topography, and image analysis by scanning electron microscopy; film thickness determination by ellipsometry; crystal lattice measurements by x-ray diffractometry, infrared and Raman spectroscopy. [Offered: S]", 
+                    "subject": "NE", 
+                    "title": "Characterization of Materials Laboratory", 
+                    "units": 0.25
+                }, 
                 {
                     "catalog_number": "2", 
                     "subject": "CSE"
-                },
-                {
-                    "catalog_number": "2", 
-                    "subject": "WKRPT"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "302", 
-                    "subject": "NE"
                 }, 
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "2", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "302", 
+                    "description": "Detoxification and bioactivation pathways; surface modification; biopersistence; quantum dots and cellular imaging; biomedical applications of nanomaterials. Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 3B academic term, including aspects of co-operative education and professional or career development.", 
+                    "subject": "NE", 
+                    "title": "Nanomaterials Risks/Benefits and Nanotechnology Engineering Practice", 
+                    "units": 0.1
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "335", 
-                    "subject": "NE"
-                },
+                    "description": "Introduction to the applications of macromolecules in nanotechnology. Block copolymers and self-assembled polymerization. Micelles and colloids. Dendrimers and molecular brushes. Supramolecular polymers, polymeric blends and macromolecular nanocomposites. Polymer templates. Applications in the manufacturing of nanostructured materials and nanoscale devices. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Macromolecular Science 2", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "307", 
-                    "subject": "NE"
-                },
+                    "description": "Introduction to the engineering design process: problem definition and needs analysis; process synthesis, analysis, optimization and troubleshooting; safety and environmental protection in design; written and oral communication for design reports. Students form four-person design teams and start a team-oriented project based on the knowledge and skills acquired in previous courses and on co-operative work terms, culminating in a design proposal presentation. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Introduction to Nanosystems Design", 
+                    "units": 0.25
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "330L", 
-                    "subject": "NE"
-                },
+                    "description": "Labs associated with NE 333 (Macromolecular Science 1) course. Lab exercises exploring the kinetics of radical co-polymerization, the analysis of copolymer composition, concepts in the determination and control of polymer molecular weight distribution, and the kinetics and particle size development in emulsion polymerization. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Macromolecular Science Laboratory", 
+                    "units": 0.25
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "336", 
-                    "subject": "NE"
-                },
+                    "description": "Modeling and simulation. Lumped versus distributed approaches. Review of differential-equation systems, constitutive relations, boundary conditions, and solvers for complex, coupled transport problems pertinent to micro and nanosystems. Coupling strategies. Numerical schemes for nonlinear systems. Basic modeling and simulation of micro and nanosystems, and fluidic systems. Relevant nanotechnology applications: optical, thermal, mechanical, and fluidic microstructures, and nanoscale devices. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Micro and Nanosystem Computer-aided Design", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "353", 
-                    "subject": "NE"
-                },
+                    "description": "Theory and application of nanoprobing based on scanning probe microscopy (scanning tunneling microscopy, atomic force microscopy, scanning near-field optical microscopy). Nanolithographic techniques (extreme-UV lithography, X-ray lithography, e-beam lithography, focused ion beam lithography, nano-imprint lithography and soft lithography). [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Nanoprobing and Lithography", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "352", 
-                    "subject": "NE"
-                },
+                    "description": "Surfaces and interfaces in microelectronics and nanofabrication. Physicochemistry of interfaces. Capillary phenomena and molecular self-assembly. Structure and properties of clean and adsorbate covered surfaces (metals, semiconductors, oxides). Reactions at surfaces and catalysis. Surface electrochemistry, growth and diffusion, nanoscale structure formation/surface patterning, biological interfaces. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Surfaces and Interfaces", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "340L", 
-                    "subject": "NE"
-                },
+                    "description": "Labs associated with the NE 343 (Microfabrication and Thin-film Technology) course. Lab topics may include: thin film deposition by PECVD and PVD (sputtering); photolithography; dry and wet etching; and C-V and I-V analysis of MIS structures. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Microfabrication and Thin-film Technology Laboratory", 
+                    "units": 0.25
+                }, 
                 {
                     "catalog_number": "3", 
                     "subject": "CSE"
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "401", 
-                    "subject": "NE"
+                    "description": "Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 4A academic term, including aspects of professional or career development. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Nanotechnology Engineering Practice", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "408", 
-                    "subject": "NE"
-                },
+                    "description": "Design work for the project proposed in NE 307, culminating in a progress report presentation. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Nanosystems Design Project", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "450L", 
-                    "subject": "NE"
-                },
+                    "description": "Labs associated with the NE 353 (Nanoprobing and Lithography) course. Lab topics may include: Scanning probe microscopic characterization of polymer and bio-polymer surfaces; scanning tunneling characterization of semiconductors and thin films; fluorescence and laser microscopic testing of proteins; micro-contact printing using molecular self-assembly, nano-soft lithography by AFM. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Nanoprobing and Lithography Laboratory", 
+                    "units": 0.25
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "454L", 
-                    "subject": "NE"
-                },
+                    "description": "Laboratory exercises associated with the technical elective courses NE 461 (Micro and Nanoinstruments), NE 471 (Physics, Technology, and Applications of Nanoelectronics), NE 481 (Nanoscale Biosystems) and NE 491 (Nanostructured Materials). Lab topics may include: lithography, film deposition, etching, assembly and testing of a micro- or nanoinstrument; measurement of quantum effects in electron gas, optoelectronic characterization of diodes and OLEDs, electrical characterization of thin-film transistors, deposition and patterning techniques; cell biopotential measurements, cell adhesion measurements using optical and atomic force microscopy, protein and peptide surface adhesion and nanopatterning; zeolite, polymer nanocomposite, and semiconductor quantum dot synthesis and characterization. Laboratory exercises are chosen on the basis of technical elective choices. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Nanotechnology Engineering Advanced Laboratory 1", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "1", 
                     "subject": "ELECT"
-                },
+                }, 
                 {
                     "catalog_number": "2", 
                     "subject": "ELECT"
-                },
+                }, 
                 {
                     "catalog_number": "3", 
                     "subject": "ELECT"
-                },
+                }, 
                 {
                     "catalog_number": "4", 
                     "subject": "CSE"
-                },
-                {
-                    "catalog_number": "3", 
-                    "subject": "WKRPT"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "402", 
-                    "subject": "NE"
                 }, 
                 {
-                    "catalog_number": "409", 
-                    "subject": "NE"
-                },
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "3", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "402", 
+                    "description": "Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 4B academic term, including aspects of professional or career development.. [Offered: W]", 
+                    "subject": "NE", 
+                    "title": "Nanotechnology Engineering Practice", 
+                    "units": 0
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "409", 
+                    "description": "Completion and presentation of the design project from NE 307 and NE 408. Teams communicate their design in the form of a final report, a poster, and a seminar presentation. [Offered: W]", 
+                    "subject": "NE", 
+                    "title": "Nanosystems Design Project and Symposium", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "455L", 
-                    "subject": "NE"
-                },
+                    "description": "Laboratory exercises associated with the technical elective courses NE 469 (Special Topics in Micro and Nanoinstruments), NE 479 (Special Topics in Nanoelectronics), NE 489 (Special Topics in Nanoscale Biosystems) and NE 499 (Special Topics in Nanostructured Materials). Lab topics may include: design, fabrication and testing of a micro- or nanofluidic or electronic device; design, fabrication and testing of organic light emitting diodes or organic thin-film transistors; peptide-mediated drug delivery, biomolecular surface patterning and simple peptide/DNA chips; preparation and characterization of MCM-41, preparation and testing of nylon-clay nanocomposite, characterization of morphology and mechanical properties of high-impact nanostructured polymer blends. Laboratory exercises are chosen on the basis of technical elective choices. [Offered: W]", 
+                    "subject": "NE", 
+                    "title": "Nanotechnology Engineering Advanced Laboratory 2", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "4", 
                     "subject": "ELECT"
-                },
+                }, 
                 {
                     "catalog_number": "5", 
                     "subject": "ELECT"
-                },
+                }, 
                 {
                     "catalog_number": "6", 
                     "subject": "ELECT"
-                },
+                }, 
                 {
                     "catalog_number": "5", 
                     "subject": "CSE"
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "445", 
-                    "subject": "NE"
-                },
+                    "description": "Review of geometrical and wave optics. Optical measurements and instrumentation. Coherent radiation and lasers. Optical communications and optical networks. Optical detectors. Photonic devices. Displays. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Photonic Materials and Devices", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "451", 
-                    "subject": "NE"
-                },
+                    "description": "This course provides an introduction to and an overview of computational methods that are currently employed for the simulation of structural and bulk properties of matter, particularly as applied to physical and biological systems at the nanometer scale. Topics to be covered in this course include energy functions and force fields, geometry optimization, normal mode analysis, and reaction--path techniques at the molecular level, and an introduction to the simulation of static and dynamic properties of substances via both Monte Carlo and molecular dynamics (MD) methodologies. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Simulation Methods in Nanotechnology Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "461", 
-                    "subject": "NE"
-                },
+                    "description": "Fabrication technology for development of micro and nanosensors, actuators, and modules (e.g., microelectromechanical systems, nanoelectromechanical systems, micro or nanofluidics channels). Integration using examples drawn from chemical analysis micro and nanoinstruments. An overview of current micro and nanoinstruments. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Micro and Nanoinstruments", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "471", 
-                    "subject": "NE"
-                },
+                    "description": "Transport phenomena. Quantum confinement. Single molecule transistors. Resonant tunnelling devices. Large area and mechanically flexible electronics. Deposition and patterning techniques. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Physics, Technology, and Applications of Nanoelectronics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "481", 
-                    "subject": "NE"
-                },
+                    "description": "Overview of biomedical engineering principles, and their utilization in understanding how our bodies interact with nano-and biomaterials: topics related to innate and acquired inflammatory response, cellular and humoral immunity, complement systems and thrombosis, biocompatibility, and toxicity will be covered. Route of administered nanoparticles will be introduced. This course will also study the formulation and manufacturing process for producing nanoparticles in the biotechnology and pharmaceutical industries. [Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Introduction to Nanomedicine and Nanobiotechnology", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "491", 
-                    "subject": "NE"
-                },
+                    "description": "Application of inorganic nanostructured materials and nanocomposites. Synthesis and processing techniques for inorganic nanomaterials and the devices that use them. Students will be required to provide critical analyses and seminar presentations of patents utilizing nanomaterials.[Offered: F]", 
+                    "subject": "NE", 
+                    "title": "Nanostructured Materials", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "452", 
-                    "subject": "NE"
-                },
+                    "description": "Topics in this theme area may include: an overview of modern computational methods and algorithms in nanoscale materials, such as steered molecular dynamics, ab initio molecular dynamics, multiscale modelling, dissipative particle dynamics, transition path sampling, phase-field modelling, quantum simulations using Feynman path integral techniques, condensed-phase spectroscopy, linking of simulations to experiment, simulations and their practical applications. [Offered: W]", 
+                    "subject": "NE", 
+                    "title": "Special Topics in Nanoscale Simulations", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "459", 
-                    "subject": "NE"
-                },
+                    "description": "A nanotechnology engineering assignment requiring the student to demonstrate initiative and assume responsibility. The student will select a project at the end of the 4A term. Students can propose their own project. A faculty member will provide supervision. A project report is required at the end of the 4B term. [Offered: W]", 
+                    "subject": "NE", 
+                    "title": "Nanotechnology Engineering Research Project", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "469", 
-                    "subject": "NE"
-                },
+                    "description": "Topics in this theme area may include: micro and nanosensors, micro and nanoactuators, micro and nanofluidics, micro and nanoscale fabrication, emerging and unconventional nanofabrication technologies. (Note: Each year, at least one elective course will be offered in this theme area. For a current list of offerings, see the Associate Director for Nanotechnology Engineering.) [Offered: W]", 
+                    "subject": "NE", 
+                    "title": "Special Topics in Micro and Nanoinstruments", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "479", 
-                    "subject": "NE"
-                },
+                    "description": "Topics in this theme area may include: quantum effects in electronic devices, molecular electronics, solid state nanoelectronics, organic electronics, advanced nanofabrication technologies such as vacuum deposition, electron beam patterning and nanolithography. (Note: Each year, at least one elective course will be offered in this theme area. For a current list of offerings, see the Associate Director for Nanotechnology Engineering.) [Offered: W]", 
+                    "subject": "NE", 
+                    "title": "Special Topics in Nanoelectronics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "489", 
-                    "subject": "NE"
-                },
+                    "description": "Topics in this theme area may include: nanoscale biomaterials for medical and drug delivery devices, biointerfaces, biomembranes, nanoscale patterning on biological interfaces, biomicroelectromechanical systems (BioMEMS), biomimetics, biochips, self-assembly of peptides and proteins, bioseparation, biosensors. (Note: Each year, at least one elective course will be offered in this theme area. For a current list of offerings, see the Associate Director for Nanotechnology Engineering.) [Offered: W]", 
+                    "subject": "NE", 
+                    "title": "Special Topics in Nanoscale Biosystems", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "499", 
-                    "subject": "NE"
+                    "description": "Topics in this theme area may include: membrane nanotechnology, nanoengineered catalysts, nanoengineered polymers, and nanocomposites; manufacturing of nanotubes, nanoparticles, quantum dots, nanowires and other nanomaterials (Note: Each year, at least one elective course will be offered in this theme area. For a current list of offerings, see the Associate Director for Nanotechnology Engineering.) [Offered: W]", 
+                    "subject": "NE", 
+                    "title": "Special Topics in Nanostructured Materials", 
+                    "units": 0.5
                 }
             ]
-        ],
+        ], 
         "curriculumTerms": [
             "1A", 
             "1B", 
@@ -336,9 +580,9 @@
     "gradPopulation": "319", 
     "images": [
         {
-            "type": "misc",
             "descriptor": "e5 building", 
-            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg", 
+            "type": "misc"
         }
     ], 
     "importantDates": null, 
@@ -363,7 +607,9 @@
         "socialEnjoyment": 0, 
         "studyEnv": 0
     }, 
-    "relatedPrograms":["chemicalengineering"],
+    "relatedPrograms": [
+        "chemicalengineering"
+    ], 
     "requirements": {
         "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
         "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
@@ -371,29 +617,29 @@
         "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
         "individual_courses": [
             {
-                "course_title":"Calculus and Vectors",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Calculus and Vectors", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"English",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "English", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Physics",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Physics", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Chemistry",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Chemistry", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Advanced Functions",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Advanced Functions", 
+                "min_grade": "70"
             }
         ], 
         "international_program_requirements": "", 

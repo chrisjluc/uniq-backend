@@ -1,243 +1,423 @@
 {
-    "about": "Geological engineering is an attractive discipline for students who wish to pursue the challenge of combining the complexity of nature and engineering design, who are interested in the physical mechanics of the earth’s surface, who enjoy travel and the outdoors. The subject has seamless transitions to geotechnical engineering and engineering geology.\nGeological Engineering is the application of geological knowledge to the siting, design, construction, operation and maintenance of civil engineering structures and facilities. It is one of the rapidly growing fields of engineering reflecting society’s developing interest in the stewardship of the environment, managing risk, and creating a safer world. The profession has a direct impact on the foundation of the Canadian economy, which is built upon the exploration and development of its vast natural resources in a sustainable manner that protects them for the benefit of future generations. Geological Engineers provide the expertise to develop mines, petroleum reservoirs (oil and natural gas), hydro-electric dams and reservoirs, groundwater and surface water resources, as well as building and managing the necessary infrastructure to bring the resulting commodities to market. The Geological Engineering profession shares common roots with that of Civil Engineering and Earth Sciences, and is an interdisciplinary program at the University of Waterloo involving the Department of Civil and Environmental Engineering as well as the Department of Earth and Environmental Sciences, in the Faculty of Engineering and the Faculty of Science, respectively.  \nThe field of geological engineering encompasses a wide range of activities and issues including the geological characterization of complex foundations of major buildings and structures, development of natural resources (mining, water, hydroelectricity, forestry, oil and gas), the engineering safety of major infrastructure (dams, reservoirs, offshore drilling platforms, pipelines, roads and railways), and the assessment of geohazard risk (landslides, earthquakes, volcanoes, and the stability of natural dams). It also includes aspects of such fields as project finance and insurance, forensic geological engineering, and the application of geological knowledge to the repair and preservation of cultural heritage sites. In step with Civil Engineering, Geological Engineering has evolved into an extremely diverse field as the demands of society have evolved, providing opportunities for graduates in many areas of application. Furthermore, the application of computers and electronic instrumentation has revolutionized the practice of Geological Engineering. Consequently our curriculum is being constantly reviewed in order to produce graduate engineers who can use advanced tools to solve complex problems. ",
+    "about": "Geological engineering is an attractive discipline for students who wish to pursue the challenge of combining the complexity of nature and engineering design, who are interested in the physical mechanics of the earth\u2019s surface, who enjoy travel and the outdoors. The subject has seamless transitions to geotechnical engineering and engineering geology.\nGeological Engineering is the application of geological knowledge to the siting, design, construction, operation and maintenance of civil engineering structures and facilities. It is one of the rapidly growing fields of engineering reflecting society\u2019s developing interest in the stewardship of the environment, managing risk, and creating a safer world. The profession has a direct impact on the foundation of the Canadian economy, which is built upon the exploration and development of its vast natural resources in a sustainable manner that protects them for the benefit of future generations. Geological Engineers provide the expertise to develop mines, petroleum reservoirs (oil and natural gas), hydro-electric dams and reservoirs, groundwater and surface water resources, as well as building and managing the necessary infrastructure to bring the resulting commodities to market. The Geological Engineering profession shares common roots with that of Civil Engineering and Earth Sciences, and is an interdisciplinary program at the University of Waterloo involving the Department of Civil and Environmental Engineering as well as the Department of Earth and Environmental Sciences, in the Faculty of Engineering and the Faculty of Science, respectively.  \nThe field of geological engineering encompasses a wide range of activities and issues including the geological characterization of complex foundations of major buildings and structures, development of natural resources (mining, water, hydroelectricity, forestry, oil and gas), the engineering safety of major infrastructure (dams, reservoirs, offshore drilling platforms, pipelines, roads and railways), and the assessment of geohazard risk (landslides, earthquakes, volcanoes, and the stability of natural dams). It also includes aspects of such fields as project finance and insurance, forensic geological engineering, and the application of geological knowledge to the repair and preservation of cultural heritage sites. In step with Civil Engineering, Geological Engineering has evolved into an extremely diverse field as the demands of society have evolved, providing opportunities for graduates in many areas of application. Furthermore, the application of computers and electronic instrumentation has revolutionized the practice of Geological Engineering. Consequently our curriculum is being constantly reviewed in order to produce graduate engineers who can use advanced tools to solve complex problems. ", 
+    "applicationProcess": null, 
     "avgAdm": "90-93", 
     "contacts": [], 
     "dateEstablished": "01-07-1957", 
     "degree": "Bachelor's of Applied Science", 
-    "degreeAbbrev": "BASc",
-    "applicationProcess": null,
+    "degreeAbbrev": "BASc", 
     "degreeRequirements": {
-        "about": "The Geological Engineering Program at the University of Waterloo delivers a diverse set of core courses that provide the necessary fundamentals in mathematics, geology, and civil engineering. The program also offers the opportunity to take electives from the fields of the social sciences and humanities. Technical electives can be chosen to develop a focus in the following areas: \nGeotechnical Engineering\nWater Resources Engineering\nWater and Waste Management Engineering\nGeophysics",
+        "about": "The Geological Engineering Program at the University of Waterloo delivers a diverse set of core courses that provide the necessary fundamentals in mathematics, geology, and civil engineering. The program also offers the opportunity to take electives from the fields of the social sciences and humanities. Technical electives can be chosen to develop a focus in the following areas: \nGeotechnical Engineering\nWater Resources Engineering\nWater and Waste Management Engineering\nGeophysics", 
         "curriculum": [
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "102", 
-                    "subject": "CHE"
+                    "description": "Chemical principles with applications in engineering. Stoichiometric calculations, properties of gases, properties of liquids and solutions, gas phase chemical equilibrium, ionic equilibrium in aqueous solution, oxidation-reduction reactions, chemical kinetics. [Offered: F]", 
+                    "subject": "CHE", 
+                    "title": "Chemistry for Engineers", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "100", 
-                    "subject": "ENVE"
-                },
+                    "description": "Introduction to basic methods and principles in Environmental Engineering. The fundamentals of engineering calculations: units and dimensions. Surveying, data collection, measurement and error analysis. Laboratory on visual communication: engineering graphics, computer software including spread sheets, computer aided design. Introduction to engineering design. Technical communication: word processing software, elements of technical report writing. Aspects of the engineering profession including ethics, safety, and intellectual property. Professional development including r\u00e9sum\u00e9 skills, interview skills, and preparation for co-op terms. [Offered: F]", 
+                    "subject": "ENVE", 
+                    "title": "Environmental Engineering Concepts 1", 
+                    "units": 0.8
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "115", 
-                    "subject": "MATH"
-                },
+                    "description": "Linear equations, matrices and determinants. Introduction to vector spaces. Eigenvalues and diagonalization. Applications. Complex numbers. [Offered: F]", 
+                    "subject": "MATH", 
+                    "title": "Linear Algebra for Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "116", 
-                    "subject": "MATH"
-                },
+                    "description": "Functions: review of polynomials, exponential, logarithmic, trigonometric. Operations on functions, curve sketching. Trigonometric identities, inverse functions. Derivatives, rules of differentiation. Mean Value Theorem, Newton's Method. Indeterminate forms and L'Hopital's rule, applications. Integrals, approximations, Riemann definite integral, Fundamental Theorems. Applications of the integral. [Offered: F]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 1 for Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "115", 
-                    "subject": "PHYS"
-                },
+                    "description": "Brief review of kinematics. Particle dynamics, work, energy, conservation of energy. Conservation of linear momentum, collisions, rotational kinematics and dynamics, conservation of angular momentum. Equilibrium of rigid bodies. [Offered: F]", 
+                    "subject": "PHYS", 
+                    "title": "Mechanics", 
+                    "units": 0.5
+                }
             ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "121", 
-                    "subject": "CIVE"
+                    "description": "Introduction to electronic digital computers, hardware and software organization, examples of efficient numerical algorithms for basic scientific computations. Programming and problem solving concepts introduced in the course will be incorporated into group projects involving Civil, Environmental, or Geological Engineering applications. The language of instruction will be Visual Basic and Visual Basic for Applications. [Offered: W, S]", 
+                    "subject": "CIVE", 
+                    "title": "Digital Computation", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "127", 
-                    "subject": "ENVE"
-                },
+                    "description": "Review of statics of particles and rigid bodies. Concepts of force systems. Moment of inertia. Friction. Method of virtual work. Introduction to mechanical response of materials and stress-strain temperature relationships. Behaviour of prismatic members in tension, compression, shear, bending and torsion. Shear force and bending moment diagrams. Work and energy methods. [Offered: S]", 
+                    "subject": "ENVE", 
+                    "title": "Statics and Solid Mechanics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "123", 
-                    "subject": "GENE"
-                },
+                    "description": "Analysis of linear circuits: Voltage, current, resistance, capacitance, inductance, voltage source, current source, dependent sources, Ohm's Law, Kirchoff's Law, nodal analysis, mesh analysis, Thevinin/Norton equivalents, operational amplifier circuits, time response, sinusoidal steady-state response. Introduction to diodes with applications.", 
+                    "subject": "GENE", 
+                    "title": "Electrical Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "153", 
-                    "subject": "GEOE"
-                },
+                    "description": "This course studies earth materials and processes from an engineering point of view through case histories and problem sets. The course develops a geological knowledge for applications to any physical environment and provides an appreciation of the impact of engineering work on the environment. Topics include: mineral and rock identification, the rock cycle, structural geology and tectonics, geology of Canada, effects of water, ice and wind. Students are also introduced to the concept of geologic time, topographic and geologic maps, and the basic principles and tools used to determine geologic history. [Offered: S; Offered as: CIVE 153 (W), ENVE 153 (S), GEOE 153 (S)]", 
+                    "subject": "GEOE", 
+                    "title": "Earth Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "118", 
-                    "subject": "MATH"
-                },
-                {
-                    "catalog_number": "1",
-                    "subject": "CSE"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "221", 
-                    "subject": "EARTH"
+                    "description": "Methods of integration: by parts, trigonometric substitutions, partial fractions; engineering applications, approximation of integrals, improper integrals. Linear and separable first order differential equations, applications. Parametric curves and polar coordinates, arc length and area. Infinite sequences and series, convergence tests, power series and applications. Taylor polynomials and series, Taylor's Remainder Theorem, applications. [Offered: W,S]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 2 for Engineering", 
+                    "units": 0.5
                 }, 
-                {
-                    "catalog_number": "238", 
-                    "subject": "EARTH"
-                },
-                {
-                    "catalog_number": "221", 
-                    "subject": "ENVE"
-                },
-                {
-                    "catalog_number": "224", 
-                    "subject": "ENVE"
-                },
-                {
-                    "catalog_number": "125", 
-                    "subject": "PHYS"
-                },
-                {
-                    "catalog_number": "298", 
-                    "subject": "GEOE"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "231", 
-                    "subject": "EARTH"
-                }, 
-                {
-                    "catalog_number": "235", 
-                    "subject": "EARTH"
-                },
-                {
-                    "catalog_number": "260", 
-                    "subject": "EARTH"
-                },
-                {
-                    "catalog_number": "214", 
-                    "subject": "ENVE"
-                },
-                {
-                    "catalog_number": "223", 
-                    "subject": "ENVE"
-                },
-                {
-                    "catalog_number": "299", 
-                    "subject": "GEOE"
-                },
                 {
                     "catalog_number": "1", 
-                    "subject": "WKRPT"
+                    "subject": "CSE"
                 }
-            ],
+            ], 
             [
                 {
-                    "catalog_number": "353", 
-                    "subject": "CIVE"
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "221", 
+                    "description": "Origin, abundance and geochemistry of elements. Introduction to stable isotope geology and radiometric dating. Basic aqueous geochemistry. [Offered: W,S]", 
+                    "subject": "EARTH", 
+                    "title": "Geochemistry 1", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "238", 
+                    "description": "Concepts of stress and strain; elementary rock mechanics; description and classification of folds, faults, foliations, lineations and joints; use of primary structures; introduction to geometrical analysis. Labs will emphasize geometrical problems, including geological maps and cross sections, and stereographic projection. [Offered: W]", 
+                    "subject": "EARTH", 
+                    "title": "Introductory Structural Geology", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "221", 
+                    "description": "A review of Year One Calculus. Optimization problems including the method of Lagrange Multipliers. Multiple Integration with applications. Vector calculus: Green, Gauss, and Stokes' theorems, line integrals. Elements of Fourier Series. Applications to the analysis of Environmental Engineering problems. [Offered: F, W]", 
+                    "subject": "ENVE", 
+                    "title": "Advanced Calculus", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "224", 
+                    "description": "Role of probability in Environmental Engineering and decision making under uncertainty. Basic probability concepts. Probability distributions. Functions of random variables. Data analysis. Confidence intervals and hypothesis testing. Introduction to regression analysis. Introduction to design of experiments and statistical quality control. [Offered: W, S]", 
+                    "subject": "ENVE", 
+                    "title": "Probability and Statistics", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "125", 
+                    "description": "Oscillations; simple harmonic motion. Wave motion, travelling and standing waves; transverse and longitudinal waves, including sound. Geometrical optics; reflection and refraction. Physical optics; interference and diffraction. Quantum physics; quantization of radiation; hydrogen atom. [Offered: W,S]", 
+                    "subject": "PHYS", 
+                    "title": "Physics for Engineers", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "298", 
+                    "description": "General seminar course covering current topics in Geological Engineering. [Offered: S]", 
+                    "subject": "GEOE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "231", 
+                    "description": "Systematic mineralogy: study of the physical properties of the major rock-forming minerals; their identification, classification and occurrence. Introduction to crystallography; elements of symmetry and the interrelationship of crystal structure to the physical and chemical properties of minerals. Elementary petrology of igneous, metamorphic and sedimentary rocks in hand specimen.", 
+                    "subject": "EARTH", 
+                    "title": "Mineralogy", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "235", 
+                    "description": "An introduction to stratigraphic principles and methods used in deciphering geological history. The development of stratigraphic sequences as controlled by global and regional tectonics and sea level fluctuations. Interrelating aspects of Earth's physical, chemical and biological history. Examples are drawn primarily from Canadian geology. Laboratory work will include construction and interpretation of various types of maps and cross sections. [Offered: F]", 
+                    "subject": "EARTH", 
+                    "title": "Stratigraphic Approaches to Understanding Earth's History", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "260", 
+                    "description": "An introduction to seismic, gravity, electric, electromagnetic and magnetic methods of exploration geophysics. [Offered: F]", 
+                    "subject": "EARTH", 
+                    "title": "Applied Geophysics 1", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "214", 
+                    "description": "An introduction to fluid mechanics and thermal sciences. Fluid properties. Fluid statics. Thermodynamic principles. Bernoulli equation. The momentum equation of applications. Laminar and turbulent flow. Dimensionless numbers. Closed conduit flow. Pipe network analysis. Steady flow in pipes. Heat transfer. [Offered: F]", 
+                    "subject": "ENVE", 
+                    "title": "Fluid Mechanics and Thermal Sciences", 
+                    "units": 0.75
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "223", 
+                    "description": "An introduction to ordinary differential equations with applications to physical and environmental engineering problems. Standard methods of solution of first and second order linear equations with constant co-efficients. Systems of differential equations. Introduction to the Laplace Transform method. [Offered: F, S]", 
+                    "subject": "ENVE", 
+                    "title": "Differential Equations", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "299", 
+                    "description": "General seminar course covering current topics in Geological Engineering. [Offered: F]", 
+                    "subject": "GEOE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "1", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "353", 
+                    "description": "An introduction to geologic processes. Subsurface exploration. Classification systems. Weight-Volume relationships. Soil mechanics principles including state of stress, ground water flow, consolidation and shear strength. Six lab sessions. [Offered: W, S]", 
+                    "subject": "CIVE", 
+                    "title": "Geotechnical Engineering 1", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "321", 
-                    "subject": "ENVE"
-                },
+                    "description": "Ordinary and partial differential equations with application in the modelling of environmental engineering processes. Classical solution techniques involving transforms, separation of variables and weighted residual methods. Introduction to numerical techniques. [Offered: W, S]", 
+                    "subject": "ENVE", 
+                    "title": "Advanced Mathematics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "232", 
-                    "subject": "EARTH"
-                },
+                    "description": "An introduction to optical mineralogy. Basic theory of the behaviour of light through minerals; concept of indicatrices; understanding relief, retardation, birefringence, interference figures and other optical properties of minerals. Microscopic examination of important rock forming minerals and the identification of igneous, metamorphic, and sedimentary rocks. Introduction to silicate phase equilibria; use of mineral stability diagrams to understand igneous and metamorphic petrogenesis. [Offered: W,S]", 
+                    "subject": "EARTH", 
+                    "title": "Petrography", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "458", 
-                    "subject": "EARTH"
-                },
+                    "description": "An introduction to physical hydrogeology, including Darcy's law, the groundwater flow equations for steady-state and transient conditions, applications to flow nets, aquifer testing, groundwater resources, and groundwater protection. The role of groundwater in the hydrologic cycle is explored with emphasis on natural groundwater flow systems and their influence on stream flow. Physical processes controlling groundwater contamination are introduced.", 
+                    "subject": "EARTH", 
+                    "title": "Physical Hydrogeology", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "458L", 
-                    "subject": "EARTH"
-                },
+                    "description": "This course exposes students to a wide variety of field and laboratory techniques for collecting hydrogeologic data and to gain experience in interpreting the data. Advantages and limitations of various measurement and data reduction techniques for evaluating groundwater flow systems are demonstrated in a set of field exercises carried out at the groundwater demonstration facility located on the university North Campus. These exercises illustrate the complexity of natural systems and the need for good data collection and interpretation skills when characterizing such systems . [Offered: F,S]", 
+                    "subject": "EARTH", 
+                    "title": "Field Methods in Hydrogeology", 
+                    "units": 0.25
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "261", 
-                    "subject": "MSCI"
-                },
+                    "description": "Introductory Finance: time value of money, cash flow analysis. Investment evaluation methods: present worth, annual worth and internal rate of return. Depreciation models and asset replacement analysis. The impact of inflation, taxation, uncertainty and risk on investment decisions. [Offered: F,W,S]", 
+                    "subject": "MSCI", 
+                    "title": "Engineering Economics: Financial Management for Engineers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "398", 
-                    "subject": "GEOE"
-                },
+                    "description": "General seminar course covering current topics in Geological Engineering. [Offered: S]", 
+                    "subject": "GEOE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
                 {
                     "catalog_number": "2", 
                     "subject": "CSE"
-                },
-                {
-                    "catalog_number": "2", 
-                    "subject": "WKRPT"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "333", 
-                    "subject": "EARTH"
                 }, 
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "2", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "333", 
+                    "description": "The origin and physical properties of sediments. Fluid flow, glacier motion and sediment transport processes. Mechanical and chemical erosion rates, sediment fluxes and budget. Facies models of the major depositional environments. Diagenetic processes. Laboratories focussed on the description and interpretation of sediments and sedimentary rocks. [Offered: W]", 
+                    "subject": "EARTH", 
+                    "title": "Introductory Sedimentology", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "390", 
-                    "subject": "EARTH"
-                },
+                    "description": "Field study in Sudbury and Whitefish Falls areas. Held for at least 9 days at end of the Winter term. Geological and geotechnical field techniques, map construction, report writing.", 
+                    "subject": "EARTH", 
+                    "title": "Methods in Geological Mapping", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "437", 
-                    "subject": "EARTH"
-                },
+                    "description": "Stress, strain and strength in geomaterials. Origins of stress and stress measurement methods, including hydraulic fracture and strain relief. Rock Mechanics principles and design procedures in areas of mining, civil engineering and petroleum engineering. Monitoring methods, including introduction to microseismic surveillance. Course includes laboratory and project work. [Offered: W]", 
+                    "subject": "EARTH", 
+                    "title": "Rock Mechanics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "438", 
-                    "subject": "EARTH"
-                },
+                    "description": "Review of basic concepts in engineering geology as applied to rock and soil, including material properties, variability in properties, external factors such as stress, and evaluation of design adequacy. Site investigation and characterisation techniques used to define and characterise the properties of geological materials and their use in selected engineering geologic design and construction problems. Laboratory assignments will focus on the determination of physical properties and site assessment problems. [Offered: W]", 
+                    "subject": "EARTH", 
+                    "title": "Engineering Geology", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "381", 
-                    "subject": "CIVE"
-                },
+                    "description": "Energy, momentum and continuity equations for open channel flow. Dimensional analysis and modelling. Design of lined and unlined open channels. Water profile computations. Bridge and culvert hydraulics. Hydraulic structures and energy dissipators. Pumping stations. Water hammer. Four lab sessions. [Offered: F, W]", 
+                    "subject": "CIVE", 
+                    "title": "Hydraulics", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "4", 
                     "subject": "CSE"
-                },
-                {
-                    "catalog_number": "399", 
-                    "subject": "GEOE"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "354", 
-                    "subject": "CIVE"
                 }, 
                 {
-                    "catalog_number": "400", 
-                    "subject": "GEOE"
-                },
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "399", 
+                    "description": "General seminar course covering current topics in Geological Engineering. [Offered: W]", 
+                    "subject": "GEOE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }
+            ], 
+            [
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "354", 
+                    "description": "Foundation engineering. Earth pressure theories. Retaining walls. Anchors. Shallow and deep foundations. Braced trenches and excavations. Slope stability. [Offered: F, W]", 
+                    "subject": "CIVE", 
+                    "title": "Geotechnical Engineering 2", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "400", 
+                    "description": "Students are expected to carry out a design project to demonstrate their capability to engage in the practice of engineering as a profession. A topic must be identified and resolved by the student in consultation with the supervising professor and course coordinator. The topic may be analytical, numerical, experimental, or field-oriented, utilizing knowledge gained from academic and employment experiences. A written proposal, literature search and an oral presentation are required. Professional engineering standards and a design approach are required for the GEOE 400-401 Design Project. [Offered: F]", 
+                    "subject": "GEOE", 
+                    "title": "Geological Engineering Design Project 1", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "498", 
-                    "subject": "GEOE"
-                },
+                    "description": "General seminar course covering current topics in Geological Engineering. [Offered: F]", 
+                    "subject": "GEOE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
                 {
                     "catalog_number": "5", 
                     "subject": "CSE"
-                },
+                }, 
                 {
                     "catalog_number": "1", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "2", 
                     "subject": "TE"
-                },
-                {
-                    "catalog_number": "3", 
-                    "subject": "WKRPT"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "554", 
-                    "subject": "CIVE"
                 }, 
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "3", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "554", 
+                    "description": "Simulation of geotechnical consulting practice. Students are required to complete several projects, based on actual case studies, which require problem identification, evaluation of geotechnical data, analysis, design and report preparations. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Geotechnical Engineering 3", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "401", 
-                    "subject": "GEOE"
-                },
+                    "description": "A continuation of GEOE 400 Geological Engineering Design Project 1, and the same standards and requirements apply. A progress report, a final report in thesis format and an oral presentation are required. All other courses in the Geological Engineering Program are listed under the course descriptions in Earth Sciences or Civil Engineering. [Offered: W]", 
+                    "subject": "GEOE", 
+                    "title": "Geological Engineering Design Project 2", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "499", 
-                    "subject": "GEOE"
-                },
+                    "description": "General seminar course covering current topics in Geological Engineering. [Offered: W]", 
+                    "subject": "GEOE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "411", 
-                    "subject": "GENE"
-                },
+                    "description": "Background (Charter of Rights and Freedoms), Contracts, Torts (Negligent Malpractice), Forms of Carrying on Business, Intellectual Property (Patents, Trade Marks, Copyrights and Industrial Designs), Professional Practice (Professional Engineers Act, Professional Misconduct and Sexual Harassment), Alternate Dispute Resolution, Labour Relations and Employment Law, Environmental Law. [Offered: W]", 
+                    "subject": "GENE", 
+                    "title": "Engineering Law and Ethics", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "3", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "4", 
                     "subject": "TE"
                 }
-            ],
-        ],
+            ]
+        ], 
         "curriculumTerms": [
             "1A", 
             "1B", 
@@ -254,9 +434,9 @@
     "gradPopulation": null, 
     "images": [
         {
-            "type": "misc",
             "descriptor": "e5 building", 
-            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg", 
+            "type": "misc"
         }
     ], 
     "importantDates": null, 
@@ -281,7 +461,9 @@
         "socialEnjoyment": 0, 
         "studyEnv": 0
     }, 
-    "relatedPrograms":["environmentalengineering"],
+    "relatedPrograms": [
+        "environmentalengineering"
+    ], 
     "requirements": {
         "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
         "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
@@ -289,29 +471,29 @@
         "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
         "individual_courses": [
             {
-                "course_title":"Calculus and Vectors",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Calculus and Vectors", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"English",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "English", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Physics",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Physics", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Chemistry",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Chemistry", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Advanced Functions",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Advanced Functions", 
+                "min_grade": "70"
             }
         ], 
         "international_program_requirements": "", 

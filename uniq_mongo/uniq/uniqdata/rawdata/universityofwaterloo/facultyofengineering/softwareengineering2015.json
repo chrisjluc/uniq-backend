@@ -1,251 +1,427 @@
 {
-    "about": "Over the last few decades there has been a tremendous growth in information technology and its impact on everyday life. Complex software systems have become critical to the operation of many systems in areas such as banking, communications, manufacturing, power generation, and transportation. Progress in computer science and accumulated experience with industrial production of software have led to the emergence of software engineering as a separate discipline. The software engineering discipline has been defined as 'the application of systematic, disciplined, quantifiable approaches to the development, operation, and maintenance of software' that is, the application of engineering to software. The software engineer must apply well-defined techniques, methods, and tools to ensure the correctness, reliability, performance, maintainability, and usability of the software systems being developed.\nThe technical requirements of these software engineers include a strong foundation in mathematics, natural sciences, and computer science; a broad education in software engineering and design; an understanding of computers and networks; a better appreciation for all aspects of the software engineering life cycle; and the use of methodologies and tools.",
+    "about": "Over the last few decades there has been a tremendous growth in information technology and its impact on everyday life. Complex software systems have become critical to the operation of many systems in areas such as banking, communications, manufacturing, power generation, and transportation. Progress in computer science and accumulated experience with industrial production of software have led to the emergence of software engineering as a separate discipline. The software engineering discipline has been defined as 'the application of systematic, disciplined, quantifiable approaches to the development, operation, and maintenance of software' that is, the application of engineering to software. The software engineer must apply well-defined techniques, methods, and tools to ensure the correctness, reliability, performance, maintainability, and usability of the software systems being developed.\nThe technical requirements of these software engineers include a strong foundation in mathematics, natural sciences, and computer science; a broad education in software engineering and design; an understanding of computers and networks; a better appreciation for all aspects of the software engineering life cycle; and the use of methodologies and tools.", 
+    "applicationProcess": null, 
     "avgAdm": "90-93", 
     "contacts": [], 
     "dateEstablished": "01-07-1957", 
     "degree": "Bachelor's of Applied Science", 
-    "degreeAbbrev": "BASc",
-    "applicationProcess": null,
+    "degreeAbbrev": "BASc", 
     "degreeRequirements": {
-        "about": "The Software Engineering program is offered jointly by the David R. Cheriton School of Computer Science and the Department of Electrical and Computer Engineering.\nIts curriculum prepares graduates for entry into the software engineering profession. It covers the scientific and mathematical foundations of the discipline, engineering science and engineering design appropriate to the discipline, and exposes students to the ethical and societal issues associated with the discipline. Graduates will be able to apply their knowledge to produce software solutions to specific problems.\nStudents will be considered members of both the Faculty of Engineering and the Faculty of Mathematics, although for administrative purposes they will be registered officially in a separate unit. Students will be promoted based on the Examination and Promotion rules used in the Faculty of Engineering (see Examinations and Promotions). A non-voting representative from the Faculty of Mathematics will sit on the Engineering Examinations and Promotion Committee, to provide insight into the policies, philosophies, culture, and requirements that pertain to Math students. The Software Engineering program is also considered an Honours Mathematics plan for purposes of student access to Math courses. The Software Engineering Advisor will advise students on how to achieve their academic goals. Students will graduate with a Bachelor of Software Engineering.",
+        "about": "The Software Engineering program is offered jointly by the David R. Cheriton School of Computer Science and the Department of Electrical and Computer Engineering.\nIts curriculum prepares graduates for entry into the software engineering profession. It covers the scientific and mathematical foundations of the discipline, engineering science and engineering design appropriate to the discipline, and exposes students to the ethical and societal issues associated with the discipline. Graduates will be able to apply their knowledge to produce software solutions to specific problems.\nStudents will be considered members of both the Faculty of Engineering and the Faculty of Mathematics, although for administrative purposes they will be registered officially in a separate unit. Students will be promoted based on the Examination and Promotion rules used in the Faculty of Engineering (see Examinations and Promotions). A non-voting representative from the Faculty of Mathematics will sit on the Engineering Examinations and Promotion Committee, to provide insight into the policies, philosophies, culture, and requirements that pertain to Math students. The Software Engineering program is also considered an Honours Mathematics plan for purposes of student access to Math courses. The Software Engineering Advisor will advise students on how to achieve their academic goals. Students will graduate with a Bachelor of Software Engineering.", 
         "curriculum": [
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "137", 
-                    "subject": "CS"
+                    "description": "Review of fundamental programming concepts and their application. Procedures and parameter passing. Arrays and structures. Recursion. Sorting. Pointers and simple dynamic structures. Space and time analysis of designs. Design methodologies. [Offered: F]", 
+                    "subject": "CS", 
+                    "title": "Programming Principles", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "105", 
-                    "subject": "ECE"
-                },
+                    "description": "Forces in nature and Newton's laws, Dynamics and circular motion, Work, Energy and conservation of energy. Linear Momentum and linear Impulse, Rotational Dynamics. Oscillations; Simple Harmonic Motion. Wave motion; Traveling waves and standing waves. Thermal Physics; Temperature, Thermal energy and Specific heat, Ideal gas heat engines and Refrigerators. [Offered: F]", 
+                    "subject": "ECE", 
+                    "title": "Physics of Electrical Engineering 1", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "140", 
-                    "subject": "ECE"
-                },
+                    "description": "Analysis of linear circuits. Voltage, current, resistance, capacitance, inductance, voltage source, current source, dependent sources, Ohm's Law, Kirchoff's Law, nodal analysis, mesh analysis, circuit transformations, operational amplifier circuits, time response, sinusoidal steady-state response. Preparing for, conducting, and reporting of laboratory experiments. Safety-orientation training, including WHMIS assessment, is included in this course. [Offered: F]", 
+                    "subject": "ECE", 
+                    "title": "Linear Circuits", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "115", 
-                    "subject": "MATH"
-                },
+                    "description": "Linear equations, matrices and determinants. Introduction to vector spaces. Eigenvalues and diagonalization. Applications. Complex numbers. [Offered: F]", 
+                    "subject": "MATH", 
+                    "title": "Linear Algebra for Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "117", 
-                    "subject": "MATH"
-                },
+                    "description": "Functions of engineering importance; review of polynomial, exponential, and logarithmic functions; trigonometric functions and identities. Inverse functions (logarithmic and trigonometric). Limits and continuity. Derivatives, rules of differentiation; derivatives of elementary functions. Applications of the derivative, max-min problems, Mean Value Theorem. Antiderivatives, the Riemann definite integral, Fundamental Theorems. Methods of integration, approximation, applications, improper integrals. [Offered: F]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 1 for Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "101", 
-                    "subject": "SE"
+                    "description": "An introduction to some of the basic methods and principles used by software engineers, including fundamentals of technical communication, measurement, analysis, and design. Some aspects of the software engineering profession, including standards, safety and intellectual property. Professional development including r\u00e9sum\u00e9 skills, interview skills, and preparation for co-op terms. [Offered: F]", 
+                    "subject": "SE", 
+                    "title": "Introduction to Methods of Software Engineering", 
+                    "units": 0.25
                 }
             ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "102", 
-                    "subject": "SE"
+                    "description": "General Seminar [Offered: W]", 
+                    "subject": "SE", 
+                    "title": "Seminar", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "138", 
-                    "subject": "CS"
-                },
+                    "description": "Software abstractions via elementary data structures and their implementation; encapsulation and modularity; class and interface definitions; object instantiation; recursion; elementary abstract data types, including sequences, stacks, queues, and trees; implementation using linked structures and arrays; vectors and strings; memory models; automatic vs. dynamic memory management.", 
+                    "subject": "CS", 
+                    "title": "Introduction to Data Abstraction and Implementation", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "106", 
-                    "subject": "ECE"
-                },
+                    "description": "Electrostatics; electric field, flux, Gauss's Law, potential and potential energy. Capacitors; Dielectric, capacitance, electric energy storage, charging/discharging. Resistors; charge flow, current, resistance, Kirchhoff's voltage and current laws. Magnetostatic; magnetic force, magnetic fields, Ampere's Law. Inductors; magnetic flux, inductance, magnetic materials, magnetic energy storage. Time-Varying Fields; Faraday's Law, mutual inductance, simple motors and generators. [Offered: W, S]", 
+                    "subject": "ECE", 
+                    "title": "Physics of Electrical Engineering 2", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "124", 
-                    "subject": "ECE"
-                },
+                    "description": "Number systems and Boolean arithmetic. Boolean algebra and simplification of Boolean functions. Combinational circuits. Sequential circuits; design and implementation. Hardware description languages. Timing analysis. Implementation technologies. [Offered: W, S]", 
+                    "subject": "ECE", 
+                    "title": "Digital Circuits and Systems", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "119", 
-                    "subject": "MATH"
-                },
+                    "description": "Elementary approximation methods: interpolation; Taylor polynomials and remainder; Newton's method, Landau order symbol, applications. Infinite series: Taylor series and Taylor's Remainder Theorem, geometric series, convergence test, power series, applications. Functions of several variables: partial derivatives, linear approximation and differential, gradient and directional derivative, optimization and Lagrange multipliers. Vector-valued functions: parametric representation of curves, tangent and normal vectors, line integrals and applications. [Offered: W,S]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 2 for Engineering", 
+                    "units": 0.5
+                }, 
                 {
-                    "catalog_number": "135",
-                    "subject": "MATH"
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "135", 
+                    "description": "An introduction to the language of mathematics and proof techniques through a study of the basic algebraic systems of mathematics: the integers, the integers modulo n, the rational numbers, the real numbers, the complex numbers and polynomials.", 
+                    "subject": "MATH", 
+                    "title": "Algebra for Honours Mathematics", 
+                    "units": 0.5
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "201", 
-                    "subject": "SE"
+                    "description": "General Seminar [Offered: F]", 
+                    "subject": "SE", 
+                    "title": "Seminar", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "102", 
-                    "subject": "CHE"
-                },
+                    "description": "Chemical principles with applications in engineering. Stoichiometric calculations, properties of gases, properties of liquids and solutions, gas phase chemical equilibrium, ionic equilibrium in aqueous solution, oxidation-reduction reactions, chemical kinetics. [Offered: F]", 
+                    "subject": "CHE", 
+                    "title": "Chemistry for Engineers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "241", 
-                    "subject": "CS"
-                },
+                    "description": "The relationship between high-level languages and the computer architecture that underlies their implementation, including basic machine architecture, assemblers, specification and translation of programming languages, linkers and loaders, block-structured languages, parameter passing mechanisms, and comparison of programming languages.", 
+                    "subject": "CS", 
+                    "title": "Foundations of Sequential Programs", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "222", 
-                    "subject": "ECE"
-                },
+                    "description": "Computer organization. Memory units, control units, I/O operations. Assembly language programming, translation and loading. Arithmetic logic units. Computer case studies. [Offered: F, W]", 
+                    "subject": "ECE", 
+                    "title": "Digital Computers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "212", 
-                    "subject": "SE"
-                },
+                    "description": "Formal logic. Proof systems and styles. Rudimentary model theory. Formal models of computation. Logic-based specification. Correctness proofs. Applications in software engineering. [Offered: F]", 
+                    "subject": "SE", 
+                    "title": "Logic and Computation", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "206", 
-                    "subject": "STAT"
-                },
+                    "description": "Empirical problem solving with applications to software engineering. An introduction to probability theory. An introduction to distribution theory and to methods of statistical inference, including confidence intervals and hypothesis testing. An introduction to regression. [Offered: F]", 
+                    "subject": "STAT", 
+                    "title": "Statistics for Software Engineering", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "1", 
                     "subject": "TE"
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "202", 
-                    "subject": "SE"
+                    "description": "General Seminar [Offered: S]", 
+                    "subject": "SE", 
+                    "title": "Seminar", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "240", 
-                    "subject": "CS"
-                },
+                    "description": "Introduction to widely used and effective methods of data organization, focusing on data structures, their algorithms, and the performance of these algorithms. Specific topics include priority queues, sorting, dictionaries, data structures for text processing.", 
+                    "subject": "CS", 
+                    "title": "Data Structures and Data Management", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "247", 
-                    "subject": "CS"
-                },
+                    "description": "Systematic methods for designing, coding, testing, and documenting medium-sized programs. Major topics include abstraction, modularity, software modeling, object-oriented programming and design, generic programming, testing and debugging.", 
+                    "subject": "CS", 
+                    "title": "Software Engineering Principles", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "261", 
-                    "subject": "MSCI"
-                },
+                    "description": "Introductory Finance: time value of money, cash flow analysis. Investment evaluation methods: present worth, annual worth and internal rate of return. Depreciation models and asset replacement analysis. The impact of inflation, taxation, uncertainty and risk on investment decisions. [Offered: F,W,S]", 
+                    "subject": "MSCI", 
+                    "title": "Engineering Economics: Financial Management for Engineers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "213", 
-                    "subject": "MATH"
-                },
+                    "description": "Fourier series. Differential equations. Laplace transforms. Applications to circuit analysis. [Offered: S]", 
+                    "subject": "MATH", 
+                    "title": "Advanced Mathematics for Software Engineers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "239", 
-                    "subject": "MATH"
-                },
+                    "description": "Introduction to graph theory: colourings, matchings, connectivity, planarity. Introduction to combinatorial analysis: generating series, recurrence relations, binary strings, plane trees.", 
+                    "subject": "MATH", 
+                    "title": "Introduction to Combinatorics", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "2", 
                     "subject": "TE"
-                },
-                {
-                    "catalog_number": "1", 
-                    "subject": "WKRPT"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "301", 
-                    "subject": "SE"
                 }, 
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "1", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "301", 
+                    "description": "General Seminar [Offered: W]", 
+                    "subject": "SE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "341", 
-                    "subject": "CS"
-                },
+                    "description": "The study of efficient algorithms and effective algorithm design techniques. Program design with emphasis on pragmatic and mathematical aspects of program efficiency. Topics include divide and conquer algorithms, recurrences, greedy algorithms, dynamic programming, graph search and backtrack, problems without algorithms, NP-completeness and its implications.", 
+                    "subject": "CS", 
+                    "title": "Algorithms", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "349", 
-                    "subject": "CS"
-                },
+                    "description": "An introduction to contemporary user interfaces, including the basics of human-computer interaction, the user interface design/evaluation process, the event abstraction, user interface components, specification of user interfaces, and the architectures within which user interfaces are developed. Implementation and evaluation of a typical user interface is considered.", 
+                    "subject": "CS", 
+                    "title": "User Interfaces", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "350", 
-                    "subject": "SE"
-                },
+                    "description": "An introduction to the fundamentals of operating system function, and implementation. Topics include concurrency, synchronization, processes, threads, scheduling, memory management, file systems, device management, and security. [Offered: W]", 
+                    "subject": "SE", 
+                    "title": "Operating Systems", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "465", 
-                    "subject": "SE"
-                },
+                    "description": "Introduces students to systematic testing of software systems. Software verification, reviews, metrics, quality assurance, and prediction of software reliability and availability. Related management issues.", 
+                    "subject": "SE", 
+                    "title": "Software Testing and Quality Assurance", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "3", 
                     "subject": "TE"
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "302", 
-                    "subject": "SE"
+                    "description": "General Seminar [Offered: F]", 
+                    "subject": "SE", 
+                    "title": "Seminar", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "343", 
-                    "subject": "CS"
-                },
+                    "description": "An introduction to concurrent and parallel programming, with an emphasis on language constructs. Major topics include: exceptions, coroutines, atomic operations, critical sections, mutual exclusion, semaphores, high-level concurrency, deadlock, interprocess communication, process structuring, shared memory and distributed architectures. Students will learn how to structure, implement and debug concurrent programs.", 
+                    "subject": "CS", 
+                    "title": "Concurrent and Parallel Programming", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "348", 
-                    "subject": "CS"
-                },
+                    "description": "The main objective of this course is to introduce students to fundamentals of database technology by studying databases from three viewpoints: those of the database user, the database designer, and the database administrator. It teaches the use of a database management system (DBMS) by treating it as a black box, focusing only on its functionality and its interfaces. Topics include: introduction to database systems, relational database systems, database design methodology, SQL and interfaces, database application development, concept of transactions, ODBC, JDBC, database tuning, database Administration, and current topics (distributed databases, data warehouses, data mining).", 
+                    "subject": "CS", 
+                    "title": "Introduction to Database Management", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "380", 
-                    "subject": "SE"
-                },
+                    "description": "Introduction to control systems. Advantages of closed-loop feedback systems. The role of the system mathematical model. Block diagrams and signal flow graphs. The basic control system design problem, stability in control systems. Frequency response analysis techniques. Root-locus analysis. Elementary lead-lag compensation. [Offered: W]", 
+                    "subject": "SE", 
+                    "title": "Introduction to Feedback Control", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "390", 
-                    "subject": "SE"
-                },
+                    "description": "Students undertake a substantial customer-driven group project as part of the SE 390/490/491 design-project sequence covering all major phases of the software-engineering lifecycle. Lectures describe expectations and project-planning fundamentals. Students form groups, decide on a project concept, complete a project-approval process, develop high-level requirements for the project, perform a risk assessment, develop a test plan, and complete a first-iteration prototype. Social, legal, and economic factors are considered. [Offered: F]", 
+                    "subject": "SE", 
+                    "title": "Design Project Planning", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "464", 
-                    "subject": "SE"
-                },
+                    "description": "Introduces students to the design, implementation, and evolution phases of software development. Software design processes, methods, and notation. Implementation of designs. Evolution of designs and implementations. Management of design activities.", 
+                    "subject": "SE", 
+                    "title": "Software Design and Architectures", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "4", 
                     "subject": "TE"
-                },
-                {
-                    "catalog_number": "2", 
-                    "subject": "WKRPT"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "401", 
-                    "subject": "SE"
                 }, 
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "2", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "401", 
+                    "description": "General Seminar [Offered: S]", 
+                    "subject": "SE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "358", 
-                    "subject": "ECE"
-                },
+                    "description": "This course is a comprehensive introduction to computer networks. The focus is on the concepts, the protocols, and the fundamental design principles that have contributed to the success of the Internet. Topics include: history of the Internet, transmission media and technologies, switching and multiplexing, protocols and layering, LAN (wired and wireless), congestion/flow/error control, routing, addressing, internetworking (Internet) including TCP. [Offered: F, W, S, first offered Fall 2012]", 
+                    "subject": "ECE", 
+                    "title": "Computer Networks", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "463", 
-                    "subject": "SE"
-                },
+                    "description": "Introduces students to the requirements definition phase of software development: Models, notations, and processes for software requirements identification, representation, analysis, and validation. Cost estimation from early documents and specifications.", 
+                    "subject": "SE", 
+                    "title": "Software Requirements Specification and Analysis", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "490", 
-                    "subject": "SE"
-                },
+                    "description": "Continuing from SE 390, students undertake a substantial customer-driven group project. Project groups establish and maintain project control processes, delivering a series of iterations on their initial SE 390 prototype. Adaptive methodologies are encouraged and supported. [Offered: S]", 
+                    "subject": "SE", 
+                    "title": "Design Project 1", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "5", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "6", 
                     "subject": "TE"
-                },
-                {
-                    "catalog_number": "3", 
-                    "subject": "WKRPT"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "402", 
-                    "subject": "SE"
                 }, 
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "3", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "402", 
+                    "description": "General Seminar. [Offered: W]", 
+                    "subject": "SE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "491", 
-                    "subject": "SE"
-                },
+                    "description": "Final implementation, testing, and communication of the design project started in SE 390. Technical presentations by groups. Analysis of social, legal, and economic impacts. Final release of the project. Project retrospective. [Offered: W]", 
+                    "subject": "SE", 
+                    "title": "Design Project 2", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "7", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "8", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "9", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "10", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "11", 
                     "subject": "TE"
                 }
-            ],
-        ],
+            ]
+        ], 
         "curriculumTerms": [
             "1A", 
             "1B", 
@@ -262,9 +438,9 @@
     "gradPopulation": null, 
     "images": [
         {
-            "type": "misc",
             "descriptor": "e5 building", 
-            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg", 
+            "type": "misc"
         }
     ], 
     "importantDates": null, 
@@ -289,7 +465,9 @@
         "socialEnjoyment": 0, 
         "studyEnv": 0
     }, 
-    "relatedPrograms":["electricalengineering"],
+    "relatedPrograms": [
+        "electricalengineering"
+    ], 
     "requirements": {
         "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
         "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
@@ -297,29 +475,29 @@
         "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
         "individual_courses": [
             {
-                "course_title":"Calculus and Vectors",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Calculus and Vectors", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"English",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "English", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Physics",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Physics", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Chemistry",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Chemistry", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Advanced Functions",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Advanced Functions", 
+                "min_grade": "70"
             }
         ], 
         "international_program_requirements": "", 

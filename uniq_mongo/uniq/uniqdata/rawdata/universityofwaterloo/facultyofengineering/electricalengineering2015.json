@@ -1,267 +1,455 @@
 {
-    "about": "The field of electrical and computer engineering is multidisciplinary and based on foundations in science, mathematics, and computing—both hardware and software. Reflecting this diversity, the Department of Electrical and Computer Engineering (ECE) offers these two broad programs but is also a major partner in offering three more interdisciplinary programs, in Mechatronics Engineering, Nanotechnology Engineering, and Software Engineering. The Computer Engineering and Electrical Engineering programs, described here, span the field in slightly different ways to give students a deep base of core knowledge with the ability to focus in one or more target areas. Students completing either program should gain the breadth of understanding necessary for lifelong learning in any area of electrical and computer engineering regardless of their choice of upper-year electives.",
+    "about": "The field of electrical and computer engineering is multidisciplinary and based on foundations in science, mathematics, and computing\u2014both hardware and software. Reflecting this diversity, the Department of Electrical and Computer Engineering (ECE) offers these two broad programs but is also a major partner in offering three more interdisciplinary programs, in Mechatronics Engineering, Nanotechnology Engineering, and Software Engineering. The Computer Engineering and Electrical Engineering programs, described here, span the field in slightly different ways to give students a deep base of core knowledge with the ability to focus in one or more target areas. Students completing either program should gain the breadth of understanding necessary for lifelong learning in any area of electrical and computer engineering regardless of their choice of upper-year electives.", 
+    "applicationProcess": null, 
     "avgAdm": "90-93", 
     "contacts": [], 
     "dateEstablished": "01-07-1957", 
     "degree": "Bachelor's of Applied Science", 
-    "degreeAbbrev": "BASc",
-    "applicationProcess": null,
+    "degreeAbbrev": "BASc", 
     "degreeRequirements": {
-        "about": "ECE identifies ten overlapping target areas in the discipline as listed below.\nCommunications, modulation and coding, multimedia, wireless.\nNetworks, mobility, distributed computing.\nEnergy distribution, motors/generators, power electronics, energy marketing.\nControl, automation, robotics, mechatronics.\nDigital architectures, embedded computers, formal specification and design.\nAnalog or digital devices, circuits, VLSI, micro-/nano-fabrication methods.\nMicrowave (radio frequency) or photonic devices and systems.\nSignal processing, computational intelligence, soft computing.\nSoftware systems, components, security, embedded software.\nSoftware engineering, requirements specification, software architectures, verification.",
+        "about": "ECE identifies ten overlapping target areas in the discipline as listed below.\nCommunications, modulation and coding, multimedia, wireless.\nNetworks, mobility, distributed computing.\nEnergy distribution, motors/generators, power electronics, energy marketing.\nControl, automation, robotics, mechatronics.\nDigital architectures, embedded computers, formal specification and design.\nAnalog or digital devices, circuits, VLSI, micro-/nano-fabrication methods.\nMicrowave (radio frequency) or photonic devices and systems.\nSignal processing, computational intelligence, soft computing.\nSoftware systems, components, security, embedded software.\nSoftware engineering, requirements specification, software architectures, verification.", 
         "curriculum": [
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "102", 
-                    "subject": "CHE"
+                    "description": "Chemical principles with applications in engineering. Stoichiometric calculations, properties of gases, properties of liquids and solutions, gas phase chemical equilibrium, ionic equilibrium in aqueous solution, oxidation-reduction reactions, chemical kinetics. [Offered: F]", 
+                    "subject": "CHE", 
+                    "title": "Chemistry for Engineers", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "100A", 
-                    "subject": "ECE"
-                },
+                    "description": "Areas of research and professional practice in Electrical and Computer Engineering, including the engineer's role in protecting public safety. Exposure to concepts from other Engineering disciplines. Support material for the academic term, co-operative education, and professional or career development. [Offered: F]", 
+                    "subject": "ECE", 
+                    "title": "Electrical and Computer Engineering Practice", 
+                    "units": 0.2
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "105", 
-                    "subject": "ECE"
-                },
+                    "description": "Forces in nature and Newton's laws, Dynamics and circular motion, Work, Energy and conservation of energy. Linear Momentum and linear Impulse, Rotational Dynamics. Oscillations; Simple Harmonic Motion. Wave motion; Traveling waves and standing waves. Thermal Physics; Temperature, Thermal energy and Specific heat, Ideal gas heat engines and Refrigerators. [Offered: F]", 
+                    "subject": "ECE", 
+                    "title": "Physics of Electrical Engineering 1", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "140", 
-                    "subject": "ECE"
-                },
+                    "description": "Analysis of linear circuits. Voltage, current, resistance, capacitance, inductance, voltage source, current source, dependent sources, Ohm's Law, Kirchoff's Law, nodal analysis, mesh analysis, circuit transformations, operational amplifier circuits, time response, sinusoidal steady-state response. Preparing for, conducting, and reporting of laboratory experiments. Safety-orientation training, including WHMIS assessment, is included in this course. [Offered: F]", 
+                    "subject": "ECE", 
+                    "title": "Linear Circuits", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "150", 
-                    "subject": "ECE"
-                },
+                    "description": "Software design process in a high-level programming environment. Programming fundamentals, language syntax, simple data types, control constructs, functions, parameter passing, recursion, classes, arrays and lists, list traversals, introduction to searching and sorting algorithms, basic object-oriented design, polymorphism and inheritance, simple testing and debugging strategies, pointers and references, basic memory management. [Offered: F]", 
+                    "subject": "ECE", 
+                    "title": "Fundamentals of Programming", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "117", 
-                    "subject": "MATH"
+                    "description": "Functions of engineering importance; review of polynomial, exponential, and logarithmic functions; trigonometric functions and identities. Inverse functions (logarithmic and trigonometric). Limits and continuity. Derivatives, rules of differentiation; derivatives of elementary functions. Applications of the derivative, max-min problems, Mean Value Theorem. Antiderivatives, the Riemann definite integral, Fundamental Theorems. Methods of integration, approximation, applications, improper integrals. [Offered: F]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 1 for Engineering", 
+                    "units": 0.5
                 }
             ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "100B", 
-                    "subject": "ECE"
+                    "description": "Areas of research and professional practice in Electrical and Computer Engineering. Exposure to concepts from other Engineering disciplines. Support material for the academic term, co-operative education, and professional or career development.", 
+                    "subject": "ECE", 
+                    "title": "Electrical and Computer Engineering Practice", 
+                    "units": 0.2
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "103", 
-                    "subject": "ECE"
-                },
+                    "description": "Propositional logic, predicate logic, set theory, finite automata, temporal logic. [Offered: W, S]", 
+                    "subject": "ECE", 
+                    "title": "Discrete Mathematics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "106", 
-                    "subject": "ECE"
-                },
+                    "description": "Electrostatics; electric field, flux, Gauss's Law, potential and potential energy. Capacitors; Dielectric, capacitance, electric energy storage, charging/discharging. Resistors; charge flow, current, resistance, Kirchhoff's voltage and current laws. Magnetostatic; magnetic force, magnetic fields, Ampere's Law. Inductors; magnetic flux, inductance, magnetic materials, magnetic energy storage. Time-Varying Fields; Faraday's Law, mutual inductance, simple motors and generators. [Offered: W, S]", 
+                    "subject": "ECE", 
+                    "title": "Physics of Electrical Engineering 2", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "124", 
-                    "subject": "ECE"
-                },
+                    "description": "Number systems and Boolean arithmetic. Boolean algebra and simplification of Boolean functions. Combinational circuits. Sequential circuits; design and implementation. Hardware description languages. Timing analysis. Implementation technologies. [Offered: W, S]", 
+                    "subject": "ECE", 
+                    "title": "Digital Circuits and Systems", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "155", 
-                    "subject": "ECE"
-                },
+                    "description": "Introduction to embedded systems, review of engineering design and analysis principles, software development life cycle, integrated development environments, use of software requirements and specifications, unified modelling language and documentation, event handling, simulation, project management, project scheduling, testing, verification, and maintenance considerations. [Offered: W, S]", 
+                    "subject": "ECE", 
+                    "title": "Engineering Design with Embedded Systems", 
+                    "units": 0.5
+                }, 
                 {
-                    "catalog_number": "119",
-                    "subject": "MATH"
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "119", 
+                    "description": "Elementary approximation methods: interpolation; Taylor polynomials and remainder; Newton's method, Landau order symbol, applications. Infinite series: Taylor series and Taylor's Remainder Theorem, geometric series, convergence test, power series, applications. Functions of several variables: partial derivatives, linear approximation and differential, gradient and directional derivative, optimization and Lagrange multipliers. Vector-valued functions: parametric representation of curves, tangent and normal vectors, line integrals and applications. [Offered: W,S]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 2 for Engineering", 
+                    "units": 0.5
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "200A", 
-                    "subject": "ECE"
+                    "description": "Areas of research and professional practice in Electrical and Computer Engineering. Exposure to concepts from other Engineering disciplines. Support material for the academic term, co-operative education, and professional or career development.", 
+                    "subject": "ECE", 
+                    "title": "Electrical and Computer Engineering Practice", 
+                    "units": 0.1
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "205", 
-                    "subject": "ECE"
-                },
+                    "description": "Fourier series. Ordinary differential equations. Laplace transform. Applications to linear electrical systems. [Offered: F,W]", 
+                    "subject": "ECE", 
+                    "title": "Advanced Calculus 1 for Electrical and Computer Engineers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "222", 
-                    "subject": "ECE"
-                },
+                    "description": "Computer organization. Memory units, control units, I/O operations. Assembly language programming, translation and loading. Arithmetic logic units. Computer case studies. [Offered: F, W]", 
+                    "subject": "ECE", 
+                    "title": "Digital Computers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "240", 
-                    "subject": "ECE"
-                },
+                    "description": "Introduction to electronic signal processing; operational amplifier circuits; diode device and circuits; MOS and bipolar amplifier biasing networks; load-line analysis; diode, MOS and bipolar small-signal equivalent circuits; single-stage small-signal MOS and bipolar amplifiers; transistor switches. \r\n[Offered: F, W]", 
+                    "subject": "ECE", 
+                    "title": "Electronic Circuits 1", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "250", 
-                    "subject": "ECE"
-                },
+                    "description": "Data structures, abstract data types, recursive algorithms, algorithm analysis, sorting and searching, and problem-solving strategies. [Offered: F,W]", 
+                    "subject": "ECE", 
+                    "title": "Algorithms and Data Structures", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "290", 
-                    "subject": "ECE"
-                },
+                    "description": "An introduction to engineering law and ethics: ethical theories, code of ethics and misconduct, whistle blowing, conflict of interest, health and safety, diversity, workplace equity and sexual harassment, environment, Charter of Rights and Freedoms, torts, contract, and intellectual property. Continuation of studies of professional practice: history, Professional Engineers Act and Regulation, licensing, discipline and enforcement. [Offered: F, W]", 
+                    "subject": "ECE", 
+                    "title": "Engineering Profession, Ethics, and Law", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "215", 
-                    "subject": "MATH"
+                    "description": "Systems of linear equations; their representation with matrices and vectors; their generalization to linear transformations on abstract vector spaces; and the description of these linear transformations through quantitative characteristics such as the determinant, the characteristic polynomial, eigenvalues and eigenvectors, the rank, and singular values. [Offered F,W]", 
+                    "subject": "MATH", 
+                    "title": "Linear Algebra for Engineering", 
+                    "units": 0.5
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "200B", 
-                    "subject": "ECE"
+                    "description": "Areas of research and professional practice in Electrical and Computer Engineering. Exposure to concepts from other Engineering disciplines. Support material for the academic term, co-operative education, and professional or career development.", 
+                    "subject": "ECE", 
+                    "title": "Electrical and Computer Engineering Practice", 
+                    "units": 0.1
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "206", 
-                    "subject": "ECE"
-                },
+                    "description": "Triple integrals, cylindrical and spherical polar coordinates. Divergence and curl, applications. Surface integrals, Green's, Gauss' and Stokes' theorems, applications. Complex functions, analytic functions, contour integrals, Cauchy's integral formula, Laurent series, residues. [Offered: F]", 
+                    "subject": "ECE", 
+                    "title": "Advanced Calculus 2 for Electrical Engineers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "207", 
-                    "subject": "ECE"
-                },
+                    "description": "Discrete, continuous and periodic signals, time- and frequency-domain analysis of continuous- and discrete-time linear systems, periodic signals and Fourier series, non-periodic signals and Fourier transforms. [Offered: F, S]", 
+                    "subject": "ECE", 
+                    "title": "Signals and Systems", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "242", 
-                    "subject": "ECE"
-                },
+                    "description": "Electronic circuits and their limitations, including; differential pairs, biasing, the cascode configuration and active loads. Differential and multistage amplifiers. Feedback, stability and compensation. CMOS logic circuits. [Offered: F, S]", 
+                    "subject": "ECE", 
+                    "title": "Electronic Circuits 2", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "224", 
-                    "subject": "ECE"
-                },
+                    "description": "Microprocessor system architecture, bus systems, memory systems, peripherals, parallel interfaces, serial interfaces, analog interfaces, data transfer, synchronization, error detection/correction, testing and debugging. [Offered F, W, first offered Fall 2011, not offered Winter 2012]", 
+                    "subject": "ECE", 
+                    "title": "Embedded Microprocessor Systems", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "254", 
-                    "subject": "ECE"
-                },
+                    "description": "Concepts of operating systems and systems programming; utility programs, subsystems, multiple-program systems; processes, interprocess communication, synchronization, and concurrency; memory management, segmentation, and paging; loading and linking, libraries; resource allocation, scheduling, performance evaluation; I/O systems, storage devices, file systems; protection, security, and privacy. [Offered: F, S]", 
+                    "subject": "ECE", 
+                    "title": "Operating Systems and Systems Programming", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "209", 
-                    "subject": "ECE"
-                },
+                    "description": "Review of wave-particle duality, basic quantum mechanics, Schrodinger equation, energy bands in crystals, basic properties of semiconductors, intrinsic and doped semiconductor, electrons and holes, metals and alloys, superconductivity, phonons and heat capacity, dielectric materials, optical properties, dielectric properties and magnetic properties of materials. [Offered: F, S]", 
+                    "subject": "ECE", 
+                    "title": "Electronic and Electrical Properties of Materials", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "1", 
                     "subject": "CSE"
-                },
+                }, 
                 {
                     "catalog_number": "1", 
                     "subject": "WKRPT-4stream"
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "300A", 
-                    "subject": "ECE"
+                    "description": "Areas of research and professional practice in Electrical and Computer Engineering. Exposure to concepts from other Engineering disciplines. Support material for the academic term, co-operative education, and professional or career development.", 
+                    "subject": "ECE", 
+                    "title": "Electrical and Computer Engineering Practice", 
+                    "units": 0.1
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "316", 
-                    "subject": "ECE"
-                },
+                    "description": "Ensemble model of randomness. Conditional probability, independence, and Bayes' theorem. Random variables, probability distribution functions. Expected values. Collections of random variables, joint and marginal probability distributions, and correlation. Confidence intervals. Random processes, stationarity, and power spectral density. [Offered: W, S]", 
+                    "subject": "ECE", 
+                    "title": "Probability Theory and Random Processes", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "380", 
-                    "subject": "ECE"
-                },
+                    "description": "Introduction to control systems. Advantages of closed-loop feedback systems. The role of the system mathematical model. Block diagrams and signal flow graphs. The basic control system design problem, stability in control systems. Frequency response analysis techniques. Root-locus analysis. Elementary lead-lag compensation. [Offered: F, W, last Fall offering is Fall 2011. The course moves to 3A level in Winter 2012 and becomes offered in Winter and Spring. The first Spring offering is Spring 2012.]", 
+                    "subject": "ECE", 
+                    "title": "Analog Control Systems", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "327", 
-                    "subject": "ECE"
-                },
+                    "description": "Design and modelling of digital hardware systems using a hardware description language. Development process. Impact of implementation technologies. Performance analysis and optimization. Functional verification. Timing analysis. Power analysis and optimization. Faults and testability. Reliability and fault tolerance.[Offered: W, S]", 
+                    "subject": "ECE", 
+                    "title": "Digital Hardware Systems", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "351", 
-                    "subject": "ECE"
-                },
+                    "description": "Programming paradigms, compilation, interpretation, virtual machines. Lexical analysis, regular expressions and finite automata. Parsing, context-free grammars and push-down automata. Semantic analysis, scope and name analysis, type checking. Intermediate representations. Control flow. Data types and storage management. Code generation. [Offered: W, S, first offered Winter 2012]", 
+                    "subject": "ECE", 
+                    "title": "Compilers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "331", 
-                    "subject": "ECE"
-                },
+                    "description": "Review of band theory and doped semiconductors in thermal equilibrium, charge neutrality, mass action law, recombination and transport mechanisms, Boltzmann relations. Device theory and modeling of p-n junction diode and derivation of dc and ac characteristics, charge storage effects. Pinciples, device theory and modeling of MOSFETs and the derivation of threshold voltage, dc current characteristics, small signal ac models. Principles of Bipolar transistor and derivation of dc and ac terminal characteristics, equivalent circuits. [Offered: W, S]", 
+                    "subject": "ECE", 
+                    "title": "Electronic Devices", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "375", 
-                    "subject": "ECE"
-                },
+                    "description": "Maxwell's equations; plane waves; time-harmonic fields; waves at planar boundaries; boundary conditions; reflection and transmission; transmission lines; electric fields in matter; magnetic fields in matter. [Offered W, S, first offered Winter 2012]", 
+                    "subject": "ECE", 
+                    "title": "Electromagnetic Fields and Waves", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "2", 
                     "subject": "CSE"
-                },
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "2", 
-                    "subject": "WKRPT"
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "300B", 
-                    "subject": "ECE"
+                    "description": "Areas of research and professional practice in Electrical and Computer Engineering. Exposure to concepts from other Engineering disciplines. Support material for the academic term, co-operative education, and professional or career development.", 
+                    "subject": "ECE", 
+                    "title": "Electrical and Computer Engineering Practice", 
+                    "units": 0.1
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "318", 
-                    "subject": "ECE"
-                },
+                    "description": "Spectral density of deterministic and random analog signals. Thermal noise and the white noise model. Amplitude and angle modulation, generation and detection schemes, effects of noise. Techniques for handling digital signals including sampling and reconstruction, quantization, waveform coding, and time-division multiplexing. Overview of digital communications. [Offered: F,W]", 
+                    "subject": "ECE", 
+                    "title": "Analog and Digital Communications", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "390", 
-                    "subject": "ECE"
-                },
+                    "description": "Introduction to design-project management, the impact of technology on society and the environment, and engineering economics. [Offered: F, W, first offered Fall 2012]", 
+                    "subject": "ECE", 
+                    "title": "Engineering Design, Economics, and Impact on Society", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "356", 
-                    "subject": "ECE"
-                },
+                    "description": "Introduction, data models, file systems, database system architectures, query languages, integrity and security, database design. [Offered: F, W, first offered Fall 2012]", 
+                    "subject": "ECE", 
+                    "title": "Database Systems", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "358", 
-                    "subject": "ECE"
-                },
+                    "description": "This course is a comprehensive introduction to computer networks. The focus is on the concepts, the protocols, and the fundamental design principles that have contributed to the success of the Internet. Topics include: history of the Internet, transmission media and technologies, switching and multiplexing, protocols and layering, LAN (wired and wireless), congestion/flow/error control, routing, addressing, internetworking (Internet) including TCP. [Offered: F, W, S, first offered Fall 2012]", 
+                    "subject": "ECE", 
+                    "title": "Computer Networks", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "224", 
-                    "subject": "ECE"
-                },
+                    "description": "Microprocessor system architecture, bus systems, memory systems, peripherals, parallel interfaces, serial interfaces, analog interfaces, data transfer, synchronization, error detection/correction, testing and debugging. [Offered F, W, first offered Fall 2011, not offered Winter 2012]", 
+                    "subject": "ECE", 
+                    "title": "Embedded Microprocessor Systems", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "361", 
-                    "subject": "ECE"
-                },
+                    "description": "This course is an introduction to basic modeling and analysis techniques in electricity generation, transmission and distribution, including basic concepts in nonlinear system analysis. Functional descriptions and modeling of generators, transformers, transmission lines, motors and other loads are discussed. Power flow analysis techniques are studied in detail, from the basic equations to their use in power networks. Fault analysis and basic protection concepts are also discussed. [Offered: F, W, first offered Fall 2012]", 
+                    "subject": "ECE", 
+                    "title": "Power Systems and Components", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "3", 
                     "subject": "CSE"
-                },
-                {
-                    "catalog_number": "3", 
-                    "subject": "WKRPT"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "400A", 
-                    "subject": "ECE"
                 }, 
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "3", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "400A", 
+                    "description": "Areas of research and professional practice in Electrical and Computer Engineering. Exposure to concepts from other Engineering disciplines. Support material for the academic term, co-operative education, and professional or career development.", 
+                    "subject": "ECE", 
+                    "title": "Electrical and Computer Engineering Practice", 
+                    "units": 0.1
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "481", 
-                    "subject": "ECE"
-                },
+                    "description": "Performance specifications for design. Dynamic system modelling and basic system identification. Dealing with basic nonlinear effects. Sampled data systems. Discrete-time system stability and dynamic performance. Digital control system design: emulation methods, z-domain, frequency domain, pole placement. Implementation of digital controllers. [Offered: S]", 
+                    "subject": "ECE", 
+                    "title": "Digital Control Systems", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "4", 
                     "subject": "CSE"
-                },
+                }, 
                 {
                     "catalog_number": "1", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "2", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "3", 
                     "subject": "TE"
-                },
-                {
-                    "catalog_number": "3", 
-                    "subject": "WKRPT"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "400B", 
-                    "subject": "ECE"
                 }, 
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "3", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "400B", 
+                    "description": "Areas of research and professional practice in Electrical and Computer Engineering. Exposure to concepts from other Engineering disciplines. Support material for the academic term, co-operative education, and professional or career development.", 
+                    "subject": "ECE", 
+                    "title": "Electrical and Computer Engineering Practice", 
+                    "units": 0.1
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "498B", 
-                    "subject": "ECE"
-                },
+                    "description": "Completion of the design cycle started in ECE 498A and communication of the engineering design work. Submission of a written final report. Lecture-style technical presentation by group members. Poster-style technical presentation with group members available to discuss the project. [Offered: F, W, S, first offered Winter 2014]", 
+                    "subject": "ECE", 
+                    "title": "Engineering Design Project", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "4", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "5", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "6", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "7", 
                     "subject": "TE"
                 }
-            ],
-        ],
+            ]
+        ], 
         "curriculumTerms": [
             "1A", 
             "1B", 
@@ -278,9 +466,9 @@
     "gradPopulation": "602", 
     "images": [
         {
-            "type": "misc",
             "descriptor": "e5 building", 
-            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg", 
+            "type": "misc"
         }
     ], 
     "importantDates": null, 
@@ -305,7 +493,10 @@
         "socialEnjoyment": 0, 
         "studyEnv": 0
     }, 
-    "relatedPrograms":["mechatronicsengineering", "softwareengineering"],
+    "relatedPrograms": [
+        "mechatronicsengineering", 
+        "softwareengineering"
+    ], 
     "requirements": {
         "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
         "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
@@ -313,29 +504,29 @@
         "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
         "individual_courses": [
             {
-                "course_title":"Calculus and Vectors",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Calculus and Vectors", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"English",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "English", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Physics",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Physics", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Chemistry",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Chemistry", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Advanced Functions",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Advanced Functions", 
+                "min_grade": "70"
             }
         ], 
         "international_program_requirements": "", 

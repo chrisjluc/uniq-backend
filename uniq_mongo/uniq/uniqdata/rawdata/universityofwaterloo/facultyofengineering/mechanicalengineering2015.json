@@ -1,231 +1,387 @@
 {
-    "about": "Mechanical engineers deal with any machine that moves, such as robots, motors, pumps, and vehicles. As a graduate, you might design parts for small consumer products or design the latest commercial jets. You might work in industries ranging from manufacturing, robotics, and aerospace to biotechnology and the automotive sector.\nAt Waterloo, you'll have access to well-equipped labs for design and experimentation. You can gain hands-on experience by joining student teams such as the Formula SAE race car, Ethanol Vehicle Challenge, Midnight Sun solar car, SAE Cargo Aircraft, or CASI glider.\nCustomize your skills by choosing to specialize in areas such as fluid mechanics, materials engineering and processing, welding and joining, automation and control, or thermal engineering in your fourth year.",
+    "about": "Mechanical engineers deal with any machine that moves, such as robots, motors, pumps, and vehicles. As a graduate, you might design parts for small consumer products or design the latest commercial jets. You might work in industries ranging from manufacturing, robotics, and aerospace to biotechnology and the automotive sector.\nAt Waterloo, you'll have access to well-equipped labs for design and experimentation. You can gain hands-on experience by joining student teams such as the Formula SAE race car, Ethanol Vehicle Challenge, Midnight Sun solar car, SAE Cargo Aircraft, or CASI glider.\nCustomize your skills by choosing to specialize in areas such as fluid mechanics, materials engineering and processing, welding and joining, automation and control, or thermal engineering in your fourth year.", 
+    "applicationProcess": null, 
     "avgAdm": "90-93", 
     "contacts": [], 
     "dateEstablished": "01-07-1957", 
     "degree": "Bachelor's of Applied Science", 
-    "degreeAbbrev": "BASc",
-    "applicationProcess": null,
+    "degreeAbbrev": "BASc", 
     "degreeRequirements": {
-        "about": "The degree of Bachelor of Applied Science (BASc) in Mechanical Engineering is accredited and permits registration as a Professional Engineer in the Professional Engineering licensing body in every Canadian province upon completion of the work experience requirement and upon passing the exams in law and ethics.\nThe Mechanical Engineering undergraduate program contains a core of basic subjects that must be taken by all students. The first year shares some courses with Civil and Electrical Engineering. The second and third years provide courses in Mechanical Engineering and Electrical Engineering with further development in mathematics and physics. In fourth year, a significant two-term capstone design project will be undertaken that will facilitate and promote integration of the knowledge and skills acquired in previous years of study and development of project management skills. Opportunities for more in-depth study in theme areas exist during the fourth year, where a choice of technical elective courses arranged into five different theme areas of expertise is available. Students may also choose to take the Welding and Joining Specialization. Five required non-technical, complementary studies elective (CSE) courses are distributed throughout the program but do not appear in all terms.",
+        "about": "The degree of Bachelor of Applied Science (BASc) in Mechanical Engineering is accredited and permits registration as a Professional Engineer in the Professional Engineering licensing body in every Canadian province upon completion of the work experience requirement and upon passing the exams in law and ethics.\nThe Mechanical Engineering undergraduate program contains a core of basic subjects that must be taken by all students. The first year shares some courses with Civil and Electrical Engineering. The second and third years provide courses in Mechanical Engineering and Electrical Engineering with further development in mathematics and physics. In fourth year, a significant two-term capstone design project will be undertaken that will facilitate and promote integration of the knowledge and skills acquired in previous years of study and development of project management skills. Opportunities for more in-depth study in theme areas exist during the fourth year, where a choice of technical elective courses arranged into five different theme areas of expertise is available. Students may also choose to take the Welding and Joining Specialization. Five required non-technical, complementary studies elective (CSE) courses are distributed throughout the program but do not appear in all terms.", 
         "curriculum": [
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "102", 
-                    "subject": "CHE"
+                    "description": "Chemical principles with applications in engineering. Stoichiometric calculations, properties of gases, properties of liquids and solutions, gas phase chemical equilibrium, ionic equilibrium in aqueous solution, oxidation-reduction reactions, chemical kinetics. [Offered: F]", 
+                    "subject": "CHE", 
+                    "title": "Chemistry for Engineers", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "115", 
-                    "subject": "MATH"
-                },
+                    "description": "Linear equations, matrices and determinants. Introduction to vector spaces. Eigenvalues and diagonalization. Applications. Complex numbers. [Offered: F]", 
+                    "subject": "MATH", 
+                    "title": "Linear Algebra for Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "116", 
-                    "subject": "MATH"
-                },
+                    "description": "Functions: review of polynomials, exponential, logarithmic, trigonometric. Operations on functions, curve sketching. Trigonometric identities, inverse functions. Derivatives, rules of differentiation. Mean Value Theorem, Newton's Method. Indeterminate forms and L'Hopital's rule, applications. Integrals, approximations, Riemann definite integral, Fundamental Theorems. Applications of the integral. [Offered: F]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 1 for Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "100", 
-                    "subject": "ME"
-                },
+                    "description": "This course is focused on fundamental knowledge and skills essential for academic and professional development in mechanical engineering. It covers basic methods and principles used by mechanical engineers, e.g., fundamentals of technical communication, the design process and problem solving, measurements and data analysis, engineering professionalism, safety, and intellectual property. The fundamentals of engineering graphical communication using computer-aided design (CAD) and freehand sketching will be a significant component of this course. Written, graphical and oral communications are emphasized. Examples are drawn from Mechanical Engineering. [Offered: F]", 
+                    "subject": "ME", 
+                    "title": "Introduction to Mechanical Engineering Practice 1", 
+                    "units": 0.75
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "115", 
-                    "subject": "PHYS"
-                },
+                    "description": "Brief review of kinematics. Particle dynamics, work, energy, conservation of energy. Conservation of linear momentum, collisions, rotational kinematics and dynamics, conservation of angular momentum. Equilibrium of rigid bodies. [Offered: F]", 
+                    "subject": "PHYS", 
+                    "title": "Mechanics", 
+                    "units": 0.5
+                }
             ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "100B", 
-                    "subject": "ME"
+                    "description": "Discussion of the structure of and options within the Mechanical Engineering curriculum; of the operation of Department, Faculty, University, technical societies; of student team and graduate school opportunities; of safety training; and of subject material in support of core courses. [Offered: W,S]", 
+                    "subject": "ME", 
+                    "title": "Seminar", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "123", 
-                    "subject": "GENE"
-                },
+                    "description": "Analysis of linear circuits: Voltage, current, resistance, capacitance, inductance, voltage source, current source, dependent sources, Ohm's Law, Kirchoff's Law, nodal analysis, mesh analysis, Thevinin/Norton equivalents, operational amplifier circuits, time response, sinusoidal steady-state response. Introduction to diodes with applications.", 
+                    "subject": "GENE", 
+                    "title": "Electrical Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "118", 
-                    "subject": "MATH"
-                },
+                    "description": "Methods of integration: by parts, trigonometric substitutions, partial fractions; engineering applications, approximation of integrals, improper integrals. Linear and separable first order differential equations, applications. Parametric curves and polar coordinates, arc length and area. Infinite sequences and series, convergence tests, power series and applications. Taylor polynomials and series, Taylor's Remainder Theorem, applications. [Offered: W,S]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 2 for Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "101", 
-                    "subject": "ME"
-                },
+                    "description": "This course is a continuation of ME 100 and is aimed at reinforcing the concepts related to technical communications, professionalism, and professional development, with emphasis on mechanical engineering concepts and practical examples. The fundamentals of programming are a significant component of this course, focusing on digital computing, and basic programming and algorithm writing. Programming examples are drawn from Mechanical Engineering. [Offered: W,S, first offered Winter 2015]", 
+                    "subject": "ME", 
+                    "title": "Introduction to Mechanical Engineering Practice 2", 
+                    "units": 0.75
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "115", 
-                    "subject": "ME"
-                },
+                    "description": "The relevance of materials to engineering practice. The microstructure of materials, crystallinity and crystal imperfections, glasses and amorphous solids. Elastic and plastic deformation in metals, viscoelasticity of plastics. Strengthening mechanisms in metals, polymers and ceramics. Fracture of brittle and ductile solids. Electrical and magnetic properties of materials. [Offered: W, S]", 
+                    "subject": "ME", 
+                    "title": "Structure and Properties of Materials", 
+                    "units": 0.5
+                }, 
                 {
-                    "catalog_number": "1",
+                    "catalog_number": "1", 
                     "subject": "CSE"
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "200A", 
-                    "subject": "ME"
+                    "description": "Discussion of the structure of and options within the Mechanical Engineering curriculum; of the operation of Department, Faculty, University, technical societies; of student team and graduate school opportunities; of safety training; and of subject material in support of core courses.\r\n[Offered: F,W]", 
+                    "subject": "ME", 
+                    "title": "Seminar", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "201", 
-                    "subject": "ME"
-                },
+                    "description": "A continuation of First Year calculus, focusing on calculus of scalar and vector functions of several variables. Both classical calculus techniques and the computer implementation of numerical methods are discussed. Partial differentiation, total derivatives, chain rule, transformation of variables, Taylor series. Applications include geometrical problems, error estimation, maxima and minima, least squares curve fits. Multiple integration in standard coordinate systems, Jacobians. Vector calculus, divergence, curl, Laplacian, and Stokes', Green's and Divergence theorems. Scalar flux transport, work and energy, conservative force fields. [Offered: F, W]", 
+                    "subject": "ME", 
+                    "title": "Advanced Calculus", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "202", 
-                    "subject": "ME"
-                },
+                    "description": "Frequency distributions; measures of central tendency; standard deviation and other measures of dispersion. Probability. Binomial, Poisson, normal distributions. Techniques of sampling and statistical estimation. Tests of hypotheses; significance. The t-test and chi-squared test. Curve fitting by least squares. Statistical process control. Correlation and regression. Experimental design. [Offered: F, W]", 
+                    "subject": "ME", 
+                    "title": "Statistics for Engineers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "219", 
-                    "subject": "ME"
-                },
+                    "description": "Concept of equilibrium, force analysis of structures and structural components, equilibrium of deformable bodies, stress and strain concepts, stress-strain relationships, stress analysis of prismatic members in axial, shearing, torsional and flexural deformations, shear force and bending moment diagrams. [Offered: F, W, S]", 
+                    "subject": "ME", 
+                    "title": "Mechanics of Deformable Solids 1", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "230", 
-                    "subject": "ME"
-                },
+                    "description": "Phase equilibria, non-equilibrium behaviour, heat treatment of metals, diffusion, strengthening processes. Alloying, composite materials, cold and hot working. Failure of engineering materials; creep, fatigue, corrosion and other environmental degradation processes. Prevention of service failures. [Offered: F, W]", 
+                    "subject": "ME", 
+                    "title": "Control of Properties of Materials", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "269", 
-                    "subject": "ME"
-                },
+                    "description": "Review of circuit analysis. Basic electromagnetic theory. DC machines, synchronous generators, transformers, and induction motors. Introduction to typical speed and torque control techniques of machines using power electronic based devices.", 
+                    "subject": "ME", 
+                    "title": "Electromechanical Devices and Power Processing", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "2", 
                     "subject": "CSE"
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "200B", 
-                    "subject": "ME"
+                    "description": "Discussion of the structure of and options within the Mechanical Engineering curriculum; of the operation of Department, Faculty, University, technical societies; of student team and graduate school opportunities; of safety training; and of subject material in support of core courses.\r\n[Offered: F,S]", 
+                    "subject": "ME", 
+                    "title": "Seminar", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "203", 
-                    "subject": "ME"
-                },
+                    "description": "Solution of ordinary differential equations. First and higher order differential equations. Nonlinear equations. Linear equations with constant and variable coefficients. Systems of linear equations. Applications involving simple dynamical systems and principles of mass, momentum and heat conservation will emphasize the role of ordinary differential equations in understanding the behaviour of physical systems. Introduction to the Laplace transform method for solving ordinary differential equations. [Offered: F, S]", 
+                    "subject": "ME", 
+                    "title": "Ordinary Differential Equations", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "212", 
-                    "subject": "ME"
-                },
+                    "description": "An introduction to the kinematics of particle and rigid body motion. Impulse-momentum equations. Work-energy methods and Euler's equations. Simple gyroscopes. Vibrations. [Offered: F, S]", 
+                    "subject": "ME", 
+                    "title": "Dynamics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "220", 
-                    "subject": "ME"
-                },
+                    "description": "A general treatment of the behaviour of structural components from the study of stress and strain in solids. Topics include superposition, energy theorems, theories of failure, elastic and inelastic analysis of symmetrical bending, torsion of circular members, columns and stability, and virtual work. [Offered: F, S]", 
+                    "subject": "ME", 
+                    "title": "Mechanics of Deformable Solids 2", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "250", 
-                    "subject": "ME"
-                },
+                    "description": "The engineering science of energy. The scope and limitations of thermodynamics. Macroscopic approach to heat, work, energy and the First Law. Properties and state of simple substances. Control-mass and control-volume energy analysis. The Second Law of Thermodynamics, principle of increase of entropy, limiting cycle efficiencies, criteria for equilibrium. [Offered: F, S]", 
+                    "subject": "ME", 
+                    "title": "Thermodynamics 1", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "262", 
-                    "subject": "ME"
+                    "description": "Number systems, logic gates, Boolean algebra. Karnaugh maps and combinational logic design. Sequential logic and state machines. Programmable Logic Controllers (PLCs) and PLC programming using ladder logic and statement list. Microcomputer structure and operation, I/O and interfacing. Assembly language programming. Laboratory work includes microcomputer and PLC programming. [Offered: F, S]", 
+                    "subject": "ME", 
+                    "title": "Introduction to Microprocessors and Digital Logic", 
+                    "units": 0.5
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "300A", 
-                    "subject": "ME"
+                    "description": "Discussion of the structure of and options within the Mechanical Engineering curriculum; of the operation of Department, Faculty, University, technical societies; of student team and graduate school opportunities; of safety training; and of subject material in support of core courses.\r\n[Offered: W,S]", 
+                    "subject": "ME", 
+                    "title": "Seminar", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "303", 
-                    "subject": "ME"
-                },
+                    "description": "A continuation of ME 201 and ME 203 in which both classical calculus techniques and the computer implementation of numerical methods are discussed. Partial differential equations of mathematical physics: wave, diffusion, Laplace, Poisson equations. Boundary and initial conditions. Separation of variables. Numerical methods for ordinary and partial differential equations. Applications will emphasize the role of ordinary and partial differential equations in understanding the behaviour of physical systems. [Offered: W, S]", 
+                    "subject": "ME", 
+                    "title": "Advanced Engineering Mathematics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "321", 
-                    "subject": "ME"
-                },
+                    "description": "Principles of the geometry of motion, Uniform and non-uniform motion, linkage, gears, cams. Synthesis and analysis of mechanisms. Consideration of the static and dynamic forces in machines. Vibration analysis, response to shock, motion and force transmissibility, vibration isolation. [Offered: W, S]", 
+                    "subject": "ME", 
+                    "title": "Kinematics and Dynamics of Machines", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "340", 
-                    "subject": "ME"
-                },
+                    "description": "The principles of manufacturing unit processes including casting, forming, machining and joining. Interactions between design, materials (metals, polymers, ceramics) and processes. Advantages and limitations, relative cost, and production rates of competitive processes. [Offered: W, S]", 
+                    "subject": "ME", 
+                    "title": "Manufacturing Processes", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "351", 
-                    "subject": "ME"
-                },
+                    "description": "Physical properties of fluids and fundamental concepts in fluid mechanics. Hydrostatics. Conservation laws for mass, momentum and energy. Flow similarity and dimensional analysis as applied to engineering problems in fluid mechanics. Laminar and turbulent flow. Engineering applications such as flow measurement, flow in pipes and fluid forces on moving bodies. [Offered: W, S]", 
+                    "subject": "ME", 
+                    "title": "Fluid Mechanics 1", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "354", 
-                    "subject": "ME"
+                    "description": "Emphasis on applications of thermodynamics to flow processes. Real fluids, evaluation of state functions of real fluids. Non-reacting mixtures, reacting mixtures, equilibrium considerations. [Offered: W, S]", 
+                    "subject": "ME", 
+                    "title": "Thermodynamics 2", 
+                    "units": 0.5
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "300B", 
-                    "subject": "ME"
+                    "description": "Discussion of the structure of and options within the Mechanical Engineering curriculum; of the operation of Department, Faculty, University, technical societies; of student team and graduate school opportunities; of safety training; and of subject material in support of core courses.\r\n[Offered: F,W]", 
+                    "subject": "ME", 
+                    "title": "Seminar", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "322", 
-                    "subject": "ME"
-                },
+                    "description": "Adequacy assessment and synthesis of machine elements with a focus on the design process. Static failure of ductile and brittle materials, fatigue analysis of structures. Topics include the design of welds, bolted connections, springs and shafts. [Offered: F, W]", 
+                    "subject": "ME", 
+                    "title": "Mechanical Design 1", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "353", 
-                    "subject": "ME"
-                },
+                    "description": "Introduction to heat transfer mechanisms. The formulation and solution of steady and transient heat conduction. Radiant heat transfer including exchange laws and view factors. Introductory convective heat transfer. [Offered: F, W]", 
+                    "subject": "ME", 
+                    "title": "Heat Transfer 1", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "360", 
-                    "subject": "ME"
-                },
+                    "description": "Open loop and feedback control. Laws governing mechanical, electrical, fluid and thermal control components. Analogies. Analysis of some engineering control systems using block diagram algebra, transient and steady-state operation. Different modes of control. Review of Laplace Transform methods. Concepts of stability. Principles of analog computer simulation. Brief treatment of linear flow graphs and bondgraphs. [Offered: F, W]", 
+                    "subject": "ME", 
+                    "title": "Introduction to Control Systems", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "362", 
-                    "subject": "ME"
-                },
+                    "description": "Basic equations of two-dimensional flow, potential flow, exact viscous solutions. Introduction to lubrication, boundary layers, turbulence, and compressible flow. Turbomachinery fundamentals and applications. Selected advanced topics. [Offered: F, W]", 
+                    "subject": "ME", 
+                    "title": "Fluid Mechanics 2", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "380", 
-                    "subject": "ME"
-                },
+                    "description": "In this course, students study the design process, including needs analysis, problem definition; design criteria and critical parameter identification, generation of alternative solutions; conceptual design, detailed design, optimization; and implementation. Most of the term is devoted to a significant design project in which student groups work independently and competitively, applying the design process to a project goal set by the faculty coordinator. The design project typically includes construction of a prototype, and part of the course grade may depend on the performance of the prototype in a competitive test. In exceptional circumstances, the requirement for a prototype may be replaced by a computer simulation, or may be waived. Other Mechanical Engineering faculty members, particularly those teaching 3B courses, are available to provide advice and supervision to ME 380 students. [Offered: F, W]", 
+                    "subject": "ME", 
+                    "title": "Mechanical Engineering Design Workshop", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "261", 
-                    "subject": "MSCI"
+                    "description": "Introductory Finance: time value of money, cash flow analysis. Investment evaluation methods: present worth, annual worth and internal rate of return. Depreciation models and asset replacement analysis. The impact of inflation, taxation, uncertainty and risk on investment decisions. [Offered: F,W,S]", 
+                    "subject": "MSCI", 
+                    "title": "Engineering Economics: Financial Management for Engineers", 
+                    "units": 0.5
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "400A", 
-                    "subject": "ME"
+                    "description": "Research frontiers in Mechanical Engineering, specific discussion of research done at Waterloo, seminars by members of research groups. [Offered: S, F]", 
+                    "subject": "ME", 
+                    "title": "Seminar", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "481", 
-                    "subject": "ME"
-                },
+                    "description": "The first of two required courses for the Mechanical Engineering capstone design project. This course is intended to enable students to engage in in-depth engineering design and decision-making using engineering science while encouraging creativity and resourcefulness and addressing the criteria listed in the faculty of engineering design rubrics. Students will work in small groups on a design project of their own choosing or as part of a major student team project. The goal is to develop a design proposal, consisting of the needs analysis, design specifications and project plan, followed by the initial and detailed design work. [Offered: F, S]", 
+                    "subject": "ME", 
+                    "title": "Mechanical Engineering Design Project 1", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "1", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "2", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "3", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "3", 
                     "subject": "CSE"
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "400B", 
-                    "subject": "ME"
+                    "description": "Research frontiers in Mechanical Engineering, specific discussion of research done at Waterloo, seminars by members of research groups. [Offered: W]", 
+                    "subject": "ME", 
+                    "title": "Seminar", 
+                    "units": 0
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "482", 
-                    "subject": "ME"
-                },
+                    "description": "A continuation of ME 481. The final design of the major Mechanical Engineering project proposed in ME 481 will be undertaken. The purpose of this phase of the project is to carry out a detailed technical design and proof of feasibility of the solution proposed in ME 481 [Offered: W]", 
+                    "subject": "ME", 
+                    "title": "Mechanical Engineering Design Project 2", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "4", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "5", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "6", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "7", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "4", 
                     "subject": "CSE"
                 }
-            ],
-        ],
+            ]
+        ], 
         "curriculumTerms": [
             "1A", 
             "1B", 
@@ -242,9 +398,9 @@
     "gradPopulation": "319", 
     "images": [
         {
-            "type": "misc",
             "descriptor": "e5 building", 
-            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg", 
+            "type": "misc"
         }
     ], 
     "importantDates": null, 
@@ -269,7 +425,9 @@
         "socialEnjoyment": 0, 
         "studyEnv": 0
     }, 
-    "relatedPrograms":["mechatronicsengineering"],
+    "relatedPrograms": [
+        "mechatronicsengineering"
+    ], 
     "requirements": {
         "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
         "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
@@ -277,29 +435,29 @@
         "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
         "individual_courses": [
             {
-                "course_title":"Calculus and Vectors",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Calculus and Vectors", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"English",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "English", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Physics",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Physics", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Chemistry",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Chemistry", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Advanced Functions",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Advanced Functions", 
+                "min_grade": "70"
             }
         ], 
         "international_program_requirements": "", 

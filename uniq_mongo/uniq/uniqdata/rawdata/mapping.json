@@ -2,8 +2,9 @@
 	"universityofwaterloo": {
 		"facultyofengineering" : [
 			"mechatronicsengineering",
-			"biomedicalengineering",
 			"chemicalengineering",
+			"civilengineering",
+			"biomedicalengineering",
 			"electricalengineering",
 			"geologicalengineering",
 			"managementengineering",

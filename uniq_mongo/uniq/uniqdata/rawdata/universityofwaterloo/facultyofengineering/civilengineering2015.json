@@ -1,345 +1,593 @@
 {
-    "about": "The complex problems and needs of current and future societies have created challenges for Engineering unparalleled in our history. To interpret and satisfy these needs, Civil Engineers currently direct the spending of more than one tenth of Canada's gross national product – more than any other professional group. The Civil Engineer must deal with the human impact of engineering – the social, moral, and legal issues – to a far greater degree than ever before.\nHistorically, Civil Engineering is the oldest branch of engineering and dates back at least 5,000 years to the profession of "master builder" involving pyramids, temples, and irrigation projects. Civil Engineering has become an extremely diverse field with opportunities for graduates in many areas of application. Furthermore, the use of electronic data collection methods and the application of computers has revolutionized the practice of Civil Engineering. Consequently, our curriculum is being constantly reviewed in order to produce graduate engineers who can use advanced aids to solve complex problems.\nThe Civil Engineering program is designed to provide the necessary fundamentals of mathematics and the natural sciences as well as to provide perspectives from the fields of the social sciences and humanities.",
+    "about": "The complex problems and needs of current and future societies have created challenges for Engineering unparalleled in our history. To interpret and satisfy these needs, Civil Engineers currently direct the spending of more than one tenth of Canada's gross national product \u2013 more than any other professional group. The Civil Engineer must deal with the human impact of engineering \u2013 the social, moral, and legal issues \u2013 to a far greater degree than ever before.\nHistorically, Civil Engineering is the oldest branch of engineering and dates back at least 5,000 years to the profession of master builder involving pyramids, temples, and irrigation projects. Civil Engineering has become an extremely diverse field with opportunities for graduates in many areas of application. Furthermore, the use of electronic data collection methods and the application of computers has revolutionized the practice of Civil Engineering. Consequently, our curriculum is being constantly reviewed in order to produce graduate engineers who can use advanced aids to solve complex problems.\nThe Civil Engineering program is designed to provide the necessary fundamentals of mathematics and the natural sciences as well as to provide perspectives from the fields of the social sciences and humanities.", 
+    "applicationProcess": null, 
     "avgAdm": "90-93", 
     "contacts": [], 
     "dateEstablished": "01-07-1957", 
     "degree": "Bachelor's of Applied Science", 
-    "degreeAbbrev": "BASc",
-    "applicationProcess": null,
+    "degreeAbbrev": "BASc", 
     "degreeRequirements": {
-        "about": "The Department of Civil Engineering at Waterloo, being one of the largest in Canada, is able to offer elective courses in each of the following areas.\nStructural Engineering: Deals with the design and construction of all types of structures including buildings and bridges. Emphasis is placed on mechanics and the behaviour of materials.\nConstruction Engineering and Management: Intended for students interested in project management, construction materials, construction engineering, and building engineering.\nWater and Waste Management Engineering: Addresses water and waste water treatment, surface and ground water pollution and control, solid and hazardous waste management, contaminant transport and behaviour in the environment. Support areas involving aquatic chemistry, computer modelling, simulation and laboratory experimentation as examples are also stressed.\nTransportation Engineering: Deals with the planning, design, construction, traffic operation and evaluation of streets, highways, airports, and transit systems.\nGeotechnical Engineering: Familiarizes students with the engineering properties of soils, the fundamentals of soil mechanics, and the application of geotechnical data and fundamentals to the design of foundation elements, earth-retaining structures, excavations, earth embankments and highway pavements.\nEngineering Mechanics: For students with a strong interest in a rigorous study of mechanics, applied mathematics and related fields. Leads to an understanding of advanced analysis and serving as a preparation for graduate study in structural engineering, hydraulics, mechanics of solids and fluids, or properties of materials.\nWater Resources Engineering: Deals with the planning, management, design and operation of water supply and distribution systems, flood control and flood hazard mapping, hydrologic and hydraulic aspects of environmental issues, and application of remotely-sensed data to hydrologic and environmental problems.\nExperimental Mechanics: Intended for students with an interest in experimental investigations of the static and dynamic response of structures and machines, and in the development of improved techniques to obtain and analyze experimental data.\nMaterials: Courses in this area are intended to provide students interested in structural engineering, mechanics, or properties of materials with a background in materials science.\nAdditional Areas of Study\nAlternatively, the student can choose a more general pattern of study involving courses from several topic areas, or a program outside the traditional Civil Engineering field. For instance, with the approval of the Associate Chair for Undergraduate Studies, the student may augment Civil Engineering course programs with elective courses from: \nPublic Administration \nPlanning \nManagement Science \nBusiness Administration \nBioengineering \nEnvironmental Health, and others.\nTo this end, the Civil Engineering Curriculum has been designed to allow the maximum possible flexibility while still meeting the requirements for the professional degree. The curricula of the Civil Engineering, Environmental Engineering, and Geological Engineering programs are common in the first year to allow transfer among the three programs up to the end of first year. The Civil Engineering Curriculum enables the students to conduct engineering analysis and design, to perform risk and life cycle analysis, and asset management, and to evaluate the impact of engineering work on the environment.",
+        "about": "The Department of Civil Engineering at Waterloo, being one of the largest in Canada, is able to offer elective courses in each of the following areas.\nStructural Engineering: Deals with the design and construction of all types of structures including buildings and bridges. Emphasis is placed on mechanics and the behaviour of materials.\nConstruction Engineering and Management: Intended for students interested in project management, construction materials, construction engineering, and building engineering.\nWater and Waste Management Engineering: Addresses water and waste water treatment, surface and ground water pollution and control, solid and hazardous waste management, contaminant transport and behaviour in the environment. Support areas involving aquatic chemistry, computer modelling, simulation and laboratory experimentation as examples are also stressed.\nTransportation Engineering: Deals with the planning, design, construction, traffic operation and evaluation of streets, highways, airports, and transit systems.\nGeotechnical Engineering: Familiarizes students with the engineering properties of soils, the fundamentals of soil mechanics, and the application of geotechnical data and fundamentals to the design of foundation elements, earth-retaining structures, excavations, earth embankments and highway pavements.\nEngineering Mechanics: For students with a strong interest in a rigorous study of mechanics, applied mathematics and related fields. Leads to an understanding of advanced analysis and serving as a preparation for graduate study in structural engineering, hydraulics, mechanics of solids and fluids, or properties of materials.\nWater Resources Engineering: Deals with the planning, management, design and operation of water supply and distribution systems, flood control and flood hazard mapping, hydrologic and hydraulic aspects of environmental issues, and application of remotely-sensed data to hydrologic and environmental problems.\nExperimental Mechanics: Intended for students with an interest in experimental investigations of the static and dynamic response of structures and machines, and in the development of improved techniques to obtain and analyze experimental data.\nMaterials: Courses in this area are intended to provide students interested in structural engineering, mechanics, or properties of materials with a background in materials science.\nAdditional Areas of Study\nAlternatively, the student can choose a more general pattern of study involving courses from several topic areas, or a program outside the traditional Civil Engineering field. For instance, with the approval of the Associate Chair for Undergraduate Studies, the student may augment Civil Engineering course programs with elective courses from: \nPublic Administration \nPlanning \nManagement Science \nBusiness Administration \nBioengineering \nEnvironmental Health, and others.\nTo this end, the Civil Engineering Curriculum has been designed to allow the maximum possible flexibility while still meeting the requirements for the professional degree. The curricula of the Civil Engineering, Environmental Engineering, and Geological Engineering programs are common in the first year to allow transfer among the three programs up to the end of first year. The Civil Engineering Curriculum enables the students to conduct engineering analysis and design, to perform risk and life cycle analysis, and asset management, and to evaluate the impact of engineering work on the environment.", 
         "curriculum": [
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "102", 
-                    "subject": "CHE"
+                    "description": "Chemical principles with applications in engineering. Stoichiometric calculations, properties of gases, properties of liquids and solutions, gas phase chemical equilibrium, ionic equilibrium in aqueous solution, oxidation-reduction reactions, chemical kinetics. [Offered: F]", 
+                    "subject": "CHE", 
+                    "title": "Chemistry for Engineers", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "125", 
-                    "subject": "CIVE"
-                },
+                    "description": "An introduction to some of the basic methods and principles in Civil Engineering. The fundamentals of engineering calculations: units and dimensions. Surveying, data collection, measurement and error analysis. Laboratory on visual communication: engineering graphics including projections, computer software including spread sheets, computer aided design. Introduction to engineering design. Technical communication: word processing software, elements of technical report writing. Aspects of the engineering profession including ethics, safety, and intellectual property. Professional development including r\u00e9sum\u00e9 skills, interview skills, and preparation for co-op terms. [Offered: F]", 
+                    "subject": "CIVE", 
+                    "title": "Civil Engineering Concepts 1", 
+                    "units": 0.8
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "115", 
-                    "subject": "MATH"
-                },
+                    "description": "Linear equations, matrices and determinants. Introduction to vector spaces. Eigenvalues and diagonalization. Applications. Complex numbers. [Offered: F]", 
+                    "subject": "MATH", 
+                    "title": "Linear Algebra for Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "116", 
-                    "subject": "MATH"
-                },
+                    "description": "Functions: review of polynomials, exponential, logarithmic, trigonometric. Operations on functions, curve sketching. Trigonometric identities, inverse functions. Derivatives, rules of differentiation. Mean Value Theorem, Newton's Method. Indeterminate forms and L'Hopital's rule, applications. Integrals, approximations, Riemann definite integral, Fundamental Theorems. Applications of the integral. [Offered: F]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 1 for Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "115", 
-                    "subject": "PHYS"
-                },
+                    "description": "Brief review of kinematics. Particle dynamics, work, energy, conservation of energy. Conservation of linear momentum, collisions, rotational kinematics and dynamics, conservation of angular momentum. Equilibrium of rigid bodies. [Offered: F]", 
+                    "subject": "PHYS", 
+                    "title": "Mechanics", 
+                    "units": 0.5
+                }
             ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "121", 
-                    "subject": "CIVE"
+                    "description": "Introduction to electronic digital computers, hardware and software organization, examples of efficient numerical algorithms for basic scientific computations. Programming and problem solving concepts introduced in the course will be incorporated into group projects involving Civil, Environmental, or Geological Engineering applications. The language of instruction will be Visual Basic and Visual Basic for Applications. [Offered: W, S]", 
+                    "subject": "CIVE", 
+                    "title": "Digital Computation", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "127", 
-                    "subject": "CIVE"
-                },
+                    "description": "Two-dimensional force systems, moments, couples, and resultants. Two-dimensional equilibrium problems including trusses and frames. Distributed forces, centroids and moment of inertia. Stress-strain-temperature relationships. Behaviour of prismatic members in tension, compression, shear, bending and torsion. [Offered: W, S]", 
+                    "subject": "CIVE", 
+                    "title": "Statics & Solid Mechanics 1", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "153", 
-                    "subject": "CIVE"
-                },
+                    "description": "This course studies earth materials and processes from an engineering point of view through case histories and problem sets. The course develops a geological knowledge for applications to any physical environment and provides an appreciation of the impact of engineering work on the environment. Topics include: mineral and rock identification, the rock cycle, structural geology and tectonics, geology of Canada, effects of water, ice and wind. Students are also introduced to the concept of geologic time, topographic and geologic maps, and the basic principles and tools used to determine geologic history. [Offered: S; Offered as: CIVE 153 (W), ENVE 153 (S), GEOE 153 (S)]", 
+                    "subject": "CIVE", 
+                    "title": "Earth Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "199", 
-                    "subject": "CIVE"
-                },
+                    "description": "The engineer society. Principles, methods and practice of Civil Engineering. Informal lectures. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "123", 
-                    "subject": "GENE"
-                },
+                    "description": "Analysis of linear circuits: Voltage, current, resistance, capacitance, inductance, voltage source, current source, dependent sources, Ohm's Law, Kirchoff's Law, nodal analysis, mesh analysis, Thevinin/Norton equivalents, operational amplifier circuits, time response, sinusoidal steady-state response. Introduction to diodes with applications.", 
+                    "subject": "GENE", 
+                    "title": "Electrical Engineering", 
+                    "units": 0.5
+                }, 
                 {
-                    "catalog_number": "118",
-                    "subject": "MATH"
-                },
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "118", 
+                    "description": "Methods of integration: by parts, trigonometric substitutions, partial fractions; engineering applications, approximation of integrals, improper integrals. Linear and separable first order differential equations, applications. Parametric curves and polar coordinates, arc length and area. Infinite sequences and series, convergence tests, power series and applications. Taylor polynomials and series, Taylor's Remainder Theorem, applications. [Offered: W,S]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 2 for Engineering", 
+                    "units": 0.5
+                }, 
                 {
-                    "catalog_number": "1",
+                    "catalog_number": "1", 
                     "subject": "CSE"
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "204", 
-                    "subject": "CIVE"
+                    "description": "Three-dimensional force systems, moments, couples, and resultants. Three-dimensional equilibrium problems. Friction. Thin-walled pressure vessels. Torsion of shafts and thin-walled closed sections. Shear, bending moment, and deflection diagrams for beams. Compound stress and stress transformations. Design concepts. [Offered: F]", 
+                    "subject": "CIVE", 
+                    "title": "Statics and Solid Mechanics 2", 
+                    "units": 0.75
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "221", 
-                    "subject": "CIVE"
-                },
+                    "description": "A review of Year One Calculus. Hyperbolic Functions. Partial derivatives. Multiple integration with applications. Vector analysis, theorems of Green and Gauss, line integrals. Elements of Fourier series. [Offered: F]", 
+                    "subject": "CIVE", 
+                    "title": "Advanced Calculus", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "224", 
-                    "subject": "CIVE"
-                },
+                    "description": "Role of Probability in engineering and decision-making under uncertainty. Data analysis. Basic probability concepts. Probability distributions. Functions of random variables. Estimation theory. Empirical determination of distribution models. Regression analysis. [Offered: F]", 
+                    "subject": "CIVE", 
+                    "title": "Probability and Statistics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "265", 
-                    "subject": "CIVE"
-                },
+                    "description": "A basic course in structure, behaviour and uses of engineering materials. Topics include monotonic and cyclic stress-strain behaviour of metals. Phase diagrams. Diffusion, nucleation and growth of grains. Metallurgy and mechanical properties of irons and steels. Structure and mechanical properties of wood, cements and concrete. Fracture, fatigue and corrosion. Three lab sessions. [Offered: F]", 
+                    "subject": "CIVE", 
+                    "title": "Structure and Properties of Materials", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "292", 
-                    "subject": "CIVE"
-                },
+                    "description": "An introductory course on the principles of engineering economy. Basic concepts. Capital. Interest formulas and derivations. Annual worth comparisons. Present worth. Return on investment. Benefit-cost ratio depreciation. Effect of taxes. [Offered: F]", 
+                    "subject": "CIVE", 
+                    "title": "Engineering Economics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "298", 
-                    "subject": "CIVE"
+                    "description": "The engineer in society. Principles, methods and practice of Civil Engineering. Informal lectures. [Offered: F, W]", 
+                    "subject": "CIVE", 
+                    "title": "Seminar", 
+                    "units": 0
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "205", 
-                    "subject": "CIVE"
+                    "description": "Frames, arches and suspended structures. Strain energy. Energy methods. Virtual work. Maxwell-Betti theorem. Influence lines. Force and displacement methods for single members. Buckling of columns. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Mechanics of Solids 2", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "222", 
-                    "subject": "CIVE"
-                },
+                    "description": "An introduction to linear and partial differential equations. Standard methods of solution, applications to physical and engineering problems, linear equations with constant coefficients, systems of differential equations, solution by series, numerical methods, partial differential equations. Applications from Dynamics and Vibrating Systems. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Differential Equations", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "240", 
-                    "subject": "CIVE"
-                },
+                    "description": "This course explores the concepts of sustainability, namely the balancing of economic, environmental, social, cultural, health and political needs, as it pertains to Civil Engineering decisions. The course examines aspects of urban transportation and infrastructure planning, land-use, and issues related to water, air, and noise pollution. Methods of quantifying costs associated with health risks and consumption of non-renewable resources are presented. Case studies from a range of Civil Engineering application areas are used to examine the effect of engineering decisions on sustainability. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Engineering and Sustainable Development", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "280", 
-                    "subject": "CIVE"
-                },
+                    "description": "An introduction to fluid mechanics and thermal sciences. Fluid properties. Fluid statics. Thermodynamic principles. Bernoulli equation. The momentum equation and applications. Laminar and turbulent flow. Dimensionless numbers. Closed conduit flow. Pipe network analysis. Steady flow in pipes. Heat transfer. Four lab sessions. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Fluid Mechanics and Thermal Sciences", 
+                    "units": 0.75
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "299", 
-                    "subject": "CIVE"
-                },
+                    "description": "The engineer in society. Principles, methods and practice of Civil Engineering. Informal lectures. [Offered: F, S]", 
+                    "subject": "CIVE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
                 {
                     "catalog_number": "3", 
                     "subject": "CSE"
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "303", 
-                    "subject": "CIVE"
+                    "description": "Analysis of statically indeterminate structures using force and displacement methods. Maxwell-Mohr, slope-deflection, and moment distribution methods. Influence lines for indeterminate structures. Matrix formulations. Computer applications. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Structural Analysis 1", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "331", 
-                    "subject": "CIVE"
-                },
+                    "description": "This course is an integration of CIVE 121, CIVE 221, and CIVE 222 in which both classical calculus theory and basic computational algorithms were discussed. Partial differential equations (PDEs) with application in the modelling of civil engineering processes (e.g., wave, diffusion, Laplace and Poisson equations). Boundary and initial conditions. Numerical integration. Numerical interpolation schemes for irregularly spaced spatial data (e.g., splines, Lagrange polynomials, etc). Solution methods for linear and non-linear systems of algebraic equations. Numerical solution of PDEs using the finite difference method. Aspects of the finite element method. An emphasis will be placed on algorithm development and implementation. Maple and Visual Basic will be integral tools in this course. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Advanced Mathematics for Civil Engineers", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "342", 
-                    "subject": "CIVE"
-                },
+                    "description": "Introduction to basic principles and procedures of transport planning and engineering applied to Canadian intercity transport problems. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Transport Principles and Applications", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "353", 
-                    "subject": "CIVE"
-                },
+                    "description": "An introduction to geologic processes. Subsurface exploration. Classification systems. Weight-Volume relationships. Soil mechanics principles including state of stress, ground water flow, consolidation and shear strength. Six lab sessions. [Offered: W, S]", 
+                    "subject": "CIVE", 
+                    "title": "Geotechnical Engineering 1", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "375", 
-                    "subject": "CIVE"
-                },
+                    "description": "Water sources and use. Characteristics of water: physical, chemical, and bacteriological parameters. Water quality management. Solid and hazardous waste management. Biodegradable waste disposal in streams. Water and waste treatment systems: sedimentation, biological treatment theory, design principles. Six lab sessions. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Water Quality Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "398", 
-                    "subject": "CIVE"
-                },
+                    "description": "The engineer in society. Principles, methods and practice of Civil Engineering. Informal lectures. [Offered: W, S]", 
+                    "subject": "CIVE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
                 {
                     "catalog_number": "4", 
                     "subject": "CSE"
-                },
-                {
-                    "catalog_number": "1", 
-                    "subject": "WKRPT"
-                },
-            ],
-            [
-                {
-                    "catalog_number": "332", 
-                    "subject": "CIVE"
                 }, 
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "1", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "332", 
+                    "description": "Introduction to conceptual planning, optimization and life-cycle performance assessment of civil engineering systems. Fundamentals of decision analysis and concepts of risk, uncertainty, utility and probability theory. Tools for supporting decision making process, namely, linear programming, network models, variational methods and optimization, dynamic programming, Monte Carlo simulation, and first-order reliability theory. Risk-based models for condition assessment, inspection, rehabilitation and replacement of infrastructure systems. Risk- and cost-benefit analysis of public projects and their impact on sustainability and quality of life. [Offered: F]", 
+                    "subject": "CIVE", 
+                    "title": "Civil Engineering Systems", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "399", 
-                    "subject": "CIVE"
-                },
+                    "description": "The engineer in society. Principles, methods and practice of Civil Engineering. Informal lectures. [Offered: F, W]", 
+                    "subject": "CIVE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
                 {
                     "catalog_number": "1", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "2", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "3", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "5", 
                     "subject": "CSE"
-                },
-                {
-                    "catalog_number": "2", 
-                    "subject": "WKRPT"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "400", 
-                    "subject": "CIVE"
                 }, 
                 {
-                    "catalog_number": "491", 
-                    "subject": "CIVE"
-                },
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "2", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "400", 
+                    "description": "Students must undertake an independent Civil Engineering design project during the last two terms of their program. The purpose of the project is to demonstrate students' abilities to practise in a Civil Engineering capacity in their chosen area of expertise, using knowledge gained from their academic and employment experiences. The first part of the project (CIVE 400) will include problem identification, generation and selection of solutions and time management. Incorporation of technical and economic issues in the solution for the project will be required. If applicable, ecological, social and political issues must also be considered. A basic requirement of the proposed solution is that it must be compatible with the principles of sustainability. Requirements include: proposal, progress report, oral presentation and a final report containing recommendations for part two of the project, CIVE 401. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Civil Engineering Project 1", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "491", 
+                    "description": "Background (Charter of Rights and Freedoms), Contracts, Torts (Negligent Malpractice), Forms of Carrying on Business, Professional Practice (Professional Engineers Act, Joint Practice Rules, Professional Misconduct and Sexual Harassment), Alternate Dispute Resolution, Construction Liens, Intellectual Property (Patents, Trade Marks, Copyrights and Industrial Designs), Labour Relations and Employment Law, Environmental Law. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Engineering Law and Ethics", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "498", 
-                    "subject": "CIVE"
-                },
+                    "description": "The engineer in society. Principles, methods and practice of Civil Engineering. Informal lectures. [Offered: F, S]", 
+                    "subject": "CIVE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
                 {
                     "catalog_number": "4", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "5", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "6", 
                     "subject": "TE"
-                },
-                {
-                    "catalog_number": "400", 
-                    "subject": "WKRPT"
-                }
-            ],
-            [
-                {
-                    "catalog_number": "401", 
-                    "subject": "CIVE"
                 }, 
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "400", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student normally during the preceding work term. The report is evaluated on the basis of written communication skills and technical proficiency in the subject matter as demonstrated by the report. Work-term reports are required courses for the degree but their grades are not included in the average. However, failed work-term report evaluations may delay a student's progress as indicated in the Examinations and Promotions section of this calendar. Details regarding the evaluation of the work-term reports can be obtained from the student's program advisor.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.13
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "401", 
+                    "description": "A continuation of CIVE 400. The final design of the major Civil Engineering project proposed in CIVE 400 will be undertaken. The purpose of this phase of the project is to carry out a detailed technical design of the solution proposed in CIVE 400. Requirements of this part of the two-term project include an oral presentation and a final report. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Civil Engineering Project 2", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "499", 
-                    "subject": "CIVE"
-                },
+                    "description": "The engineer in society. Principles, methods and practice of Civil Engineering. Informal lectures. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Seminar", 
+                    "units": 0
+                }, 
                 {
                     "catalog_number": "7", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "8", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "9", 
                     "subject": "TE"
-                },
+                }, 
                 {
                     "catalog_number": "10", 
                     "subject": "TE"
                 }
-            ],
+            ], 
             [
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "403", 
-                    "subject": "CIVE"
+                    "description": "Advanced structural analysis; linear and nonlinear behaviour. Computer applications. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Structural Analysis 2", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "413", 
-                    "subject": "CIVE"
-                },
+                    "description": "Structural steel members. Limit states design, loads, materials. Design of tension and compression members, beams and beam-columns. Plate girders. Connections. Fatigue. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Structural Steel Design", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "414", 
-                    "subject": "CIVE"
-                },
+                    "description": "Reinforced concrete members and structures. Torsion. Slender columns, walls, continuous beams, floor systems. Prestressed concrete. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Structural Concrete Design 2", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "444", 
-                    "subject": "CIVE"
-                },
+                    "description": "The course develops a number of standard methods for predicting travel in urban areas. General characteristics of urban travel and urban transport systems are presented along with a discussion of typical issues pertaining to urban areas. Methods used to evaluate alternatives and resolve issues are presented. These include trip generation, trip distribution and mode split. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Urban Transport Planning", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "486", 
-                    "subject": "CIVE"
-                },
+                    "description": "Basic components of the hydrologic cycle. Introduction to frequency analysis and time series analysis. Rainfall-runoff relationships. Unit hydrograph theory. Hydrologic and hydraulic routing. Introduction to hydrologic design: design storms and storm water management. Rural and urban simulation models. [Offered: F, S]", 
+                    "subject": "CIVE", 
+                    "title": "Hydrology", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "512", 
-                    "subject": "CIVE"
-                },
+                    "description": "This course deals with the assessment, rehabilitation and/or strengthening of building and bridge infrastructures. Topics include damage mechanisms, instrumentation and non-destructive test methods, conventional repair techniques, innovative repair and strengthening techniques with composites. Case studies provide students with the opportunity to learn from field applications. The laboratory portion involves test methods used to evaluate deterioration. Student teams are required to examine infrastructure renewal projects and to develop recommendations for rehabilitation strategies. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Rehabilitation of Structures", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "542", 
-                    "subject": "CIVE"
+                    "description": "Pavement design, soil identification, subgrade design, base courses, flexible pavement design, design and testing of asphaltic concrete mixes, surface treatments. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Pavement Structural Design", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "572", 
-                    "subject": "CIVE"
-                },
+                    "description": "Wastewater quantity and characteristics. Primary treatment and secondary treatment. Reverse osmosis, ultra filtration, adsorption, air stripping, air flotation, chemical precipitation. Sludge treatment and disposal. Groundwater and leachate treatment. Industrial wastewater management. [Offered: S]", 
+                    "subject": "CIVE", 
+                    "title": "Wastewater Treatment", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "354", 
-                    "subject": "CIVE"
-                },
+                    "description": "Foundation engineering. Earth pressure theories. Retaining walls. Anchors. Shallow and deep foundations. Braced trenches and excavations. Slope stability. [Offered: F, W]", 
+                    "subject": "CIVE", 
+                    "title": "Geotechnical Engineering 2", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "381", 
-                    "subject": "CIVE"
-                },
+                    "description": "Energy, momentum and continuity equations for open channel flow. Dimensional analysis and modelling. Design of lined and unlined open channels. Water profile computations. Bridge and culvert hydraulics. Hydraulic structures and energy dissipators. Pumping stations. Water hammer. Four lab sessions. [Offered: F, W]", 
+                    "subject": "CIVE", 
+                    "title": "Hydraulics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "405", 
-                    "subject": "CIVE"
-                },
+                    "description": "Dynamics of continuous and discretized structures. Free and forced vibrations of single and multidegree of freedom systems. Impact, earthquake loads, wind loads. Vibration of beams, frames, structural systems. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Structural Dynamics", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "415", 
-                    "subject": "CIVE"
+                    "description": "Geometries, loads, safety and serviceability, structural idealizations. Building design and bridge design. Proportioning of components and structures in concrete, steel, masonry and wood. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Structural Systems", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "422", 
-                    "subject": "CIVE"
-                },
-                {
-                    "catalog_number": "440", 
-                    "subject": "CIVE"
-                },
-                {
-                    "catalog_number": "460", 
-                    "subject": "CIVE"
-                },
-                {
-                    "catalog_number": "507", 
-                    "subject": "CIVE"
-                },
-                {
-                    "catalog_number": "554", 
-                    "subject": "CIVE"
-                },
-                {
-                    "catalog_number": "583", 
-                    "subject": "CIVE"
+                    "description": "This course focuses on the development of the basic fundamentals of the finite element method with applications in fluid flow, mass transport, solid mechanics and structures. Topics include: discrete problems, matrix methods, variational principle, method of weighted residuals, element shapes, and interpolation functions. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Finite Element Analysis", 
+                    "units": 0.5
                 }, 
                 {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "440", 
+                    "description": "The historical evolution of transit in cities; the technological innovations which made transit possible; and transit mode definitions. Models of transit vehicle motion are presented; transit travel times under different travel regimes are derived. Transit scheduling methods are shown. System operational characteristics are defined and quantitative measures of effectiveness are introduced. Transit network planning objectives are identified; actual geometries are qualitatively and quantitatively analyzed. Transit ownership structures and economics are discussed; contemporary ITS applications are presented. Methods for selecting appropriate transit modes are covered. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Transit Planning and Operations", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "460", 
+                    "description": "Introduction to engineering technologies applicable to the field of biomechanics. Specific topics covered may include biological growth, form and function; biomaterials; kinematics and neurology of gait; biotribology; joint anatomy, function and repair; occupational biomechanics; trauma prevention. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Engineering Biomechanics", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "507", 
+                    "description": "The building process. Loadings: gravity, wind, thermal, moisture, fire. Enclosure design: walls, windows, roof. Subgrade construction. Energy related considerations. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Building Science and Technology", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "554", 
+                    "description": "Simulation of geotechnical consulting practice. Students are required to complete several projects, based on actual case studies, which require problem identification, evaluation of geotechnical data, analysis, design and report preparations. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Geotechnical Engineering 3", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "583", 
+                    "description": "Design of water supply and distribution systems. Design of waste and storm water collection systems. Storm water management. The course consists of 24 hours of lectures and a subdivision design project. The emphasis is on computer aided design and sustainability, using commonly used software packages. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Design of Urban Water Systems", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "596", 
-                    "subject": "CIVE"
-                },
+                    "description": "Topics in construction management and engineering including non-deterministic computing methods for construction modelling and analysis, network methods, optimization, risk management and resource allocation. Construction methods and trenchless technology. [Offered: W]", 
+                    "subject": "CIVE", 
+                    "title": "Construction Engineering", 
+                    "units": 0.5
+                }, 
                 {
                     "catalog_number": "573", 
                     "subject": "CIVE"
-                },
+                }, 
                 {
                     "catalog_number": "577", 
                     "subject": "CIVE"
-                },
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "306", 
-                    "subject": "CIVE"
-                },
+                    "description": "Membrane stresses in shells. Buckling. Beams on elastic foundations. Plane elasticity. Torsion of non-circular sections. [Offered: F]", 
+                    "subject": "CIVE", 
+                    "title": "Mechanics of Solids 3", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "313", 
-                    "subject": "CIVE"
-                },
+                    "description": "Reinforced concrete members. Concrete and reinforcing steel materials. Safety, loads, design criteria. Flexure, shear, combined bending and axial force. Serviceability. One-way slabs, beams, columns, foundations and retaining walls. [Offered: F]", 
+                    "subject": "CIVE", 
+                    "title": "Structural Concrete Design 1", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "343", 
-                    "subject": "CIVE"
-                },
+                    "description": "A comprehensive introductory course to traffic engineering and control. Topics include: vehicle - driver - roadway environment; theories of traffic flow; application of queuing theory, capacity and delay analysis of unsignalised and signalised intersections; design optimisation of isolated and co-ordinated traffic signal timing plans; traffic simulation model calibration and application; and field data collection and analysis. State-of-practice analysis and design methods are examined and applied. [Offered: F]", 
+                    "subject": "CIVE", 
+                    "title": "Traffic Engineering", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "354", 
-                    "subject": "CIVE"
-                },
+                    "description": "Foundation engineering. Earth pressure theories. Retaining walls. Anchors. Shallow and deep foundations. Braced trenches and excavations. Slope stability. [Offered: F, W]", 
+                    "subject": "CIVE", 
+                    "title": "Geotechnical Engineering 2", 
+                    "units": 0.5
+                }, 
                 {
+                    "academic_level": "undergraduate", 
                     "catalog_number": "381", 
-                    "subject": "CIVE"
+                    "description": "Energy, momentum and continuity equations for open channel flow. Dimensional analysis and modelling. Design of lined and unlined open channels. Water profile computations. Bridge and culvert hydraulics. Hydraulic structures and energy dissipators. Pumping stations. Water hammer. Four lab sessions. [Offered: F, W]", 
+                    "subject": "CIVE", 
+                    "title": "Hydraulics", 
+                    "units": 0.5
                 }
             ]
-        ],
+        ], 
         "curriculumTerms": [
             "1A", 
             "1B", 
@@ -356,9 +604,9 @@
     "gradPopulation": "244", 
     "images": [
         {
-            "type": "misc",
             "descriptor": "e5 building", 
-            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg", 
+            "type": "misc"
         }
     ], 
     "importantDates": null, 
@@ -383,7 +631,7 @@
         "socialEnjoyment": 0, 
         "studyEnv": 0
     }, 
-    "relatedPrograms":[],
+    "relatedPrograms": [], 
     "requirements": {
         "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
         "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
@@ -391,29 +639,29 @@
         "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
         "individual_courses": [
             {
-                "course_title":"Calculus and Vectors",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Calculus and Vectors", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"English",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "English", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Physics",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Physics", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Chemistry",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Chemistry", 
+                "min_grade": "70"
             }, 
             {
-                "course_title":"Advanced Functions",
-                "course_code":"4U", 
-                "min_grade":"70"
+                "course_code": "4U", 
+                "course_title": "Advanced Functions", 
+                "min_grade": "70"
             }
         ], 
         "international_program_requirements": "", 
