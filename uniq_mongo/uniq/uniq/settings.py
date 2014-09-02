@@ -86,7 +86,7 @@ DATABASES = {
 # Mongo Database Connection
 
 MONGO_DATABASE_NAME = 'mongoenginetest'
-MONGO_HOST = 'localhost'
+MONGO_HOST = 'ec2-54-88-180-43.compute-1.amazonaws.com'
 MONGO_PORT = 27017
 
 from mongoengine import *
