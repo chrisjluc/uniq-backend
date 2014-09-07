@@ -8,21 +8,22 @@ class Featured(Document):
 		Order takes prescedent on priority then date created
 	'''
 	# Why it's featured
-	featured_title = StringField()
+	featuredTitle = StringField()
 
 	# Ex.
 	# Mechatronics Engineering at University of Waterloo
 	# University of Waterloo
 	# Faculty of Engineering at University of Waterloo
-	name_title = StringField()
+	nameTitle = StringField()
 
 	#TODO: Might not need this, in the future
 	# program, faculty, school
+	id = ObjectIdField()
 	type = StringField()
 	priority = IntField(default=100)
-	date_created = DateTimeField(default=datetime.datetime.now())
-	date_expired = DateTimeField(default=datetime.datetime.now() + datetime.timedelta(days=7))
-	image_link = URLField()
+	dateCreated = DateTimeField(default=datetime.datetime.now())
+	dateExpired = DateTimeField(default=datetime.datetime.now() + datetime.timedelta(days=7))
+	imageLink = URLField()
 
 	meta={
 		'ordering': ['priority','-date_created']

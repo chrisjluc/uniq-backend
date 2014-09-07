@@ -43,12 +43,12 @@ class FeaturedTests(MongoTestCase):
 		self.assertEqual(response.data[1]['priority'], 2)
 
 	def test_featured_order_datetime(self):
-		Featured(name_title='first').save()
-		Featured(name_title='second').save()
+		Featured(nameTitle='first').save()
+		Featured(nameTitle='second').save()
 		response = self.client.get('/featured/', format='json')
 		self.assertEqual(response.status_code, status.HTTP_200_OK)
-		self.assertEqual(response.data[0]['name_title'], 'first')
-		self.assertEqual(response.data[1]['name_title'], 'second')
+		self.assertEqual(response.data[0]['nameTitle'], 'first')
+		self.assertEqual(response.data[1]['nameTitle'], 'second')
 
 	def test_featured_constrained_max_items(self):
 		for i in xrange(0,settings.MAX_FEATURED+3):
@@ -60,12 +60,12 @@ class FeaturedTests(MongoTestCase):
 	def test_featured_create_new_item(self):
 		response = self.client.post('/featured/', 
 			{
-			    "featured_title": "", 
-			    "name_title": "", 
+			    "featuredTitle": "", 
+			    "nameTitle": "", 
 			    "type": "", 
 			    "priority": 0, 
-			    "date_created": None, 
-			    "date_expired": None, 
+			    "dateCreated": None, 
+			    "dateExpired": None, 
 			    "image_link": "https://wiki.python.org/"
 			} ,format='json')
 		self.assertEqual(response.status_code, status.HTTP_201_CREATED)
