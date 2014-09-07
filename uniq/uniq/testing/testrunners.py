@@ -1,9 +1,9 @@
-from django.test.simple import DjangoTestSuiteRunner
+from django.test.runner import DiscoverRunner
 from mongoengine.python_support import PY3
 from mongoengine import connect
 from django.conf import settings
 
-class MongoTestRunner(DjangoTestSuiteRunner):
+class MongoTestRunner(DiscoverRunner):
     """
         A test runner that can be used to create, connect to, disconnect from, 
         and destroy a mongo test database for standard django testing.

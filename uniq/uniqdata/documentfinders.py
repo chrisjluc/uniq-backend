@@ -5,7 +5,6 @@ from programs.models import Program
 
 from django.http import Http404
 import logging
-import threading
 
 #Keys
 id='id'
