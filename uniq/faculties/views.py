@@ -4,11 +4,15 @@ from uniqdata.documentfinders import *
 
 from rest_framework import generics, mixins, status
 from rest_framework.response import Response
+
 from django.http import Http404
+from django.core.cache import caches
+
 import datetime
 from bson.objectid import ObjectId
 import logging
 
+cache = caches['faculty']
 school_finder = SchoolFinder()
 faculty_finder = FacultyFinder()
 
@@ -69,7 +73,11 @@ class FacultyDetail(mixins.RetrieveModelMixin,
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				return faculty_finder.get(id=id)
+				faculty = cache.get(id)
+				if not faculty:
+					faculty = faculty_finder.get(id=id)
+					cache.set(id, faculty)
+				return faculty
 			except:
 				raise Http404
 

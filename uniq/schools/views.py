@@ -4,12 +4,16 @@ from uniqdata.documentfinders import SchoolFinder
 
 from rest_framework import generics, mixins, status
 from rest_framework.response import Response
+
 from django.conf import settings
 from django.http import Http404
+from django.core.cache import caches
+
 from bson.objectid import ObjectId
 import datetime
 import logging
 
+cache = caches['school']
 school_finder = SchoolFinder()
 
 class SchoolList(mixins.ListModelMixin,
@@ -44,7 +48,11 @@ class SchoolDetail(mixins.RetrieveModelMixin,
 			if ObjectId.is_valid(id) is False:
 				raise Http404
 			try:
-				return school_finder.get(id=id)
+				school = cache.get(id)
+				if not school:
+					school = school_finder.get(id=id)
+					cache.set(id, school)
+				return school
 			except School.DoesNotExist:
 				raise Http404
 

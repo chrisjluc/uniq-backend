@@ -1,6 +1,8 @@
 from mongoengine import connect
 from rest_framework.test import APITestCase
+
 from django.conf import settings
+from django.core.cache import caches
 
 class MongoTestCase(APITestCase):
     """
@@ -19,4 +21,11 @@ class MongoTestCase(APITestCase):
         connection = get_connection()
         connection.drop_database(self.mongodb_name)
         disconnect()
+        caches['default'].clear()
+        caches['school'].clear()
+        caches['faculty'].clear()
+        caches['program'].clear()
+        caches['school_explore'].clear()
+        caches['faculty_explore'].clear()
+        caches['program_explore'].clear()
         super(MongoTestCase, self)._post_teardown()

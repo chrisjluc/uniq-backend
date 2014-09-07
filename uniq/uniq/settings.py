@@ -85,9 +85,78 @@ DATABASES = {
 
 # Mongo Database Connection
 
-MONGO_DATABASE_NAME = 'mongoenginetest'
-MONGO_HOST = 'ec2-54-88-180-43.compute-1.amazonaws.com'
+MONGO_DATABASE_NAME = 'uniq_db'
+MONGO_HOST = 'localhost'
 MONGO_PORT = 27017
+
+#1 day
+CACHE_MAX_EXPIRY=86400
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+        'TIMEOUT': CACHE_MAX_EXPIRY,
+        'OPTIONS': {
+            'KEY_PREFIX': 'default',
+            'MAX_ENTRIES': 100
+        }
+    },
+    'school': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+        'TIMEOUT': CACHE_MAX_EXPIRY,
+        'OPTIONS': {
+            'KEY_PREFIX': 'school',
+            'MAX_ENTRIES': 20
+        }
+    },
+    'faculty': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+        'TIMEOUT': CACHE_MAX_EXPIRY,
+        'OPTIONS': {
+            'KEY_PREFIX': 'faculty',
+            'MAX_ENTRIES': 20
+        }       
+    },
+    'program': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+        'TIMEOUT': CACHE_MAX_EXPIRY,
+        'OPTIONS': {
+            'KEY_PREFIX': 'program',
+            'MAX_ENTRIES': 20
+        }
+    },
+    'school_explore': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+        'TIMEOUT': CACHE_MAX_EXPIRY,
+        'OPTIONS': {
+            'KEY_PREFIX': 'school_explore',
+            'MAX_ENTRIES': 20
+        }
+    },
+    'faculty_explore': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+        'TIMEOUT': CACHE_MAX_EXPIRY,
+        'OPTIONS': {
+            'KEY_PREFIX': 'faculty_explore',
+            'MAX_ENTRIES': 20
+        }
+    },
+    'program_explore': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+        'TIMEOUT': CACHE_MAX_EXPIRY,
+        'OPTIONS': {
+            'KEY_PREFIX': 'program_explore',
+            'MAX_ENTRIES': 20
+        }
+    }
+}
 
 from mongoengine import *
 import sys
@@ -96,9 +165,32 @@ if 'test' in sys.argv:
     DATABASES['default'] = {'ENGINE': 'django.db.backends.sqlite3'}
     MONGO_DATABASE_NAME = 'uniq_test_db'
 
+    CACHES = {
+        'default': {
+            'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+        },
+        'school': {
+            'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+        },
+        'faculty': {
+            'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+        },
+        'program': {
+            'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+        },
+        'school_explore': {
+            'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+        },
+        'faculty_explore': {
+            'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+        },
+       'program_explore': {
+            'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+        }
+    }
+
 connect(MONGO_DATABASE_NAME, host=MONGO_HOST, port=MONGO_PORT)
 
-    
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
