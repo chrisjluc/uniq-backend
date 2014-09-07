@@ -1,4 +1,4 @@
-Django==1.6.6
+Django==1.7.0
 django-filter==0.7
 djangorestframework==2.4.0
 mongoengine==0.8.7
