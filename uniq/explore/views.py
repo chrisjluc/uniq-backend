@@ -86,3 +86,23 @@ class ProgramExplore(generics.ListAPIView):
 			raise Http404
 			
 		return ret
+
+class ProgramExploreDetail(generics.RetrieveAPIView):
+	
+	serializer_class = ExploreSerializer
+
+	def get_object(self):
+		keys = self.kwargs.keys()
+
+		if 'id' in keys:
+			id = self.kwargs['id']
+			ret = program_cache.get('program_explore_detail'+id)
+			if not ret:
+				try:
+					ret = ProgramFinder().get(id=id)
+				except Program.DoesNotExist:
+					raise Http404
+				program_cache.set('program_explore_detail'+id, ret)
+			return ret
+
+		raise Http400

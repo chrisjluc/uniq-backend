@@ -53,3 +53,11 @@ class ExploreTests(MongoTestCase):
 	def test_programs_id_invalid(self):
 		response = self.client.get('/explore/programs/%s/' % self.pId, format='json')
 		self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+
+	def test_program_id(self):
+		response = self.client.get('/explore/program/%s/' % self.pId, format='json')
+		self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+	def test_program_id_invalid(self):
+		response = self.client.get('/explore/program/%s/' % self.fId, format='json')
+		self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
