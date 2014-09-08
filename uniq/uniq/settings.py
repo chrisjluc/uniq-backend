@@ -26,6 +26,7 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+ADMINS = (('Chris', 'chris.luc93@gmail.com'), ('Si te', 'fengsite@hotmail.com'))
 
 # Application definition
 
