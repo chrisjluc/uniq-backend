@@ -322,7 +322,92 @@
         ]
     }, 
     "facultyId": "", 
-    "fees": null, 
+    "fees": {
+        "domestic": [
+            {
+                "term": "1A", 
+                "tuition": 4179,
+                "totalFees": 4716.95
+            }, 
+            {
+                "term": "1B", 
+                "tuition": 4179,
+                "totalFees": 4716.95
+            }, 
+            {
+                "term": "2A", 
+                "tuition": 4179,
+                "totalFees": 5350.95
+            }, 
+            {
+                "term": "2B", 
+                "tuition": 4099,
+                "totalFees": 5270.95
+            }, 
+            {
+                "term": "3A", 
+                "tuition": 4004,
+                "totalFees": 5175.95
+            }, 
+            {
+                "term": "3B", 
+                "tuition": 4004,
+                "totalFees": 5175.95
+            }, 
+            {
+                "term": "4A", 
+                "tuition": 3909,
+                "totalFees": 5080.95
+            }, 
+            {
+                "term": "4B", 
+                "tuition": 3764,
+                "totalFees": 4935.95
+            }
+        ], 
+        "international": [
+            {
+                "term": "1A", 
+                "tuition": 15462,
+                "totalFees": 17065.95
+            }, 
+            {
+                "term": "1B", 
+                "tuition": 15462,
+                "totalFees": 17065.95
+            }, 
+            {
+                "term": "2A", 
+                "tuition": 15462,
+                "totalFees": 17065.95
+            }, 
+            {
+                "term": "2B", 
+                "tuition": 15462,
+                "totalFees": 17065.95
+            }, 
+            {
+                "term": "3A", 
+                "tuition": 15462,
+                "totalFees": 17065.95
+            }, 
+            {
+                "term": "3B", 
+                "tuition": 15462,
+                "totalFees": 17065.95
+            }, 
+            {
+                "term": "4A", 
+                "tuition": 15462,
+                "totalFees": 17065.95
+            }, 
+            {
+                "term": "4B", 
+                "tuition": 15462,
+                "totalFees": 17065.95
+            }
+        ]
+    },
     "gradPopulation": "100", 
     "images": [
         {

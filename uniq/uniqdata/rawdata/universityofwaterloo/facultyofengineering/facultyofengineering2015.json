@@ -16,68 +16,84 @@
         "domestic": [
             {
                 "term": "1A", 
+                "tuition": 6386,
                 "totalFees": 7587.95
             }, 
             {
                 "term": "1B", 
+                "tuition": 6386,
                 "totalFees": 7587.95
             }, 
             {
                 "term": "2A", 
+                "tuition": 6386,
                 "totalFees": 7587.95
             }, 
             {
                 "term": "2B", 
+                "tuition": 6266,
                 "totalFees": 7567.95
             }, 
             {
                 "term": "3A", 
+                "tuition": 6117,
                 "totalFees": 7318.95
             }, 
             {
                 "term": "3B", 
+                "tuition": 6117,
                 "totalFees": 7318.95
             }, 
             {
                 "term": "4A", 
+                "tuition": 5974,
                 "totalFees": 7175.95
             }, 
             {
                 "term": "4B", 
+                "tuition": 5751,
                 "totalFees": 6952.95
             }
         ], 
         "international": [
             {
                 "term": "1A", 
+                "tuition": 15019,
                 "totalFees": 16652.95
             }, 
             {
                 "term": "1B", 
+                "tuition": 15019,
                 "totalFees": 16652.95
             }, 
             {
                 "term": "2A", 
+                "tuition": 15019,
                 "totalFees": 16652.95
             }, 
             {
                 "term": "2B", 
+                "tuition": 15019,
                 "totalFees": 16652.95
             }, 
             {
                 "term": "3A", 
+                "tuition": 15019,
                 "totalFees": 16652.95
             }, 
             {
                 "term": "3B", 
+                "tuition": 15019,
                 "totalFees": 16652.95
             }, 
             {
                 "term": "4A", 
+                "tuition": 15019,
                 "totalFees": 16652.95
             }, 
             {
                 "term": "4B", 
+                "tuition": 15019,
                 "totalFees": 16652.95
             }
         ]
