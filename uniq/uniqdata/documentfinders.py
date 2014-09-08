@@ -2,6 +2,8 @@ from fieldfinders import *
 from schools.models import School
 from faculties.models import Faculty
 from programs.models import Program
+from programs.converters import ProgramConverter
+from uniq.genericmodels import *
 
 from django.http import Http404
 import logging
@@ -188,7 +190,7 @@ class FacultyFinder(object):
 
 class ProgramFinder(object):
 
-	def all(self, faculty_id = None, school_slug = None, faculty_slug = None):
+	def all(self, faculty_id=None, school_slug=None, faculty_slug=None, explore=False):
 
 		programs = None
 		if faculty_id:
@@ -210,10 +212,10 @@ class ProgramFinder(object):
 		for program in programs:
 			if program.slug not in program_queried:
 				program_queried[program.slug] = True
-				program_list.append(self.get(id=program.id))
+				program_list.append(self.get(id=program.id, explore=explore))
 		return program_list
 
-	def get(self, slug = None, faculty_id = None, id = None):
+	def get(self, slug=None, faculty_id=None, id=None, explore=False):
 
 		if id:
 			self.program = Program.objects.get(id=id)
@@ -230,35 +232,47 @@ class ProgramFinder(object):
 		self.hist_hierarchical = HistoricalHierarchicalFieldFinder(self.program, programs)
 
 		self.apply_hist_value(name)
-		self.apply_hist_value(short_name)
-		self.apply_hist_value(about)
-		self.apply_hist_hierarchical_value(app_process)
 		self.apply_hist_value_with_year(u_pop)
 		self.apply_hist_value_with_year(g_pop)
-		self.apply_hist_value(avg_adm)
-		self.apply_hist_value(date_est)
-
-		self.apply_hist_hierarchical_value(streams)
-		self.apply_hist_hierarchical_value(important_dates)
-		self.apply_hist_hierarchical_value(contacts)
-		self.apply_hist_value(images)
-		self.apply_hist_value(rankings)
 		self.apply_hist_hierarchical_value(location)
+		self.apply_hist_value(images)
 
-		self.apply_hist_hierarchical_value(deg)
-		self.apply_hist_hierarchical_value(deg_abbr)
-		self.apply_hist_hierarchical_value(internship)
-		self.apply_hist_hierarchical_value(fees)
+		if explore is False:
+			self.apply_hist_value(short_name)
+			self.apply_hist_value(about)
+			self.apply_hist_hierarchical_value(app_process)
+			self.apply_hist_value(avg_adm)
+			self.apply_hist_value(date_est)
+
+			self.apply_hist_hierarchical_value(streams)
+			self.apply_hist_hierarchical_value(important_dates)
+			self.apply_hist_hierarchical_value(contacts)
+			self.apply_hist_value(rankings)
+
+			self.apply_hist_hierarchical_value(deg)
+			self.apply_hist_hierarchical_value(deg_abbr)
+			self.apply_hist_hierarchical_value(internship)
+			self.apply_hist_hierarchical_value(fees)
 
 
-		self.apply_hist_value(deg_req)
-		self.apply_hist_value(n_accepted)
-		self.apply_hist_value(n_app)
-		self.apply_hist_value(rating)
-		self.apply_hist_value(requirements)
-		self.apply_hist_value(related)
-		
+			self.apply_hist_value(deg_req)
+			self.apply_hist_value(n_accepted)
+			self.apply_hist_value(n_app)
+			self.apply_hist_value(rating)
+			self.apply_hist_value(requirements)
+			self.apply_hist_value(related)
+			
+			self.apply_related_programs()
+
 		return self.program
+
+	def apply_related_programs(self):
+		if self.program.related and self.program.related.relatedIds:
+			self.program.related.relatedInfo = []
+			for _id in self.program.related.relatedIds:
+				_program = ProgramFinder().get(id=_id, explore=True)
+				ret = ProgramConverter().to_explore_json(_program)
+				self.program.related.relatedInfo.append(ret)
 
 	def apply_hist_value_with_year(self, key):
 		if not self.program[key]:

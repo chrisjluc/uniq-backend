@@ -72,14 +72,14 @@ class ProgramExplore(generics.ListAPIView):
 			try:
 				ret = program_cache.get('program_explore'+id)
 				if not ret:
-					ret = ProgramFinder().all(faculty_id=id)
+					ret = ProgramFinder().all(faculty_id=id, explore=True)
 					program_cache.set('program_explore'+id, ret)
 			except:
 				raise Http404
 		else:
 			ret = program_cache.get('program_explore')
 			if not ret:
-				ret = ProgramFinder().all()
+				ret = ProgramFinder().all(explore=True)
 				program_cache.set('program_explore', ret)
 
 		if len(ret) is 0:
@@ -99,7 +99,7 @@ class ProgramExploreDetail(generics.RetrieveAPIView):
 			ret = program_cache.get('program_explore_detail'+id)
 			if not ret:
 				try:
-					ret = ProgramFinder().get(id=id)
+					ret = ProgramFinder().get(id=id, explore=True)
 				except Program.DoesNotExist:
 					raise Http404
 				program_cache.set('program_explore_detail'+id, ret)

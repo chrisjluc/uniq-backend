@@ -1,10 +1,6 @@
 from mongoengine import *
 import datetime
 
-class Related(EmbeddedDocument):
-	relatedIds = ListField(StringField())
-	relatedInfo = DynamicField()
-
 class Location(EmbeddedDocument):
 	address = StringField()
 	apt = StringField()
@@ -66,7 +62,11 @@ class Internship(EmbeddedDocument):
 	general = StringField()
 	specific = StringField()
 	earnings = StringField()
-	
+
+class Related(EmbeddedDocument):
+	relatedIds = ListField(StringField())
+	relatedInfo = DynamicField()
+
 class GenericDocument(Document):
 
 	id = ObjectIdField()
