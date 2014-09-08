@@ -3,4 +3,4 @@ django-filter==0.7
 djangorestframework==2.4.0
 mongoengine==0.8.7
 pymongo==2.7.1
-python-memcached=1.5.3
+python-memcached==1.53
