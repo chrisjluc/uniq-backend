@@ -1,6 +1,10 @@
 from mongoengine import *
 import datetime
 
+class Related(EmbeddedDocument):
+	relatedIds = ListField(StringField())
+	relatedInfo = DynamicField()
+
 class Location(EmbeddedDocument):
 	address = StringField()
 	apt = StringField()

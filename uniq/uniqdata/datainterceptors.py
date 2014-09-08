@@ -1,7 +1,7 @@
 from schools.models import School
 from faculties.models import Faculty
 from programs.models import Program
-from uniq.genericmodels import GenericDocument
+from uniq.genericmodels import *
 
 import time
 from time import mktime
@@ -39,4 +39,22 @@ class ProgramInterceptor(GenericInterceptor):
 			data['schoolId'] = school_id
 			data['facultyId'] = faculty_id
 			return super(ProgramInterceptor, self).intercept(data)
+
+		def related_intercept(self, _program, keys):
+			if keys is None or len(keys) is 0:
+				return
+			ids = []
+			_program.related = Related()
+			_program.related.relatedIds = []
+			for key in keys:
+				slugs = key.split('_')
+				school = School.objects(slug=slugs[0]).order_by("-metaData.yearValid").first()
+				faculty = Faculty.objects(schoolId=school.id, slug=slugs[1]).order_by("-metaData.yearValid").first()
+				program = Program.objects(facultyId=faculty.id, slug=slugs[2]).order_by("-metaData.yearValid").first()
+				_program.related.relatedIds.append(str(program.id))
+			_program.save()
+
+
+
+
 

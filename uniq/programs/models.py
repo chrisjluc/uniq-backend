@@ -48,6 +48,7 @@ class Program(GenericDocument):
 	rating = EmbeddedDocumentField(Rating)
 	internship = EmbeddedDocumentField(Internship)
 	degreeRequirements = EmbeddedDocumentField(DegreeRequirements)
+	related = EmbeddedDocumentField(Related)
 
 	meta={
 		'ordering': ['-metaData.yearValid']

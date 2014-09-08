@@ -62,6 +62,7 @@ class ProgramSerializer(GenericSerializer):
 	rating = RatingSerializer()
 	internship = InternshipSerializer()
 	degreeRequirements = DegreeRequirementsSerializer()
+	related = RelatedSerializer()
 
 	def restore_object(self, attrs, instance=None):
 		if instance is not None:

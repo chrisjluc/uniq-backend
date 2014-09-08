@@ -35,7 +35,7 @@ n_accepted = 'numAccepted'
 n_app = 'numApplicants'
 rating = 'rating'
 requirements = 'requirements'
-
+related = 'related'
 
 class SchoolFinder(object):
 	
@@ -256,7 +256,8 @@ class ProgramFinder(object):
 		self.apply_hist_value(n_app)
 		self.apply_hist_value(rating)
 		self.apply_hist_value(requirements)
-
+		self.apply_hist_value(related)
+		
 		return self.program
 
 	def apply_hist_value_with_year(self, key):

@@ -36,6 +36,15 @@ class ListSerializer(serializers.Serializer):
 			ret.append(attrs)
 		return ret
 
+class RelatedSerializer(EmbeddedDocumentSerializer):
+	relatedIds = EmbeddedDocumentListSerializer()
+	relatedInfo = EmbeddedDocumentListSerializer()
+
+	def field_to_native(self, obj, field_name):
+		if obj is None or obj.related is None:
+			return None
+		return self.to_native(obj.related)
+
 class LocationSerializer(EmbeddedDocumentSerializer):
 	address = serializers.CharField()
 	apt = serializers.CharField()

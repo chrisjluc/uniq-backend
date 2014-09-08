@@ -44,6 +44,8 @@ class DataInitializer(object):
 		j = 0
 		k = 0
 
+		relatedProgramKeysById = {}
+
 		# SCHOOL
 
 		for school_slug, faculty_map in self.mapping.iteritems():
@@ -92,7 +94,9 @@ class DataInitializer(object):
 				#PROGRAM
 
 				for program_slug in program_map:
-				
+					# year: related program keys
+					newestRelatedProgramKeys = {}
+
 					for year in self.years:
 						full_path = (self.base_path + school_slug + "/" 
 							+ faculty_slug + "/" + program_slug + str(year) + '.json')
@@ -104,11 +108,30 @@ class DataInitializer(object):
 						else:
 							continue
 
+						if newestRelatedProgramKeys:
+							if (newestRelatedProgramKeys.keys()[0] < year 
+								and data.relatedProgramKeys is not None 
+								and len(data.relatedProgramKeys) is not 0):
+
+								newestRelatedProgramKeys = {}
+								newestRelatedProgramKeys[year] = data['relatedProgramKeys']
+						else:
+							newestRelatedProgramKeys[year] = data['relatedProgramKeys']
+
 						data = p_interceptor.intercept(data, school.id, faculty.id)
 						program = Program(**data)
 						program.save()
 						self.Log.debug("Program: %s has been saved." % program.name)
 						k+=1
+
+					program = Program.objects(slug=program_slug, facultyId = faculty.id).order_by("-metaData.yearValid").first()
+					relatedProgramKeysById[program.id] = newestRelatedProgramKeys[newestRelatedProgramKeys.keys()[0]]
+
+		# Save related programs now that we have all ids
+
+		for k,v in relatedProgramKeysById.iteritems():
+			program = Program.objects.get(id=k)
+			p_interceptor.related_intercept(program, v)
 
 		self.Log.debug("# of school json files inserted: %s" % i)
 		self.Log.debug("# of faculty json files inserted: %s" % j)
