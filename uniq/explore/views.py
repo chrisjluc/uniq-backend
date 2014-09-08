@@ -14,7 +14,6 @@ from django.core.cache import caches
 
 from bson.objectid import ObjectId
 import datetime
-import logging
 
 school_cache=caches['school_explore']
 faculty_cache=caches['faculty_explore']

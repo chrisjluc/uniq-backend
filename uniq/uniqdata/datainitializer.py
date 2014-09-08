@@ -6,13 +6,14 @@ import json
 import os.path
 import logging
 
+log = logging.getLogger('DataInitializer')
+
 class DataInitializer(object):
 
 	mapping_path = "mapping.json"
 	years_path = "validyears.json"
 
 	def __init__(self, base_path = "./uniqdata/rawdata/"):
-		self.Log = logging.getLogger(self.__class__.__name__)
 		self.base_path = base_path
 		data_path = base_path + self.mapping_path
 
@@ -22,7 +23,7 @@ class DataInitializer(object):
 				self.mapping = json.load(data_file)
 		else:
 			self.is_valid = False
-			self.Log.warning("Path to %s is not a valid file path" % self.base_path)
+			log.warning("Path to %s is not a valid file path" % self.base_path)
 
 		base_years_path = base_path + self.years_path
 		if os.path.isfile(base_years_path):
@@ -30,7 +31,7 @@ class DataInitializer(object):
 				self.years = json.load(data_file)['validyears']
 		else:
 			self.is_valid = False
-			self.Log.warning("Path to %s is not a valid file path" % base_years_path)
+			log.warning("Path to %s is not a valid file path" % base_years_path)
 
 	def run(self):
 		if self.is_valid is False:
@@ -63,7 +64,7 @@ class DataInitializer(object):
 				data = s_interceptor.intercept(data)
 				school = School(**data)
 				school.save()
-				self.Log.debug("School: %s has been saved." % school.name)
+				log.info("School: %s has been saved." % school.name)
 				i+=1
 
 			school = School.objects(slug=school_slug).order_by("-metaData.yearValid").first()
@@ -86,7 +87,7 @@ class DataInitializer(object):
 					data = f_interceptor.intercept(data, school.id)
 					faculty = Faculty(**data)
 					faculty.save()
-					self.Log.debug("Faculty: %s has been saved." % faculty.name)
+					log.info("Faculty: %s has been saved." % faculty.name)
 					j+=1
 
 				faculty = Faculty.objects(slug=faculty_slug, schoolId = school.id).order_by("-metaData.yearValid").first()
@@ -121,7 +122,7 @@ class DataInitializer(object):
 						data = p_interceptor.intercept(data, school.id, faculty.id)
 						program = Program(**data)
 						program.save()
-						self.Log.debug("Program: %s has been saved." % program.name)
+						log.info("Program: %s has been saved." % program.name)
 						k+=1
 
 					program = Program.objects(slug=program_slug, facultyId = faculty.id).order_by("-metaData.yearValid").first()
@@ -133,6 +134,6 @@ class DataInitializer(object):
 			program = Program.objects.get(id=k)
 			p_interceptor.related_intercept(program, v)
 
-		self.Log.debug("# of school json files inserted: %s" % i)
-		self.Log.debug("# of faculty json files inserted: %s" % j)
-		self.Log.debug("# of program json files inserted: %s" % k)
+		log.info("# of school json files inserted: %s" % i)
+		log.info("# of faculty json files inserted: %s" % j)
+		log.info("# of program json files inserted: %s" % k)

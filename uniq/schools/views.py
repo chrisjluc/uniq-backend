@@ -11,7 +11,6 @@ from django.core.cache import caches
 
 from bson.objectid import ObjectId
 import datetime
-import logging
 
 cache = caches['school']
 school_finder = SchoolFinder()

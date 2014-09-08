@@ -5,12 +5,11 @@ from uniqdata.documentfinders import *
 from rest_framework import generics, mixins, status
 from rest_framework.response import Response
 
-from django.http import Http404
+from django.http import *
 from django.core.cache import caches
 
 import datetime
 from bson.objectid import ObjectId
-import logging
 
 cache = caches['faculty']
 school_finder = SchoolFinder()
@@ -54,9 +53,6 @@ class FacultyDetail(mixins.RetrieveModelMixin,
 	
 	serializer_class = FacultySerializer
 
-	def __init__(self):
-		self.Log = logging.getLogger(self.__class__.__name__)
-
 	def get_object(self):
 		keys = self.kwargs.keys()
 		if 'school_slug' in keys and 'slug' in keys:
@@ -81,7 +77,8 @@ class FacultyDetail(mixins.RetrieveModelMixin,
 			except:
 				raise Http404
 
-		self.Log.debug("Request doesn't have any parameters, but made it as a valid request")
+		raise Http400
+
 
 	def get(self, request, *args, **kwargs):
 		return self.retrieve(request, *args, **kwargs)
