@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'd(tl*aopb!^(1ge0yu-x5+tmbd(h*6x(58ig84j39a_8@2dt88'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = True
 
@@ -87,7 +87,7 @@ DATABASES = {
 # Mongo Database Connection
 
 MONGO_DATABASE_NAME = 'uniq_db'
-MONGO_HOST = 'localhost'
+MONGO_HOST = '54.85.16.143'
 MONGO_PORT = 27017
 
 #1 day
