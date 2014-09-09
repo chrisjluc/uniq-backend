@@ -22,7 +22,7 @@ class FeaturedList(generics.ListCreateAPIView):
 	def get_queryset(self):
 		featured = cache.get('featured')
 		if not featured:
-			featured = Featured.objects(dateExpired__gt=datetime.datetime.now()).limit(settings.MAX_FEATURED)
+			featured = list(Featured.objects(dateExpired__gt=datetime.datetime.now()).limit(settings.MAX_FEATURED))
 			cache.set('featured', featured)
 		return featured
 
