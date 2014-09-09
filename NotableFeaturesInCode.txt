@@ -1,0 +1,10 @@
+--Monday Sep 8, 2014--
+
+Created the DocumentFinder framework, fills in data of fields with missing data so data entry is simpler and isn't as repetitive for all schools, faculties, and programs.
+	Specific fields are able to look at older records
+	Specific fields can look up the hierarchy, ex. programs -> faculty
+
+
+Data Initialization framework using JSON files, assigns BSON ids in real time and other misc tasks to convert it from json to document
+
+Cache responses using memcached on heavy in-use endpoints
