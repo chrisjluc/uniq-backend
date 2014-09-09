@@ -20,11 +20,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'd(tl*aopb!^(1ge0yu-x5+tmbd(h*6x(58ig84j39a_8@2dt88'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 ADMINS = (('Chris', 'chris.luc93@gmail.com'), ('Si te', 'fengsite@hotmail.com'))
 
@@ -91,12 +91,14 @@ MONGO_HOST = '54.85.16.143'
 MONGO_PORT = 27017
 
 #1 day
-CACHE_MAX_EXPIRY=86400
+CACHE_MAX_EXPIRY = 86400
+
+CACHE_ADDRESS = '54.164.201.61:11211'
 
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': '127.0.0.1:11211',
+        'LOCATION': CACHE_ADDRESS,
         'TIMEOUT': CACHE_MAX_EXPIRY,
         'OPTIONS': {
             'KEY_PREFIX': 'default',
@@ -105,7 +107,7 @@ CACHES = {
     },
     'school': {
         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': '127.0.0.1:11211',
+        'LOCATION': CACHE_ADDRESS,
         'TIMEOUT': CACHE_MAX_EXPIRY,
         'OPTIONS': {
             'KEY_PREFIX': 'school',
@@ -114,7 +116,7 @@ CACHES = {
     },
     'faculty': {
         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': '127.0.0.1:11211',
+        'LOCATION': CACHE_ADDRESS,
         'TIMEOUT': CACHE_MAX_EXPIRY,
         'OPTIONS': {
             'KEY_PREFIX': 'faculty',
@@ -123,7 +125,7 @@ CACHES = {
     },
     'program': {
         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': '127.0.0.1:11211',
+        'LOCATION': CACHE_ADDRESS,
         'TIMEOUT': CACHE_MAX_EXPIRY,
         'OPTIONS': {
             'KEY_PREFIX': 'program',
@@ -132,7 +134,7 @@ CACHES = {
     },
     'school_explore': {
         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': '127.0.0.1:11211',
+        'LOCATION': CACHE_ADDRESS,
         'TIMEOUT': CACHE_MAX_EXPIRY,
         'OPTIONS': {
             'KEY_PREFIX': 'school_explore',
@@ -141,7 +143,7 @@ CACHES = {
     },
     'faculty_explore': {
         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': '127.0.0.1:11211',
+        'LOCATION': CACHE_ADDRESS,
         'TIMEOUT': CACHE_MAX_EXPIRY,
         'OPTIONS': {
             'KEY_PREFIX': 'faculty_explore',
@@ -150,7 +152,7 @@ CACHES = {
     },
     'program_explore': {
         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': '127.0.0.1:11211',
+        'LOCATION': CACHE_ADDRESS,
         'TIMEOUT': CACHE_MAX_EXPIRY,
         'OPTIONS': {
             'KEY_PREFIX': 'program_explore',
