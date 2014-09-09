@@ -1,0 +1,665 @@
+{
+    "about": "Mechatronics engineering is an integrated approach to the design of computer controlled electro-mechanical systems. Mechatronic applications are pervasive in our everyday lives, so much so that we often take them for granted. Familiar examples of mechatronic systems include automotive anti-lock braking systems (ABS), SLR cameras, and aerospace 'fly-by-wire' systems. These mechatronic designs are much more than simply the addition of a microcontroller to an existing mechanical system – their complete and properly integrated redesign is what makes them successful. An integrated design philosophy has been incorporated into the development of this program.\nIn order to successfully combine mechanical design, computers, software, and electronics with an integrated design approach, the mechatronics engineer requires an understanding of a breadth of topics. The tools that make up the mechatronics engineer’s repertoire are drawn from many departments across the faculty: Mechanical, Electrical and Computer, and Systems Design Engineering. The result is a multi-disciplinary program, which provides students with a unique set of skills.\nThe program is a rich blend of courses prepared and delivered specifically for Mechatronics Engineering students, designated with the MTE label, and courses selected from other engineering disciplines: Mechanical Engineering (ME), Electrical and Computer Engineering (ECE), and Systems Design Engineering (SYDE). Mechatronics Engineering students thus benefit from a breadth of expertise.",
+    "avgAdm": "90-93", 
+    "contacts": [], 
+    "dateEstablished": "01-09-2003", 
+    "degree": "Bachelor's of Applied Science", 
+    "degreeAbbrev": "BASc",
+    "applicationProcess": null,
+    "degreeRequirements": {
+        "about": "All students in the Faculty of Engineering are permitted to take an option (as described in Options, Specializations and Electives for Engineering Students of this section of the calendar). Mechatronics Engineering students are not permitted to take the Mechatronics Option. In many cases earning an option will require a number of courses in addition to the core and elective structure given below.",
+        "curriculum": [
+            [
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "102", 
+                    "description": "Chemical principles with applications in engineering. Stoichiometric calculations, properties of gases, properties of liquids and solutions, gas phase chemical equilibrium, ionic equilibrium in aqueous solution, oxidation-reduction reactions, chemical kinetics. [Offered: F]", 
+                    "lab": "2", 
+                    "subject": "CHE", 
+                    "title": "Chemistry for Engineers", 
+                    "tut": "0", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "121", 
+                    "description": "Introduction to electronic digital computers, hardware and software organization, examples of efficient numerical algorithms for basic scientific computations. [Offered: F,W,S]", 
+                    "lab": "2", 
+                    "subject": "GENE", 
+                    "title": "Digital Computation", 
+                    "tut": "0", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "115", 
+                    "description": "Linear equations, matrices and determinants. Introduction to vector spaces. Eigenvalues and diagonalization. Applications. Complex numbers. [Offered: F]", 
+                    "lab": "2", 
+                    "subject": "MATH", 
+                    "title": "Linear Algebra for Engineering", 
+                    "tut": "0", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "116", 
+                    "description": "Functions: review of polynomials, exponential, logarithmic, trigonometric. Operations on functions, curve sketching. Trigonometric identities, inverse functions. Derivatives, rules of differentiation. Mean Value Theorem, Newton's Method. Indeterminate forms and L'Hopital's rule, applications. Integrals, approximations, Riemann definite integral, Fundamental Theorems. Applications of the integral. [Offered: F]", 
+                    "lab": "2", 
+                    "subject": "MATH", 
+                    "title": "Calculus 1 for Engineering", 
+                    "tut": "0", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "100", 
+                    "description": "An introduction to mechatronics engineering and the engineering profession. Topics include the design process, project planning, data presentation, measurements and error, control logic, sensors and actuators, and intellectual property. Engineering graphics fundamentals of multi-view, isometric, oblique, and perspective projections are also covered while developing skills in computer-aided drawing (CAD), freehand sketching, and the interpretation of technical drawings. Professional development including r\u00e9sum\u00e9 skills, interview skills, and preparation for co-op terms. A mechatronic design project/competition with small groups supplements the lecture material. [Offered: F]", 
+                    "lab": "4", 
+                    "subject": "MTE", 
+                    "title": "Mechatronics Engineering", 
+                    "tut": "2", 
+                    "units": 0.75
+                }
+            ], 
+            [
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "118", 
+                    "description": "Methods of integration: by parts, trigonometric substitutions, partial fractions; engineering applications, approximation of integrals, improper integrals. Linear and separable first order differential equations, applications. Parametric curves and polar coordinates, arc length and area. Infinite sequences and series, convergence tests, power series and applications. Taylor polynomials and series, Taylor's Remainder Theorem, applications. [Offered: W,S]", 
+                    "lab": "0", 
+                    "subject": "MATH", 
+                    "title": "Calculus 2 for Engineering", 
+                    "tut": "2", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "1 Sem", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "100B", 
+                    "description": "Discussion of structure of Mechatronics Engineering curriculum, operation of department, faculty, university, technical societies. [Offered: S]", 
+                    "lab": "0", 
+                    "subject": "MTE", 
+                    "title": "Seminar", 
+                    "tut": "0", 
+                    "units": 0
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "111", 
+                    "description": "The relevance of materials to engineering practice; the relationships between macroscopic physical properties (including mechanical, photonic, thermal, electrical, and magnetic properties) and microscopic causes based on fundamental principles (including electronic and atomic structures, atomic bonding, crystal structure, and microstructure); description of the differences in macroscopic physical properties of metals, polymers, ceramics, semiconductors, and composite materials in terms of microscopic causes. [Offered: S]", 
+                    "lab": "3", 
+                    "subject": "MTE", 
+                    "title": "Structure and Properties of Materials", 
+                    "tut": "3", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "119", 
+                    "description": "Basic concepts of mechanics, vectors. Statics of particles. Rigid bodies and force systems, equilibrium of rigid bodies. Analysis of trusses and frames. Distributed forces, centroids and moments of inertia. Friction. Internal shear and bending moments in beams.[Offered: S]", 
+                    "lab": "0", 
+                    "subject": "MTE", 
+                    "title": "Statics", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "4", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "120", 
+                    "description": "Basic electromagnetic theory; magnetic circuits; electric circuit elements; DC circuit analysis; first-order transient response; AC circuit analysis; Diodes; Transistors: regions of operation, single-transistor amplifiers [Offered: S]", 
+                    "lab": "1.5", 
+                    "subject": "MTE", 
+                    "title": "Circuits", 
+                    "tut": "2", 
+                    "units": 0.75
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "140", 
+                    "description": "Algorithms and Data Structures emphasizes the following topics: structured software design data structures, abstract data types, recursive algorithms, algorithm analysis and design, sorting and searching, hashing, and problem-solving strategies. [Offered: S]", 
+                    "lab": "1.5", 
+                    "subject": "MTE", 
+                    "title": "Algorithms and Data Structures", 
+                    "tut": "1", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "Class": "1 Sem", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "200A", 
+                    "description": "Discussion of the structure of and options within the Mechatronics Engineering curriculum; of the operation of Department, Faculty, University, technical societies; of student team and graduate school opportunities; of safety training; and of subject material in support of core courses.\r\n[Offered: W]", 
+                    "lab": "0", 
+                    "subject": "MTE", 
+                    "title": "Seminar", 
+                    "tut": "0", 
+                    "units": 0
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "201", 
+                    "description": "Measurement errors, calculations with unknown quantities, and error propagation. Sensitivity analysis. Techniques of sampling and statistical estimation. Introduction to sensors and data acquisition tools. Frequency distributions. Probability. Binomial, Poisson, normal distributions. Tests of hypotheses. Significance. The t-test and chi-squared test. Curve fitting by least squares. Correlation and regression. Design of experiments. [Offered: W]", 
+                    "lab": "1", 
+                    "subject": "MTE", 
+                    "title": "Experimental Measurement & Statistical Analysis", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "202", 
+                    "description": "First Order Differential Equations; Direction Field; Separable Equations, Integrating Factors and Simple Transformations; Applications; Second and Higher Order ODE's with Constant Coefficients - Transient and Steady State Solutions; The Laplace Transform; Systems of Equations - reduction to single equation; Matrix Differential Equations; Introduction to Partial Differential Equations. [Offered: W]", 
+                    "lab": "0", 
+                    "subject": "MTE", 
+                    "title": "Ordinary Differential Equations", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "219", 
+                    "description": "Introduction to mechanical response of materials and stress-strain relationships. Behaviour of prismatic members in tension, compression, shear, bending and torsion. Stress and strain transformations. Virtual work and energy methods. [Offered W]", 
+                    "lab": "0", 
+                    "subject": "MTE", 
+                    "title": "Mechanics of Deformable Solids", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "262", 
+                    "description": "Number systems, logic gates, Boolean algebra. Karnaugh maps and combinational logic design. Implementation of combinational logic circuits on Field Programmable Gate Arrays (FPGA) boards. Sequential logic and state machines. Programmable Logic Controllers (PLCs) and PLC programming using ladder logic and statement list. Microcomputer structure and operation, I/O, and interfacing and interrupts. Assembly language programming. Laboratory work includes microcomputer and PLC programming. [Offered: W]", 
+                    "lab": "3", 
+                    "subject": "MTE", 
+                    "title": "Introduction to Microprocessors and Digital Logic", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "182", 
+                    "description": "Kinematics of particles, rectilinear and curvilinear motion. Kinetics of particles, application to space mechanics. Energy and momentum methods. Systems of particles. Kinematics and kinetics of rigid bodies; planar motion. Vibrations. [Offered: S, W]", 
+                    "lab": "0", 
+                    "subject": "SYDE", 
+                    "title": "Physics 2 (Dynamics)", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "catalog_number": "", 
+                    "lab": "0", 
+                    "subject": "Complementary Studies Elective", 
+                    "tut": "0"
+                }
+            ], 
+            [
+                {
+                    "Class": "1 Sem", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "200B", 
+                    "description": "Discussion of the structure of and options within the Mechatronics Engineering curriculum; of the operation of Department, Faculty, University, technical societies; of student team and graduate school opportunities; of safety training; and of subject material in support of core courses.\r\n[Offered: F]", 
+                    "lab": "0", 
+                    "subject": "MTE", 
+                    "title": "Seminar", 
+                    "tut": "0", 
+                    "units": 0
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "203", 
+                    "description": "Review of Vectors and Vector Operations; 3-D Analytic Geometry and Space Curves; Multivariable Calculus, including Partial Differentiation, Total Differential, Chain Rule, Directional Derivative, Gradient Operator, Maxima and Minima; Multiple Integrals - Surface Area, Volume and Moments of Inertia; Line and Surface Integrals; Vector Theorems; Complex Analysis including Limits, Analytic Functions, Complex Line Integral, Cauchy's Integral Formula; Fourier Series (real and complex) and Fourier Integrals. [Offered: F]", 
+                    "lab": "1", 
+                    "subject": "MTE", 
+                    "title": "Advanced Calculus", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "1", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "204", 
+                    "description": "Number Systems and Machine Errors; Roots of Non-Linear Equations; Matrix Calculations; Eigenvalue and Eigenvector Calculations; Interpolation and Approximation; Numerical Integration and Solution of ODE's (linear and non-linear) and systems of ODEs; Calculation of Series; Solution Methods for PDE's; Use of numeric and symbolic computing tools. [Offered: F]", 
+                    "lab": "0", 
+                    "subject": "MTE", 
+                    "title": "Numerical Methods", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "220", 
+                    "description": "Review of circuit theory; input-output relationships, transfer functions and frequency response of linear systems; operational amplifiers, operational amplifier circuits using negative or positive feedback; diodes, operational amplifier circuits using diodes; analog signal detection, conditioning and conversion systems; transducers and sensors, difference and instrumentation amplifiers, active filters. [Offered: F]", 
+                    "lab": "3", 
+                    "subject": "MTE", 
+                    "title": "Sensors and Instrumentation", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "241", 
+                    "description": "Introduction to computer organization, basic real-time concepts, process management, interprocess communication and synchronization, memory management, resource management, interrupt handling, concurrent programming, file systems. [Offered: F]", 
+                    "lab": "1.5", 
+                    "subject": "MTE", 
+                    "title": "Introduction to Computer Structures & Real-Time Systems", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "252", 
+                    "description": "Models and analysis of linear systems. Discrete time systems, continuous time systems; difference and differential equations; impulse and frequency response. Complex frequency, functions of complex variables, transform domain techniques: Z transforms; Fourier analysis, Laplace transform. Transfer functions and frequency response, frequency domain analysis of linear systems; sampling theory, stability, and linear filters. [Offered: F]", 
+                    "lab": "0", 
+                    "subject": "SYDE", 
+                    "title": "Linear Systems and Signals", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "0", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "200", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student normally during the preceding work term. The report is evaluated on the basis of written communication skills and technical proficiency in the subject matter as demonstrated by the report. Work-term reports are required courses for the degree but their grades are not included in the average. However, failed work-term report evaluations may delay a student's progress as indicated in the Examinations and Promotions section of this calendar. Details regarding the evaluation of the work-term reports can be obtained from the student's program advisor.", 
+                    "lab": "0", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "tut": "0", 
+                    "units": 0.13
+                }
+            ], 
+            [
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "309", 
+                    "description": "Macroscopic approach to energy analysis. Energy transfer as work and heat, and the First Law of thermodynamics. Properties and states of simple substances. Control-mass and control-volume analysis. The essence of entropy, and the Second Law of thermodynamics. The Carnot cycle and its implications for practical cyclic devices. Introduction to heat transfer by conduction, convection, and radiation. Basic formulation and solution of steady and transient problems. Issues relevant to the cooling of electrical devices. [Offered: S]", 
+                    "lab": "0", 
+                    "subject": "ECE", 
+                    "title": "Introduction to Thermodynamics and Heat Transfer", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "321", 
+                    "description": "Principles of the geometry of motion, Uniform and non-uniform motion, linkage, gears, cams. Synthesis and analysis of mechanisms. Consideration of the static and dynamic forces in machines. Vibration analysis, response to shock, motion and force transmissibility, vibration isolation. [Offered: W, S]", 
+                    "lab": "0", 
+                    "subject": "ME", 
+                    "title": "Kinematics and Dynamics of Machines", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "1 Sem", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "300A", 
+                    "description": "Discussion of the structure of and options within the Mechatronics Engineering curriculum; of the operation of Department, Faculty, University, technical societies; of student team and graduate school opportunities; of safety training; and of subject material in support of core courses.\r\n[Offered: S]", 
+                    "lab": "0", 
+                    "subject": "MTE", 
+                    "title": "Seminar", 
+                    "tut": "0", 
+                    "units": 0
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "320", 
+                    "description": "Review of circuit analysis & basic electromagnetic theory. Power electronics: power electronics circuits, H bridges, PWM control, interfacing, power amplifiers. DC servo & stepper motors, AC synchronous & induction motors. Transformers. Introduction to typical speed and torque control techniques of motors. [Offered: S]", 
+                    "lab": "2", 
+                    "subject": "MTE", 
+                    "title": "Actuators & Power Electronics", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "325", 
+                    "description": "Synchronization and data flow; interfacing to sensors and actuators; microprocessor system architecture, parallel, serial, and analog interfacing; buses; direct memory access (DMA); interfacing considerations.", 
+                    "lab": "1.5", 
+                    "subject": "MTE", 
+                    "title": "Microprocessor Systems and Interfacing for Mechatronics Engineering", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "351", 
+                    "description": "Introduction to systems modelling and analysis. Graph theoretic models and formulation of system equations. State space formulation and solution. Time and frequency domain solutions. Application to engineering systems. [Offered: S]", 
+                    "lab": "0", 
+                    "subject": "SYDE", 
+                    "title": "Systems Models 1", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "0", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "300", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student normally during the preceding work term. The report is evaluated on the basis of written communication skills and technical proficiency in the subject matter as demonstrated by the report. Work-term reports are required courses for the degree but their grades are not included in the average. However, failed work-term report evaluations may delay a student's progress as indicated in the Examinations and Promotions section of this calendar. Details regarding the evaluation of the work-term reports can be obtained from the student's program advisor.", 
+                    "lab": "0", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "tut": "0", 
+                    "units": 0.13
+                }
+            ], 
+            [
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "351", 
+                    "description": "Physical properties of fluids and fundamental concepts in fluid mechanics. Hydrostatics. Conservation laws for mass, momentum and energy. Flow similarity and dimensional analysis as applied to engineering problems in fluid mechanics. Laminar and turbulent flow. Engineering applications such as flow measurement, flow in pipes and fluid forces on moving bodies. [Offered: W, S]", 
+                    "lab": "1", 
+                    "subject": "ME", 
+                    "title": "Fluid Mechanics 1", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "1 Sem", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "300B", 
+                    "description": "Discussion of the structure of and options within the Mechatronics Engineering curriculum; of the operation of Department, Faculty, University, technical societies; of student team and graduate school opportunities; of safety training; and of subject material in support of core courses.\r\n[Offered: W]", 
+                    "lab": "0", 
+                    "subject": "MTE", 
+                    "title": "Seminar", 
+                    "tut": "0", 
+                    "units": 0
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "322", 
+                    "description": "Design of mechanical motion transmission systems: gearing, couplings, belts and lead-screws; Sensing and measurement of mechanical motion, sensor selection; Electromechanical actuator selection and specification; PLCs and sequential controller design, digital I/O; Case studies. [Offered: W]", 
+                    "lab": "2", 
+                    "subject": "MTE", 
+                    "title": "Electromechanical Machine Design", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "360", 
+                    "description": "Feedback control design and analysis for linear dynamic systems with emphasis on mechanical engineering applications; transient and frequency response; stability; system performance; control modes; state space techniques; Introduction to digital control systems. [Offered: W]", 
+                    "lab": "1", 
+                    "subject": "MTE", 
+                    "title": "Automatic Control Systems", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "1", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "380", 
+                    "description": "In this course, students study the design process, including needs analysis, problem definition; design criteria and critical parameter identification, generation of alternative solutions; conceptual design, detailed design, optimization; and implementation. Most of the term is devoted to a significant design project in which student groups work independently and competitively, applying the design process to a project goal set by the faculty coordinator. The design project typically includes construction of an electro-mechanical prototype, and part of the course grade may depend on the performance of the prototype in a competitive test. In exceptional circumstances, the requirement for a prototype may be replaced by a computer simulation, or may be waived. [Offered: W]", 
+                    "lab": "9", 
+                    "subject": "MTE", 
+                    "title": "Mechatronics Engineering Design Workshop", 
+                    "tut": "0", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "261", 
+                    "description": "Introductory Finance: time value of money, cash flow analysis. Investment evaluation methods: present worth, annual worth and internal rate of return. Depreciation models and asset replacement analysis. The impact of inflation, taxation, uncertainty and risk on investment decisions. [Offered: F,W,S]", 
+                    "lab": "0", 
+                    "subject": "MSCI", 
+                    "title": "Engineering Economics: Financial Management for Engineers", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "3", 
+                    "catalog_number": "", 
+                    "lab": "0", 
+                    "subject": "Complementary Studies Elective", 
+                    "tut": "0"
+                }
+            ], 
+            [
+                {
+                    "Class": "2", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "484", 
+                    "description": "Dynamic system modeling: linear, nonlinear, state-space, sample data systems, computer simulation, system identification. Discrete system stability and dynamic performance. Nonlinear system analysis, limit cycles. Digital control system design: emulation methods, z-domain, frequency domain, pole placement. Implementation of digital controllers. Laboratory projects in computer control of mechatronic and other systems.", 
+                    "lab": "1.5", 
+                    "subject": "ECE", 
+                    "title": "Digital Control Applications", 
+                    "tut": "1", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "1 Sem", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "400A", 
+                    "description": "Discussion of structure of Mechatronics Engineering curriculum, operation of department, faculty, university, technical societies. [Offered: F]", 
+                    "lab": "0", 
+                    "subject": "MTE", 
+                    "title": "Seminar", 
+                    "tut": "0", 
+                    "units": 0
+                }, 
+                {
+                    "Class": "0", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "481", 
+                    "description": "This course is intended to reinforce the concepts learned in MTE 380 and to extend the significant design experience obtained. Students work individually or in small groups applying the principles of engineering design and problem-solving to a design project of their own choosing. The project must incorporate all elements of Mechatronics, namely, mechanical design, electronics, computers and software. In exceptional circumstances, one or more elements may be exempted by the course instructor. The students are required to consider a need analysis, search for prior art and present alternate designs. The course ends with the selection of a final design. Projects are selected, approved, monitored and marked by a course coordinator. [Offered: F]", 
+                    "lab": "9", 
+                    "subject": "MTE", 
+                    "title": "Mechatronics Engineering Design Project", 
+                    "tut": "0", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "0", 
+                    "catalog_number": "", 
+                    "lab": "0", 
+                    "subject": "Technical Elective", 
+                    "tut": "0"
+                }, 
+                {
+                    "Class": "0", 
+                    "catalog_number": "", 
+                    "lab": "0", 
+                    "subject": "Technical Elective", 
+                    "tut": "0"
+                }, 
+                {
+                    "Class": "3", 
+                    "catalog_number": "", 
+                    "lab": "0", 
+                    "subject": "Complementary Studies Elective", 
+                    "tut": "0"
+                }, 
+                {
+                    "Class": "0", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "400", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student normally during the preceding work term. The report is evaluated on the basis of written communication skills and technical proficiency in the subject matter as demonstrated by the report. Work-term reports are required courses for the degree but their grades are not included in the average. However, failed work-term report evaluations may delay a student's progress as indicated in the Examinations and Promotions section of this calendar. Details regarding the evaluation of the work-term reports can be obtained from the student's program advisor.", 
+                    "lab": "0", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "tut": "0", 
+                    "units": 0.13
+                }
+            ], 
+            [
+                {
+                    "Class": "1 Sem", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "400B", 
+                    "description": "Discussion of structure of Mechatronics Engineering curriculum, operation of department, faculty, university, technical societies. [Offered: W]", 
+                    "lab": "1", 
+                    "subject": "MTE", 
+                    "title": "Seminar", 
+                    "tut": "1", 
+                    "units": 0
+                }, 
+                {
+                    "Class": "0", 
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "482", 
+                    "description": "This course is an extension of MTE 481. Students work on prototyping the designs they proposed and finalized in MTE 481. The students either individually or in small groups demonstrate the working prototypes; make a poster presentation for the design competition; and pitch their product on a web site. The projects are monitored by the course instructor and evaluated by the instructor with feedback from an expert judging panel. [Offered: W]", 
+                    "lab": "9", 
+                    "subject": "MTE", 
+                    "title": "Mechatronics Engineering Project", 
+                    "tut": "0", 
+                    "units": 0.5
+                }, 
+                {
+                    "Class": "0", 
+                    "catalog_number": "", 
+                    "lab": "0", 
+                    "subject": "Technical Elective", 
+                    "tut": "0"
+                }, 
+                {
+                    "Class": "0", 
+                    "catalog_number": "", 
+                    "lab": "0", 
+                    "subject": "Technical Elective", 
+                    "tut": "0"
+                }, 
+                {
+                    "Class": "0", 
+                    "catalog_number": "", 
+                    "lab": "0", 
+                    "subject": "Technical Elective", 
+                    "tut": "0"
+                }, 
+                {
+                    "Class": "3", 
+                    "catalog_number": "", 
+                    "lab": "0", 
+                    "subject": "Complementary Studies Elective", 
+                    "tut": "0"
+                }
+            ]
+        ], 
+        "curriculumTerms": [
+            "1A", 
+            "1B", 
+            "2A", 
+            "2B", 
+            "3A", 
+            "3B", 
+            "4A", 
+            "4B"
+        ]
+    }, 
+    "facultyId": "", 
+    "fees": null, 
+    "gradPopulation": "319", 
+    "images": [
+        {
+            "type": "misc",
+            "descriptor": "e5 building", 
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg"
+        }
+    ], 
+    "importantDates": null, 
+    "internship": null, 
+    "location": null, 
+    "metaData": {
+        "dateCreated": "", 
+        "dateModified": "", 
+        "yearValid": 2015
+    }, 
+    "name": "Mechatronics Engineering", 
+    "numAccepted": "145", 
+    "numApplicants": "", 
+    "rankings": [], 
+    "rating": {
+        "classmates": 0, 
+        "difficulty": 0, 
+        "guyRatio": 85.9, 
+        "professors": 0, 
+        "ratingOverall": 0, 
+        "schedule": 0, 
+        "socialEnjoyment": 0, 
+        "studyEnv": 0
+    }, 
+    "relatedProgramKeys":[
+        "universityofwaterloo_facultyofengineering_electricalengineering",
+        "universityofwaterloo_facultyofengineering_mechanicalengineering",
+        "universityofwaterloo_facultyofengineering_softwareengineering"
+    ],
+    "requirements": {
+        "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
+        "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
+        "country": "", 
+        "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
+        "individual_courses": [
+            {
+                "course_title":"Calculus and Vectors",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"English",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Physics",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Chemistry",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }, 
+            {
+                "course_title":"Advanced Functions",
+                "course_code":"4U", 
+                "min_grade":"70"
+            }
+        ], 
+        "international_program_requirements": "", 
+        "list_courses": "", 
+        "notes": "", 
+        "other_documentation": [
+            "If your first language is not English, you may need to meet our <a href=\" https://uwaterloo.ca/find-out-more/elr\">English language requirements.</a>", 
+            "An <a href='https://uwaterloo.ca/find-out-more/aif'>Admission Information Form</a> must be filled out for most programs. Instructions will be included with the acknowledgment of your application.", 
+            "<ul><li>Learn more about <a href=\" https://uwaterloo.ca/find-out-more/programs/mechatronics-engineering \">Mechatronics Engineering</a></li><li><a href=\"https://uwaterloo.ca/find-out-more/request\">Request a Faculty of Engineering brochure</a></li><li>Join us for a <a href=\"https://uwaterloo.ca/find-out-more/visit-waterloo/events \">campus tour</a></li></ul>"
+        ], 
+        "program": "Mechatronics Engineering", 
+        "program_notes": "", 
+        "province": "Ontario", 
+        "recommended_courses": "", 
+        "system_of_study": "", 
+        "transfer_credits": ""
+    }, 
+    "schoolId": "", 
+    "shortName": "tron", 
+    "slug": "mechatronicsengineering", 
+    "streams": null, 
+    "undergradPopulation": "636"
+}

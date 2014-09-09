@@ -1,0 +1,431 @@
+{
+    "about": "Management of water, soil, and air systems are three of the important services provided by engineers. This is an historic responsibility that includes, for example, the provision of a safe supply of potable water for domestic use; reliable delivery to support agricultural production or industrial activity; and control of floodwaters to ensure the safety of developed land. For soil and other earth materials it includes the control of the degradation that can result from human activity, and the development of clean-up strategies for soils that have become contaminated. For air systems, the engineer's responsibility includes the reduction and management of contamination.", 
+    "applicationProcess": null, 
+    "avgAdm": "90-93", 
+    "contacts": [], 
+    "dateEstablished": "01-07-1957", 
+    "degree": "Bachelor's of Applied Science", 
+    "degreeAbbrev": "BASc", 
+    "degreeRequirements": {
+        "about": "The program has three study areas: waste and water treatment; migration pathways of chemicals in the environment; and environmental assessment and modeling.\nAvailable Options:\nManagement Sciences\nSociety, Technology and Values\nSoftware\nWater Resources", 
+        "curriculum": [
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "102", 
+                    "description": "Chemical principles with applications in engineering. Stoichiometric calculations, properties of gases, properties of liquids and solutions, gas phase chemical equilibrium, ionic equilibrium in aqueous solution, oxidation-reduction reactions, chemical kinetics. [Offered: F]", 
+                    "subject": "CHE", 
+                    "title": "Chemistry for Engineers", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "100", 
+                    "description": "Introduction to basic methods and principles in Environmental Engineering. The fundamentals of engineering calculations: units and dimensions. Surveying, data collection, measurement and error analysis. Laboratory on visual communication: engineering graphics, computer software including spread sheets, computer aided design. Introduction to engineering design. Technical communication: word processing software, elements of technical report writing. Aspects of the engineering profession including ethics, safety, and intellectual property. Professional development including r\u00e9sum\u00e9 skills, interview skills, and preparation for co-op terms. [Offered: F]", 
+                    "subject": "ENVE", 
+                    "title": "Environmental Engineering Concepts 1", 
+                    "units": 0.8
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "115", 
+                    "description": "Linear equations, matrices and determinants. Introduction to vector spaces. Eigenvalues and diagonalization. Applications. Complex numbers. [Offered: F]", 
+                    "subject": "MATH", 
+                    "title": "Linear Algebra for Engineering", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "116", 
+                    "description": "Functions: review of polynomials, exponential, logarithmic, trigonometric. Operations on functions, curve sketching. Trigonometric identities, inverse functions. Derivatives, rules of differentiation. Mean Value Theorem, Newton's Method. Indeterminate forms and L'Hopital's rule, applications. Integrals, approximations, Riemann definite integral, Fundamental Theorems. Applications of the integral. [Offered: F]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 1 for Engineering", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "115", 
+                    "description": "Brief review of kinematics. Particle dynamics, work, energy, conservation of energy. Conservation of linear momentum, collisions, rotational kinematics and dynamics, conservation of angular momentum. Equilibrium of rigid bodies. [Offered: F]", 
+                    "subject": "PHYS", 
+                    "title": "Mechanics", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "121", 
+                    "description": "Introduction to electronic digital computers, hardware and software organization, examples of efficient numerical algorithms for basic scientific computations. Programming and problem solving concepts introduced in the course will be incorporated into group projects involving Civil, Environmental, or Geological Engineering applications. The language of instruction will be Visual Basic and Visual Basic for Applications. [Offered: W, S]", 
+                    "subject": "CIVE", 
+                    "title": "Digital Computation", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "127", 
+                    "description": "Review of statics of particles and rigid bodies. Concepts of force systems. Moment of inertia. Friction. Method of virtual work. Introduction to mechanical response of materials and stress-strain temperature relationships. Behaviour of prismatic members in tension, compression, shear, bending and torsion. Shear force and bending moment diagrams. Work and energy methods. [Offered: S]", 
+                    "subject": "ENVE", 
+                    "title": "Statics and Solid Mechanics", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "153", 
+                    "description": "This course studies earth materials and processes from an engineering point of view through case histories and problem sets. The course develops a geological knowledge for applications to any physical environment and provides an appreciation of the impact of engineering work on the environment. Topics include: mineral and rock identification, the rock cycle, structural geology and tectonics, geology of Canada, effects of water, ice and wind. Students are also introduced to the concept of geologic time, topographic and geologic maps, and the basic principles and tools used to determine geologic history. [Offered: S; Offered as: CIVE 153 (W), ENVE 153 (S), GEOE 153 (S)]", 
+                    "subject": "ENVE", 
+                    "title": "Earth Engineering", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "123", 
+                    "description": "Analysis of linear circuits: Voltage, current, resistance, capacitance, inductance, voltage source, current source, dependent sources, Ohm's Law, Kirchoff's Law, nodal analysis, mesh analysis, Thevinin/Norton equivalents, operational amplifier circuits, time response, sinusoidal steady-state response. Introduction to diodes with applications.", 
+                    "subject": "GENE", 
+                    "title": "Electrical Engineering", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "118", 
+                    "description": "Methods of integration: by parts, trigonometric substitutions, partial fractions; engineering applications, approximation of integrals, improper integrals. Linear and separable first order differential equations, applications. Parametric curves and polar coordinates, arc length and area. Infinite sequences and series, convergence tests, power series and applications. Taylor polynomials and series, Taylor's Remainder Theorem, applications. [Offered: W,S]", 
+                    "subject": "MATH", 
+                    "title": "Calculus 2 for Engineering", 
+                    "units": 0.5
+                }, 
+                {
+                    "catalog_number": "1", 
+                    "subject": "CSE"
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "221", 
+                    "description": "A review of Year One Calculus. Optimization problems including the method of Lagrange Multipliers. Multiple Integration with applications. Vector calculus: Green, Gauss, and Stokes' theorems, line integrals. Elements of Fourier Series. Applications to the analysis of Environmental Engineering problems. [Offered: F, W]", 
+                    "subject": "ENVE", 
+                    "title": "Advanced Calculus", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "224", 
+                    "description": "Role of probability in Environmental Engineering and decision making under uncertainty. Basic probability concepts. Probability distributions. Functions of random variables. Data analysis. Confidence intervals and hypothesis testing. Introduction to regression analysis. Introduction to design of experiments and statistical quality control. [Offered: W, S]", 
+                    "subject": "ENVE", 
+                    "title": "Probability and Statistics", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "275", 
+                    "description": "Aqueous inorganic chemistry. Structure and nomenclature of organic compounds. Physical properties of nonaqueous phase organics. Chemical reactions. Chemistry of surface and groundwater. Labs alternate weeks. [Offered: W]", 
+                    "subject": "ENVE", 
+                    "title": "Environmental Chemistry", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "215", 
+                    "description": "An introduction to processes and techniques for incorporating environmental considerations in planning and evaluating proposals for future undertakings that may have significant social and biophysical effects. The course provides an overview of methodologies for, and controversies surrounding, the design and conduct of biophysical and socioeconomic impact studies, and the testing of reported findings. The main focus is on the purposes and design of environmental assessment processes, with particular reference to the Canadian federal and Ontario provincial legal mandates, and the evolution of assessment into a sustainability framework.", 
+                    "subject": "ERS", 
+                    "title": "Environmental and Sustainability Assessment I", 
+                    "units": 0.5
+                }, 
+                {
+                    "catalog_number": "3", 
+                    "subject": "CSE"
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "214", 
+                    "description": "An introduction to fluid mechanics and thermal sciences. Fluid properties. Fluid statics. Thermodynamic principles. Bernoulli equation. The momentum equation of applications. Laminar and turbulent flow. Dimensionless numbers. Closed conduit flow. Pipe network analysis. Steady flow in pipes. Heat transfer. [Offered: F]", 
+                    "subject": "ENVE", 
+                    "title": "Fluid Mechanics and Thermal Sciences", 
+                    "units": 0.75
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "223", 
+                    "description": "An introduction to ordinary differential equations with applications to physical and environmental engineering problems. Standard methods of solution of first and second order linear equations with constant co-efficients. Systems of differential equations. Introduction to the Laplace Transform method. [Offered: F, S]", 
+                    "subject": "ENVE", 
+                    "title": "Differential Equations", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "276", 
+                    "description": "Basic environmental microbiology and biology with a focus on understanding the principles governing microbial growth and activity and the function of natural, perturbed and engineered systems. Topics include basic microbial functions, microbial population growth and limiting factors, microbial community structure, and the interactions between microbes and their chemical environment. Brief introduction to the application of biological processes to remove contaminants in natural and engineered systems. [Offered: F]", 
+                    "subject": "ENVE", 
+                    "title": "Environmental Biology and Biotechnology", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "292", 
+                    "description": "An introductory course on the principles of engineering economics. Basic concepts, capital, interest, present worth, taxes and depreciation, profitability, return on investment. Evaluating alternative investments, evaluation of environmental risk, and a study of the linkages between economics, systems and the environment. [Offered: F]", 
+                    "subject": "ENVE", 
+                    "title": "Economics for Environmental Engineering", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "150", 
+                    "description": "This course provides students with an introduction to the basic principles of Scientific Reasoning, Ecology and Evolution. Coverage includes hypothesis testing and the nature of scientific inquiry, basic population genetics, physiological ecology, life histories, dispersal, basic population and community ecology, macroevolution, systematics and classification, as well as functional morphology. [Formerly BIOL 250. Offered: F]", 
+                    "subject": "BIOL", 
+                    "title": "Organismal and Evolutionary Ecology", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "1", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "353", 
+                    "description": "An introduction to geologic processes. Subsurface exploration. Classification systems. Weight-Volume relationships. Soil mechanics principles including state of stress, ground water flow, consolidation and shear strength. Six lab sessions. [Offered: W, S]", 
+                    "subject": "CIVE", 
+                    "title": "Geotechnical Engineering 1", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "320", 
+                    "description": "Environmental systems, resource utilization and allocation. Economic analysis of public projects, maximization of net benefits. Decision-making methods in environmental engineering including matrix methods, linear programming, network models, lagrange multipliers and dynamic programming. The concept of risk, risk probability, dose response models, decision analysis and risk-cost-benefit analysis. Evaluating environmental systems: probability and predicting failure. [Offered: W]", 
+                    "subject": "ENVE", 
+                    "title": "Environmental Resource Management", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "321", 
+                    "description": "Ordinary and partial differential equations with application in the modelling of environmental engineering processes. Classical solution techniques involving transforms, separation of variables and weighted residual methods. Introduction to numerical techniques. [Offered: W, S]", 
+                    "subject": "ENVE", 
+                    "title": "Advanced Mathematics", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "330", 
+                    "description": "An introduction to the fundamental concepts of physical and chemical measurement of the environment. Review of basic statistics, quality assurance and control, sources of error, seasonal effects, sample preservation. Practical and essential elements of water, soil and air sampling. Introduction to measurement techniques including: colorimetry, chromatography, spectroscopy, electrochemical probes, remote sensing. Toward development of optimum monitoring strategies, and enhancement of evaluative tools to assess validity of laboratory data. [Offered: S]", 
+                    "subject": "ENVE", 
+                    "title": "Lab Analysis and Field Sampling Techniques", 
+                    "units": 0.5
+                }, 
+                {
+                    "catalog_number": "4/1", 
+                    "subject": "CSE/TE"
+                }, 
+                {
+                    "catalog_number": "2", 
+                    "subject": "WKREP"
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "381", 
+                    "description": "Energy, momentum and continuity equations for open channel flow. Dimensional analysis and modelling. Design of lined and unlined open channels. Water profile computations. Bridge and culvert hydraulics. Hydraulic structures and energy dissipators. Pumping stations. Water hammer. Four lab sessions. [Offered: F, W]", 
+                    "subject": "CIVE", 
+                    "title": "Hydraulics", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "375", 
+                    "description": "Water sources and use. Characteristics of water: physical, chemical, and bacteriological parameters. Water quality management. Solid and hazardous waste management. Biodegradable waste disposal in streams. Water and waste treatment systems: sedimentation, biological treatment theory, design principles. Six lab sessions. [Offered: W]", 
+                    "subject": "ENVE", 
+                    "title": "Water Quality Engineering", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "391", 
+                    "description": "Philosophy of environmental controls; introduction to national and international regulatory structures relevant to industrial planning, emissions control, environmental impact assessment, occupational health; stance of government, industry and community pressure groups. [Offered: W]", 
+                    "subject": "ENVE", 
+                    "title": "Environment: Regulations and Legal Issues", 
+                    "units": 0.5
+                }, 
+                {
+                    "catalog_number": "4/1", 
+                    "subject": "CSE/TE"
+                }, 
+                {
+                    "catalog_number": "2", 
+                    "subject": "TE"
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "486", 
+                    "description": "Basic components of the hydrologic cycle. Introduction to frequency analysis and time series analysis. Rainfall-runoff relationships. Unit hydrograph theory. Hydrologic and hydraulic routing. Introduction to hydrologic design: design storms and storm water management. Rural and urban simulation models. [Offered: F, S]", 
+                    "subject": "CIVE", 
+                    "title": "Hydrology", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "472", 
+                    "description": "Wastewater quantity and characteristics. Primary treatment and secondary treatment. Reverse osmosis, ultra filtration, adsorption, air stripping, air flotation, chemical precipitation. Sludge treatment and disposal. Groundwater and leachate treatment. Industrial wastewater management. [Offered: F]", 
+                    "subject": "ENVE", 
+                    "title": "Wastewater Treatment", 
+                    "units": 0.5
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "430", 
+                    "description": "Students must undertake an independent Environmental Engineering design project during the last two terms of their program. The purpose of the project is to demonstrate students' abilities to practise in an Environmental Engineering capacity in their chosen area of expertise, using knowledge gained from their academic and employment experiences. The first part of the project (ENVE 430) will include problem identification, generation and selection of solutions and time management. Incorporation of technical, ecological, social, political and economic issues in the solution for the project will be required. A basic requirement of the proposed solution is that it must be compatible with the principles of sustainability. Requirements include: proposal, progress report, and a final report containing recommendations for part two of the project, ENVE 431. [Offered: F]", 
+                    "subject": "ENVE", 
+                    "title": "Environmental Engineering Project 1", 
+                    "units": 0.5
+                }, 
+                {
+                    "catalog_number": "3", 
+                    "subject": "TE"
+                }, 
+                {
+                    "catalog_number": "4", 
+                    "subject": "TE"
+                }, 
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "3", 
+                    "description": "A work-term report presenting in detail a technical project, activity, or analysis engaged by the student during the work term.", 
+                    "subject": "WKRPT", 
+                    "title": "Work-term Report", 
+                    "units": 0.5
+                }
+            ], 
+            [
+                {
+                    "academic_level": "undergraduate", 
+                    "catalog_number": "431", 
+                    "description": "A continuation of ENVE 430. The final design of the major Environmental Engineering project proposed in ENVE 430 will be undertaken. The purpose of this phase of the project is to carry out a detailed technical design of the solution proposed in ENVE 430. Requirements of this part of the two-term project include a final report. [Offered: W]", 
+                    "subject": "ENVE", 
+                    "title": "Environmental Engineering Project 2", 
+                    "units": 0.5
+                }, 
+                {
+                    "catalog_number": "5", 
+                    "subject": "TE"
+                }, 
+                {
+                    "catalog_number": "6", 
+                    "subject": "TE"
+                }, 
+                {
+                    "catalog_number": "7", 
+                    "subject": "TE"
+                }, 
+                {
+                    "catalog_number": "8", 
+                    "subject": "TE"
+                }
+            ]
+        ], 
+        "curriculumTerms": [
+            "1A", 
+            "1B", 
+            "2A", 
+            "2B", 
+            "3A", 
+            "3B", 
+            "4A", 
+            "4B"
+        ]
+    }, 
+    "facultyId": "", 
+    "fees": null, 
+    "gradPopulation": null, 
+    "images": [
+        {
+            "descriptor": "e5 building", 
+            "link": "http://sub.tsavers.com/wp-content/uploads/2014/04/University-of-Waterloo-3.jpg", 
+            "type": "misc"
+        }
+    ], 
+    "importantDates": null, 
+    "internship": null, 
+    "location": null, 
+    "metaData": {
+        "dateCreated": "01-09-2014", 
+        "dateModified": "01-09-2014", 
+        "yearValid": 2015
+    }, 
+    "name": "Environmental Engineering", 
+    "numAccepted": "", 
+    "numApplicants": "", 
+    "rankings": [], 
+    "rating": {
+        "classmates": 0, 
+        "difficulty": 0, 
+        "guyRatio": 49.3, 
+        "professors": 0, 
+        "ratingOverall": 0, 
+        "schedule": 0, 
+        "socialEnjoyment": 0, 
+        "studyEnv": 0
+    }, 
+    "relatedProgramKeys": [
+        "universityofwaterloo_facultyofengineering_geologicalengineering"
+    ], 
+    "requirements": {
+        "ap": "The Faculty of Engineering considers AP courses to be a good challenge and good preparation for our programs. You may find that you have covered some of the material in our first term courses but, in most cases, not enough for you to be exempted from the entire course without potentially running into academic difficulties later. The depth and level of problem-solving is very different in our Engineering programs than in AP courses and as a result, we don't grant first-year course exemptions for AP courses.", 
+        "average": "<a href=\"https://uwaterloo.ca/find-out-more/admissions/individual-selection\">Individual selection</a> from the low 90s", 
+        "country": "", 
+        "general_requirements": "<ul><li>High school diploma or equivalent.<li>For some programs, a minimum grade in a required course is specified.</li><li>A minimum <b>final</b> overall average of 80% or higher is required on your best 6 Grade 12 U and/or M courses, including required courses.</li><ul><li>Higher averages are required for admission to programs where demand exceeds the number of places available.</li></ul><li>Grade 12 U or M courses must be completed through a school that is inspected by the Ontario Ministry of Education.</li><li><a href=\"https://uwaterloo.ca/find-out-more/admissions/repeated-courses\">Repeated courses</a> may be taken into consideration depending on the program.</li></ul>", 
+        "individual_courses": [
+            {
+                "course_code": "4U", 
+                "course_title": "Calculus and Vectors", 
+                "min_grade": "70"
+            }, 
+            {
+                "course_code": "4U", 
+                "course_title": "English", 
+                "min_grade": "70"
+            }, 
+            {
+                "course_code": "4U", 
+                "course_title": "Physics", 
+                "min_grade": "70"
+            }, 
+            {
+                "course_code": "4U", 
+                "course_title": "Chemistry", 
+                "min_grade": "70"
+            }, 
+            {
+                "course_code": "4U", 
+                "course_title": "Advanced Functions", 
+                "min_grade": "70"
+            }
+        ], 
+        "international_program_requirements": "", 
+        "list_courses": "", 
+        "notes": "", 
+        "other_documentation": [
+            "If your first language is not English, you may need to meet our <a href=\" https://uwaterloo.ca/find-out-more/elr\">English language requirements.</a>", 
+            "An <a href='https://uwaterloo.ca/find-out-more/aif'>Admission Information Form</a> must be filled out for most programs. Instructions will be included with the acknowledgment of your application.", 
+            "<ul><li>Learn more about <a href=\" https://uwaterloo.ca/find-out-more/programs/mechatronics-engineering \">Mechatronics Engineering</a></li><li><a href=\"https://uwaterloo.ca/find-out-more/request\">Request a Faculty of Engineering brochure</a></li><li>Join us for a <a href=\"https://uwaterloo.ca/find-out-more/visit-waterloo/events \">campus tour</a></li></ul>"
+        ], 
+        "program": "Environmental Engineering", 
+        "program_notes": "", 
+        "province": "Ontario", 
+        "recommended_courses": "", 
+        "system_of_study": "", 
+        "transfer_credits": ""
+    }, 
+    "schoolId": "", 
+    "shortName": "enveng", 
+    "slug": "environmentalengineering", 
+    "streams": null, 
+    "undergradPopulation": "253"
+}
