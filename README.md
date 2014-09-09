@@ -29,6 +29,8 @@ Python 2.7.6, Django 1.6.2, Django REST framework 2.3.12, MongoDb 2.5.5, mongoen
   - explore/faculties/:schoolId - faculty list by school id
   - explore/programs/ - program list
   - explore/programs/:facultyId - program list by faculty id
+  
+  - explore/program:programId - specific program
 
 - Featured
   - featured/ - featured list
