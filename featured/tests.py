@@ -72,3 +72,19 @@ class FeaturedTests(MongoTestCase):
 		response = self.client.get('/featured/', format='json')
 		self.assertEqual(response.status_code, status.HTTP_200_OK)
 		self.assertEqual(len(response.data), 1)
+
+	def test_featured_expired(self):
+		response = self.client.post('/featured/', 
+			{
+			    "featuredTitle": "", 
+			    "nameTitle": "", 
+			    "type": "", 
+			    "priority": 0, 
+			    "dateCreated": None, 
+			    "dateExpired": '2013-07-01 00:00:00', 
+			    "image_link": "https://wiki.python.org/"
+			} ,format='json')
+		self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+		response = self.client.get('/featured/', format='json')
+		self.assertEqual(response.status_code, status.HTTP_200_OK)
+		self.assertEqual(len(response.data), 0)
