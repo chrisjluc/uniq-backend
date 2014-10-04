@@ -93,7 +93,7 @@ MONGO_PORT = 27017
 #1 day
 CACHE_MAX_EXPIRY = 86400
 
-CACHE_ADDRESS = '54.164.201.61:11211'
+CACHE_ADDRESS = '54.85.16.143:11211'
 
 CACHES = {
     'default': {
@@ -219,8 +219,11 @@ import logging
 
 logging.basicConfig()
 
+# Initializes data from JSON files
+'''
 db = UniqDb()
 db.clearCollections()
 
 di = DataInitializer()
 di.run()
+'''
